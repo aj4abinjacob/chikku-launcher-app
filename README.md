@@ -4,7 +4,7 @@ Chikku Launcher is an independent, offline-first Android home-screen replacement
 tracking SDKs or compulsory account. Licensed GPL-3.0-or-later.
 
 **Get it:** APKs are attached to [GitHub Releases](https://github.com/aj4abinjacob/chikku-launcher-app/releases).
-F-Droid and IzzyOnDroid listings have been requested. Beta builds also go to Google Play closed testing.
+An [F-Droid listing](https://gitlab.com/fdroid/fdroiddata/-/merge_requests/57488) has been requested. Beta builds also go to Google Play closed testing.
 This is beta software: read the [changelog](CHANGELOG.md) for known issues before making it your
 daily launcher. Report bugs in [Issues](https://github.com/aj4abinjacob/chikku-launcher-app/issues).
 
