@@ -1,0 +1,15 @@
+Make your home screen your own with Chikku Launcher, an independent Android launcher.
+
+Arrange your apps, folders, dock and widgets. Adjust icon sizes, labels, spacing and colours, and see many appearance changes in live settings previews. Choose drawer layouts and gestures that fit how you use your phone.
+
+Find apps offline, with optional local contact search. City selection also works offline using GeoNames. Online search suggestions and MET Norway weather are separate choices, off by default. When enabled, they send typed suggestion queries or chosen forecast coordinates to their providers.
+
+Export your layout and settings through the system file picker. Restore with a preview, missing-app attention and recoverable placements. Widgets require fresh Android binding after restore.
+
+Chikku has no ads, tracking SDKs or compulsory account. The launcher core works offline. Chikku is licensed GPL-3.0-or-later. Third-party notices and the privacy policy are available in Settings.
+
+Optional access is used only for relevant features: Contacts for local contact results; notification access for badges and media; Nearby devices for a Bluetooth-audio card condition. The optional AccessibilityService handles your Lock screen, Recent apps, notification shade or Quick settings gesture. It cannot read screen content and does not record accessibility data. You can refuse or revoke these grants and keep using the launcher.
+
+Android and device manufacturers control system navigation and some launcher capabilities. Chikku cannot provide stock system Recents gesture animations. Private Space UI and broad foldable/OEM support are outside the current verified scope.
+
+This is a beta. Read the release notes for known issues before making it your daily launcher.

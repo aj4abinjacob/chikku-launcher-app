@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="search_app_priority_direction">App priority direction</string>
+    <string name="search_app_priority_language">Follow language</string>
+    <string name="search_app_priority_left_to_right">Left to right</string>
+    <string name="search_app_priority_right_to_left">Right to left</string>
+    <string name="search_app_priority_language_summary">Highest priority starts on the side your language reads from.</string>
+    <string name="search_app_priority_left_to_right_summary">Highest priority on the left, then lower-priority apps toward the right.</string>
+    <string name="search_app_priority_right_to_left_summary">Highest priority on the right, then lower-priority apps toward the left.</string>
+    <string name="search_app_priority_one_row_only">Choose which side is easiest to reach with one hand. Applies to matching and suggested apps shown in one row.</string>
+    <string name="search_app_priority_enable_row">Turn on “Show matching apps in one row” to choose the priority direction.</string>
+    <string name="search_app_priority_preview_state">App priority: %1$s.</string>
+    <string name="search_app_priority_keywords">left right handed one hand thumb reach priority order reverse direction</string>
+</resources>

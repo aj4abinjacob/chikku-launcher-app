@@ -1,0 +1,998 @@
+{
+  "upstream_license_checked_at": "49d4db35df873165d6bd6ba09b063c7dafbac2f4",
+  "note": "Licence-verification revision only. Original copy revisions unrecorded. Existing file comments preserved.",
+  "icons": [
+    {
+      "path": "app/src/main/res/drawable/ic_action_add.xml",
+      "icon": "add",
+      "sha256": "d5a2dfcd823d82be21069a0c0b772022dc36e747204f008e2720bcb99071a867",
+      "license": "Apache-2.0",
+      "origin": "https://github.com/google/material-design-icons",
+      "modifications": "Android vector adaptation/tinting as documented in source header; original source revision unrecorded."
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_action_drag.xml",
+      "icon": "drag indicator",
+      "sha256": "d743ad27d07dd95497515b246d3ab11b1b88b5b3ea8b0f483cf3835566ee4ffc",
+      "license": "Apache-2.0",
+      "origin": "https://github.com/google/material-design-icons",
+      "modifications": "Android vector adaptation/tinting as documented in source header; original source revision unrecorded."
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_action_mic.xml",
+      "icon": "mic",
+      "sha256": "eb93c1ea3e74064475ed65a4cfadb2dd3c20fe6a673814c4105922d21152e11d",
+      "license": "Apache-2.0",
+      "origin": "https://github.com/google/material-design-icons",
+      "modifications": "Android vector adaptation/tinting as documented in source header; original source revision unrecorded."
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_action_music.xml",
+      "icon": "music_note",
+      "sha256": "3245f670672dbc9a61aaff6779b8c8a90641d8f7c6e957163fbce9d46c0434b4",
+      "license": "Apache-2.0",
+      "origin": "https://github.com/google/material-design-icons",
+      "modifications": "Android vector adaptation/tinting as documented in source header; original source revision unrecorded."
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_action_notifications.xml",
+      "icon": "notifications",
+      "sha256": "1e0644b68df909ea947e3661806583691038ed6f48efe4c79894597967d2567a",
+      "license": "Apache-2.0",
+      "origin": "https://github.com/google/material-design-icons",
+      "modifications": "Android vector adaptation/tinting as documented in source header; original source revision unrecorded."
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_action_schedule.xml",
+      "icon": "schedule",
+      "sha256": "152d4087af05a4251b7e9e806c332b233df9bd7194acd4e19fd4cbd0df79c0c4",
+      "license": "Apache-2.0",
+      "origin": "https://github.com/google/material-design-icons",
+      "modifications": "Android vector adaptation/tinting as documented in source header; original source revision unrecorded."
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_gesture_swipe_left.xml",
+      "icon": "arrow_back",
+      "sha256": "82287acbdb9af12d5496b78a3398dbc69281a9685a9023641c195b7049f7d6b9",
+      "license": "Apache-2.0",
+      "origin": "https://github.com/google/material-design-icons",
+      "modifications": "Android vector adaptation/tinting as documented in source header; original source revision unrecorded."
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_gesture_swipe_right.xml",
+      "icon": "arrow_forward",
+      "sha256": "1901bad4c24afc8ab7d5e3b358c83d3f2ff72b7bc0e9114ca8aac01414baa8a4",
+      "license": "Apache-2.0",
+      "origin": "https://github.com/google/material-design-icons",
+      "modifications": "Android vector adaptation/tinting as documented in source header; original source revision unrecorded."
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_lock_open.xml",
+      "icon": "lock_open",
+      "sha256": "da3ac402eba48f8541fb51cad8c9d3d3537353077d4196d1f87787d26dd89ae6",
+      "license": "Apache-2.0",
+      "origin": "https://github.com/google/material-design-icons",
+      "modifications": "Android vector adaptation/tinting as documented in source header; original source revision unrecorded."
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_lock_shield.xml",
+      "icon": "verified_user",
+      "sha256": "aa4fd44ef48a9bd49a6ec6bc15400f24ed8ed43de482b574590c36d4bae7e636",
+      "license": "Apache-2.0",
+      "origin": "https://github.com/google/material-design-icons",
+      "modifications": "Android vector adaptation/tinting as documented in source header; original source revision unrecorded."
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_menu_add_page.xml",
+      "icon": "add_box (outlined)",
+      "sha256": "5451a606ce64f0db9256517f3be1ae7cb5a5d19199b53f4fce659ebcef5ac391",
+      "license": "Apache-2.0",
+      "origin": "https://github.com/google/material-design-icons",
+      "modifications": "Android vector adaptation/tinting as documented in source header; original source revision unrecorded."
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_menu_app_info.xml",
+      "icon": "info (outlined)",
+      "sha256": "1dd6237a6cf71096a5553fa42dffd57f704499b0ce80f588284a209ad3047a2c",
+      "license": "Apache-2.0",
+      "origin": "https://github.com/google/material-design-icons",
+      "modifications": "Android vector adaptation/tinting as documented in source header; original source revision unrecorded."
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_menu_edit.xml",
+      "icon": "edit",
+      "sha256": "29b3fe46630f542be5e10ebd61f0766fc631e8fad1e56c14a4c405924b7f9035",
+      "license": "Apache-2.0",
+      "origin": "https://github.com/google/material-design-icons",
+      "modifications": "Android vector adaptation/tinting as documented in source header; original source revision unrecorded."
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_menu_hide.xml",
+      "icon": "visibility_off (outlined)",
+      "sha256": "b3d1b765c0ec86e84fd075660b00616f59ba1f3e10598095fa4db6ac01744588",
+      "license": "Apache-2.0",
+      "origin": "https://github.com/google/material-design-icons",
+      "modifications": "Android vector adaptation/tinting as documented in source header; original source revision unrecorded."
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_menu_more.xml",
+      "icon": "more_vert",
+      "sha256": "d667ebdb67164e937a78eea56457161a40a6c835e19dbbce301cbe4fc71a1763",
+      "license": "Apache-2.0",
+      "origin": "https://github.com/google/material-design-icons",
+      "modifications": "Android vector adaptation/tinting as documented in source header; original source revision unrecorded."
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_menu_move.xml",
+      "icon": "open_with",
+      "sha256": "d931734af9f76f91b7cd124a3846e0ff2cbb35539b95104f17988fc4105b492b",
+      "license": "Apache-2.0",
+      "origin": "https://github.com/google/material-design-icons",
+      "modifications": "Android vector adaptation/tinting as documented in source header; original source revision unrecorded."
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_menu_padding.xml",
+      "icon": "padding",
+      "sha256": "26fd8440ec1e7c624ca4f288586d980309b7e5549f38fccdb92bc456cdf13517",
+      "license": "Apache-2.0",
+      "origin": "https://github.com/google/material-design-icons",
+      "modifications": "Android vector adaptation/tinting as documented in source header; original source revision unrecorded."
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_menu_refresh.xml",
+      "icon": "refresh",
+      "sha256": "4201306fdda5af7e00ab607600b4a94567a1356f0ad895ce208e0084637a431e",
+      "license": "Apache-2.0",
+      "origin": "https://github.com/google/material-design-icons",
+      "modifications": "Android vector adaptation/tinting as documented in source header; original source revision unrecorded."
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_menu_remove.xml",
+      "icon": "remove_circle_outline",
+      "sha256": "7b0dd8e761ce8c3b351c0db820941d7b6fc224e9b924be538ada147296dadf70",
+      "license": "Apache-2.0",
+      "origin": "https://github.com/google/material-design-icons",
+      "modifications": "Android vector adaptation/tinting as documented in source header; original source revision unrecorded."
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_menu_remove_page.xml",
+      "icon": "indeterminate_check_box (outlined)",
+      "sha256": "0bcf6f29968c6b745aba9d7d7d5ba79527a74d9abbf97871b311b8ecd0fec15b",
+      "license": "Apache-2.0",
+      "origin": "https://github.com/google/material-design-icons",
+      "modifications": "Android vector adaptation/tinting as documented in source header; original source revision unrecorded."
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_menu_resize.xml",
+      "icon": "aspect_ratio",
+      "sha256": "2f2e45f3da86dcfe80ea5e17b2c9f7c8cb890d0a9849282ed7bb137ec51938e4",
+      "license": "Apache-2.0",
+      "origin": "https://github.com/google/material-design-icons",
+      "modifications": "Android vector adaptation/tinting as documented in source header; original source revision unrecorded."
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_menu_swipe.xml",
+      "icon": "swap_vert",
+      "sha256": "70abc251fb9dc12adb4a9fd049d64b5cb4944da2fb516aa7a9d6fd5189601900",
+      "license": "Apache-2.0",
+      "origin": "https://github.com/google/material-design-icons",
+      "modifications": "Android vector adaptation/tinting as documented in source header; original source revision unrecorded."
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_menu_tune.xml",
+      "icon": "tune",
+      "sha256": "7244e16bc4013440dec4c279fefba7f693181622aa78b7d2d7f2fac10a26b2a1",
+      "license": "Apache-2.0",
+      "origin": "https://github.com/google/material-design-icons",
+      "modifications": "Android vector adaptation/tinting as documented in source header; original source revision unrecorded."
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_menu_uninstall.xml",
+      "icon": "delete (outlined)",
+      "sha256": "a05a4dd969178d1051355709716cd393427dd2ed8b9a95e8ea61d90e0d0c8b21",
+      "license": "Apache-2.0",
+      "origin": "https://github.com/google/material-design-icons",
+      "modifications": "Android vector adaptation/tinting as documented in source header; original source revision unrecorded."
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_menu_wallpaper.xml",
+      "icon": "wallpaper",
+      "sha256": "91fd95c4170aeb0144136a544fd1b0e1811a49b379db09a219fbb70197fc7b9e",
+      "license": "Apache-2.0",
+      "origin": "https://github.com/google/material-design-icons",
+      "modifications": "Android vector adaptation/tinting as documented in source header; original source revision unrecorded."
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_menu_widgets.xml",
+      "icon": "widgets (outlined)",
+      "sha256": "0896d2f5d1ac33fcd93b9b07134ad1c4ca550c2b97273be12edd1954e950a544",
+      "license": "Apache-2.0",
+      "origin": "https://github.com/google/material-design-icons",
+      "modifications": "Android vector adaptation/tinting as documented in source header; original source revision unrecorded."
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_picker_app.xml",
+      "icon": "launch",
+      "sha256": "678da214129f16b8713218a333865bd7f24265e749d495a74320a0da89932e54",
+      "license": "Apache-2.0",
+      "origin": "https://github.com/google/material-design-icons",
+      "modifications": "Android vector adaptation/tinting as documented in source header; original source revision unrecorded."
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_picker_default.xml",
+      "icon": "settings_backup_restore",
+      "sha256": "9a5603edc72adc2b084f26f70c6772f900403d52490970ecd7affd49021d4990",
+      "license": "Apache-2.0",
+      "origin": "https://github.com/google/material-design-icons",
+      "modifications": "Android vector adaptation/tinting as documented in source header; original source revision unrecorded."
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_picker_none.xml",
+      "icon": "block",
+      "sha256": "187510746a6e3a757683529d69d2ba26f8d90e908933891511c968afd77bb20c",
+      "license": "Apache-2.0",
+      "origin": "https://github.com/google/material-design-icons",
+      "modifications": "Android vector adaptation/tinting as documented in source header; original source revision unrecorded."
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_picker_shortcut.xml",
+      "icon": "shortcut",
+      "sha256": "607eb7f0cf7c187c3181f74045ecd8657e4cbb25e8930b472610cda60a6065bb",
+      "license": "Apache-2.0",
+      "origin": "https://github.com/google/material-design-icons",
+      "modifications": "Android vector adaptation/tinting as documented in source header; original source revision unrecorded."
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_about.xml",
+      "icon": "info",
+      "sha256": "0976cc23de01150a94881958410145d202672ed646996f28d3d54a908d3e0fc4",
+      "license": "Apache-2.0",
+      "origin": "https://github.com/google/material-design-icons",
+      "modifications": "Android vector adaptation/tinting as documented in source header; original source revision unrecorded."
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_backup.xml",
+      "icon": "settings_backup_restore",
+      "sha256": "77003ac05067c2aa572f7de55c0cec52a4c1537266870e9f919f24bd2179d159",
+      "license": "Apache-2.0",
+      "origin": "https://github.com/google/material-design-icons",
+      "modifications": "Android vector adaptation/tinting as documented in source header; original source revision unrecorded."
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_badges.xml",
+      "icon": "notifications",
+      "sha256": "1e0644b68df909ea947e3661806583691038ed6f48efe4c79894597967d2567a",
+      "license": "Apache-2.0",
+      "origin": "https://github.com/google/material-design-icons",
+      "modifications": "Android vector adaptation/tinting as documented in source header; original source revision unrecorded."
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_check.xml",
+      "icon": "check",
+      "sha256": "3b07c0830f5d2882864934244214ff28de70dd0cbfef86a46fcc21b32aa410ab",
+      "license": "Apache-2.0",
+      "origin": "https://github.com/google/material-design-icons",
+      "modifications": "Android vector adaptation/tinting as documented in source header; original source revision unrecorded."
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_chevron.xml",
+      "icon": "chevron_right",
+      "sha256": "f38365c11f1bb3c9e4175225451eef61f8addbe97483de02d6343e9928b18814",
+      "license": "Apache-2.0",
+      "origin": "https://github.com/google/material-design-icons",
+      "modifications": "Android vector adaptation/tinting as documented in source header; original source revision unrecorded."
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_dock.xml",
+      "icon": "call_to_action",
+      "sha256": "747d31a7ceaea1cbdd7ba2753ece8d8fadfb6b3d03fe98c8081e0ec2d18fb137",
+      "license": "Apache-2.0",
+      "origin": "https://github.com/google/material-design-icons",
+      "modifications": "Android vector adaptation/tinting as documented in source header; original source revision unrecorded."
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_drawer.xml",
+      "icon": "apps",
+      "sha256": "0d57a3eed7949d32844d0881b3c93a68b0d93bf9195730b6f21424787e77830e",
+      "license": "Apache-2.0",
+      "origin": "https://github.com/google/material-design-icons",
+      "modifications": "Android vector adaptation/tinting as documented in source header; original source revision unrecorded."
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_folder.xml",
+      "icon": "folder",
+      "sha256": "94bdbc271e40192da590151e329bf433c9b0267ccae071f287816957b73fa20f",
+      "license": "Apache-2.0",
+      "origin": "https://github.com/google/material-design-icons",
+      "modifications": "Android vector adaptation/tinting as documented in source header; original source revision unrecorded."
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_gestures.xml",
+      "icon": "touch_app",
+      "sha256": "8704cb2964d9d35288b2184eecd0187f5f058db17bcb67ce082e05f3ffafda63",
+      "license": "Apache-2.0",
+      "origin": "https://github.com/google/material-design-icons",
+      "modifications": "Android vector adaptation/tinting as documented in source header; original source revision unrecorded."
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_home.xml",
+      "icon": "home",
+      "sha256": "dd8e365f276fd2899bd3dfc1ceed3779d1aba57e558d7fec855c20f568e64b41",
+      "license": "Apache-2.0",
+      "origin": "https://github.com/google/material-design-icons",
+      "modifications": "Android vector adaptation/tinting as documented in source header; original source revision unrecorded."
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_info.xml",
+      "icon": "info_outline",
+      "sha256": "25eb9b8092487dda28a3b9a7c6b53473679c6c5768f42a8bc98e2de22db71435",
+      "license": "Apache-2.0",
+      "origin": "https://github.com/google/material-design-icons",
+      "modifications": "Android vector adaptation/tinting as documented in source header; original source revision unrecorded."
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_labs.xml",
+      "icon": "science",
+      "sha256": "a325151bcae951324d5ba976b26b96393a93a612ce7f1fb1db0d6c1a353b1856",
+      "license": "Apache-2.0",
+      "origin": "https://github.com/google/material-design-icons",
+      "modifications": "Android vector adaptation/tinting as documented in source header; original source revision unrecorded."
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_lock.xml",
+      "icon": "lock",
+      "sha256": "9d253839818883ef669fe931b5c36c1981448a7adc0d7bb77913721eadc0a338",
+      "license": "Apache-2.0",
+      "origin": "https://github.com/google/material-design-icons",
+      "modifications": "Android vector adaptation/tinting as documented in source header; original source revision unrecorded."
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_night.xml",
+      "icon": "dark_mode",
+      "sha256": "e40cdd8ab59343a98f6c4eab0a9e96dc2bdfcf82871ec9117e4f4566aecc6008",
+      "license": "Apache-2.0",
+      "origin": "https://github.com/google/material-design-icons",
+      "modifications": "Android vector adaptation/tinting as documented in source header; original source revision unrecorded."
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_palette.xml",
+      "icon": "palette",
+      "sha256": "811f02b9b16b25ed6cdcb69ae626ef2c1460c7f300d9b9a34c1d2f68ff954309",
+      "license": "Apache-2.0",
+      "origin": "https://github.com/google/material-design-icons",
+      "modifications": "Android vector adaptation/tinting as documented in source header; original source revision unrecorded."
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_accessibility.xml",
+      "icon": "accessibility",
+      "license": "Apache-2.0",
+      "origin": "https://github.com/google/material-design-icons",
+      "modifications": "Android vector adaptation/tinting as documented in source header; original source revision unrecorded.",
+      "sha256": "ebaec67a850f16df5c7dc7bbd027f5c8f48240dd5f5ad2371d4bbc57804162b1"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_add_to_home_screen.xml",
+      "icon": "add_to_home_screen",
+      "sha256": "c5af0b84c16b4cf50f3f7e9cb483d1c9441cc5cc731690394400a4373c111900",
+      "license": "Apache-2.0",
+      "origin": "https://github.com/google/material-design-icons",
+      "modifications": "Android vector adaptation/tinting as documented in source header; original source revision unrecorded."
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_all_inclusive.xml",
+      "icon": "all_inclusive",
+      "sha256": "8cf3f4abb6cafd1e39bb7846666b686e5160ea88aa7adb5a44139fa943925553",
+      "license": "Apache-2.0",
+      "origin": "https://github.com/google/material-design-icons",
+      "modifications": "Android vector adaptation/tinting as documented in source header; original source revision unrecorded."
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_apps.xml",
+      "icon": "apps",
+      "sha256": "30614c4d6abbc8703484c8728f00305195adc3b07e0b949a79d544b1a2ba832f",
+      "license": "Apache-2.0",
+      "origin": "https://github.com/google/material-design-icons",
+      "modifications": "Android vector adaptation/tinting as documented in source header; original source revision unrecorded."
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_aspect_ratio.xml",
+      "icon": "aspect_ratio",
+      "license": "Apache-2.0",
+      "origin": "https://github.com/google/material-design-icons",
+      "modifications": "Android vector adaptation/tinting as documented in source header; original source revision unrecorded.",
+      "sha256": "effefdd279b89b38f236f29842abc9afb40db7ced47fb5d67870335e2ab9e6f2"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_blur_on.xml",
+      "icon": "blur_on",
+      "license": "Apache-2.0",
+      "origin": "https://github.com/google/material-design-icons",
+      "modifications": "Android vector adaptation/tinting as documented in source header; original source revision unrecorded.",
+      "sha256": "33552f39abec720e1c833fd21ee5923a81440924467ffa81d88bda094bbc5b50"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_bug_report.xml",
+      "icon": "bug_report",
+      "license": "Apache-2.0",
+      "origin": "https://github.com/google/material-design-icons",
+      "modifications": "Android vector adaptation/tinting as documented in source header; original source revision unrecorded.",
+      "sha256": "e06d250c2423d0db78f09c8ff618420effb8f354860c75da89c9edcdc0dc2b4d"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_cached.xml",
+      "icon": "cached",
+      "license": "Apache-2.0",
+      "origin": "https://github.com/google/material-design-icons",
+      "modifications": "Android vector adaptation/tinting as documented in source header; original source revision unrecorded.",
+      "sha256": "549c925391247069925a058923ef3aa660c4413b847699c94aa0717a89f8b4dc"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_calculate.xml",
+      "icon": "calculate",
+      "sha256": "4378f2964d6cb85161c181b12e6f827ab1440f015899ae90567161c7bb9a5a51",
+      "license": "Apache-2.0",
+      "origin": "https://github.com/google/material-design-icons",
+      "modifications": "Android vector adaptation/tinting as documented in source header; original source revision unrecorded."
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_category.xml",
+      "icon": "category",
+      "sha256": "e1b9312bee940f83736563f159e5159a42a2ffc2dad60fff3b77407111ef0360",
+      "license": "Apache-2.0",
+      "origin": "https://github.com/google/material-design-icons",
+      "modifications": "Android vector adaptation/tinting as documented in source header; original source revision unrecorded."
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_check_circle.xml",
+      "icon": "check_circle",
+      "license": "Apache-2.0",
+      "origin": "https://github.com/google/material-design-icons",
+      "modifications": "Android vector adaptation/tinting as documented in source header; original source revision unrecorded.",
+      "sha256": "e5feaa6ec05632ee2ff03fab3d69543bf3a2cf2ac218e9d9447d5cecb52f067c"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_close_fullscreen.xml",
+      "icon": "close_fullscreen",
+      "license": "Apache-2.0",
+      "origin": "https://github.com/google/material-design-icons",
+      "modifications": "Android vector adaptation/tinting as documented in source header; original source revision unrecorded.",
+      "sha256": "b8bc9e57206e02514763856505dbfbacc11491b39c90f8f9ce6d7c12434e8287"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_contacts.xml",
+      "icon": "contacts",
+      "sha256": "f672d90953c6930f73e68946ad07253d47a65953d2d50044471a2317ddb94f40",
+      "license": "Apache-2.0",
+      "origin": "https://github.com/google/material-design-icons",
+      "modifications": "Android vector adaptation/tinting as documented in source header; original source revision unrecorded."
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_contrast.xml",
+      "icon": "contrast",
+      "license": "Apache-2.0",
+      "origin": "https://github.com/google/material-design-icons",
+      "modifications": "Android vector adaptation/tinting as documented in source header; original source revision unrecorded.",
+      "sha256": "7893e3d70b59a95eff9cdbecd703e2874bf507e4a8c42799aed310fc6773205d"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_dark_mode.xml",
+      "icon": "dark_mode",
+      "license": "Apache-2.0",
+      "origin": "https://github.com/google/material-design-icons",
+      "modifications": "Android vector adaptation/tinting as documented in source header; original source revision unrecorded.",
+      "sha256": "a008af8f78e3e06d2c788cb153f22aceccf9481067e84ee0096066bf0434fbae"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_dynamic_feed.xml",
+      "icon": "dynamic_feed",
+      "sha256": "2eaa94b36bf3908357df64b3a9905baf10f5d718820693b52a8ddfdaa0b2bbe3",
+      "license": "Apache-2.0",
+      "origin": "https://github.com/google/material-design-icons",
+      "modifications": "Android vector adaptation/tinting as documented in source header; original source revision unrecorded."
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_error_outline.xml",
+      "icon": "error_outline",
+      "license": "Apache-2.0",
+      "origin": "https://github.com/google/material-design-icons",
+      "modifications": "Android vector adaptation/tinting as documented in source header; original source revision unrecorded.",
+      "sha256": "4f9218574a1e6a71e271b99d6616cc989c86d99b5897f9ca9e114ae1ec40b11d"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_first_page.xml",
+      "icon": "first_page",
+      "license": "Apache-2.0",
+      "origin": "https://github.com/google/material-design-icons",
+      "modifications": "Android vector adaptation/tinting as documented in source header; original source revision unrecorded.",
+      "sha256": "58bb4a52d8a02ba9c2f6cfab83c0fc006a869f0a7d023a315b2a330df25a1d20"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_folder.xml",
+      "icon": "folder",
+      "license": "Apache-2.0",
+      "origin": "https://github.com/google/material-design-icons",
+      "modifications": "Android vector adaptation/tinting as documented in source header; original source revision unrecorded.",
+      "sha256": "60b566d6ca6423611251009382a24f6d7ace9f2bc82c54a1a4c6f25350b19d1a"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_font_download.xml",
+      "icon": "font_download",
+      "license": "Apache-2.0",
+      "origin": "https://github.com/google/material-design-icons",
+      "modifications": "Android vector adaptation/tinting as documented in source header; original source revision unrecorded.",
+      "sha256": "3d0ff3f0e27128b0cc0ab152ff8402f1791401617efe3f95086c9bfcb8c25221"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_format_color_fill.xml",
+      "icon": "format_color_fill",
+      "sha256": "5e9c517c4771370fdb11283357c35df1eface776ba754649d6fe23fc1e94a010",
+      "license": "Apache-2.0",
+      "origin": "https://github.com/google/material-design-icons",
+      "modifications": "Android vector adaptation/tinting as documented in source header; original source revision unrecorded."
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_format_size.xml",
+      "icon": "format_size",
+      "license": "Apache-2.0",
+      "origin": "https://github.com/google/material-design-icons",
+      "modifications": "Android vector adaptation/tinting as documented in source header; original source revision unrecorded.",
+      "sha256": "cc14a63f976308b6dffaa7cedb40a73cc725f7454840575838c401cb7a6bfd85"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_fullscreen.xml",
+      "icon": "fullscreen",
+      "sha256": "655390403fc5c60a105dbba17256de99f02f7ee8aa414da8713d8f9c632a5e78",
+      "license": "Apache-2.0",
+      "origin": "https://github.com/google/material-design-icons",
+      "modifications": "Android vector adaptation/tinting as documented in source header; original source revision unrecorded."
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_gradient.xml",
+      "icon": "gradient",
+      "sha256": "320ac675166f3418b8565a51401da55a36df8fe4a0ed5db8685491299f83a71e",
+      "license": "Apache-2.0",
+      "origin": "https://github.com/google/material-design-icons",
+      "modifications": "Android vector adaptation/tinting as documented in source header; original source revision unrecorded."
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_grid_on.xml",
+      "icon": "grid_on",
+      "sha256": "3b019850e7b64d02e72842301f51e6f389378c6821c093a8a64c76f5bfc0de25",
+      "license": "Apache-2.0",
+      "origin": "https://github.com/google/material-design-icons",
+      "modifications": "Android vector adaptation/tinting as documented in source header; original source revision unrecorded."
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_grid_view.xml",
+      "icon": "grid_view",
+      "sha256": "9248226ccb0478c3fb3cae93a15b7d6129977a30d2d9ae200d72d88241c85fe7",
+      "license": "Apache-2.0",
+      "origin": "https://github.com/google/material-design-icons",
+      "modifications": "Android vector adaptation/tinting as documented in source header; original source revision unrecorded."
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_home.xml",
+      "icon": "home",
+      "license": "Apache-2.0",
+      "origin": "https://github.com/google/material-design-icons",
+      "modifications": "Android vector adaptation/tinting as documented in source header; original source revision unrecorded.",
+      "sha256": "ebdf27acdc84a30089a4a60a92df4761bacb5f1d3e1533d8a257c56701bc67aa"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_keyboard.xml",
+      "icon": "keyboard",
+      "sha256": "3f75ce41ce9a2ff68babf818f970bdb38375b4aa7beff89ca127cf8ba7e0d795",
+      "license": "Apache-2.0",
+      "origin": "https://github.com/google/material-design-icons",
+      "modifications": "Android vector adaptation/tinting as documented in source header; original source revision unrecorded."
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_keyboard_double_arrow_down.xml",
+      "icon": "keyboard_double_arrow_down",
+      "license": "Apache-2.0",
+      "origin": "https://github.com/google/material-design-icons",
+      "modifications": "Android vector adaptation/tinting as documented in source header; original source revision unrecorded.",
+      "sha256": "6f83fef7f25a4831f7a43b55d5581fadb4cdcc809a4f86f5c174742b1e2c1af7"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_keyboard_double_arrow_up.xml",
+      "icon": "keyboard_double_arrow_up",
+      "license": "Apache-2.0",
+      "origin": "https://github.com/google/material-design-icons",
+      "modifications": "Android vector adaptation/tinting as documented in source header; original source revision unrecorded.",
+      "sha256": "40ba695feebe739ec87e523d4716c834266e4f8a613391810026271112336614"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_label.xml",
+      "icon": "label",
+      "sha256": "a9de954428ca27c6e834eb74b9841745a6cad26c542ea54c45d39ec1d2728127",
+      "license": "Apache-2.0",
+      "origin": "https://github.com/google/material-design-icons",
+      "modifications": "Android vector adaptation/tinting as documented in source header; original source revision unrecorded."
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_lock.xml",
+      "icon": "lock",
+      "sha256": "55734e1777610597b75ac3b1ab7b7eddedfec383ec859b8479d6e3ec19f3ad20",
+      "license": "Apache-2.0",
+      "origin": "https://github.com/google/material-design-icons",
+      "modifications": "Android vector adaptation/tinting as documented in source header; original source revision unrecorded."
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_lock_open.xml",
+      "icon": "lock_open",
+      "license": "Apache-2.0",
+      "origin": "https://github.com/google/material-design-icons",
+      "modifications": "Android vector adaptation/tinting as documented in source header; original source revision unrecorded.",
+      "sha256": "4edb9ca9c39425e07ebf8cdb5b90ac2b18e8151d2eb48bde19e170b26143d6e2"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_manage_search.xml",
+      "icon": "manage_search",
+      "sha256": "32e459aa55d67ba8e43dc65926b70e548dbdba101c3896c83deecdecd0ad2f5c",
+      "license": "Apache-2.0",
+      "origin": "https://github.com/google/material-design-icons",
+      "modifications": "Android vector adaptation/tinting as documented in source header; original source revision unrecorded."
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_menu.xml",
+      "icon": "menu",
+      "license": "Apache-2.0",
+      "origin": "https://github.com/google/material-design-icons",
+      "modifications": "Android vector adaptation/tinting as documented in source header; original source revision unrecorded.",
+      "sha256": "bd030637a6d6d4e238ff8741ba8f5855f8c4e5b8b556920fc6ac78efe1adba21"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_notifications.xml",
+      "icon": "notifications",
+      "license": "Apache-2.0",
+      "origin": "https://github.com/google/material-design-icons",
+      "modifications": "Android vector adaptation/tinting as documented in source header; original source revision unrecorded.",
+      "sha256": "1663c55cb213b4ffae9674fc9cf22ff08760c9a73fd4fb48976f5784217ca010"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_opacity.xml",
+      "icon": "opacity",
+      "license": "Apache-2.0",
+      "origin": "https://github.com/google/material-design-icons",
+      "modifications": "Android vector adaptation/tinting as documented in source header; original source revision unrecorded.",
+      "sha256": "228ed69bd7301b8ad54861877fdc38ff365cac30b9cbf40515df3f0db40fafd4"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_open_in_full.xml",
+      "icon": "open_in_full",
+      "license": "Apache-2.0",
+      "origin": "https://github.com/google/material-design-icons",
+      "modifications": "Android vector adaptation/tinting as documented in source header; original source revision unrecorded.",
+      "sha256": "37a9a5c9d9ef35554ba514a027da925dd7c53893cbe1708cd6ac66e6ddb1f4f5"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_open_in_new.xml",
+      "icon": "open_in_new",
+      "license": "Apache-2.0",
+      "origin": "https://github.com/google/material-design-icons",
+      "modifications": "Android vector adaptation/tinting as documented in source header; original source revision unrecorded.",
+      "sha256": "2d9c95322000ecdb0a98e0dccc33c86205a5d2f5144efd0f44c2c89fe72bf965"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_padding.xml",
+      "icon": "padding",
+      "sha256": "5823f95a6b9c378d90acbc473aaef6ee8a0671b1a6d98e17ded94c860d526b28",
+      "license": "Apache-2.0",
+      "origin": "https://github.com/google/material-design-icons",
+      "modifications": "Android vector adaptation/tinting as documented in source header; original source revision unrecorded."
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_palette.xml",
+      "icon": "palette",
+      "license": "Apache-2.0",
+      "origin": "https://github.com/google/material-design-icons",
+      "modifications": "Android vector adaptation/tinting as documented in source header; original source revision unrecorded.",
+      "sha256": "d58c24819b269abb398ab0a76b9d3414f30c1e5d2d8b7834b57c92a252c0fafa"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_photo_size_select_large.xml",
+      "icon": "photo_size_select_large",
+      "license": "Apache-2.0",
+      "origin": "https://github.com/google/material-design-icons",
+      "modifications": "Android vector adaptation/tinting as documented in source header; original source revision unrecorded.",
+      "sha256": "10e74ea9d52625da847bbb82b43c05385780e8ff89911336c7bb5578e5db9e2a"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_picture_in_picture_alt.xml",
+      "icon": "picture_in_picture_alt",
+      "license": "Apache-2.0",
+      "origin": "https://github.com/google/material-design-icons",
+      "modifications": "Android vector adaptation/tinting as documented in source header; original source revision unrecorded.",
+      "sha256": "dcf90b0131f7663260a2fe0a713285cb7b70c4b37db061fe976a34059e0603b0"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_pinch.xml",
+      "icon": "pinch",
+      "license": "Apache-2.0",
+      "origin": "https://github.com/google/material-design-icons",
+      "modifications": "Android vector adaptation/tinting as documented in source header; original source revision unrecorded.",
+      "sha256": "ab2de4da3878511d4f8e43f4a2541933c2f5a0af7b9e17f9eebdd6064d028a3f"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_privacy_tip.xml",
+      "icon": "privacy_tip",
+      "license": "Apache-2.0",
+      "origin": "https://github.com/google/material-design-icons",
+      "modifications": "Android vector adaptation/tinting as documented in source header; original source revision unrecorded.",
+      "sha256": "2176d0eefdb558f46381b4b1d8e3c498fa8c2cac775900d2682e78086fbd067e"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_public.xml",
+      "icon": "public",
+      "sha256": "c76576673e258dddd147289d958a9a8c110fcf022474914b7076f3b2c5b23961",
+      "license": "Apache-2.0",
+      "origin": "https://github.com/google/material-design-icons",
+      "modifications": "Android vector adaptation/tinting as documented in source header; original source revision unrecorded."
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_restart_alt.xml",
+      "icon": "restart_alt",
+      "license": "Apache-2.0",
+      "origin": "https://github.com/google/material-design-icons",
+      "modifications": "Android vector adaptation/tinting as documented in source header; original source revision unrecorded.",
+      "sha256": "7cc38ad236324ea02a44c217368e51063b840425cee3151480e818f759b42b00"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_rocket_launch.xml",
+      "icon": "rocket_launch",
+      "license": "Apache-2.0",
+      "origin": "https://github.com/google/material-design-icons",
+      "modifications": "Android vector adaptation/tinting as documented in source header; original source revision unrecorded.",
+      "sha256": "aa3dc5c60e557ed469e12482fa5a59d20a325a751c6512e70e19a01b6d3ea4a0"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_rotate_left.xml",
+      "icon": "rotate_left",
+      "license": "Apache-2.0",
+      "origin": "https://github.com/google/material-design-icons",
+      "modifications": "Android vector adaptation/tinting as documented in source header; original source revision unrecorded.",
+      "sha256": "9c438b03cb48fefa855443a369669c00666d3732c20aecc6474c0aba8e4859a3"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_rotate_right.xml",
+      "icon": "rotate_right",
+      "license": "Apache-2.0",
+      "origin": "https://github.com/google/material-design-icons",
+      "modifications": "Android vector adaptation/tinting as documented in source header; original source revision unrecorded.",
+      "sha256": "9b8914fe7be95689f3c8daf49210a6ef6118decd46585a4341ce13cb139cd00d"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_rounded_corner.xml",
+      "icon": "rounded_corner",
+      "sha256": "732bb3fac2bde6e377984ea614ee081de37151ed308f5d8e51e1fb5b143eac3e",
+      "license": "Apache-2.0",
+      "origin": "https://github.com/google/material-design-icons",
+      "modifications": "Android vector adaptation/tinting as documented in source header; original source revision unrecorded."
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_save.xml",
+      "icon": "save",
+      "license": "Apache-2.0",
+      "origin": "https://github.com/google/material-design-icons",
+      "modifications": "Android vector adaptation/tinting as documented in source header; original source revision unrecorded.",
+      "sha256": "88e21aa79401cc2d1b1d23730da98de91626a4da0bf5060295ebe9c3f1593e1e"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_settings_applications.xml",
+      "icon": "settings_applications",
+      "license": "Apache-2.0",
+      "origin": "https://github.com/google/material-design-icons",
+      "modifications": "Android vector adaptation/tinting as documented in source header; original source revision unrecorded.",
+      "sha256": "cf40b72baa144a8729b34c7e8f96109e3c873cf19454e57cf9147693dc435d26"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_settings_backup_restore.xml",
+      "icon": "settings_backup_restore",
+      "license": "Apache-2.0",
+      "origin": "https://github.com/google/material-design-icons",
+      "modifications": "Android vector adaptation/tinting as documented in source header; original source revision unrecorded.",
+      "sha256": "0827d4171488127a105f339c74101fad1c625f53702a1af9ced7845c900348e5"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_share.xml",
+      "icon": "share",
+      "license": "Apache-2.0",
+      "origin": "https://github.com/google/material-design-icons",
+      "modifications": "Android vector adaptation/tinting as documented in source header; original source revision unrecorded.",
+      "sha256": "253d91c609554d4302e0bdf78482fe84539249b819a25e974af9879f60c6297f"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_sort_by_alpha.xml",
+      "icon": "sort_by_alpha",
+      "sha256": "d50a8766a75c26ccbd6b9e167df2780d025fbc890ccc30a304f7ce29832cf390",
+      "license": "Apache-2.0",
+      "origin": "https://github.com/google/material-design-icons",
+      "modifications": "Android vector adaptation/tinting as documented in source header; original source revision unrecorded."
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_swap_horiz.xml",
+      "icon": "swap_horiz",
+      "license": "Apache-2.0",
+      "origin": "https://github.com/google/material-design-icons",
+      "modifications": "Android vector adaptation/tinting as documented in source header; original source revision unrecorded.",
+      "sha256": "63f29f91ab3a696d3e11177c354a978e2c50d536df8a1d5a8b210beaac8e4951"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_swap_vert.xml",
+      "icon": "swap_vert",
+      "sha256": "0d7670f3945ab978c78dfef6a79fbb8b5f4a928b6078ed7addfb9478448b4ba3",
+      "license": "Apache-2.0",
+      "origin": "https://github.com/google/material-design-icons",
+      "modifications": "Android vector adaptation/tinting as documented in source header; original source revision unrecorded."
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_swipe_down.xml",
+      "icon": "swipe_down",
+      "license": "Apache-2.0",
+      "origin": "https://github.com/google/material-design-icons",
+      "modifications": "Android vector adaptation/tinting as documented in source header; original source revision unrecorded.",
+      "sha256": "26eab690ef29dac98072c1123b1d01bd01377c4021765a0e9256dbfc3daa5dbe"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_swipe_down_alt.xml",
+      "icon": "swipe_down_alt",
+      "license": "Apache-2.0",
+      "origin": "https://github.com/google/material-design-icons",
+      "modifications": "Android vector adaptation/tinting as documented in source header; original source revision unrecorded.",
+      "sha256": "6100ef031b8bc7f9643a79b32d466dbd0112c5ff680c318e4dc87e3007670570"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_swipe_left.xml",
+      "icon": "swipe_left",
+      "license": "Apache-2.0",
+      "origin": "https://github.com/google/material-design-icons",
+      "modifications": "Android vector adaptation/tinting as documented in source header; original source revision unrecorded.",
+      "sha256": "5e67bd5e1f9128a7ab852dfd845b4cabab473f4c339ae35b551968f75457b194"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_swipe_right.xml",
+      "icon": "swipe_right",
+      "license": "Apache-2.0",
+      "origin": "https://github.com/google/material-design-icons",
+      "modifications": "Android vector adaptation/tinting as documented in source header; original source revision unrecorded.",
+      "sha256": "9c7f04b15bb86431af575ee77918285cd563c054374f50e55a35c0fcbdcfd2f4"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_swipe_up.xml",
+      "icon": "swipe_up",
+      "sha256": "98c93c539035120b56f5198babc70b7278428d3eb93a90d39df6ffcaffbc95a0",
+      "license": "Apache-2.0",
+      "origin": "https://github.com/google/material-design-icons",
+      "modifications": "Android vector adaptation/tinting as documented in source header; original source revision unrecorded."
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_swipe_up_alt.xml",
+      "icon": "swipe_up_alt",
+      "license": "Apache-2.0",
+      "origin": "https://github.com/google/material-design-icons",
+      "modifications": "Android vector adaptation/tinting as documented in source header; original source revision unrecorded.",
+      "sha256": "64acf1f3d67592c0e0537d3b8d301bd63cdae31298c2c8d9bdc1be1f230874d3"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_sync.xml",
+      "icon": "sync",
+      "license": "Apache-2.0",
+      "origin": "https://github.com/google/material-design-icons",
+      "modifications": "Android vector adaptation/tinting as documented in source header; original source revision unrecorded.",
+      "sha256": "5fa3635701312c1db097aae9410d54a97ad58f4c5a53e5d00dbb6d4808a0de76"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_tab.xml",
+      "icon": "tab",
+      "sha256": "4a0e6e0991fe06ff6fd25d10cf1df51079ff5c04d6ce246619fe70b41df9d7fa",
+      "license": "Apache-2.0",
+      "origin": "https://github.com/google/material-design-icons",
+      "modifications": "Android vector adaptation/tinting as documented in source header; original source revision unrecorded."
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_table_rows.xml",
+      "icon": "table_rows",
+      "license": "Apache-2.0",
+      "origin": "https://github.com/google/material-design-icons",
+      "modifications": "Android vector adaptation/tinting as documented in source header; original source revision unrecorded.",
+      "sha256": "160505979e2947297ce842f7e8092425c7881577e1410ee310a20ddcd0e1f352"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_timer.xml",
+      "icon": "timer",
+      "license": "Apache-2.0",
+      "origin": "https://github.com/google/material-design-icons",
+      "modifications": "Android vector adaptation/tinting as documented in source header; original source revision unrecorded.",
+      "sha256": "6abaf274491eba5b196e223d1b8a68f32858c20fbfaa1a13bf89fc8a1d468066"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_title.xml",
+      "icon": "title",
+      "license": "Apache-2.0",
+      "origin": "https://github.com/google/material-design-icons",
+      "modifications": "Android vector adaptation/tinting as documented in source header; original source revision unrecorded.",
+      "sha256": "a74f712b9a019a0413e8d2b6262e2caddb789ae367db3f75153abaffa12e6609"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_touch_app.xml",
+      "icon": "touch_app",
+      "license": "Apache-2.0",
+      "origin": "https://github.com/google/material-design-icons",
+      "modifications": "Android vector adaptation/tinting as documented in source header; original source revision unrecorded.",
+      "sha256": "326657d4027fb15adb137635d4fca011d1640a8a2e42361fca8c56b67012faf3"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_view_carousel.xml",
+      "icon": "view_carousel",
+      "sha256": "02a38b8948207149c6a265755330de6cabec336dc26591302c4e645fdf715727",
+      "license": "Apache-2.0",
+      "origin": "https://github.com/google/material-design-icons",
+      "modifications": "Android vector adaptation/tinting as documented in source header; original source revision unrecorded."
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_view_column.xml",
+      "icon": "view_column",
+      "license": "Apache-2.0",
+      "origin": "https://github.com/google/material-design-icons",
+      "modifications": "Android vector adaptation/tinting as documented in source header; original source revision unrecorded.",
+      "sha256": "066b9b3de44ffe9567f094d1ffb55459505fc4870ac5e6796c8d52b8ee4a982d"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_visibility.xml",
+      "icon": "visibility",
+      "sha256": "2d77c87cb478a8ad430bf0c5673162fc7783a453fc5d123ede9ad0213c8e223f",
+      "license": "Apache-2.0",
+      "origin": "https://github.com/google/material-design-icons",
+      "modifications": "Android vector adaptation/tinting as documented in source header; original source revision unrecorded."
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_visibility_off.xml",
+      "icon": "visibility_off",
+      "sha256": "048c303848504720ced95bbd6cc47fa14989060a93c33f9953cc9f22d44a4776",
+      "license": "Apache-2.0",
+      "origin": "https://github.com/google/material-design-icons",
+      "modifications": "Android vector adaptation/tinting as documented in source header; original source revision unrecorded."
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_web_asset.xml",
+      "icon": "web_asset",
+      "license": "Apache-2.0",
+      "origin": "https://github.com/google/material-design-icons",
+      "modifications": "Android vector adaptation/tinting as documented in source header; original source revision unrecorded.",
+      "sha256": "1dce46d952a2f78f4beb15838b28144ba2fd05002107331bfa2c1e3c7c5e39b6"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_widgets.xml",
+      "icon": "widgets",
+      "sha256": "f3c24f3680e74658ab729892a988455bf9521a5134178ae62f9e0241b73ebec3",
+      "license": "Apache-2.0",
+      "origin": "https://github.com/google/material-design-icons",
+      "modifications": "Android vector adaptation/tinting as documented in source header; original source revision unrecorded."
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_wrap_text.xml",
+      "icon": "wrap_text",
+      "license": "Apache-2.0",
+      "origin": "https://github.com/google/material-design-icons",
+      "modifications": "Android vector adaptation/tinting as documented in source header; original source revision unrecorded.",
+      "sha256": "d15dd8523b342253deefd3a2ac2d9606a7d135501e444cbd78c4c48acecb35e6"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_swipe_down.xml",
+      "icon": "arrow_downward",
+      "sha256": "81cdd78b6c947a39bb4cdffa0ead5fb2be95103f7b8e10e8ba138c87acf2d7ca",
+      "license": "Apache-2.0",
+      "origin": "https://github.com/google/material-design-icons",
+      "modifications": "Android vector adaptation/tinting as documented in source header; original source revision unrecorded."
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_swipe_up.xml",
+      "icon": "arrow_upward",
+      "sha256": "8c746f8db94b28c7dd78f2d31e4318732e6ede185d83dbc5c0c33b818b9f975b",
+      "license": "Apache-2.0",
+      "origin": "https://github.com/google/material-design-icons",
+      "modifications": "Android vector adaptation/tinting as documented in source header; original source revision unrecorded."
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="look_page_accent_summary">Theme color, presets and custom shades</string>
+    <string name="look_page_icons_summary">Icon packs, shapes and per-app icons</string>
+    <string name="look_page_motion_summary">Animation speed and a replayable sample</string>
+    <string name="look_page_screen_summary">Screen orientation and status bar</string>
+    <string name="look_page_menus_summary">Menu style, colors and Home / Drawer actions</string>
+</resources>

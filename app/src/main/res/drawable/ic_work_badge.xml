@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Small work-profile badge: a case on a filled circle. Original Chikku artwork. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="18dp"
+    android:height="18dp"
+    android:viewportWidth="18"
+    android:viewportHeight="18">
+    <path
+        android:fillColor="@color/chikku_accent"
+        android:pathData="M9,0a9,9 0,1 1,0 18a9,9 0,1 1,0 -18z" />
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M7,4.5h4a1,1 0,0 1,1 1v1h1.5a1,1 0,0 1,1 1v5a1,1 0,0 1,-1 1h-9a1,1 0,0 1,-1 -1v-5a1,1 0,0 1,1 -1h1.5v-1a1,1 0,0 1,1 -1zM7.5,5.5v1h3v-1z" />
+</vector>

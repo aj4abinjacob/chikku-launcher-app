@@ -1,0 +1,30 @@
+<resources>
+    <string name="search_section_micro">Quick results</string>
+    <string name="search_micro_copy_hint">Tap to copy result</string>
+    <string name="search_micro_open_with">Open link with</string>
+    <string name="search_micro_url">Open link…</string>
+    <string name="search_micro_map">Find on a map</string>
+    <string name="search_micro_dial">Open dialer</string>
+    <string name="search_micro_sms">Write a text message</string>
+    <string name="search_micro_package">Track package · 17TRACK</string>
+    <string name="search_micro_flight">Track flight · Flightradar24</string>
+    <string name="search_micro_bitcoin">View Bitcoin address · Blockchain.com</string>
+    <string name="search_micro_ethereum">View Ethereum address · Etherscan</string>
+    <string name="settings_search_micro_results">Conversions and quick actions</string>
+    <string name="settings_search_micro_results_summary">Convert units and suggest links, maps, phone and tracking actions</string>
+    <string name="settings_search_micro_examples">Try 32F, 50ft, or 30 teaspoons to tablespoons.</string>
+    <string name="settings_search_micro_details">Conversions run offline. Supports temperature, distance, mass, US cooking measures and time. Try 10oz to g, maps Bengaluru, a phone number, flight AI101, track followed by a package number, or paste a web link or Bitcoin/Ethereum address. Tracking and explorer results open the named website only when selected; Chikku does not fetch status or verify addresses. Phone results open a dialer or message composer for you to review.</string>
+    <string name="settings_home_header_widgets">Widgets</string>
+    <string name="settings_home_widget_overlap">Let widgets overlap other items</string>
+    <string name="settings_home_widget_overlap_summary">Place widgets over other items. Turning this off keeps existing placements.</string>
+    <string name="settings_home_widget_corners">Round widget corners</string>
+    <string name="settings_home_widget_corners_summary">Zero keeps the provider’s own corners. Larger values round the visible widget content.</string>
+    <string name="settings_search_integrations">Search actions from installed apps</string>
+    <string name="settings_search_integrations_details">App shortcuts can expose conversations, playlists or other actions when an installed app publishes them to Android. Enable App shortcuts and make Chikku the default home app. Available actions depend on each app and profile. Chikku has no direct account connection to Spotify, Slack, Reddit, Netflix or Sesame, and does not read private content from them.</string>
+    <string name="settings_dock_image">Dock background image</string>
+    <string name="settings_dock_image_choose">Choose an image from your files</string>
+    <string name="settings_dock_image_selected">Image selected · tap to replace</string>
+    <string name="settings_dock_image_remove">Remove background image</string>
+    <string name="settings_dock_image_unavailable">Cannot read this image. Choose a supported image under 8 MB.</string>
+    <string name="settings_dock_image_restore_note">Backups keep the image reference, not the image file. If the file is deleted, access is revoked or you restore on another phone, the dock uses its color until you choose the image again.</string>
+</resources>

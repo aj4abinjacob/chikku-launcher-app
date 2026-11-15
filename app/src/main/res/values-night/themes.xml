@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ChikkuSettingsTheme's night primary (#FFAD89) and surface (#242424). -->
+    <color name="chikku_theme_accent">#FFFFAD89</color>
+    <color name="chikku_theme_highlight">#3DFFAD89</color>
+    <color name="chikku_theme_text_highlight">#66FFAD89</color>
+    <color name="chikku_theme_on_accent">#FF1B1B1F</color>
+    <color name="chikku_settings_window">#FF242424</color>
+</resources>

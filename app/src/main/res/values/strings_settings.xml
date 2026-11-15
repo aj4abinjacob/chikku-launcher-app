@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="settings_what_is_home_body">The home app is what you see when you press Home: your home screen, dock and list of all apps. Android lets you choose which installed home app to use, and you can switch at any time.</string>
+    <string name="settings_status_checking">Checking…</string>
+    <string name="settings_status_default">Chikku is your default home app.</string>
+    <string name="settings_status_not_default">Chikku isn\'t your default home app yet.</string>
+    <string name="settings_set_default">Set Chikku as default home</string>
+    <string name="settings_choose_other">Choose a different home app</string>
+    <string name="about_header_default">Default home app</string>
+    <string name="about_choose_other_summary">Opens Android\'s home app picker</string>
+    <string name="about_what_is_home_short">The home app is what you see when you press Home.</string>
+    <string name="about_privacy_row_title">Offline by design</string>
+    <string name="settings_privacy_title">Privacy</string>
+    <string name="settings_privacy_body">Home, apps and local search work offline, with no ads, analytics or account. Optional online suggestions send what you type to your selected search engine. Weather cards send your chosen location to the weather provider. Both are off by default. Notification contents and backups are never uploaded by Chikku. External apps, Google Discover and hosted widgets follow their own privacy policies.</string>
+    <string name="settings_version">Version %1$s</string>
+
+    <!-- Settings scaffold -->
+    <string name="settings_back">Back</string>
+    <string name="settings_learn_more">Learn more</string>
+    <string name="settings_show_less">Show less</string>
+    <string name="settings_cancel">Cancel</string>
+    <string name="settings_color_default">Default</string>
+
+    <string name="settings_group_layout">Layout</string>
+    <string name="settings_group_appearance">Appearance</string>
+    <string name="settings_group_behaviour">Behaviour</string>
+    <string name="settings_group_system">System</string>
+    <string name="settings_not_default_banner">Chikku isn\'t your home app yet</string>
+    <string name="settings_set_default_short">Set as default</string>
+
+    <string name="settings_section_home">Home screen</string>
+    <string name="settings_section_home_summary">Grid, icons, pages</string>
+    <string name="settings_section_drawer">App drawer</string>
+    <string name="settings_section_drawer_summary">Style, grid, hidden apps</string>
+    <string name="settings_section_dock">Dock</string>
+    <string name="settings_section_dock_summary">Icons and background</string>
+    <string name="settings_section_folders">Folders</string>
+    <string name="settings_section_folders_summary">Preview and background</string>
+    <string name="settings_section_look_feel">Style</string>
+    <string name="settings_section_look_feel_summary">Icon pack, shape, accent</string>
+    <string name="settings_section_night">Night mode</string>
+    <string name="settings_section_night_summary">Dark launcher surfaces</string>
+    <string name="settings_section_gestures">Gestures</string>
+    <string name="settings_section_gestures_summary">Swipes, pinches, taps</string>
+    <string name="settings_section_badges">Notification badges</string>
+    <string name="settings_section_badges_summary">Dots and counts</string>
+    <string name="settings_section_search">Search</string>
+    <string name="settings_section_search_summary">Web, calculator, contacts</string>
+    <string name="settings_section_backup">Backup &amp; restore</string>
+    <string name="settings_section_backup_summary">Save, restore, reset</string>
+    <string name="settings_section_labs">Labs</string>
+    <string name="settings_section_labs_summary">Experimental options</string>
+    <string name="settings_section_about">About &amp; default launcher</string>
+    <string name="settings_section_about_summary">Default home app, privacy</string>
+
+    <!-- Foundation sample controls (owners may move these into their own string files) -->
+    <string name="settings_home_lock_layout">Lock home screen layout</string>
+    <string name="settings_home_lock_layout_summary">Stops apps and widgets from being moved, added or removed</string>
+    <string name="settings_drawer_open_keyboard">Open keyboard with the app drawer</string>
+    <string name="settings_look_animation_speed">Animation speed</string>
+    <string name="settings_animation_none">None</string>
+    <string name="settings_animation_fast">Fast</string>
+    <string name="settings_animation_normal">Normal</string>
+    <string name="settings_animation_slow">Slow</string>
+    <string name="settings_animation_relaxed">Relaxed</string>
+    <string name="settings_night_mode">Night mode</string>
+    <string name="settings_night_system">Follow system</string>
+    <string name="settings_night_on">Always on</string>
+    <string name="settings_night_off">Off</string>
+    <string name="settings_search_calculator">Quick calculations</string>
+    <string name="settings_labs_debug_overlay">Debug overlay</string>
+
+    <!-- Sub-page summaries on a section's main page -->
+    <!-- Joins two parts of a summary, e.g. "Scroll thumb · Right" -->
+    <string name="settings_summary_join">%1$s · %2$s</string>
+    <string name="settings_state_off">Off</string>
+    <string name="settings_state_on">On</string>
+    <!-- About: the product promises, as short tags under the app name -->
+    <string name="about_tag_no_ads">No ads</string>
+    <string name="about_tag_no_account">No account</string>
+    <string name="about_tag_offline">Works offline</string>
+</resources>

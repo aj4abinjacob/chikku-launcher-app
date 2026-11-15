@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Synthetic fixture in the de-facto drawable.xml format; not taken from any icon pack. -->
+<resources>
+    <version>1</version>
+    <category title="Apps" />
+    <item drawable="mail" />
+    <item drawable="maps" />
+    <item drawable="mail" />
+    <item drawable="" />
+    <category title="Alternates" />
+    <item drawable="mail_alt" />
+</resources>

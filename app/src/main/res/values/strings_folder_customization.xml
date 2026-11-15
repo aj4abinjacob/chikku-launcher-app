@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="folder_close_button">Close</string>
+    <string name="folders_custom_window">Window style</string>
+    <string name="folders_custom_floating">Floating panel</string>
+    <string name="folders_custom_immersive">Immersive panel</string>
+    <string name="folders_custom_columns">Folder columns</string>
+    <string name="folders_custom_auto">Auto</string>
+    <string name="folders_custom_preview_count">Grid preview icons</string>
+    <string name="folders_custom_icon_layout">Icon layout</string>
+    <string name="folders_custom_match_desktop">Match desktop icon size</string>
+    <string name="folders_custom_icon_size">Icon size</string>
+    <string name="folders_custom_labels">Show icon labels</string>
+    <string name="folders_custom_sort">Sort apps</string>
+    <string name="folders_custom_manual">Manual order</string>
+    <string name="folders_custom_alphabetical">Alphabetical</string>
+    <string name="folders_custom_sort_summary">Alphabetical view preserves your manual order. Select Manual order to rearrange apps again.</string>
+    <string name="folders_custom_close_on_launch">Close after opening an app</string>
+    <string name="folders_custom_close_summary">Turn off to keep the folder open when you return home.</string>
+    <string name="folders_custom_show_name">Show folder name</string>
+    <string name="folders_custom_corner_radius">Window corner radius</string>
+    <string name="folders_custom_shadow">Window shadow</string>
+</resources>

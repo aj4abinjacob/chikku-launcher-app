@@ -1,0 +1,22 @@
+<resources>
+    <string name="preview_search_apps_state">%1$s %2$s Visible result rows: %3$s. Synthetic examples only.</string>
+    <string name="preview_search_typed_sample">Typed query: sample matches</string>
+    <string name="preview_search_extra_sources_none">none</string>
+    <string name="preview_search_store_result_sample">Search Store for “sample”</string>
+    <string name="preview_search_contact_card_state">Sample contact card: initial avatar, fictional number, Call, Message and WhatsApp actions. No contacts are read; sample actions are disabled.</string>
+    <string name="preview_search_contacts_off_state">Contact search is off: sample contact card is hidden. No contacts are read.</string>
+    <string name="preview_search_web_state">Sample web search with %1$s. %2$s. No requests are sent.</string>
+    <string name="preview_search_online_on">Autocomplete suggestions shown</string>
+    <string name="preview_search_online_off">Autocomplete suggestions hidden</string>
+    <string name="preview_dock_search_online_state">Synthetic search below dock with %1$s. %2$s. No requests are sent and sample results cannot open anything.</string>
+    <string name="preview_dock_search_online_disabled">Enable online suggestions to show sample autocomplete</string>
+    <string name="preview_dock_search_bar_disabled">Search below dock is off</string>
+    <string name="preview_search_suggestion_one">sample recipes</string>
+    <string name="preview_search_suggestion_two">sample weather</string>
+    <string name="preview_search_history_state">Sample suggestions preview. %1$s. %2$s. Synthetic samples only; no search history is read.</string>
+    <string name="preview_search_history_shown">Suggested apps ranked by previous use, and a Recent query shown</string>
+    <string name="preview_search_history_hidden">Suggested and Recent rows hidden</string>
+    <string name="preview_search_history_learning">Learning enabled for future searches</string>
+    <string name="preview_search_history_paused">Learning paused; previously learned samples are kept</string>
+    <string name="preview_search_history_query">sample recipes</string>
+</resources>

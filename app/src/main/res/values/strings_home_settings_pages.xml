@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Home screen settings: main page and its sub-pages. -->
+<resources>
+    <string name="settings_home_header_customize">Customize</string>
+
+    <string name="settings_home_page_grid">Grid and spacing</string>
+    <string name="settings_home_page_grid_summary">Grid: %1$d × %2$d</string>
+    <plurals name="settings_home_page_grid_summary_hidden">
+        <item quantity="one">Grid: %1$d × %2$d · %3$d item doesn’t fit</item>
+        <item quantity="other">Grid: %1$d × %2$d · %3$d items don’t fit</item>
+    </plurals>
+    <string name="settings_home_page_icons">Icons and labels</string>
+    <string name="settings_home_page_icons_summary_labels">Icons %1$s · labels shown</string>
+    <string name="settings_home_page_icons_summary_no_labels">Icons %1$s · no labels</string>
+    <string name="settings_home_page_widgets_summary_overlap">Corners: %1$s · can overlap items</string>
+    <string name="settings_home_page_widgets_summary_no_overlap">Corners: %1$s · no overlap</string>
+    <string name="settings_home_page_widgets_summary_own_corners">original</string>
+    <plurals name="settings_home_page_pages_summary">
+        <item quantity="one">%1$d page · %2$s</item>
+        <item quantity="other">%1$d pages · %2$s</item>
+    </plurals>
+
+    <string name="settings_home_locked_main_info">While the layout is locked, new apps aren’t placed on the home screen, and the grid size, widget overlap and pages can’t change.</string>
+    <string name="settings_home_grid_locked_info">Unlock the home screen layout to change the grid size or move hidden items.</string>
+    <string name="settings_home_header_edge_space">Space at the screen edges</string>
+    <string name="settings_home_grid_spacing_info">Keeps apps away from the edges of the home screen. The space between apps follows from the number of rows and columns.</string>
+    <string name="settings_home_labels_off_info">Labels are hidden. Turn on Show labels to change their size, font and color.</string>
+    <string name="settings_home_widget_padding_info">Adds an inset inside each widget’s cell, so widgets don’t touch each other.</string>
+    <string name="settings_home_widget_overlap_locked_info">Unlock the home screen layout to let widgets overlap other items.</string>
+    <string name="settings_home_add_page_locked_info">Unlock the home screen layout to add pages.</string>
+    <string name="settings_home_loop_pages">Loop pages</string>
+    <string name="settings_home_loop_pages_keywords">infinite scroll wrap around</string>
+    <string name="settings_home_discover_off_info">Turn on to open the Google Discover feed by swiping outwards from the first page.</string>
+</resources>

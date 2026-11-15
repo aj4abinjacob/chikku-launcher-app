@@ -1,0 +1,22 @@
+<resources>
+    <string name="preview_gap_launch">Try launch</string>
+    <string name="preview_gap_return">Return to sample</string>
+    <string name="preview_gap_scroll">Scroll sample</string>
+    <string name="preview_gap_sample_app">Sample app</string>
+    <string name="preview_gap_app_showing">Sample app open; drawer position %1$d</string>
+    <string name="preview_gap_drawer_showing">Drawer open at sample position %1$d</string>
+    <string name="preview_gap_home_showing">Home showing; last drawer position %1$d</string>
+    <string name="preview_gap_drawer_state">Synthetic preview. %1$s. %2$s. %3$s.</string>
+    <string name="preview_gap_auto_close_on">Drawer closes after launching</string>
+    <string name="preview_gap_auto_close_off">Drawer stays open after launching</string>
+    <string name="preview_gap_remember_on">Reopening keeps the scroll position</string>
+    <string name="preview_gap_remember_off">Reopening starts at the top</string>
+    <string name="preview_gap_sample_alpha">Alpha</string>
+    <string name="preview_gap_sample_beta">Beta</string>
+    <string name="preview_gap_sample_delta">Delta</string>
+    <string name="preview_gap_sample_zulu">Zulu</string>
+    <string name="preview_gap_group_number">Group %1$d</string>
+    <string name="preview_gap_groups_description">Synthetic drawer. Tabs: %1$s. Sample app order: %2$s. %3$d groups, %4$d members. Sorting: %5$s.</string>
+    <string name="preview_gap_groups_caption">Synthetic examples · %1$d groups · %2$d members. Up to 3 tabs and 4 apps shown.</string>
+    <string name="preview_gap_empty_group">No members selected</string>
+</resources>

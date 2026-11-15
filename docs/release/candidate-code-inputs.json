@@ -1,0 +1,2537 @@
+{
+  "scope": "Production source/resources/build input files matching the inspected preparation build. Git revision/archived source recorded separately after commit.",
+  "files": [
+    {
+      "path": "app/build.gradle.kts",
+      "sha256": "69b52e85a4fadfeaf1b576f47ec05cc737ac45581aca27d04ecb43bc0757c839"
+    },
+    {
+      "path": "app/proguard-rules.pro",
+      "sha256": "60e530716d29a192544306ecabafb49bcce17510df1a9c6cc138bda129867fec"
+    },
+    {
+      "path": "app/src/main/AndroidManifest.xml",
+      "sha256": "078cf5529ad187c32d2628b6273d434d929009031168da6230e07d9d58424ed7"
+    },
+    {
+      "path": "app/src/main/assets/legal/apache-2.0.txt",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "app/src/main/assets/legal/assets.txt",
+      "sha256": "f8f330f283a01cec6bdb0234521d87a954fb5824915b213a2632942ba5f19a54"
+    },
+    {
+      "path": "app/src/main/assets/legal/cc-by-4.0.txt",
+      "sha256": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    },
+    {
+      "path": "app/src/main/assets/legal/dependencies.txt",
+      "sha256": "d6889e78558d8e42782b2d1ec97d53698343d045f72d3e244f1e9b1060cb4101"
+    },
+    {
+      "path": "app/src/main/assets/legal/gpl-3.0.txt",
+      "sha256": "fb981668c18a279e285fc4d83fba1e836cc84dd4daa73c9697d3cfd2d8aca6e0"
+    },
+    {
+      "path": "app/src/main/assets/legal/native.txt",
+      "sha256": "e6a289c5080dca950e9f0cc1051b0d853fc363646fb81ef9a938f4005bd0c4a4"
+    },
+    {
+      "path": "app/src/main/assets/legal/privacy-policy.txt",
+      "sha256": "f48b829b50425144005c6d7b0680e84b78effdba68fff7acfc39cdc9b611cb56"
+    },
+    {
+      "path": "app/src/main/assets/legal/source-access.txt",
+      "sha256": "7f034f8fd7d25a569bb3933695b0476bb8a2c0aba3b4bb9f5106a8ab54d73242"
+    },
+    {
+      "path": "app/src/main/assets/weather/cities.index",
+      "sha256": "e9feb30e59b9fa5b7e2e60428761a3bb37d60d58aaced65c0f5b43c08d800605"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/AppContainer.kt",
+      "sha256": "da720e36bbe480bf0e2b163705830f3a59ea8473ce1d9620440c8d31a6609ffe"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/ChikkuApplication.kt",
+      "sha256": "9ca36a2f44191933489f9ac8264fd004d16dd520bc9d0d50acc5511ba114ecaa"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/applock/AppLockManager.kt",
+      "sha256": "0af4bc02133ac290f6d182505921ac84db9dbcdce19755fcf4d76553d0901a06"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/applock/AppUnlockPrompt.kt",
+      "sha256": "20601ef3b310e0d50fe7b86ff7328bde229f2319b6cdd065d879e81a0bb77ac2"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/backup/BackupStorage.kt",
+      "sha256": "8e990ee3ccca74efa011212d338060b75dcd113e4d8543c99099fc9415236b1c"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/backup/BackupViewModel.kt",
+      "sha256": "5f912c02ab3224bd9b5d417ca6567a2ee216d6b61a7368c488d6d59f475c821b"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/badges/BadgeAccess.kt",
+      "sha256": "9dea44a7753dd5796446af8da0360ea1b0d8a54b6c7aa194da8c903875935580"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/badges/BadgeBinder.kt",
+      "sha256": "d7741e0b06c443a7535f27067a8bb6408fd20ff693ee1b64c82c9a0af1ea3a64"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/badges/BadgeModel.kt",
+      "sha256": "471f59a29fbafaf0fad279816c93a97df58b68ce8492593d8b0e35ff1f1df34b"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/badges/BadgeOverlay.kt",
+      "sha256": "36dbfe40bd6deb088339413fd5169325056abee48bd1c9baf4ba829f5242fe8b"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/badges/BadgeRepository.kt",
+      "sha256": "0c0f56c8c4b8d6009d6f4a19a90023346283029fa9e0ec5295c3fa69bed49332"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/badges/ChikkuNotificationListener.kt",
+      "sha256": "b16040b9ed10784227b323f58fd96d29fd2d5be2b124000562fddaa26e40f45c"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/data/ChikkuDatabase.kt",
+      "sha256": "2925dfeaa832a74f27ee4ed4e9aae402e45bade9d8cdbacbb46e5807b5219c1c"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/data/ChikkuDatabaseFactory.kt",
+      "sha256": "4c9dbe60f1495363f16bfabeddc6beb852cf0c4e40ea70e7afbc154ee2b26c9f"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/data/ChikkuMigrations.kt",
+      "sha256": "78e59faa293104346c0003aa8ec0dc20eb883871f53e0618555f0ac5e722c2f0"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/data/CustomizationDao.kt",
+      "sha256": "7de68af9bebbca36ba14909a7ae3cbf6c3b0cc9140929979bd497d8610780dfe"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/data/LocalSearchHistoryRepository.kt",
+      "sha256": "9ba13b53456bfc420332741e9e95f591ff9bbc5c91d0eb2b283f324d86be33b1"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/data/PageEditJournal.kt",
+      "sha256": "e8950a123395e0ae04e2ad94d64418ece53452dfc56427c26e738c289da99b59"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/data/RoomCustomizationRepositories.kt",
+      "sha256": "bfc0329dab38366431f253a2d3c5530bbf02203841f6204152a51de102370a26"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/data/RoomWorkspaceRepository.kt",
+      "sha256": "e941f4709c5c7e1103be3d9ba651d2c9289df81156d3e711c86cea1c939c9996"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/data/SharedPreferencesAppLockStore.kt",
+      "sha256": "857dffa80eae8f036a99ebe29e2ec3ea684016cd5f8bce39ca1424fb5e5508a0"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/data/SharedPreferencesSettingsRepository.kt",
+      "sha256": "5f46d387c5226ea8837b617720877ac7e895e7ec39dcc90beecf93f002c14a4c"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/data/WorkspaceDao.kt",
+      "sha256": "25ac760264ce8a72d9ca11d3b6096106e06933a63a48a2b748ca087f6861b9ef"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/data/WorkspaceEntities.kt",
+      "sha256": "4c17f3b37f75eea300c8c39df4099e885a0ea6f24318619878fda11f106b17c7"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/data/WorkspaceRecoveryValidation.kt",
+      "sha256": "79af5d94b7ba220f1341adddc136f79235d1c61d412f2e785c1d8c462d377a60"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/data/WorkspaceSnapshotCodec.kt",
+      "sha256": "f577f919d2da0807b4d99bce5c8a100f22ab1db24969aaec7fea0f92934d6a96"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/data/cards/CardWidgetBindingStore.kt",
+      "sha256": "030fe2bd7938ef6ab6e9b358073a33f81307c4280b5d27fdacf4fdf4101f73db"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/data/restore/FileRestoreJournal.kt",
+      "sha256": "419987dd4eb6e71a0da7496ad844b53c0a36d88958c04ac8c90b1cacd8fe1711"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/data/restore/RecoveryRepositories.kt",
+      "sha256": "70f88ff1a9f29731f5aaa197d4d7813d08a44322458b63bd6cccebbe39fae284"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/home/AppIconView.kt",
+      "sha256": "2ea8970c368996c42ef09bf6e7e3f53e7ef480c458a0a003dfdbcd2a72501e0e"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/home/CellLayout.kt",
+      "sha256": "f8d54f5ecaf279012291be54b94a4e90e0f7c108e6947cb2e00ee617943abdd6"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/home/CellMath.kt",
+      "sha256": "6c331b3fff56274209e39b282dd662f7e885e8d22e315ee779d6798024a11a13"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/home/ComposeDialogHost.kt",
+      "sha256": "4889ecac7964dc70212187b53df358d26c24a49a0bdf13ed2dbf2d8d31fd1e1c"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/home/DiscoverHealthText.kt",
+      "sha256": "22cafd86c76564b6df2bc5886a23bffe302c34e13dadfa8bbfeb32f1bdc8a2ee"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/home/DockBackground.kt",
+      "sha256": "1218a524aa6c45986168bede7454b076539d09acf1300f7ef4fbb98f85e6e4ac"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/home/DockImage.kt",
+      "sha256": "80cd034b798ab1fb6f6989847316ae1c6a219bcd61bb72b09833100872499509"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/home/DockSurfaceController.kt",
+      "sha256": "e8df1c02de6dde48bf0297a9bdd7dcd3dd3778481185039eaf1a7cee179bd85a"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/home/DrawerAdapter.kt",
+      "sha256": "da5152bb93c9d0e6ae9603bfbf51002e4ad0cc782074123f190cca40d626ed48"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/home/DrawerMotion.kt",
+      "sha256": "69a3fad206808f89f6a09a2ba74ce31fd3fe5c2be62f3228af3a566cd4160c52"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/home/GuardedExternalActions.kt",
+      "sha256": "76b74f14146dc18594875da52cfa7fcdfa4a0750fc1380ba7a871c3c6e2187f6"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/home/Haptics.kt",
+      "sha256": "88b162515316e0a6aa11bcfa20d170b2c8ab9b121d3251c712f954e91fbac2a9"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/home/HomeActivity.kt",
+      "sha256": "3e021e24a42060eb066f6c26d1adbca9bdb4ed03d8c24bd97ca54bcaf20b9179"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/home/HomeComposeDialogs.kt",
+      "sha256": "e1012bf53bc27c69af539481d5145a8ab22a3675189102293b18595364e5a2db"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/home/HomeDependencies.kt",
+      "sha256": "f28cf99ddbf48d6d730103685defd08ee079e2e1a3fad3ac3564e61d23dd4ce7"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/home/HomeLayoutMetrics.kt",
+      "sha256": "54590388f31007cde55cac73c0167a6204d9a58cd4fccb8ff3565376a9137186"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/home/HomeMenu.kt",
+      "sha256": "f06aa26ca002ba8a73e5244506ae61a1ad5ce40c8ba201a12972a9cf4e481c62"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/home/HomeUiState.kt",
+      "sha256": "591ddab0f993fea84d665699b19bbe0791e5c3972d77f30ee50110f47d49bdb0"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/home/HomeViewModel.kt",
+      "sha256": "7353f122e12eaa550c5d979a11569d479904f5d9a2c2140c13dade44eb4ff43e"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/home/IconBinder.kt",
+      "sha256": "812cf050f5c4ee0e55b47d4410086c094cbe0196c865fc27b78ec4fcd77893a9"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/home/ItemFootprint.kt",
+      "sha256": "8c1effbc772d0924fced4a8c327bfb9608eb79475cb797d878855bec6547536f"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/home/LabelFontSpec.kt",
+      "sha256": "b5dacad4ec6d91c8407041bd359c5c7651b673f6df8fecba47e410a07076cf55"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/home/LauncherMenuStyle.kt",
+      "sha256": "3e356384ab75f3b3457a29e52ee6a7c2d4111143919a690dad7d3e00f0b465c2"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/home/PageIndicatorView.kt",
+      "sha256": "765508f3e0ceacf0abf8014f368dc83cca4370ffad0010f33e232aff8a4fce58"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/home/PageTransforms.kt",
+      "sha256": "d7aa7a709c61a0a6b424f3e018a32dc0e7299cb9000ff210ece11d78488c180d"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/home/ScreenEdgeShadow.kt",
+      "sha256": "bc5592809a38c785abbf0c9ccd1539d9b566279b52872702e341a919fccfd0b6"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/home/ShortcutPinActivity.kt",
+      "sha256": "fe6703cbdab221897d520d7bf8490e44c61e79035497e033558ac4de12ea3e45"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/home/StartupGuard.kt",
+      "sha256": "afa1c2bd55c52e7a36a33a7da231a24940107824fbe2b189029c033f062a1c5c"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/home/UndoBarView.kt",
+      "sha256": "b5d686b8bfd8e0c16b91cc37615f558f4b9626ef9aed636a3036c8f364180e5f"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/home/VerticalSwipeLayout.kt",
+      "sha256": "ea3b4f86eaca573c6754e2461f72d6de7d636ddb6162297c9228b0c4c29df28c"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/home/WallpaperCommands.kt",
+      "sha256": "954a6c13703f52acbd435d823e8789dcf9adc6efa5274e00423eaa33a6f84cbb"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/home/WorkspaceController.kt",
+      "sha256": "0aa0a38102607dc16391a7c0febd0b6dc7c5d8efcd4bfd927899cf82be9c8606"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/home/WorkspacePager.kt",
+      "sha256": "4e5e85bb6982040ea5a26587ca18e2623fc65341ccdc939ea7f7a626acefdb50"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/home/appmenu/AppEditSheet.kt",
+      "sha256": "32324786110ff813c9a04f28c1a8da736aa6dda9db3628f7ede83d8c6ffd6e51"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/home/appmenu/AppMenuController.kt",
+      "sha256": "03f4ee4d867759af66ad50a01e47d6925843f151ea357b9de81d1d48a3fdf287"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/home/appmenu/LongPressMenuDrag.kt",
+      "sha256": "9f423a446c25e197ac62487bcedbf902bd4999bc2607f0d8a7c2f7dffa2be1ac"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/home/appmenu/MenuActionGrid.kt",
+      "sha256": "16149af9c9ee1fb3a722decbb9d0f66cf476f0bddd7af3d9af3fcced47e4f415"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/home/appmenu/MenuArrow.kt",
+      "sha256": "7d9abaf8f6455671d95875acab1c3beaaf342d19cc19204fcc4e1ee948ad7cf8"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/home/appmenu/MenuPlacement.kt",
+      "sha256": "386fcfa6c82751b0effe11727c9c4fbc712ef16933050bf4afd0b9c07e4613f5"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/home/appmenu/MenuWindowPlacement.kt",
+      "sha256": "e77b0a62bd4f2e45ec17469832aa6c632e3ea8ae0d3f2d17bfa3cdcbae9cc1ad"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/home/cards/CardPresentation.kt",
+      "sha256": "73ecf9c99d61d54f774225e1209a93aaa73d78544e8d1ba944fb9e6c80382e80"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/home/cards/CardsController.kt",
+      "sha256": "ca201d90aaf8f2c8b8e1d314ff8a9fe090cd6aaf5028d6096acbd78691b0f4c0"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/home/cards/CardsPanelEmpty.kt",
+      "sha256": "4f097d3115609b69758f607b52bd2c072a3c485cbbcf06cb3fc8fc95fdea8438"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/home/cards/CardsSurface.kt",
+      "sha256": "d1e8af0b6cab007cb4a7f032a2e298fc39af388b2dc1b55eaf2ff2231ee2b4ce"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/home/cards/media/MediaCardView.kt",
+      "sha256": "b7c2ca6907b8871ba349e4546c3362c99a71d471d823e049b88e9a3681d17c78"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/home/cards/weather/WeatherAttribution.kt",
+      "sha256": "f1f777c6f38378f50fd8974f7f6ea30132c621b00df64481a6495354031805fe"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/home/cards/weather/WeatherCardSetup.kt",
+      "sha256": "1d90de8d0c3336a5965bfd7594c054e49fc135b6967c1ddbe1cf0bdb7cba0168"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/home/cards/weather/WeatherCardView.kt",
+      "sha256": "acdc54d270885315fdc8e34ed23f1041212bfcb2b66a0c2bc9e749d8523ed1da"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/home/cards/widget/CardWidgetBindCoordinator.kt",
+      "sha256": "d927b1879f49ed57c80b2dde89dd7d5087d163213e488affbaa3df3b3bb7b22b"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/home/cards/widget/CardWidgetCatalog.kt",
+      "sha256": "6612cd0d1c54427d4573f4fa456dc8ac258133a6dee17e2cc58bd78b85a32756"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/home/cards/widget/EmbeddedCardWidgetController.kt",
+      "sha256": "ed68ccd90a4c75cfb9658c2a568d7e2df3cb70b890080d94bb18cdb2febdc452"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/home/cards/widget/EmbeddedCardWidgetPlatform.kt",
+      "sha256": "85f4f49396eb92052b895332e1aa5e534c4849a1efba01239c220043631b5908"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/home/drawer/BubbleNudge.kt",
+      "sha256": "5a60905641a9ae649f18c981efbf27d74e80f56e51386252306658456e57c31c"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/home/drawer/DrawerController.kt",
+      "sha256": "5b9a47678d1c43244127e88c1054da27bf1e97fb53e10b40cf277e501c46ad56"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/home/drawer/DrawerFastScroller.kt",
+      "sha256": "6a2491fd8b641e1c7d6ed574b3b2cae28d663edb1ee40889ae6bf20b17b83a70"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/home/drawer/DrawerListGroups.kt",
+      "sha256": "50b8a63b5ecf4a50daadf33bdb62218d0f4fd6c03671ae5958cff3eb0767a1c9"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/home/drawer/DrawerPageDots.kt",
+      "sha256": "361459e02cc1ccb95255116b71bc3eb0d87e246f0fcc56eeb0821984d28d9fa7"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/home/drawer/DrawerPageSnapHelper.kt",
+      "sha256": "41b23ab5586529c9120d2984d6e57fc5b63aee4c63c7b0ff4dfd3e610d2d5763"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/home/drawer/DrawerPages.kt",
+      "sha256": "2c470c633786ca58856ef4b775e895d85ff8aba6e2e8c4ec98975a8d0b7b5050"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/home/drawer/DrawerTabSwipe.kt",
+      "sha256": "0315cf167329085256ba841be3d35cbabbed20cd0e981c7f24269304e2124a59"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/home/drawer/FastScrollerPopup.kt",
+      "sha256": "ff3f1deb20c8d82713728cdcf371cbca2efec0fbcd0d01481be4151eee6a0dd8"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/home/drawer/HorizontalDrawerRecyclerView.kt",
+      "sha256": "cd3ac924fd954586e7493be739461ede0c0e0232aeb9d5b481c723dbf9b06f26"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/home/drawer/VerticalDrawerRecyclerView.kt",
+      "sha256": "3a3d5820f95315b98eb9e56061d37326b27b50fc828d8338fbf93c1ba88ac766"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/home/folder/FolderActionPicker.kt",
+      "sha256": "05929c247347b1f23db3877173948863e7907a17e076c57f1c60e03a7be5951b"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/home/folder/FolderController.kt",
+      "sha256": "3d5e1151cd457472f2fb57e244f42d42034961480accaa3c273fa1523ad8fe40"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/home/folder/FolderDropPlanner.kt",
+      "sha256": "9759d5ee4ac1d2a339b3336c5712bfcaedc5155ce82745ba242982987f4a98ca"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/home/folder/FolderEditDialog.kt",
+      "sha256": "2cb4180d098be773e8a80594fbaa5ecd1e5348e32d56f08c5620aaa183e64052"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/home/folder/FolderEditSheet.kt",
+      "sha256": "fb1852c5e6ca0560fe4c05a4111a1f7876f0b295938bf5cc075bb942f912003b"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/home/folder/FolderGestures.kt",
+      "sha256": "894f4876e516c46859fd8ca2215f0e159c8a7dc3ec02134064de72dc2fa86c3e"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/home/folder/FolderIconBinder.kt",
+      "sha256": "97102ee1496f43c8fff7b5c470d71a98d9da58c3275cdd7a8459507f8a637726"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/home/folder/FolderIconDrawable.kt",
+      "sha256": "123ed8f1c1145bedc23bfed8c9f3f1f8ab8a6ac1680e1a0b5774b17adbfa68f1"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/home/folder/FolderMenuPopup.kt",
+      "sha256": "2b6564a57b8f63da5af78f9aa1e60f52a3ec9ae5942215f9711ea5b97528c832"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/home/folder/FolderPaging.kt",
+      "sha256": "0856282c70e176ad3d1cedf8472b21934adc66f81c327c45e321f1da235eaf89"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/home/folder/FolderPopup.kt",
+      "sha256": "41eef4cde6c0d8af7ec5c9180c037e5f7ce7508b91c84cce4b21fd966150cb9f"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/home/folder/FolderSwipeDetector.kt",
+      "sha256": "136927555e8c43d019b3f1742f5a0960f1640e38a70ed4cd477ac3a30c12c32f"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/home/gestures/AccessibilityPrompt.kt",
+      "sha256": "572dafda36f57f344152df8ad1ed94679a0ea5f36a64265990e14cc37eb21012"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/home/gestures/GestureClassifiers.kt",
+      "sha256": "f96df251e0eb4cac9b1c26276b9d2b7345d0931d608a6d45e2d608e22173c32d"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/home/gestures/HomeGestureController.kt",
+      "sha256": "f8dd6050ca0499afc1aa48dd02e5120d846fc29d7723ab2613967215f471efb3"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/home/gestures/HomeGestureListener.kt",
+      "sha256": "714f462440b21cac080f910fb77d68e2f4bd40953757feda058e3a1f59e2b7d5"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/home/widget/ChikkuWidgetHost.kt",
+      "sha256": "3233d364d5d834968cb9568cb605c23f058c40a00d5de623a0900d4ae91df780"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/home/widget/ClockWidgetProvider.kt",
+      "sha256": "0a559dc29dad7ff89173680c0acb686973370f70479bead451ee553320cf06af"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/home/widget/WidgetBindFlow.kt",
+      "sha256": "e320b4b12080cb61289c0264f655fcee8839cc3d7d77d5ac1de466a272b94545"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/home/widget/WidgetCatalog.kt",
+      "sha256": "be708af210af0b3e57a6f9f3d22b410adbef0fe8d3c763018a7e0ed4ad17eb32"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/home/widget/WidgetCellView.kt",
+      "sha256": "8fd0345e20ba48a48748d2ca8446982dba08b6ec1fa6d7dcb6de1c3eb11c53c0"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/home/widget/WidgetOperationCoordinator.kt",
+      "sha256": "73e174e0d75bbb8d84decd40034e42a527475864dd7aaad2083c7c9891edeecb"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/home/widget/WidgetOptionsMenu.kt",
+      "sha256": "1ee2c916ba17e373b4d8866c9e2b8f59e12065b6df65a9dc13fa6ae209e11377"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/home/widget/WidgetPicker.kt",
+      "sha256": "1906a95ff42c75d39cf4161c4afedabfae96aa72c30917f8a34daba9d5dad1d0"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/home/widget/WidgetResizeFrame.kt",
+      "sha256": "0f25c4fb8789541b08fd27d9cafccb669ca03d9eab5e39228c996fd91d8c91ba"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/home/widget/WidgetSizing.kt",
+      "sha256": "d7ec1d30f32d103c814c1df64947a2aa2837efa804e25c90b7fcbe204d8ed83a"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/home/widget/WidgetViewBinder.kt",
+      "sha256": "80cc2f5383e08ad4b57fc7928e7ee2dc87032deeca078598129c5a5b282b840e"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/home/widget/WidgetsController.kt",
+      "sha256": "4e03b3b98b3930bb4ba0dd9f84c7360c10d11469d41d2274b9542b88bafd8516"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/labs/DebugOverlay.kt",
+      "sha256": "4aae6e17a0e91cba196d4ee79e21db864eb4fcbc063b576c8e932fb42f5a5569"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/labs/LabsTapCounter.kt",
+      "sha256": "fa83f5b6e218ecafa24ac971a7b9496ea21da5e49478d8df7677c5d39ce6a506"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/message/ChikkuMessageBarView.kt",
+      "sha256": "cc1255f9d17ed1eb418aa007c35ab46a2296d0ca03ef88182e4e659a52c795c2"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/message/ChikkuMessages.kt",
+      "sha256": "e0aee2fd03c87dd5848ee4213a7fc223054638a7219bac5199d31760984944a5"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/message/SnackbarChikkuMessages.kt",
+      "sha256": "19600eb661b910e51c2fce5bc64ffda564db772fa3c8ee3842291536b3b90ed4"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/onboarding/OnboardingActivity.kt",
+      "sha256": "3781f69f2d12c5511c1f9a58079a4767b059736238c964991b5bd0396db7303b"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/onboarding/OnboardingScreen.kt",
+      "sha256": "abbd0bfc03d6e077202e712a081091e27a4459f92ecf8ae91a70fe0f24393ac3"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/platform/AndroidRestoreEnvironment.kt",
+      "sha256": "ebf1e1a5a389b31bd89d50bca674d2eed87464058863e48c65ad2de7df031bcd"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/platform/AppMenuPlatform.kt",
+      "sha256": "2c82471fc3fed599ae7722e0e012c3f6f21e4d436af9db6b41945d35122149bf"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/platform/AppsPlatformSource.kt",
+      "sha256": "dd0eb730c2b6047a83a9bdf7d89b3e50862017aac5661f37c644b899c876a7b0"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/platform/BoundedRestoreChecks.kt",
+      "sha256": "ef0278d2e3843e456f25128d944a163b1171b04173838bcc94ca7006ee92097e"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/platform/CachingIconProvider.kt",
+      "sha256": "c7ce9f3e138bf3fbd0ddc300257f668f241091a9b96f79dfdda5d7946d6557e3"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/platform/ChikkuAccessibilityService.kt",
+      "sha256": "40db0d69714c203b5a60e5fa5fdfedb7be743653f9fb02ddfb56585f5a83efc1"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/platform/ContactActionPlatform.kt",
+      "sha256": "d36ee7f4505995719debed4d1bbea51c00dceda60fbfdea11c5cd936b3f2a69a"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/platform/DefaultDockAppsResolver.kt",
+      "sha256": "c5d1a2f829457eae3e6da1033de7d80ad9bdba815830cf5255fc6cad18713085"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/platform/DiscoverHealth.kt",
+      "sha256": "00783f3ac0617ec518763309bb6aab6d79b34736b0e9802356e18d4d72eb81e9"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/platform/DiscoverOverlayProtocol.kt",
+      "sha256": "5e97c048a64da0db12200b6442ea405c646fbb3b5a7ab6ee92707830ca5c3c6f"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/platform/ExternalIntentStarter.kt",
+      "sha256": "0247469c762a89e86600ff6a06bcf3fc9d602063e65a2d4f4f9441ce46b9cb48"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/platform/FirefoxWebsiteShortcut.kt",
+      "sha256": "019705d0263eb9ca2eeffe1551cde251190ab315cbce35eb52baabf41725e0e7"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/platform/GestureActionExecutor.kt",
+      "sha256": "6b612b593d32c310bb00f1572e62eb9eaf70cb544538362ff0dc59e3306eb900"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/platform/GoogleDiscoverClient.kt",
+      "sha256": "47c5b6375cff1526c1b62f6e362cb4600eb9aff4d1ce2caafe5e1c0ff1207834"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/platform/GoogleDiscoverResolver.kt",
+      "sha256": "f43655470d3d86ee392a6a89a6e4ab61e08c5ad571183c4c085039d0f460d015"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/platform/GuardedIntentLauncher.kt",
+      "sha256": "9ccac2e3115674d67a0b6c8a6268adfd9a595216c02c2ea55db8c019b7df47a1"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/platform/LaunchAnimation.kt",
+      "sha256": "c437f3c3295540494eb15a5e5eae17c5d46a7f21510a0a70089ed474055ecd83"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/platform/LauncherAppsLauncher.kt",
+      "sha256": "d54d2e77bbe5e6f55684cee91013b8c44e539598f428b8df968c6773a4d1b63b"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/platform/LauncherAppsRepository.kt",
+      "sha256": "2daecd319ab051bbfb4387492793a9ac562d6aad049e23fbd7676d1739e04eb8"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/platform/LauncherAppsShortcuts.kt",
+      "sha256": "1bf87f2aa4d6d7b856aa3562cc32b5a57aa2dead48f960556737ffaba6216aef"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/platform/LocaleSectionIndex.kt",
+      "sha256": "43a4f3614d7d971d36268a0fc43d42c67c52c87e2cb5e2df48d0280f5de164f6"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/platform/NewAppsController.kt",
+      "sha256": "f6588ca89b22eed32b2aefd8602942e2f521a5305717fc0a1f2e90d733d8cf0f"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/platform/PlatformContracts.kt",
+      "sha256": "ae6d52509303810cd6e05573f29cc4b3cd7de42732147c04527c2391998a41da"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/platform/ProfileAvailability.kt",
+      "sha256": "ad1c7a34481e9fa759516b1602926fff6daeeda6bc793ace4d876757431ed6bb"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/platform/RememberingAppLauncher.kt",
+      "sha256": "17f3a7701e98f12c8ab5b8b0b936410ead90c953773d343fa6631eb0e3668729"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/platform/RoleManagerHomeRoleController.kt",
+      "sha256": "b0670f9db3115dd9087af9a558631346954b6f366880fb45aba8e0f9a91f2dfb"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/platform/ShortcutChanges.kt",
+      "sha256": "d0591954cd6f3c87eb3b145b605be32ea4d5f264a04955aeaa5ec5ce763a0c7d"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/platform/ShortcutIconLoader.kt",
+      "sha256": "e07946b71dad6a52ca8e3c457372222ce78a5846b67781df0b3e3bf794d52f4c"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/platform/ShortcutMetadataPolicy.kt",
+      "sha256": "caea43389a68211437d0901e3db234d9edbfd537230f3943dca3bca316078fee"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/platform/SourceDownload.kt",
+      "sha256": "22be285d742812dfc6e16d1385baf39b6cefca806ff62363b65c69fee86dae65"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/platform/StoreListing.kt",
+      "sha256": "67786b104fabd4f031d989c8e3a963ccc86f58dd770111b7e80c735e94b757c9"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/platform/cards/CardEnvironmentSource.kt",
+      "sha256": "de63f7d2af9ff8577d86387aa649192875f0804ded2c8889ca2147df5fd8f9c6"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/platform/cards/CardsTargetValidator.kt",
+      "sha256": "f10eacdd3d9d8e473f258a0c57e6a677216b4d5bea49247fa1292a5b8abef5a4"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/platform/cards/bluetooth/CardBluetoothSource.kt",
+      "sha256": "5ef0603bf4c073be9c56f39e517ce9cee8bfe67647dc1d562798b4d03fa1ce04"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/platform/cards/media/AndroidCardMediaSource.kt",
+      "sha256": "dac5abc7654768188b7189bd09855929c1505a613c38a791d9bfb234cde8e792"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/platform/cards/media/CardMediaSource.kt",
+      "sha256": "310a41369954aecf70f0978319ac2861cc95575b0ee278acbf1edddfc21290b9"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/platform/cards/media/MediaCardPlatform.kt",
+      "sha256": "c577d3a7f8e75837b245c69fa20aaef07b9d379a04f429c5a39eb5789a7935f8"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/platform/cards/weather/CardWeatherSource.kt",
+      "sha256": "d3b0bee7a97faa3018ab18421922b728204a55acaa9588c73b08d29bd1444d31"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/platform/cards/weather/ForecastCache.kt",
+      "sha256": "da8723c45a8a597fb2193a40601cc8f41bb096397c74755fb01ad275f70bc6ca"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/platform/cards/weather/MetNorwayWeatherSource.kt",
+      "sha256": "45603fdffa3efb9386d17bebb6684bd22ab035257540f73ac52531e623b2e435"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/platform/cards/weather/OfflineCitySearch.kt",
+      "sha256": "cca9f80dcfae5353b88e10e89c65d536d32c6bb2a17d2db3ee20297eb4712edb"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/platform/cards/weather/WeatherHttpClient.kt",
+      "sha256": "3da370e260b0474b558df5e3b9bfab8b6018eeb274a9ffe4173be77b4c81007b"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/platform/icons/AppFilter.kt",
+      "sha256": "e8df58090683f639cae02e2700438d05c240e75b0069c55ce90300d01a7e7592"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/platform/icons/CalendarIconMetadata.kt",
+      "sha256": "b07a23c3f3cbac54bb9d556809624172b1279bf34bfd157f4941b27cbe4d0210"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/platform/icons/IconPacks.kt",
+      "sha256": "57f3839677a217962110ba7599525df0487d4506daa3fedb3301bdbd77959b23"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/platform/icons/IconShaper.kt",
+      "sha256": "c6593769f1e4c3e857271f08baea14a2c60f5e54bf225adc00fc34b7a612e05d"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/platform/icons/IconTheme.kt",
+      "sha256": "74edcc7186f6229964754c194c154b82f99721ad9a94e52a85e484683baf2f51"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/platform/icons/ShapeGeometry.kt",
+      "sha256": "488735ed70e2f62944723695b0d65bdd91170a3205b0f15b75e2c2e732738f75"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/prompt/ChikkuPrompts.kt",
+      "sha256": "ae06f5535b96fa2926c703ba65d3dd9da6856ae59b040442f0957c61d9968226"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/search/ContactsSearchSource.kt",
+      "sha256": "e3424811c092b700fd75bdf6c4fc14b02863f8b11e2bd2ee54ec9f5f86db4e3f"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/search/HomeSearchEntryPoints.kt",
+      "sha256": "a9d8e9c06db7310834f45089d0efc99e247726c7e473c35e92161a5ac43bca03"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/search/HomeSearchOverlay.kt",
+      "sha256": "2ea9664fa0336876c6486f5c1043fdec82b5dac6370bf3826433e439da3652d4"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/search/HttpsWebSuggestionSource.kt",
+      "sha256": "d94b881648f83d9228091443555ce2f568207dd4747b107362ca06921b2e8777"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/search/PersonCard.kt",
+      "sha256": "04ee4358a2f81e7edd3986d0c64e81482935e95d5f3a6e71c29fc419e65816a8"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/search/SearchActivity.kt",
+      "sha256": "10016ec723638de05e69e3efe2638396348e1763267481cc4690202e77406399"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/search/SearchAppResultView.kt",
+      "sha256": "0f93ae2b17a7e852c2db072949f6ce7692c86fcff92bdc0d20f4549dc5564742"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/search/SearchHandoff.kt",
+      "sha256": "2bea358f754f6dde862e0978147605ae8123a4a101e5304d7d4f3bdb8c4dc458"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/search/SearchIntentChooser.kt",
+      "sha256": "cee2be23762a65fbfb53935b0cc8e36a0c4bf533f51abe84b8cc5379798f653c"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/search/SearchNotices.kt",
+      "sha256": "27f2921cd4313872eefa92bd4e0601c12165077b0f0659c4c4aa54f013424e2a"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/search/SearchResultActions.kt",
+      "sha256": "498f97b8e8fd63a8a740a8f2bfd36836f39df12a4bd03bc9e25d3ed530123159"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/search/SearchScreen.kt",
+      "sha256": "243660cf2cd35e13a43b895e58d23421aa192413c47d8d641dc29765c49695e6"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/search/SearchViewModel.kt",
+      "sha256": "7a8e31b4ec13539fa4bc62b7bc2c47b20847f0b0eaadcfeb6b505b43449457aa"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/search/SearchWidgetView.kt",
+      "sha256": "4bf48732c864485b57f9f3ccff5d09fa51caba4a017dbce613b327d3b1509eac"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/search/ShortcutSearchSource.kt",
+      "sha256": "63fdd2cf3730003b8200781d1a04b5059e240248be81b40178dfaa06c54ce702"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/search/TapOrigin.kt",
+      "sha256": "922900c4a92983126a2dd760e54d5701c378686a90f6cdf5af77f667c413ed0e"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/settings/LegalDocumentDialog.kt",
+      "sha256": "bf93917ebc3b5932121c58d1e6b0fd60e7388c6cead22127c90bca94b0553f39"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/settings/SettingsActivity.kt",
+      "sha256": "9513b8a604308e15cf91fadb7e2aa77ae6892adf1b05499467517a0ac6b3ca07"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/settings/SettingsLocals.kt",
+      "sha256": "59cfc4dc5596741da92ffc7107a0e9d4f5d9f8eb935092212fc7bccffe039edd"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/settings/SettingsScreen.kt",
+      "sha256": "1ad627ad6315d37ba29ba5cc42d1e010a9d560fb79c05efaeb1b1120622a74ce"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/settings/SettingsSearchIndex.kt",
+      "sha256": "627eba22c3bc17b598040c31472728e63341f34933dc907ee087a42867b4816e"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/settings/SettingsSection.kt",
+      "sha256": "0bff635c1de1c0dacc334bb39f2a857603bdc41cfa6ff56a193fd3c13bf7f206"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/settings/SettingsViewModel.kt",
+      "sha256": "723ddd8da9e598519f2621382024f19cfd1c8efe774155db40a926c7f6244e28"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/settings/backup/RestoreDialogs.kt",
+      "sha256": "9cddfcff913135c91672489acb7caf41702e34f5b2d206f5b7170046408f0670"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/settings/cards/CardActionPicker.kt",
+      "sha256": "3d4428c75ed40fd6bc536e9ad580e5e538a7370cc2770cb4179c525179d20959"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/settings/cards/CardConditionLivePreview.kt",
+      "sha256": "2fd834d035136244335b8dda4bf7ff8116afd11f2f113a36ee49993d078c8e27"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/settings/cards/CardContentLivePreview.kt",
+      "sha256": "d6d010536f5f565f69d33659ccb7fb183be1607ec3361ea5185ef229e88f1e1f"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/settings/cards/CardDraftValidation.kt",
+      "sha256": "a8894f1bc0ed1febb504d3dd78b83ebe82356e2562811ca1f16669645d3ed533"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/settings/cards/CardEditorDialog.kt",
+      "sha256": "5b9c0663bfbd0305bc5a788249cf71d05eb1653d2b94214699fad13ae3a57b27"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/settings/cards/CardEditorRules.kt",
+      "sha256": "e5f76aee237983d76100ce72292578ccfbb693b17b84d5f692079e9f3bcc7e91"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/settings/cards/CardExtensionControls.kt",
+      "sha256": "d927dc873d753c1a497823623c4817972b057cd5f9a1d8562ff63d0e039cbb7b"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/settings/cards/CardIcons.kt",
+      "sha256": "705d0c66e174971867a96ce54ce6a87f76e671914868f0eba41c3975dd8b827a"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/settings/cards/CardListComponents.kt",
+      "sha256": "2bf1ca24a794a6a27f72fde63921c0b904e0f8397ae258c754016d55472b1b5d"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/settings/cards/CardMutation.kt",
+      "sha256": "cdfdb1d14370d44fb19c1532f665b435145b7bb9130a22634d3df334abcf648c"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/settings/cards/CardTemplates.kt",
+      "sha256": "4a0410260f4fcc751987175b178b649007d4464e2b8372a719d15f5bb035e9e5"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/settings/cards/CardsIntro.kt",
+      "sha256": "c037b3ef6c69eca13cb8dba2f416d37a59cff5ce32302caf81ff36127cf7b70c"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/settings/cards/weather/WeatherCardEditorControls.kt",
+      "sha256": "699df3e58e8f25d5360e41b2530e15d0d90ec1153d4d05f6bc16aef11446b0fb"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/settings/cards/widget/CardWidgetEditorControls.kt",
+      "sha256": "31941221b2ca15012ae39ced8fda3d6c7f379fbfc300cff391f5b750a6387220"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/settings/components/AccentColorPicker.kt",
+      "sha256": "0189d09c1d052245122f90fd6ba79be5a061a573462ccb349115274e8dfce314"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/settings/components/AppPickerList.kt",
+      "sha256": "0d72a595a38bde7bab716a83e88850c33e95e0f1f92187902244c5f9ae36a467"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/settings/components/ChoicePreviews.kt",
+      "sha256": "a8a74c3874f47c9fbf020c20ae3b6533a6796845b49ff0f2778d49d6e94767d3"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/settings/components/GestureActionPicker.kt",
+      "sha256": "d6c98f10533e88ad3ddbd9ded9f465e1a5e666aa524dd381c7391b4543083db4"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/settings/components/LabelSettingsControls.kt",
+      "sha256": "28fcbc3b01b52c495d55f4ee62de295ec8479f1ccdb17dbe6325282568deef14"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/settings/components/LayoutChangeConfirmation.kt",
+      "sha256": "41edbb0be2569af2914e10ff3d4d93408ca39e42f2f0019b709d9d5b49f2a5f4"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/settings/components/PermissionState.kt",
+      "sha256": "b67f63c13ba00c919d4db5b70edfed53e4319e82e4fcb713b8b9f821914a7e0e"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/settings/components/SettingsComponents.kt",
+      "sha256": "415ab94ce624fcff00541b89181dd79d85bd726d7676afbcb12deae560f8aa17"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/settings/components/SettingsFastScroller.kt",
+      "sha256": "f2d5cc434685d6dd707340a2179c9f625f7d56cba5694435aad8cc696b7b2f7c"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/settings/components/SettingsSubPages.kt",
+      "sha256": "ca8f1edd7b7435b45785b4d7f866f020d28f2e4dbe18df0c33480a5e293d2eaa"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/settings/components/SliderValueLabels.kt",
+      "sha256": "6a28cc3ebe2f1cac5f8651dc3a8db0f189629b297d4aba690ea75c4abbcb9aad"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/settings/components/SpacingLabels.kt",
+      "sha256": "156cb7560247adcfb302c7ff0cd2842d88e2592c4ed5b4456bc176dade2f39ad"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/settings/components/SwipeActionsEditorDialog.kt",
+      "sha256": "fe1bc790662a035baef8cfabca0e0bad6b1169b20eeb5b25c4dd8a90dae3861e"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/settings/components/WebSearchSettings.kt",
+      "sha256": "31c27a52ca863e37cfaa2afff504e6d6d1eb1403e02600e28531639e2ab9049f"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/settings/dock/DockAppearancePreview.kt",
+      "sha256": "4b4cefc28419ea640daadb9e575643660e80b6add28c859d9d53a22c11484bb6"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/settings/dock/DockPreview.kt",
+      "sha256": "231fd16175a743a1e1b5eed1f3fd4cd6fc066c83f58436876fb79c5ee3022374"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/settings/dock/DockSpacingPreview.kt",
+      "sha256": "8e23e401ddda6c4f1a9c862bb30d68a6df8285bf0ec5251990c387e251417656"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/settings/dock/HomeBarScenePreview.kt",
+      "sha256": "e72148ae8dfa53c612b66e79404e252070c4b965bc757d41a576fbc95afae992"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/settings/drawer/DrawerGroupsScreen.kt",
+      "sha256": "e70235c2a9d56cc5eb95060a7e63f43b8c97228bb0dedba7309ad1a91abb60fd"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/settings/drawer/DrawerSettingsData.kt",
+      "sha256": "e32b3f23f19e3d25800120b590c17e1f6ec23bba291330472064a4cca9dddd87"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/settings/drawer/DrawerTrueScalePreviews.kt",
+      "sha256": "07538d4fae5cd791a26292d762565b3f48fed057c30bf727a7587d9e8a3b35d2"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/settings/drawer/HiddenAppMenu.kt",
+      "sha256": "48d695cfab8cdb822d8d62fd9f9f07e6206f763f5ceb030f0e1e462212617b58"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/settings/drawer/HiddenAppsGridView.kt",
+      "sha256": "21dbbc4c7f878a2e32b80ac1adb7afff0cb22e359918c1fec3837a9ddd1d8f7d"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/settings/drawer/HiddenAppsScreen.kt",
+      "sha256": "0c285c316c95012ac72f2577e2471cdfa9676135106dda42007249210745e2cb"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/settings/iconpicker/IconPackChooser.kt",
+      "sha256": "3b91ec69c4d5980351805b333a6426c3f28d23a99d100b2ee4613e736b3d7987"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/settings/iconpicker/IconPickerActivity.kt",
+      "sha256": "dee523049de19f19e93694548a3dd6f79be732bb1b7e12d182765dcce8a1a97a"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/settings/iconpicker/IconPickerComponents.kt",
+      "sha256": "30fcc3cdb2f39396e7e5095064c37562a2aeb0d9f416e2bffaafd242b3e86dc8"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/settings/iconpicker/IconPickerLoader.kt",
+      "sha256": "22aae8a1bb66c7b520a50981ebd538934fd6526182c23f81a16dbccc6c42ff01"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/settings/iconpicker/IconPickerScreens.kt",
+      "sha256": "054409a8ccc1b897a63348c9bf3b45a18396a9d8c0864f0644cdbf9498ece353"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/settings/previews/AppearanceLivePreviews.kt",
+      "sha256": "5adaa31d908ad3f6a28e8184ac218f1bc0790a0d919878b80a772d64b4de06d5"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/settings/previews/ContactCardPreview.kt",
+      "sha256": "746a81310da0b7e6e2d874f7b2c5f6273b545a32888f37f354c066640c499f78"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/settings/previews/DockSearchLivePreview.kt",
+      "sha256": "a14865dee52584bf05845ff76f49c9393a77218f62578eaf2105ebab3de9a688"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/settings/previews/DrawerFolderBehaviourPreviews.kt",
+      "sha256": "b248e1ce7279093063176c6fc3926ac00a15cc7479b7ca84877ff122a0bb74ab"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/settings/previews/DrawerFolderInteractionPreviews.kt",
+      "sha256": "2961564d0ee5d5d87ccf81919f9cdf72d3620ec43101f194bbc0f079ca176fca"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/settings/previews/DrawerFolderPreviews.kt",
+      "sha256": "213c86e63a7c9b7f9a9211ccb3cea7711e931fe3ed4758f2a565ee9baae28b18"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/settings/previews/FolderScenePreview.kt",
+      "sha256": "d996c23e2033be842ab9a0fc035d49f4008a607632996939e9dab0320242c917"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/settings/previews/GesturePracticePreview.kt",
+      "sha256": "33ef7db35c0f482d30f3758dfe261f3c84ad7b2843df0965a7e0f0652efbd3b1"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/settings/previews/HomeDockInteractionPreviews.kt",
+      "sha256": "aeeef7006808f3324eb3b5f3f203e06a75f9336f10971bde8d57fb13f1bbcb50"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/settings/previews/HomeExtrasLivePreviews.kt",
+      "sha256": "3aac53fdbe01e12b181da1c7f4af1796d4ce08318bbb721d92c7de88d3ec10dd"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/settings/previews/HomeLayoutPreviews.kt",
+      "sha256": "3b7af77c699c0dc66e37f6a7edd2798d391e32b88b8e42f87d749261829f43ad"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/settings/previews/HorizontalPagingPreview.kt",
+      "sha256": "a8e4e53b7d0884df24d0f43707b4778b739102e0388ee90de46542c8f4bb36ed"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/settings/previews/IconSamplePreview.kt",
+      "sha256": "b6d28dabb4788fd2e85857c1166f35985c3d679eab571b4a43070dbc13cf7755"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/settings/previews/PreviewMotion.kt",
+      "sha256": "fd6d41a3eca364bd2b6c0db734adf3453e9c14146f956edd64d03fd08c913b02"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/settings/previews/SearchHistoryLivePreview.kt",
+      "sha256": "7baa3ccc0bd857f444a9221cda3a5ac152ca9caed094338cfc7b06d1e216f3cb"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/settings/previews/SearchMenuPreviews.kt",
+      "sha256": "5cf8cd27a2dc9b75a791cb1a8d924d0252315ecf7e559a8ce25b2b233ca97882"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/settings/previews/SearchPreviewEnvelope.kt",
+      "sha256": "d52177e04f523cd96f3ea1055ea34abade63052b948b67b1eb5cac94a21f5b1c"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/settings/previews/SearchResultsPreview.kt",
+      "sha256": "4f76d48de2e00ebcb309f15b4482cbd6a9821dee37ac12d7896c82e5fa739287"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/settings/previews/SettingPreviews.kt",
+      "sha256": "b836ae4b9c79ba656734da10807551beb95779cd83f09b8ac694e4e24f2f4398"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/settings/previews/VerticalScrollingPreview.kt",
+      "sha256": "10e7870803d1f17f71014a0ef0c27bf557e14415830ffe8492330a5832c1126a"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/settings/sections/AboutSettingsSection.kt",
+      "sha256": "cc5d535512aa4533c4eaf64d540c6dac07b67158096fcccba4651f424dc4b1a2"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/settings/sections/AppDrawerSettingsSection.kt",
+      "sha256": "2dfef79225333f8c7865da00741675141174d18868f84343e83e217773ac6af3"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/settings/sections/AppLockSettingsSection.kt",
+      "sha256": "d67f46393992ffeac96426df5c66f3a99a2f4cb8221e440ada66fb232f174d85"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/settings/sections/BackupSettingsSection.kt",
+      "sha256": "df09283dafdbb143a80b0bcf9f6cc8e81a1898790cfb1cf636961b71d1fe2f61"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/settings/sections/BadgesSettingsSection.kt",
+      "sha256": "cd5133f95fa690f6221e7b4bd31fd0d9211bcd2a291c0c12155b12bb84519d66"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/settings/sections/CardsSettingsSection.kt",
+      "sha256": "c678603ab68c265809fe4d2620146332c9d147d115d1948aafdc947a9e2117e7"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/settings/sections/ContactCardSettings.kt",
+      "sha256": "613ef57fc0eca9bdc888095e35e4a5cd83c7ce460468fc640219f5a5b883b345"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/settings/sections/DockSettingsSection.kt",
+      "sha256": "998cee2f0f1ac07380fb83db61bfb25667b70be3486fb340631dafdadbbe2823"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/settings/sections/FoldersSettingsSection.kt",
+      "sha256": "0004d8f0de2d1bc0791179d3bf3a4bc0673ea5b2319b403ac885b2b918788217"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/settings/sections/GesturesSettingsSection.kt",
+      "sha256": "1f2f00a30e32a4fc7528c4e1c9d9aea8678700b2a1528d1f197c8442ab663430"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/settings/sections/HomeScreenSettingsSection.kt",
+      "sha256": "018e5465cef41914d13a8b493d0a23fe830d0b8e49019c27a962f54f9532342a"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/settings/sections/HorizontalScrollingSettingsPage.kt",
+      "sha256": "82a38fd547e1b59fcebdba681c37310f5f7be0acd260ba847bae23d35f6ba3db"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/settings/sections/LabsSettingsSection.kt",
+      "sha256": "d4ae6e915848b4275762df4e70f6f2aa9907dd4fa94576a5f9936ed6a7e1a24d"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/settings/sections/LookFeelSettingsSection.kt",
+      "sha256": "eb412f8735e9bd8c5b4de40517882c429478bd0a048c6d8da16de6fa47a87818"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/settings/sections/NightModeSettingsSection.kt",
+      "sha256": "0aff80d6200b8b2f0f32b8e92c0d106e3a6909cad2ab9275d0b73e8aeb0eec5f"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/settings/sections/SearchSettingsSection.kt",
+      "sha256": "e3f455a4068a4d6fb23d93fecdce0c154c15b95b9ce4af890cf514a5aca1d1ac"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/settings/sections/VerticalScrollingSettingsPage.kt",
+      "sha256": "9ff3ff36406e9b75656fcf433af8d0d76eb77aee362f64ffa47a683f9a1d6352"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/theme/ChikkuAccent.kt",
+      "sha256": "c397b1d69e257986bd0eea073f5f4ddb267bbe9f90f566919cb2c0202ffca016"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/theme/Motion.kt",
+      "sha256": "d10e2824ebb747c85f82b3c0990b13373719d19d91decea9cd81c34540a772f2"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/theme/NightModeController.kt",
+      "sha256": "722eae453e6812a2b2f98c9462b1056689c168c2a801f515af7a973d810b8253"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/theme/SurfaceColors.kt",
+      "sha256": "afcd0237cf2bfbf0fde4defd7f038dd3282175d4104a69b2d116e191f6bcf78c"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/theme/WallpaperTextColor.kt",
+      "sha256": "a2f2804b98f2c60ce9d17aa86e177c0cf4823d3b9eb5d604a8c30c99d31d236f"
+    },
+    {
+      "path": "app/src/main/java/io/github/aj4abinjacob/chikku/theme/WindowStyler.kt",
+      "sha256": "0ef20d1c6836de2e92719649217a67641d7b29ad75f68818cf685b3668bceae8"
+    },
+    {
+      "path": "app/src/main/res/anim/chikku_popup_enter.xml",
+      "sha256": "d8c6ee26a44813945a33654908239a244a27e9d4c9b9df29f169ba3cd60537cf"
+    },
+    {
+      "path": "app/src/main/res/anim/chikku_popup_enter_fast.xml",
+      "sha256": "96df1685cb7832c76671282d64e2d65c38c077722934bcb6f41209ccf2dd6136"
+    },
+    {
+      "path": "app/src/main/res/anim/chikku_popup_enter_relaxed.xml",
+      "sha256": "a37c20b40a059b8a92564535a7a75767dd470be4d1f85fb43d8cf9e14d0efe7c"
+    },
+    {
+      "path": "app/src/main/res/anim/chikku_popup_enter_slow.xml",
+      "sha256": "b84f279be26055355484b9ab7ee85e6f2dc339a30ffcb6b167760956430b6340"
+    },
+    {
+      "path": "app/src/main/res/anim/chikku_popup_exit.xml",
+      "sha256": "e15ecf6258630e8f6489a768f89aba2f2e88017dd317d4c1bed1f7d10eb4fab6"
+    },
+    {
+      "path": "app/src/main/res/anim/chikku_popup_exit_fast.xml",
+      "sha256": "cb49df57d490fa0aea1b816904521d033ce8f12c9675c676c255360e045907b2"
+    },
+    {
+      "path": "app/src/main/res/anim/chikku_popup_exit_relaxed.xml",
+      "sha256": "55e8f5fe2d3efd71c7e9c84e6f9c65b6fff46fac2b611c4749ceef113d64a1a0"
+    },
+    {
+      "path": "app/src/main/res/anim/chikku_popup_exit_slow.xml",
+      "sha256": "97123053b38bce5eefe0cb473afbb7feea86572f9c7cbe96864d6acca1c439e5"
+    },
+    {
+      "path": "app/src/main/res/drawable/bg_home_panel.xml",
+      "sha256": "deba4c494fede62a99d88ef545a32b2b6317d663b33cee36be5aecc58da7787e"
+    },
+    {
+      "path": "app/src/main/res/drawable/bg_home_pill.xml",
+      "sha256": "32aa71b11828c5ab773db1a87df4d441dca05ac18b1013ecaa0daa0d85e1fb38"
+    },
+    {
+      "path": "app/src/main/res/drawable/bg_home_remove_target.xml",
+      "sha256": "712eabef88f8e88c16ac3b1cc11792ffd97c8853f242dced7e029adc6b3c19a0"
+    },
+    {
+      "path": "app/src/main/res/drawable/bg_home_search.xml",
+      "sha256": "30c47092137e42945014d2321c5553157d1252e1b60ec9da31a22fff5459278e"
+    },
+    {
+      "path": "app/src/main/res/drawable/bg_home_undo.xml",
+      "sha256": "ec80de56b581d00d672e869cfe8a45292e7d84e2f371af43c43b6408ad87ac8d"
+    },
+    {
+      "path": "app/src/main/res/drawable/bg_search_widget.xml",
+      "sha256": "3fe13c8f9b6ce15971ce50d8b27d5ee0a49656b4237cf750008d1317946fb18c"
+    },
+    {
+      "path": "app/src/main/res/drawable/chikku_button_borderless.xml",
+      "sha256": "f22a3157f8d68a43054e08670f33bd686a74d2b541fc06729350dbf7309f8dd0"
+    },
+    {
+      "path": "app/src/main/res/drawable/chikku_text_cursor.xml",
+      "sha256": "ff4ed7a6393061d1e28d4750df43689b6085ed66b5bf33079e387e7127de3667"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_action_add.xml",
+      "sha256": "d5a2dfcd823d82be21069a0c0b772022dc36e747204f008e2720bcb99071a867"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_action_assistant.xml",
+      "sha256": "bf9bfc2426b0d71d78c48181111a95127d6bf4d646d14d47e8f9d2c3e720cf76"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_action_drag.xml",
+      "sha256": "d743ad27d07dd95497515b246d3ab11b1b88b5b3ea8b0f483cf3835566ee4ffc"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_action_mic.xml",
+      "sha256": "eb93c1ea3e74064475ed65a4cfadb2dd3c20fe6a673814c4105922d21152e11d"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_action_music.xml",
+      "sha256": "3245f670672dbc9a61aaff6779b8c8a90641d8f7c6e957163fbce9d46c0434b4"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_action_notifications.xml",
+      "sha256": "1e0644b68df909ea947e3661806583691038ed6f48efe4c79894597967d2567a"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_action_quick_settings.xml",
+      "sha256": "5b931afbd0e510d5a0bafd08b866bd851f60c62890bcb7041a9335cd91cd9c96"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_action_recents.xml",
+      "sha256": "47da7b2d8110342fa9753fc08953e00a3d17773d2f40449ffdf3a58ab068c9c8"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_action_schedule.xml",
+      "sha256": "152d4087af05a4251b7e9e806c332b233df9bd7194acd4e19fd4cbd0df79c0c4"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_action_weather.xml",
+      "sha256": "8c1d425a88bc85206647ad7bb4cfa8f7e874695140d65facac805de9a0265275"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_all_apps.xml",
+      "sha256": "45e3e7ae010bbe0f860182d6bf61a97351a347a9f1a5e30c4f203087d134ac49"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_app_placeholder.xml",
+      "sha256": "60b964a82ba94749fe25913c29323e79791c374fe4ae57019729b61aa87b24dc"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_app_unavailable.xml",
+      "sha256": "8bc0f301b396380e9a82e09fd0be17d8c2b8368977f4e47edd874104ff7e2cc2"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_chikku_mark.xml",
+      "sha256": "aeebd33f738ed130963fcb81dc90dfa5314bc9098cd86e97fdaa262f41e14d1f"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_gesture_double_tap_swipe_down.xml",
+      "sha256": "20fb304b46cbd6225a092d64285a4c8be1db5d2fd7d8b869aa9e85daec390bf3"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_gesture_double_tap_swipe_up.xml",
+      "sha256": "908b924dc4c282acd3a479c19b79edc2fa68f22078154e9e4a9f164d77612f17"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_gesture_pinch_in.xml",
+      "sha256": "1e499f5a23197d12582fac2d415312108a4f66260812bf5bcd31e45f991414fc"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_gesture_pinch_out.xml",
+      "sha256": "9c9c08b346c1be30545ab9d8ae8340f1689295fd3ff8dd4e68e081bd75c06f17"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_gesture_rotate_clockwise.xml",
+      "sha256": "b0e1face2e77b0354411c962d1e1086b9f7ab4fabc12388d59e3cd0461f8437a"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_gesture_rotate_counterclockwise.xml",
+      "sha256": "97ac35d2531893cb4f6b8975d3df136ea8f21185845120b421fd97f2cbf78aac"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_gesture_swipe_left.xml",
+      "sha256": "82287acbdb9af12d5496b78a3398dbc69281a9685a9023641c195b7049f7d6b9"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_gesture_swipe_right.xml",
+      "sha256": "1901bad4c24afc8ab7d5e3b358c83d3f2ff72b7bc0e9114ca8aac01414baa8a4"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_gesture_two_finger_swipe_down.xml",
+      "sha256": "e84067723979f9c899dc0691d7796a1033616ac3a47d472440b08386db998ece"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_gesture_two_finger_swipe_up.xml",
+      "sha256": "eca922effb0aee5d4aee35708942f7d1319331943fd0111530ca9c0851d66db9"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_launcher_foreground.xml",
+      "sha256": "39bbd35f31d4d8707aa31ea51d7103ca826939f531599fa6ccb9a93f915ca7cc"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_launcher_monochrome.xml",
+      "sha256": "840e5c11c0aaf588282ccc3d1efae706b229541e1a5b26e22b80db7c636dcbec"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_lock_open.xml",
+      "sha256": "da3ac402eba48f8541fb51cad8c9d3d3537353077d4196d1f87787d26dd89ae6"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_lock_shield.xml",
+      "sha256": "aa4fd44ef48a9bd49a6ec6bc15400f24ed8ed43de482b574590c36d4bae7e636"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_menu_add_page.xml",
+      "sha256": "5451a606ce64f0db9256517f3be1ae7cb5a5d19199b53f4fce659ebcef5ac391"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_menu_app_info.xml",
+      "sha256": "1dd6237a6cf71096a5553fa42dffd57f704499b0ce80f588284a209ad3047a2c"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_menu_edit.xml",
+      "sha256": "29b3fe46630f542be5e10ebd61f0766fc631e8fad1e56c14a4c405924b7f9035"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_menu_hide.xml",
+      "sha256": "b3d1b765c0ec86e84fd075660b00616f59ba1f3e10598095fa4db6ac01744588"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_menu_more.xml",
+      "sha256": "d667ebdb67164e937a78eea56457161a40a6c835e19dbbce301cbe4fc71a1763"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_menu_move.xml",
+      "sha256": "d931734af9f76f91b7cd124a3846e0ff2cbb35539b95104f17988fc4105b492b"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_menu_padding.xml",
+      "sha256": "26fd8440ec1e7c624ca4f288586d980309b7e5549f38fccdb92bc456cdf13517"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_menu_refresh.xml",
+      "sha256": "4201306fdda5af7e00ab607600b4a94567a1356f0ad895ce208e0084637a431e"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_menu_remove.xml",
+      "sha256": "7b0dd8e761ce8c3b351c0db820941d7b6fc224e9b924be538ada147296dadf70"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_menu_remove_page.xml",
+      "sha256": "0bcf6f29968c6b745aba9d7d7d5ba79527a74d9abbf97871b311b8ecd0fec15b"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_menu_resize.xml",
+      "sha256": "2f2e45f3da86dcfe80ea5e17b2c9f7c8cb890d0a9849282ed7bb137ec51938e4"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_menu_store.xml",
+      "sha256": "986f16a9710d7e3d39bf0b8aab2ebe39e44fce63234a96f2356cdebdd0acae0f"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_menu_swipe.xml",
+      "sha256": "70abc251fb9dc12adb4a9fd049d64b5cb4944da2fb516aa7a9d6fd5189601900"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_menu_tune.xml",
+      "sha256": "7244e16bc4013440dec4c279fefba7f693181622aa78b7d2d7f2fac10a26b2a1"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_menu_uninstall.xml",
+      "sha256": "a05a4dd969178d1051355709716cd393427dd2ed8b9a95e8ea61d90e0d0c8b21"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_menu_wallpaper.xml",
+      "sha256": "91fd95c4170aeb0144136a544fd1b0e1811a49b379db09a219fbb70197fc7b9e"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_menu_widgets.xml",
+      "sha256": "0896d2f5d1ac33fcd93b9b07134ad1c4ca550c2b97273be12edd1954e950a544"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_picker_app.xml",
+      "sha256": "678da214129f16b8713218a333865bd7f24265e749d495a74320a0da89932e54"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_picker_default.xml",
+      "sha256": "9a5603edc72adc2b084f26f70c6772f900403d52490970ecd7affd49021d4990"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_picker_none.xml",
+      "sha256": "187510746a6e3a757683529d69d2ba26f8d90e908933891511c968afd77bb20c"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_picker_shortcut.xml",
+      "sha256": "607eb7f0cf7c187c3181f74045ecd8657e4cbb25e8930b472610cda60a6065bb"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_search.xml",
+      "sha256": "5c753f97e0a54abb5f3f729787a473eb3374405517fbc477d183d1b99baa22cc"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_search_bar_ears.xml",
+      "sha256": "6047ccb5dcdc6eb5ff80e2f214ce5b8498ede62f160a1f16cf969502840e41b7"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_search_bar_face.xml",
+      "sha256": "9b3f40fae2cf06abc62a63fb522ccf6bde7f68541b424593b53f9f3c78fae178"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_search_bar_mark.xml",
+      "sha256": "866cc9569f86c82df538212879b6fa9e0d2520f0cfd713118ac0d33c54a9855e"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_search_bar_nose.xml",
+      "sha256": "abd61ee8be85ddd3e09875e2d57d49c4c664e1050c7e0610e68e7146b3331d91"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_search_bar_notch.xml",
+      "sha256": "a05069775af7e726053befcb5321ff2a803f857ff5bac21e045da8ef3dca6f5b"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_search_bar_paw.xml",
+      "sha256": "ded2e9e658565b8e216206a1669e769ddc34b7d3126db6c68dc19defcf32b301"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_search_bar_plain.xml",
+      "sha256": "c8064e837b4d08de96cd51d888b24ba6ee3a5838f3fddf3e578880f27c551884"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_search_bubbles.xml",
+      "sha256": "02de87ccf83063dea9d6548d07ca97902825fd6708ed5498c62a106960eb4be2"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_search_call.xml",
+      "sha256": "a4db553b6275d1d14f0b86dea7ceca1492aafe46fbf8437010d42e5ae3075209"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_search_chat.xml",
+      "sha256": "4af7461f8b153b64ca5f9d3e9495053e927983e733ad5576b49cb1e37f55e1de"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_search_clear.xml",
+      "sha256": "51aab91824b4d58eb743b6da1da7bbbfdb1764bd905272d1fce326a84131cf66"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_search_history.xml",
+      "sha256": "8398001291ca1bb626a191dc036e43c48207d0d3f03a820aa18258cc93010f16"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_search_message.xml",
+      "sha256": "dfb2a3e95bbf9d22bde4ea2e774f068f28313cfd4961f68f52d9027ec11c55a1"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_search_video.xml",
+      "sha256": "d61714974547ad5163c577ebe0922facd3aa1d65f8132f9b6e8917df7aed4bf8"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_about.xml",
+      "sha256": "0976cc23de01150a94881958410145d202672ed646996f28d3d54a908d3e0fc4"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_back.xml",
+      "sha256": "2fb0dd7b11f9210c3452c292c793047fa98bf9e931b0f7639c1a8377bb5316a3"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_backup.xml",
+      "sha256": "77003ac05067c2aa572f7de55c0cec52a4c1537266870e9f919f24bd2179d159"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_badges.xml",
+      "sha256": "1e0644b68df909ea947e3661806583691038ed6f48efe4c79894597967d2567a"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_cards.xml",
+      "sha256": "c4b3ff006f1e2d3552a8520d8c4015d69c29450a65ba868e41010b171e70063a"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_check.xml",
+      "sha256": "3b07c0830f5d2882864934244214ff28de70dd0cbfef86a46fcc21b32aa410ab"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_chevron.xml",
+      "sha256": "f38365c11f1bb3c9e4175225451eef61f8addbe97483de02d6343e9928b18814"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_collapse.xml",
+      "sha256": "39afc4843a08f80bdd1ea9364b68cb8f70f771dbcdd00da3174ed8642cf14486"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_dock.xml",
+      "sha256": "747d31a7ceaea1cbdd7ba2753ece8d8fadfb6b3d03fe98c8081e0ec2d18fb137"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_drawer.xml",
+      "sha256": "0d57a3eed7949d32844d0881b3c93a68b0d93bf9195730b6f21424787e77830e"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_expand.xml",
+      "sha256": "64ad3c247f05fe11e600013d20d22ba628cc82ea957ca089946661c656eaf582"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_folder.xml",
+      "sha256": "94bdbc271e40192da590151e329bf433c9b0267ccae071f287816957b73fa20f"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_gestures.xml",
+      "sha256": "8704cb2964d9d35288b2184eecd0187f5f058db17bcb67ce082e05f3ffafda63"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_home.xml",
+      "sha256": "dd8e365f276fd2899bd3dfc1ceed3779d1aba57e558d7fec855c20f568e64b41"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_info.xml",
+      "sha256": "25eb9b8092487dda28a3b9a7c6b53473679c6c5768f42a8bc98e2de22db71435"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_labs.xml",
+      "sha256": "a325151bcae951324d5ba976b26b96393a93a612ce7f1fb1db0d6c1a353b1856"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_lock.xml",
+      "sha256": "9d253839818883ef669fe931b5c36c1981448a7adc0d7bb77913721eadc0a338"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_night.xml",
+      "sha256": "e40cdd8ab59343a98f6c4eab0a9e96dc2bdfcf82871ec9117e4f4566aecc6008"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_palette.xml",
+      "sha256": "811f02b9b16b25ed6cdcb69ae626ef2c1460c7f300d9b9a34c1d2f68ff954309"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_accessibility.xml",
+      "sha256": "ebaec67a850f16df5c7dc7bbd027f5c8f48240dd5f5ad2371d4bbc57804162b1"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_add_to_home_screen.xml",
+      "sha256": "c5af0b84c16b4cf50f3f7e9cb483d1c9441cc5cc731690394400a4373c111900"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_all_inclusive.xml",
+      "sha256": "8cf3f4abb6cafd1e39bb7846666b686e5160ea88aa7adb5a44139fa943925553"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_apps.xml",
+      "sha256": "30614c4d6abbc8703484c8728f00305195adc3b07e0b949a79d544b1a2ba832f"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_aspect_ratio.xml",
+      "sha256": "effefdd279b89b38f236f29842abc9afb40db7ced47fb5d67870335e2ab9e6f2"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_blur_on.xml",
+      "sha256": "33552f39abec720e1c833fd21ee5923a81440924467ffa81d88bda094bbc5b50"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_bug_report.xml",
+      "sha256": "e06d250c2423d0db78f09c8ff618420effb8f354860c75da89c9edcdc0dc2b4d"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_cached.xml",
+      "sha256": "549c925391247069925a058923ef3aa660c4413b847699c94aa0717a89f8b4dc"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_calculate.xml",
+      "sha256": "4378f2964d6cb85161c181b12e6f827ab1440f015899ae90567161c7bb9a5a51"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_category.xml",
+      "sha256": "e1b9312bee940f83736563f159e5159a42a2ffc2dad60fff3b77407111ef0360"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_check_circle.xml",
+      "sha256": "e5feaa6ec05632ee2ff03fab3d69543bf3a2cf2ac218e9d9447d5cecb52f067c"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_close_fullscreen.xml",
+      "sha256": "b8bc9e57206e02514763856505dbfbacc11491b39c90f8f9ce6d7c12434e8287"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_contacts.xml",
+      "sha256": "f672d90953c6930f73e68946ad07253d47a65953d2d50044471a2317ddb94f40"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_contrast.xml",
+      "sha256": "7893e3d70b59a95eff9cdbecd703e2874bf507e4a8c42799aed310fc6773205d"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_dark_mode.xml",
+      "sha256": "a008af8f78e3e06d2c788cb153f22aceccf9481067e84ee0096066bf0434fbae"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_dynamic_feed.xml",
+      "sha256": "2eaa94b36bf3908357df64b3a9905baf10f5d718820693b52a8ddfdaa0b2bbe3"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_error_outline.xml",
+      "sha256": "4f9218574a1e6a71e271b99d6616cc989c86d99b5897f9ca9e114ae1ec40b11d"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_first_page.xml",
+      "sha256": "58bb4a52d8a02ba9c2f6cfab83c0fc006a869f0a7d023a315b2a330df25a1d20"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_folder.xml",
+      "sha256": "60b566d6ca6423611251009382a24f6d7ace9f2bc82c54a1a4c6f25350b19d1a"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_font_download.xml",
+      "sha256": "3d0ff3f0e27128b0cc0ab152ff8402f1791401617efe3f95086c9bfcb8c25221"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_format_color_fill.xml",
+      "sha256": "5e9c517c4771370fdb11283357c35df1eface776ba754649d6fe23fc1e94a010"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_format_size.xml",
+      "sha256": "cc14a63f976308b6dffaa7cedb40a73cc725f7454840575838c401cb7a6bfd85"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_fullscreen.xml",
+      "sha256": "655390403fc5c60a105dbba17256de99f02f7ee8aa414da8713d8f9c632a5e78"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_gradient.xml",
+      "sha256": "320ac675166f3418b8565a51401da55a36df8fe4a0ed5db8685491299f83a71e"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_grid_on.xml",
+      "sha256": "3b019850e7b64d02e72842301f51e6f389378c6821c093a8a64c76f5bfc0de25"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_grid_view.xml",
+      "sha256": "9248226ccb0478c3fb3cae93a15b7d6129977a30d2d9ae200d72d88241c85fe7"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_home.xml",
+      "sha256": "ebdf27acdc84a30089a4a60a92df4761bacb5f1d3e1533d8a257c56701bc67aa"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_keyboard.xml",
+      "sha256": "3f75ce41ce9a2ff68babf818f970bdb38375b4aa7beff89ca127cf8ba7e0d795"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_keyboard_double_arrow_down.xml",
+      "sha256": "6f83fef7f25a4831f7a43b55d5581fadb4cdcc809a4f86f5c174742b1e2c1af7"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_keyboard_double_arrow_up.xml",
+      "sha256": "40ba695feebe739ec87e523d4716c834266e4f8a613391810026271112336614"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_label.xml",
+      "sha256": "a9de954428ca27c6e834eb74b9841745a6cad26c542ea54c45d39ec1d2728127"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_lock.xml",
+      "sha256": "55734e1777610597b75ac3b1ab7b7eddedfec383ec859b8479d6e3ec19f3ad20"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_lock_open.xml",
+      "sha256": "4edb9ca9c39425e07ebf8cdb5b90ac2b18e8151d2eb48bde19e170b26143d6e2"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_manage_search.xml",
+      "sha256": "32e459aa55d67ba8e43dc65926b70e548dbdba101c3896c83deecdecd0ad2f5c"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_menu.xml",
+      "sha256": "bd030637a6d6d4e238ff8741ba8f5855f8c4e5b8b556920fc6ac78efe1adba21"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_notifications.xml",
+      "sha256": "1663c55cb213b4ffae9674fc9cf22ff08760c9a73fd4fb48976f5784217ca010"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_opacity.xml",
+      "sha256": "228ed69bd7301b8ad54861877fdc38ff365cac30b9cbf40515df3f0db40fafd4"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_open_in_full.xml",
+      "sha256": "37a9a5c9d9ef35554ba514a027da925dd7c53893cbe1708cd6ac66e6ddb1f4f5"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_open_in_new.xml",
+      "sha256": "2d9c95322000ecdb0a98e0dccc33c86205a5d2f5144efd0f44c2c89fe72bf965"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_padding.xml",
+      "sha256": "5823f95a6b9c378d90acbc473aaef6ee8a0671b1a6d98e17ded94c860d526b28"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_palette.xml",
+      "sha256": "d58c24819b269abb398ab0a76b9d3414f30c1e5d2d8b7834b57c92a252c0fafa"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_photo_size_select_large.xml",
+      "sha256": "10e74ea9d52625da847bbb82b43c05385780e8ff89911336c7bb5578e5db9e2a"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_picture_in_picture_alt.xml",
+      "sha256": "dcf90b0131f7663260a2fe0a713285cb7b70c4b37db061fe976a34059e0603b0"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_pinch.xml",
+      "sha256": "ab2de4da3878511d4f8e43f4a2541933c2f5a0af7b9e17f9eebdd6064d028a3f"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_privacy_tip.xml",
+      "sha256": "2176d0eefdb558f46381b4b1d8e3c498fa8c2cac775900d2682e78086fbd067e"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_public.xml",
+      "sha256": "c76576673e258dddd147289d958a9a8c110fcf022474914b7076f3b2c5b23961"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_restart_alt.xml",
+      "sha256": "7cc38ad236324ea02a44c217368e51063b840425cee3151480e818f759b42b00"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_rocket_launch.xml",
+      "sha256": "aa3dc5c60e557ed469e12482fa5a59d20a325a751c6512e70e19a01b6d3ea4a0"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_rotate_left.xml",
+      "sha256": "9c438b03cb48fefa855443a369669c00666d3732c20aecc6474c0aba8e4859a3"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_rotate_right.xml",
+      "sha256": "9b8914fe7be95689f3c8daf49210a6ef6118decd46585a4341ce13cb139cd00d"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_rounded_corner.xml",
+      "sha256": "732bb3fac2bde6e377984ea614ee081de37151ed308f5d8e51e1fb5b143eac3e"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_save.xml",
+      "sha256": "88e21aa79401cc2d1b1d23730da98de91626a4da0bf5060295ebe9c3f1593e1e"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_settings_applications.xml",
+      "sha256": "cf40b72baa144a8729b34c7e8f96109e3c873cf19454e57cf9147693dc435d26"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_settings_backup_restore.xml",
+      "sha256": "0827d4171488127a105f339c74101fad1c625f53702a1af9ced7845c900348e5"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_share.xml",
+      "sha256": "253d91c609554d4302e0bdf78482fe84539249b819a25e974af9879f60c6297f"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_sort_by_alpha.xml",
+      "sha256": "d50a8766a75c26ccbd6b9e167df2780d025fbc890ccc30a304f7ce29832cf390"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_swap_horiz.xml",
+      "sha256": "63f29f91ab3a696d3e11177c354a978e2c50d536df8a1d5a8b210beaac8e4951"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_swap_vert.xml",
+      "sha256": "0d7670f3945ab978c78dfef6a79fbb8b5f4a928b6078ed7addfb9478448b4ba3"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_swipe_down.xml",
+      "sha256": "26eab690ef29dac98072c1123b1d01bd01377c4021765a0e9256dbfc3daa5dbe"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_swipe_down_alt.xml",
+      "sha256": "6100ef031b8bc7f9643a79b32d466dbd0112c5ff680c318e4dc87e3007670570"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_swipe_left.xml",
+      "sha256": "5e67bd5e1f9128a7ab852dfd845b4cabab473f4c339ae35b551968f75457b194"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_swipe_right.xml",
+      "sha256": "9c7f04b15bb86431af575ee77918285cd563c054374f50e55a35c0fcbdcfd2f4"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_swipe_up.xml",
+      "sha256": "98c93c539035120b56f5198babc70b7278428d3eb93a90d39df6ffcaffbc95a0"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_swipe_up_alt.xml",
+      "sha256": "64acf1f3d67592c0e0537d3b8d301bd63cdae31298c2c8d9bdc1be1f230874d3"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_sync.xml",
+      "sha256": "5fa3635701312c1db097aae9410d54a97ad58f4c5a53e5d00dbb6d4808a0de76"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_tab.xml",
+      "sha256": "4a0e6e0991fe06ff6fd25d10cf1df51079ff5c04d6ce246619fe70b41df9d7fa"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_table_rows.xml",
+      "sha256": "160505979e2947297ce842f7e8092425c7881577e1410ee310a20ddcd0e1f352"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_timer.xml",
+      "sha256": "6abaf274491eba5b196e223d1b8a68f32858c20fbfaa1a13bf89fc8a1d468066"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_title.xml",
+      "sha256": "a74f712b9a019a0413e8d2b6262e2caddb789ae367db3f75153abaffa12e6609"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_touch_app.xml",
+      "sha256": "326657d4027fb15adb137635d4fca011d1640a8a2e42361fca8c56b67012faf3"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_vertical_scroll.xml",
+      "sha256": "dbfb0793c74f10ef2ea60faf8f1b8b56d15851c4e42a9ccf9ab83349c14ad04d"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_view_carousel.xml",
+      "sha256": "02a38b8948207149c6a265755330de6cabec336dc26591302c4e645fdf715727"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_view_column.xml",
+      "sha256": "066b9b3de44ffe9567f094d1ffb55459505fc4870ac5e6796c8d52b8ee4a982d"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_visibility.xml",
+      "sha256": "2d77c87cb478a8ad430bf0c5673162fc7783a453fc5d123ede9ad0213c8e223f"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_visibility_off.xml",
+      "sha256": "048c303848504720ced95bbd6cc47fa14989060a93c33f9953cc9f22d44a4776"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_web_asset.xml",
+      "sha256": "1dce46d952a2f78f4beb15838b28144ba2fd05002107331bfa2c1e3c7c5e39b6"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_widgets.xml",
+      "sha256": "f3c24f3680e74658ab729892a988455bf9521a5134178ae62f9e0241b73ebec3"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_wrap_text.xml",
+      "sha256": "d15dd8523b342253deefd3a2ac2d9606a7d135501e444cbd78c4c48acecb35e6"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_swipe_down.xml",
+      "sha256": "81cdd78b6c947a39bb4cdffa0ead5fb2be95103f7b8e10e8ba138c87acf2d7ca"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_swipe_up.xml",
+      "sha256": "8c746f8db94b28c7dd78f2d31e4318732e6ede185d83dbc5c0c33b818b9f975b"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_work_badge.xml",
+      "sha256": "80b5cee812fa4499f3d389629ebbfad05d5bb187061247d5e511e07ffe93efc6"
+    },
+    {
+      "path": "app/src/main/res/layout/activity_home.xml",
+      "sha256": "5fb918ce704da2ee744c47d84f02ad74dac2aed51a238357fff15521ef30baed"
+    },
+    {
+      "path": "app/src/main/res/layout/view_message_bar.xml",
+      "sha256": "660aebe7e7c5bbcb0c4086156983e053a8f4c4942f70910b2f7451f0e870e5a5"
+    },
+    {
+      "path": "app/src/main/res/layout/view_undo_bar.xml",
+      "sha256": "8a65d9a10075c2c854b97591f63628004cf8d80355341b9fdef690c239f91ca2"
+    },
+    {
+      "path": "app/src/main/res/layout/widget_clock.xml",
+      "sha256": "315d66bc5dbebdd25c3a243eaf970c5d22cb3a79a0402b694d7a5ea3abce7726"
+    },
+    {
+      "path": "app/src/main/res/mipmap-anydpi-v33/ic_launcher.xml",
+      "sha256": "1ddad67f7e9fbbb79ca83ffa3cddde30a8bc3574b31ecc3818680dc323771fd7"
+    },
+    {
+      "path": "app/src/main/res/mipmap-anydpi/ic_launcher.xml",
+      "sha256": "97794f4e80225da88bd3febc0a83d4e6de508cfec4827359abe9a81715f63eed"
+    },
+    {
+      "path": "app/src/main/res/values-night/colors.xml",
+      "sha256": "eb374c475b5b06de750b3284dc9ae9cee296c341340ad032e81d503ee503d524"
+    },
+    {
+      "path": "app/src/main/res/values-night/colors_folders.xml",
+      "sha256": "93d3980d96270d84ab4591b3968d1905ca1a2af82e3d6c591591c63c53305b7a"
+    },
+    {
+      "path": "app/src/main/res/values-night/colors_home.xml",
+      "sha256": "5556cce3fa460507b3265501db8a84d76b51f23fb2c336795cd5edb6deeab60f"
+    },
+    {
+      "path": "app/src/main/res/values-night/themes.xml",
+      "sha256": "33e648c4427fe498001848fc30fa40b26897891d4e9271283930d3da544d56e6"
+    },
+    {
+      "path": "app/src/main/res/values/colors.xml",
+      "sha256": "769360dd93eeff12cbc15188fc8543c6cbf58e16e96f5ec5208e74feaaa66b7c"
+    },
+    {
+      "path": "app/src/main/res/values/colors_folders.xml",
+      "sha256": "be0fd2bd1f2008a62c417a0d6b1730f1c440802e7cca5e72033e4c3eaed9ba12"
+    },
+    {
+      "path": "app/src/main/res/values/colors_home.xml",
+      "sha256": "8ebbd1e3e388eead8dfeec953d60b87645f30d62f582d385f7436570c02a4711"
+    },
+    {
+      "path": "app/src/main/res/values/colors_home_dock.xml",
+      "sha256": "fcc05e2015f15af917372d8bb50a6990b2ba09637934edf2a3eb851db2a67fdf"
+    },
+    {
+      "path": "app/src/main/res/values/dimens_badges.xml",
+      "sha256": "375c7e7e78d87a7dba32b27c2933878bf6916567172b5e2b62018e5420a73f52"
+    },
+    {
+      "path": "app/src/main/res/values/dimens_drawer.xml",
+      "sha256": "aae60ecf51589a8327ef45ee67d5a7464eaf212fb1ef98cefa9b0140226cf8b9"
+    },
+    {
+      "path": "app/src/main/res/values/dimens_drawer_search.xml",
+      "sha256": "4f8c9d9204d7a3b36aceca37707609cadffe133e47d45cadab285e5d746cd013"
+    },
+    {
+      "path": "app/src/main/res/values/dimens_gestures.xml",
+      "sha256": "c7bd9654f1dd02ae2e979b9d89bab6deaf63bbdf867acde3e69fafe1030e8a1b"
+    },
+    {
+      "path": "app/src/main/res/values/dimens_home.xml",
+      "sha256": "41c96256c6788114e2c283e58ac815202b131438d92d75ddf021476da7e14206"
+    },
+    {
+      "path": "app/src/main/res/values/dimens_home_dock.xml",
+      "sha256": "f489e2173a7083de5f85e28bd4779d3941c8f220f852de3fb6738aad37c1d3f8"
+    },
+    {
+      "path": "app/src/main/res/values/ids_folders.xml",
+      "sha256": "0e1330112c3e0f68df7349d79e2173d70129bbd3f969db394c9c48642322020f"
+    },
+    {
+      "path": "app/src/main/res/values/ids_home.xml",
+      "sha256": "155f96e1106719d90391f2d82f7cd371c0518369ff205241686875d4a0f6f8d5"
+    },
+    {
+      "path": "app/src/main/res/values/strings.xml",
+      "sha256": "be65c0aca4e15f02ec7a283ffb730ab115f099d95635d4372a09171964451244"
+    },
+    {
+      "path": "app/src/main/res/values/strings_app_lock.xml",
+      "sha256": "80c59fd7369f2cc268a2a3e7bc8bff5fa372fd0487548cd484a432ea749a40ea"
+    },
+    {
+      "path": "app/src/main/res/values/strings_appearance_pages.xml",
+      "sha256": "ab961beb63f5a254b242aebb91f20334d0ea8b4f7e26dc7a344cf96bc8122f32"
+    },
+    {
+      "path": "app/src/main/res/values/strings_audit_onboarding.xml",
+      "sha256": "1bc82c142c756caca48e9c480c289d7856d7ff411dc3a5b3d05d7035da11cd5d"
+    },
+    {
+      "path": "app/src/main/res/values/strings_backup.xml",
+      "sha256": "662c301ed0769797e01d3769a4108e8c5ac5b7566fb39bc3c00ca97d819cdd88"
+    },
+    {
+      "path": "app/src/main/res/values/strings_badge_customization.xml",
+      "sha256": "6424b1d42c9f3a99c47c2f0593bac49e839fdd30f6c8843bf6a539ef061512c0"
+    },
+    {
+      "path": "app/src/main/res/values/strings_badges.xml",
+      "sha256": "37bcfdcf28fcafc57fae8694c1f84ccd0c8297e1b43d8c90e0855cb5d068dddb"
+    },
+    {
+      "path": "app/src/main/res/values/strings_card_extensions.xml",
+      "sha256": "3406dd34185a3c6cd1f46cfdb7e2152e29cd8fe4155ce9b430a10e865264a577"
+    },
+    {
+      "path": "app/src/main/res/values/strings_card_weather.xml",
+      "sha256": "54d443326d8e217eee20b6172ca553351394e4d1154b9dd81c41ac21741965b8"
+    },
+    {
+      "path": "app/src/main/res/values/strings_card_widgets.xml",
+      "sha256": "806b251fe2fd97865f4e4764b0aa264dbbe071cf460761a4ab52bd43935b98d2"
+    },
+    {
+      "path": "app/src/main/res/values/strings_cards.xml",
+      "sha256": "ceff7637a08a003bcba51c241807d3d818942bebe570306c43d7e814a8ed09e2"
+    },
+    {
+      "path": "app/src/main/res/values/strings_cards_search.xml",
+      "sha256": "c4123582ce42a7fb98606dcff1a9a9f11c96024cb63bc347ba7b63a883fcad8b"
+    },
+    {
+      "path": "app/src/main/res/values/strings_cards_surface.xml",
+      "sha256": "cf12389c5ca3fcb4c96d42ac0b33f9d04ddf094beaeefd310b62777b24520336"
+    },
+    {
+      "path": "app/src/main/res/values/strings_cards_ui.xml",
+      "sha256": "f079dc47447d7063a9eb4218ca7eab0bf2ed0e2c857bb95230d95724f6890197"
+    },
+    {
+      "path": "app/src/main/res/values/strings_discover.xml",
+      "sha256": "8d504c59d7bacdba97579d59ad23f782ee84e53b9af395572ce5c26799e95812"
+    },
+    {
+      "path": "app/src/main/res/values/strings_dock_pages.xml",
+      "sha256": "e51fd53182300d4795c9917411b7648306221edf5e4852ba7ca1b4668885e1e1"
+    },
+    {
+      "path": "app/src/main/res/values/strings_drawer.xml",
+      "sha256": "4cc0fab62d4d40edf9f3349758b3e2ead6c02e9574aaaace0b3d0960ff41449b"
+    },
+    {
+      "path": "app/src/main/res/values/strings_drawer_customization.xml",
+      "sha256": "9c061c45b0df4c9327f10f0bd66bd7a17e4a3a5b997baa9ce62b49e09291750a"
+    },
+    {
+      "path": "app/src/main/res/values/strings_drawer_settings_pages.xml",
+      "sha256": "3eb0906f80bdafb7d3023721608c5641465dfd56b58816212976e22e4f1de3b5"
+    },
+    {
+      "path": "app/src/main/res/values/strings_extended_settings.xml",
+      "sha256": "5ceada89666cddefd04538d4ee4c4dcc945b735f804983731fef820c9ffc0a69"
+    },
+    {
+      "path": "app/src/main/res/values/strings_folder_customization.xml",
+      "sha256": "fdfeb313a6776c9daba77593a8a3509c3106ac0ba68279c990cff7e70befb15e"
+    },
+    {
+      "path": "app/src/main/res/values/strings_folder_edit_refresh.xml",
+      "sha256": "c31fdc3ae01308545a2cf65acf3134d4ba696d53ccf6076e69a6d03eb301d96e"
+    },
+    {
+      "path": "app/src/main/res/values/strings_folder_edit_sheet.xml",
+      "sha256": "390ca63fab200870874a4ef3941cb17234a824681dd279ca42f5148964bc34c7"
+    },
+    {
+      "path": "app/src/main/res/values/strings_folder_paging.xml",
+      "sha256": "c784d3820898ed25fc9d395327db27fc5871a7312fa790f719743ef4bbc55efa"
+    },
+    {
+      "path": "app/src/main/res/values/strings_folder_scene_preview.xml",
+      "sha256": "4538d6d8f70799080196ca3bd05280e00321033dbdc02912329c4ddd5ed7074b"
+    },
+    {
+      "path": "app/src/main/res/values/strings_folders.xml",
+      "sha256": "8b393d2f9fa80411056b43e091f04406b601a4be228bd7444805360b47931eee"
+    },
+    {
+      "path": "app/src/main/res/values/strings_gesture_extras.xml",
+      "sha256": "9a48278d484b5aecb1ab432428089be013825949feeb0b5c1bf9037cfe79a3fa"
+    },
+    {
+      "path": "app/src/main/res/values/strings_gestures.xml",
+      "sha256": "c450aec570fb0b4ee23cd100c9f1e758ba3661715fef3ed58db95e45a86c3835"
+    },
+    {
+      "path": "app/src/main/res/values/strings_home.xml",
+      "sha256": "3bf2d4743caec77f858e857b5817574b8d07b3a7b74cc3e299bb0e9fe06765b2"
+    },
+    {
+      "path": "app/src/main/res/values/strings_home_dock.xml",
+      "sha256": "bdb2c4f82f8934c5ba04042c1e564ee6ac16cfc14ffd4eadf1bc0571e133dbc8"
+    },
+    {
+      "path": "app/src/main/res/values/strings_home_reference.xml",
+      "sha256": "be5971f884822c115812a702f38b21ceeec16301c9032a3c0c4b1cbec8058324"
+    },
+    {
+      "path": "app/src/main/res/values/strings_home_settings_pages.xml",
+      "sha256": "66994b262bc7f678306dc071f59621e3f1e1b9ff0acd0a26309d27a8133a8200"
+    },
+    {
+      "path": "app/src/main/res/values/strings_horizontal_paging.xml",
+      "sha256": "2788ee5a81519eb72ef55688b9a7f5c5473818275b721299850081f40c5b681b"
+    },
+    {
+      "path": "app/src/main/res/values/strings_icon_picker.xml",
+      "sha256": "fa6cc71737d03afeb9403adddb683306a3bf339d77c87ff7ae74bee3ec7bd546"
+    },
+    {
+      "path": "app/src/main/res/values/strings_labels.xml",
+      "sha256": "a66b567d38e4fb8b4364a211bfcada44909fe786f7425afb048d5d5d76988628"
+    },
+    {
+      "path": "app/src/main/res/values/strings_legal.xml",
+      "sha256": "0836891566f6ad2b997b23b699ec455c25de4f19969de0c4c1ba396188508e26"
+    },
+    {
+      "path": "app/src/main/res/values/strings_live_previews_drawer.xml",
+      "sha256": "2fcb700e53b8fad5bd9230f2d112db4eaa47b7c097e5bafcdd4cee652370616e"
+    },
+    {
+      "path": "app/src/main/res/values/strings_live_previews_home.xml",
+      "sha256": "f171789ba97e8fd16d0ca6b7dd955f1b810be51eebd30297c5808af11dcd41a9"
+    },
+    {
+      "path": "app/src/main/res/values/strings_live_previews_search.xml",
+      "sha256": "a8c4b928147d3c694d327bdbf933e127a5917ab813b89d974e99af6862c8067d"
+    },
+    {
+      "path": "app/src/main/res/values/strings_look_feel.xml",
+      "sha256": "2606ffeb87b300ecd6af240874f12aadcb6103f70b0a3086167b864b22812d34"
+    },
+    {
+      "path": "app/src/main/res/values/strings_menu_customization.xml",
+      "sha256": "029c7607943f05706823334efb00ebf83c4458464152272563bbb0a512c6320c"
+    },
+    {
+      "path": "app/src/main/res/values/strings_messages.xml",
+      "sha256": "bd2095311ea7f9c6e60c83e62f1fa5712f6e5669d5137c0cddf90580476bbd53"
+    },
+    {
+      "path": "app/src/main/res/values/strings_micro_results.xml",
+      "sha256": "fe19ac48d224485f4dd35dc4a9e1f3cdf65c8ae9cb77a6205f0aaae40998bc78"
+    },
+    {
+      "path": "app/src/main/res/values/strings_preview_appearance_gestures_complete.xml",
+      "sha256": "e54c32882d3e8f5c771a1f2e956457f0d87b81dd589a7924c834622327bac927"
+    },
+    {
+      "path": "app/src/main/res/values/strings_preview_card_gaps.xml",
+      "sha256": "878065f0b4a8239496c5290eb93da0c4db8438b0a442ada1f54cbf8f84f22649"
+    },
+    {
+      "path": "app/src/main/res/values/strings_preview_cards_badges_complete.xml",
+      "sha256": "2f80dcc4463918b72ff10558e89915e78fc3cd6a8dd5d6bfbfc8bd8e39bdf4c3"
+    },
+    {
+      "path": "app/src/main/res/values/strings_preview_drawer_folder_complete.xml",
+      "sha256": "ac6a8b247c17ac02558661ce5bbaa177e78f60547ab3f312a20682d467705b8b"
+    },
+    {
+      "path": "app/src/main/res/values/strings_preview_drawer_folder_gaps.xml",
+      "sha256": "c93466e6933e240f4be7199a5cca0ca54628e28a98e7107cd84bfd7ee2892378"
+    },
+    {
+      "path": "app/src/main/res/values/strings_preview_extras.xml",
+      "sha256": "aefa2d6ff3b167f19ad45da14e251dcf9872e9d4dc9326f786941a078e594e71"
+    },
+    {
+      "path": "app/src/main/res/values/strings_preview_fixes_dock_search.xml",
+      "sha256": "a8e14f46bd4f372c0937e11079757578fb0daaf21a92fe3d512d251ba7229a69"
+    },
+    {
+      "path": "app/src/main/res/values/strings_preview_fixes_drawer.xml",
+      "sha256": "c3a8f4c4d7015f93c1b6eee422691ace4d0fb87bd7518989dd33f895ac46403b"
+    },
+    {
+      "path": "app/src/main/res/values/strings_preview_fixes_home.xml",
+      "sha256": "0b4a992a931045b5d7dd3d646f7fab75157319f6b2022b70223899e5f46ab0d3"
+    },
+    {
+      "path": "app/src/main/res/values/strings_preview_fixes_lookfeel.xml",
+      "sha256": "0313e092ea0c77e3132927a6ecc8f11200918b54be104efb11fce96c75da9507"
+    },
+    {
+      "path": "app/src/main/res/values/strings_preview_home_dock_search_complete.xml",
+      "sha256": "ca103fa1250ff41e087ebc74fa272e4edc304bb6a03c0eddeb809af456230f0c"
+    },
+    {
+      "path": "app/src/main/res/values/strings_preview_search_apps.xml",
+      "sha256": "fe0c8215fd97b861b6a67be3bb8d543a1e5d567c5b764b0f4e5a45fa0fb1fe12"
+    },
+    {
+      "path": "app/src/main/res/values/strings_preview_search_gaps.xml",
+      "sha256": "d6e39097d985b60f41e8e8d7072c209721a9c6050b7e7f4a1e1b6743d79bb5ae"
+    },
+    {
+      "path": "app/src/main/res/values/strings_prompts.xml",
+      "sha256": "6bd3c3bde3da54b7a5972e91d3bb62231be553fa662c5f8b07a0db02de6c5787"
+    },
+    {
+      "path": "app/src/main/res/values/strings_prompts_cards_gestures.xml",
+      "sha256": "b6aede6cdd7be62b1ac268d129fea8dbb5d2eefa114082b47eaa00078bf19ef7"
+    },
+    {
+      "path": "app/src/main/res/values/strings_prompts_folder_widget.xml",
+      "sha256": "4a40a5d2c154a261f7b4e5d20d8e2cae1f8ef86a40c5d53e7e488f8065fe9d0d"
+    },
+    {
+      "path": "app/src/main/res/values/strings_prompts_lock_pin.xml",
+      "sha256": "1ebe6bbd932549db850687315909d1507765543b1acbfac7b2dcd2567fc18089"
+    },
+    {
+      "path": "app/src/main/res/values/strings_reliability.xml",
+      "sha256": "43afdecec9c3d6bf618e474c84c9370f1c3ab2ad8f2b01a35580d565fcd07ede"
+    },
+    {
+      "path": "app/src/main/res/values/strings_search.xml",
+      "sha256": "89ded49b1fe9fecc0024e6f312397606cee3e7ad81d73a9f0a30eab5e84b52ac"
+    },
+    {
+      "path": "app/src/main/res/values/strings_search_customization.xml",
+      "sha256": "0d1f3183a9d193556195551c007bbfec7212b4062d63ad16d901da93ce77e589"
+    },
+    {
+      "path": "app/src/main/res/values/strings_search_matching.xml",
+      "sha256": "fa1c9bd7a78f74c04dd86feedc5d40875e3ef32fc5e15aba7d771608a162280a"
+    },
+    {
+      "path": "app/src/main/res/values/strings_search_sizing.xml",
+      "sha256": "b6f18526355bc4a050ce9f29ff44c6f7bab92f0f4dfff3388f625b17dcaaae8f"
+    },
+    {
+      "path": "app/src/main/res/values/strings_search_subpages.xml",
+      "sha256": "b58db6d30f004832fb8527f60e1f749f119831ac160a4b6354293c43218d84bf"
+    },
+    {
+      "path": "app/src/main/res/values/strings_setting_hints.xml",
+      "sha256": "05e7e572636c22b2dc2179436280055efa216ed40662d6aa8683aeccf5d9b473"
+    },
+    {
+      "path": "app/src/main/res/values/strings_settings.xml",
+      "sha256": "8ec824f294fa89fb090a320f84f23890806e3a0531ae97dbf4fc4f071da7ffdf"
+    },
+    {
+      "path": "app/src/main/res/values/strings_settings_search.xml",
+      "sha256": "b4ab020b1e8591727275ceb08b2e242baf39b7d644c36562a7f876bb3fc2a16f"
+    },
+    {
+      "path": "app/src/main/res/values/strings_settings_value_clarity.xml",
+      "sha256": "8b2c6709dfd8b8c4efedc0749988bf19907c65695cee6c57ea6abe8b46351bc4"
+    },
+    {
+      "path": "app/src/main/res/values/strings_slider_values.xml",
+      "sha256": "4e84bcdd91134d2bf9b9778bb911be0908a6eef228b315cd2c08d77ff6166ea4"
+    },
+    {
+      "path": "app/src/main/res/values/strings_spacing_clarity.xml",
+      "sha256": "7787c666ebaa507e867b1f17ff70944abfbfe5ce73e0a69bc22595896394d70e"
+    },
+    {
+      "path": "app/src/main/res/values/strings_vertical_scrolling.xml",
+      "sha256": "9471ad81bb4ac8dba49a8db6b49a45928792180fe63ecdaa54e0536163378909"
+    },
+    {
+      "path": "app/src/main/res/values/strings_widgets.xml",
+      "sha256": "5e7ac8de51aa859937f96ca20a4766e02733aa577c49e7775eec5bfa2dcb4b58"
+    },
+    {
+      "path": "app/src/main/res/values/styles_chikku_widgets.xml",
+      "sha256": "fb9afbf70fa97ec407e54891f33c7b4d8535642c4cffcaa8425bf0951ac99699"
+    },
+    {
+      "path": "app/src/main/res/values/themes.xml",
+      "sha256": "8993f9d30685f2b0f42119984aa8f5390b1b28d7004a2d341bb64101d51f1138"
+    },
+    {
+      "path": "app/src/main/res/values/themes_search.xml",
+      "sha256": "7d123e80c861f1e421658d3977a1a13be12a8a10f2ded9a13bd21fa0965ef4e2"
+    },
+    {
+      "path": "app/src/main/res/xml/backup_file_paths.xml",
+      "sha256": "2721c2385f659c3b5d44622a93a1bb6ef624e92cab42fb30d5d6a60d74041f42"
+    },
+    {
+      "path": "app/src/main/res/xml/chikku_accessibility_service.xml",
+      "sha256": "89a3e54c151f2909a7bbabb3e2dcbbec1f9201e82f23bf19fe8da9db86b37bbb"
+    },
+    {
+      "path": "app/src/main/res/xml/clock_widget_info.xml",
+      "sha256": "737b007ce8c181a6f27cdb9ab354dae3acad23395f13069ecc1bbe2fb0d999bc"
+    },
+    {
+      "path": "app/src/main/res/xml/data_extraction_rules.xml",
+      "sha256": "3027295849ed97ad9abd49fb12f0e2235f814922aa4134beb27ffb2208ed1ac1"
+    },
+    {
+      "path": "app/src/release/res/values/strings_discover_release.xml",
+      "sha256": "f8ba9c87dd3cd5cb04a3aa56474ea737a902a9e22b7da73cb2b19d75be0563a9"
+    },
+    {
+      "path": "build.gradle.kts",
+      "sha256": "74082bef2bafd73a12b5b16c415783873764adb3d721fcc2d678b2e3286a5010"
+    },
+    {
+      "path": "core/model/build.gradle.kts",
+      "sha256": "954af074bb01b3ca673ff3c34d1817f731d73457deca55cd749a9ad48b4ccd41"
+    },
+    {
+      "path": "core/model/src/main/kotlin/io/github/aj4abinjacob/chikku/core/model/AppKey.kt",
+      "sha256": "b9b30cbe416ebc95e9e4a4b18c388f7b6f83c1e5a92e63b202fbf0bd8960419c"
+    },
+    {
+      "path": "core/model/src/main/kotlin/io/github/aj4abinjacob/chikku/core/model/AppsRepository.kt",
+      "sha256": "3cbfb5966315634f7bdc137241193e349a82727ece345ea3190d2fb7e4ea811a"
+    },
+    {
+      "path": "core/model/src/main/kotlin/io/github/aj4abinjacob/chikku/core/model/Customization.kt",
+      "sha256": "c0a51a2f251945e36ae7cd30335b873024ab84d1907f3cd57c36556cf8601074"
+    },
+    {
+      "path": "core/model/src/main/kotlin/io/github/aj4abinjacob/chikku/core/model/GestureAction.kt",
+      "sha256": "ac0c58e4c69380800655457c4f738313966d1cc86663195d9f11de7ae1b3923c"
+    },
+    {
+      "path": "core/model/src/main/kotlin/io/github/aj4abinjacob/chikku/core/model/Workspace.kt",
+      "sha256": "8c6644584b5b7c0213de2c4c09c8f4cd2b9f99a1b2b166bed57142dc97ccfe6f"
+    },
+    {
+      "path": "core/model/src/main/kotlin/io/github/aj4abinjacob/chikku/core/model/WorkspaceLimits.kt",
+      "sha256": "efb6b72473286190f436cd18ef18c297b72579e00775063ac253b923b26bc7f0"
+    },
+    {
+      "path": "core/model/src/main/kotlin/io/github/aj4abinjacob/chikku/core/model/backup/BackupCodec.kt",
+      "sha256": "ef8fca691b0bc35a20f1afb64f4a99de9349f58b0af4aee7be73fcdc726c281f"
+    },
+    {
+      "path": "core/model/src/main/kotlin/io/github/aj4abinjacob/chikku/core/model/backup/BackupService.kt",
+      "sha256": "ffc3b966a2985b448ce2845ba00273a53d92024dcbd3443ad25682df32b73c5a"
+    },
+    {
+      "path": "core/model/src/main/kotlin/io/github/aj4abinjacob/chikku/core/model/backup/ChikkuBackup.kt",
+      "sha256": "c094e4648867686b9de562a3dfbe25d909d5c89a43ecbf677e7efb15dac44875"
+    },
+    {
+      "path": "core/model/src/main/kotlin/io/github/aj4abinjacob/chikku/core/model/backup/DefaultLayout.kt",
+      "sha256": "0b352bd930a7143ddee268579334522f0d2ed6df5216bd9c2c19cd74eb560009"
+    },
+    {
+      "path": "core/model/src/main/kotlin/io/github/aj4abinjacob/chikku/core/model/backup/RestoreAccess.kt",
+      "sha256": "03e4dfcca88556ddf9740c47957d420563a0acbd0a6f24a6abfd7b8a1feec407"
+    },
+    {
+      "path": "core/model/src/main/kotlin/io/github/aj4abinjacob/chikku/core/model/backup/RestoreChecks.kt",
+      "sha256": "208616cace913ae1ef864fe4be6269bc18f35d5e45b74cad40fb05392a74f36e"
+    },
+    {
+      "path": "core/model/src/main/kotlin/io/github/aj4abinjacob/chikku/core/model/backup/RestoreJournal.kt",
+      "sha256": "7c36b64bf51fa05c36ae95374efe9df9c6f6c2830f69a7dfceb58acf1b132d14"
+    },
+    {
+      "path": "core/model/src/main/kotlin/io/github/aj4abinjacob/chikku/core/model/cards/AutomationCard.kt",
+      "sha256": "e0d00a5c3e76f080aba619de09c73222490afcc68a06cf1bb95e65209dd20bb8"
+    },
+    {
+      "path": "core/model/src/main/kotlin/io/github/aj4abinjacob/chikku/core/model/cards/CardContent.kt",
+      "sha256": "ec520f81b21d635205e0f7f8fc7a7459bccffd190113ba608d4f3fd53a3bba8c"
+    },
+    {
+      "path": "core/model/src/main/kotlin/io/github/aj4abinjacob/chikku/core/model/cards/CardVisibility.kt",
+      "sha256": "84a510b3955dc6352dd437016eaf07bda7d79263fdae865ea97a1f5b5a33800b"
+    },
+    {
+      "path": "core/model/src/main/kotlin/io/github/aj4abinjacob/chikku/core/model/cards/CardsSettingsCodec.kt",
+      "sha256": "3bd8f31cfbb64156f4d4be8abc29b8755625df4bfe2c124d6646f7b81100c67c"
+    },
+    {
+      "path": "core/model/src/main/kotlin/io/github/aj4abinjacob/chikku/core/model/drawer/DrawerModel.kt",
+      "sha256": "1db7fe5a417f66dea1e78e25ed2c2231c10502342f231bff1ff64ba02c186885"
+    },
+    {
+      "path": "core/model/src/main/kotlin/io/github/aj4abinjacob/chikku/core/model/layout/HiddenLayoutRecovery.kt",
+      "sha256": "14b1fb2177faaadbf44363a86dc07b25e9771ac8fc7bf0488ceb8e1635c115b7"
+    },
+    {
+      "path": "core/model/src/main/kotlin/io/github/aj4abinjacob/chikku/core/model/layout/WorkspaceLayoutEngine.kt",
+      "sha256": "5e8d56673281f08ccfe2d0dcdceb7f55b37f1769594055d4f1b8e58dbc193f43"
+    },
+    {
+      "path": "core/model/src/main/kotlin/io/github/aj4abinjacob/chikku/core/model/onboarding/OnboardingPresets.kt",
+      "sha256": "08908491dcd766fe2a147cccabd66baee634600bba9b6a2e4fefe0d54a44030d"
+    },
+    {
+      "path": "core/model/src/main/kotlin/io/github/aj4abinjacob/chikku/core/model/search/Calculator.kt",
+      "sha256": "fb6cfbf83a5a6c7c35c07b91a32491e78f1d0441c720622c0b3614fe72197257"
+    },
+    {
+      "path": "core/model/src/main/kotlin/io/github/aj4abinjacob/chikku/core/model/search/ContactNameMatcher.kt",
+      "sha256": "a9516056076eedd96a0d6fa54bccd5ce88228b83e6a93cc292bae5533bf47302"
+    },
+    {
+      "path": "core/model/src/main/kotlin/io/github/aj4abinjacob/chikku/core/model/search/ContactServices.kt",
+      "sha256": "970dd13da7b239815279ab7b43d9412ac9e03900083179eba27ecf6f53ef4cc1"
+    },
+    {
+      "path": "core/model/src/main/kotlin/io/github/aj4abinjacob/chikku/core/model/search/CustomLabelSearch.kt",
+      "sha256": "3584078587a1ae55d625658597a06d7a4bc37cbf35d54119f350f3f71a8bf4e7"
+    },
+    {
+      "path": "core/model/src/main/kotlin/io/github/aj4abinjacob/chikku/core/model/search/DefaultAppSearcher.kt",
+      "sha256": "7469a04ef79b15c72adfe21e63ad3e3c4a8666ed050286a5c1e562dd3ed8cd0d"
+    },
+    {
+      "path": "core/model/src/main/kotlin/io/github/aj4abinjacob/chikku/core/model/search/FolderSearch.kt",
+      "sha256": "f2996fb28df7974a6d553b0db14946dd944fde6980460aa46cf62e40e841ae66"
+    },
+    {
+      "path": "core/model/src/main/kotlin/io/github/aj4abinjacob/chikku/core/model/search/LabelMatcher.kt",
+      "sha256": "eb4a8e4bd3b923ba80ff16da033e707764ac618a04da459684497c59fbb63273"
+    },
+    {
+      "path": "core/model/src/main/kotlin/io/github/aj4abinjacob/chikku/core/model/search/MicroResults.kt",
+      "sha256": "0a59e9c44f357fb5505754ca272ddd9030f7dabdafb94a989f8b2f8dafa564a8"
+    },
+    {
+      "path": "core/model/src/main/kotlin/io/github/aj4abinjacob/chikku/core/model/search/SearchHistory.kt",
+      "sha256": "99ae6e6e9c5845f2ddc3a11a9b493601df7d75c9a6825fccfb3a56a8a59af3b8"
+    },
+    {
+      "path": "core/model/src/main/kotlin/io/github/aj4abinjacob/chikku/core/model/search/TypoSuggestions.kt",
+      "sha256": "2967665f3e0de2137727e1911901e2a04091f54b629318c8ef52331c309a2fc0"
+    },
+    {
+      "path": "core/model/src/main/kotlin/io/github/aj4abinjacob/chikku/core/model/search/UniversalSearch.kt",
+      "sha256": "28c507202172a13d633c101627820636d0359e130231b3607cbad90625017da5"
+    },
+    {
+      "path": "core/model/src/main/kotlin/io/github/aj4abinjacob/chikku/core/model/search/WebSearchUrls.kt",
+      "sha256": "5565c449efc2128821a505ddde739eb9ac2032e1f464f44253d91d36d3e2827f"
+    },
+    {
+      "path": "core/model/src/main/kotlin/io/github/aj4abinjacob/chikku/core/model/search/WebSuggestions.kt",
+      "sha256": "4e6bdca9528a045f96725524a01d873096164e9d47b26f1b79f1f7481144acbc"
+    },
+    {
+      "path": "core/model/src/main/kotlin/io/github/aj4abinjacob/chikku/core/model/settings/FolderCover.kt",
+      "sha256": "a7396d8075cd9ed805e86361deed3066f12eb0d0127a80e07359a81cca2420f3"
+    },
+    {
+      "path": "core/model/src/main/kotlin/io/github/aj4abinjacob/chikku/core/model/settings/LauncherSettings.kt",
+      "sha256": "131249a7fd54a72219c2b2a24576677ae753d4f98785d9a7e810a9c2cc9af910"
+    },
+    {
+      "path": "core/model/src/main/kotlin/io/github/aj4abinjacob/chikku/core/model/settings/LauncherSettingsCodec.kt",
+      "sha256": "dcd18af11758516cef0a129446ddeafeb6a5be05d28b0fa5ce4ca7c72eaff110"
+    },
+    {
+      "path": "core/model/src/main/kotlin/io/github/aj4abinjacob/chikku/core/model/settings/ListScrolling.kt",
+      "sha256": "ea7c492679aae7d328aa735ea679f9849db5035b8995e692b6d17851b93844e3"
+    },
+    {
+      "path": "core/model/src/main/kotlin/io/github/aj4abinjacob/chikku/core/model/settings/MiniJson.kt",
+      "sha256": "daea018b67c7368f2f18e6233c50ba25879b4a2b9374c568cb177c2f4ea26df6"
+    },
+    {
+      "path": "core/model/src/main/kotlin/io/github/aj4abinjacob/chikku/core/model/settings/PageMotion.kt",
+      "sha256": "0175d0a5c3a4492b12518ca8d6ef94290acf368c5c62b04d13d317b12a5016be"
+    },
+    {
+      "path": "core/model/src/main/kotlin/io/github/aj4abinjacob/chikku/core/model/settings/SettingsRepository.kt",
+      "sha256": "cd356536ebba65e78e306b15afb0fc9c98fe58d8eb981bbb6a636b266bf5d088"
+    },
+    {
+      "path": "discover-bridge/build.gradle.kts",
+      "sha256": "27b4028d02bd1ec0e3f3d36db564320a265bc8448c342c40aae5300a8f8db8f3"
+    },
+    {
+      "path": "gradle.properties",
+      "sha256": "a7139048d3750fd3a843d00d11ae82554b242f9f3d7d3acdecdf53e6986e33f2"
+    },
+    {
+      "path": "gradle/libs.versions.toml",
+      "sha256": "5e3f3096149a8e8050188da6a8565d193847c45ea4a709ac252586aee1da8256"
+    },
+    {
+      "path": "gradle/wrapper/gradle-wrapper.jar",
+      "sha256": "7a9ce74cff467ca1bf60a4fcd9f05185acceda4d0f382434d393e17864262c5d"
+    },
+    {
+      "path": "gradle/wrapper/gradle-wrapper.properties",
+      "sha256": "d01b41913834fb3cb14e71f69a08898e6a47e663b08f5c9b8c7e0772c38889d2"
+    },
+    {
+      "path": "gradlew",
+      "sha256": "a5a5c199ba02189ae8c46a334223371a20599d9c298ef65e7540ede4a3f72d59"
+    },
+    {
+      "path": "gradlew.bat",
+      "sha256": "d539676c48b596afda64c963ec8f7ee56c7b3fe7e3b81d1dbe2d1a1e3dd9e9f8"
+    },
+    {
+      "path": "settings.gradle.kts",
+      "sha256": "8e7b00a4aaf9d6499705879201d575912145185a37c54abb25fc7a65e8ff86fe"
+    }
+  ]
+}

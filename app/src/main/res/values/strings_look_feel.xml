@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Style settings (G01, G15) -->
+    <string name="look_header_icons">Icons</string>
+    <string name="look_icon_pack">Icon pack</string>
+    <string name="look_icon_pack_system">System icons</string>
+    <string name="look_icon_pack_missing">Not installed</string>
+    <string name="look_icon_pack_none_installed">No icon packs installed yet.</string>
+    <string name="look_icon_pack_notice">Icon packs are separate apps by their own authors; Chikku bundles none.</string>
+    <string name="look_icon_shape">Icon shape</string>
+    <string name="look_shape_system">System default</string>
+    <string name="look_shape_circle">Circle</string>
+    <string name="look_shape_squircle">Squircle</string>
+    <string name="look_shape_rounded_square">Rounded square</string>
+    <string name="look_shape_square">Square</string>
+    <string name="look_shape_teardrop">Teardrop</string>
+    <string name="look_reshape_legacy">Reshape legacy icons</string>
+    <string name="look_reshape_legacy_summary">Fit older icons into the chosen shape</string>
+    <string name="look_per_app_icons">Change an app\'s icon</string>
+    <string name="look_per_app_icons_summary">Choose a different icon for one app</string>
+    <string name="look_header_motion">Motion</string>
+    <string name="look_header_window">Screen</string>
+    <string name="look_orientation">Screen orientation</string>
+    <string name="look_orientation_auto">Automatic</string>
+    <string name="look_orientation_portrait">Portrait</string>
+    <string name="look_orientation_landscape">Landscape</string>
+    <string name="look_status_bar">Status bar</string>
+    <string name="look_status_bar_shown">Shown</string>
+    <string name="look_status_bar_transparent">Transparent</string>
+    <string name="look_status_bar_hidden">Hidden (swipe down to reveal)</string>
+    <string name="look_header_menus">App menus</string>
+    <string name="look_app_menu_style">Long-press menu style</string>
+    <string name="look_app_menu_popup">Popup</string>
+    <string name="look_app_menu_detailed">Detailed</string>
+    <string name="look_accent_color">Accent color</string>
+    <string name="look_header_accent">Accent</string>
+    <string name="look_accent_info">Used in settings, home dialogs, the highlight behind a long-pressed item and notification dots that have no color of their own.</string>
+    <string name="accent_chikku">Chikku</string>
+    <string name="accent_cherry">Cherry</string>
+    <string name="accent_rose">Rose</string>
+    <string name="accent_grape">Grape</string>
+    <string name="accent_indigo">Indigo</string>
+    <string name="accent_ocean">Ocean</string>
+    <string name="accent_teal">Teal</string>
+    <string name="accent_forest">Forest</string>
+    <string name="accent_olive">Olive</string>
+    <string name="accent_amber">Amber</string>
+    <string name="accent_cocoa">Cocoa</string>
+    <string name="accent_slate">Slate</string>
+    <string name="accent_custom">Custom</string>
+    <string name="accent_custom_title">Custom accent</string>
+    <string name="accent_hue">Hue</string>
+    <string name="accent_saturation">Saturation</string>
+    <string name="accent_brightness">Brightness</string>
+    <string name="accent_selected">Selected</string>
+    <string name="accent_not_selected">Not selected</string>
+
+    <!-- Night mode settings (G09) -->
+    <string name="night_header_scope">Darken</string>
+    <string name="night_dark_drawer">App drawer</string>
+    <string name="night_dark_folders">Folders</string>
+    <string name="night_dark_search">Search bar</string>
+    <string name="night_dark_menus">Menus</string>
+    <string name="night_pure_black">Pure black</string>
+    <string name="night_pure_black_summary">Black instead of dark grey, for OLED</string>
+    <string name="night_info">Surfaces switched off here stay light.</string>
+
+    <!-- Long-press app menu -->
+    <string name="app_menu_app_info">App info</string>
+    <string name="app_menu_app_info_description">Permissions, storage and notifications</string>
+    <string name="app_menu_edit">Edit</string>
+    <string name="app_menu_edit_description">Rename or change the icon</string>
+    <string name="app_menu_folder">Folder</string>
+    <string name="app_menu_folder_description">Edit or remove this folder</string>
+    <string name="app_menu_swipe_actions">Swipe actions</string>
+    <string name="app_menu_swipe_actions_description">Choose what swiping up or down on this icon does</string>
+    <string name="app_menu_remove">Remove</string>
+    <string name="app_menu_remove_description">Remove from the home screen; the app stays installed</string>
+    <string name="app_menu_remove_from_folder_description">Remove from this folder; the app stays installed</string>
+    <string name="app_menu_hide">Hide</string>
+    <string name="app_menu_hide_description">Hide from the app drawer and search. This does not lock the app.</string>
+    <string name="app_menu_uninstall">Uninstall</string>
+    <string name="app_menu_uninstall_description">Remove the app from this profile</string>
+    <string name="app_menu_hidden">Hidden from the app drawer</string>
+    <string name="app_menu_action_failed">That didn\'t work. Try again.</string>
+    <string name="app_menu_open">App options</string>
+    <string name="app_menu_change_icon">Change icon</string>
+    <string name="app_menu_change_icon_description">Use an icon from an installed icon pack</string>
+    <string name="app_menu_remove_shortcut_description">Remove this shortcut from the home screen</string>
+    <string name="app_menu_remove_shortcut_from_folder_description">Remove this shortcut from the folder</string>
+
+    <!-- App edit sheet (app menu "Edit") -->
+    <string name="app_edit_subtitle">Name and icon</string>
+    <string name="app_edit_name">Name</string>
+    <string name="app_edit_name_original">App\'s own name: %1$s</string>
+    <string name="app_edit_name_empty">Leave empty to use the app\'s own name</string>
+    <string name="app_edit_name_reset">Use the app\'s own name</string>
+    <string name="app_edit_icon_section">Icon</string>
+    <string name="app_edit_icon_default">Default</string>
+    <string name="app_edit_icon_custom">Custom</string>
+    <string name="app_edit_icon_summary">Icon pack or another app</string>
+    <string name="app_edit_done">Done</string>
+    <string name="app_edit_discard">Discard</string>
+    <string name="app_edit_saves_on_close">Changes save when you close</string>
+    <string name="app_edit_no_changes">No changes yet</string>
+
+    <!-- Icon picker -->
+    <string name="icon_picker_title">Change icon</string>
+    <string name="icon_picker_choose_app">Choose an app</string>
+    <string name="icon_picker_choose_icon">Choose an icon</string>
+    <string name="icon_picker_default_icon">Default icon</string>
+    <string name="icon_picker_search">Search icons</string>
+    <string name="icon_picker_pack_empty">This icon pack has no icons Chikku can read.</string>
+</resources>

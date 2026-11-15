@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="home_item_id" type="id" />
+    <!-- WorkspacePager: outline drawn over a page while it is being removed. -->
+    <item name="page_removal_outline" type="id" />
+    <item name="home_item_model" type="id" />
+    <!-- LongPressMenuDrag on a workspace icon; other features chain their touch handling onto it. -->
+    <item name="home_icon_touch" type="id" />
+</resources>

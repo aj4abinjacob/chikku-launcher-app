@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Backup & restore (G18) -->
+    <string name="backup_header_backup">Back up</string>
+    <string name="backup_intro">Backups stay on your device or wherever you send them. Chikku never uploads them.</string>
+    <string name="backup_intro_details">A backup holds your home screen layout, folders, dock, widget placements, settings, app customizations and drawer groups.</string>
+    <string name="backup_save">Save backup to a file</string>
+    <string name="backup_save_summary">To a folder, SD card or cloud storage app</string>
+    <string name="backup_share">Share backup</string>
+    <string name="backup_share_summary">Send with Drive, email or another app</string>
+    <string name="backup_share_chooser">Share Chikku backup</string>
+    <string name="backup_restore">Restore from a file</string>
+    <string name="backup_restore_summary">Preview changes before anything is replaced</string>
+    <string name="backup_widgets_note">Widgets come back as placeholders; tap each one to add it again.</string>
+    <string name="backup_shortcuts_note">After reinstalling Chikku, some app shortcuts need to be added again from their app. Older Firefox website shortcuts may open as ordinary web pages instead of installed web apps.</string>
+    <string name="backup_header_reset">Start over</string>
+    <string name="backup_quick_start">Quick start</string>
+    <string name="backup_quick_start_summary">Run the setup steps again</string>
+    <string name="backup_reset">Reset to default</string>
+    <string name="backup_reset_summary">Default settings and a fresh home screen</string>
+    <string name="backup_reset_confirm_title">Reset to default?</string>
+    <string name="backup_reset_confirm_body">All settings return to their defaults, hidden apps and drawer groups are cleared, and the home screen starts with an empty page and the default dock. You can undo this afterwards, including after restarting Chikku.</string>
+    <string name="backup_reset_confirm">Reset</string>
+    <string name="backup_undo">Undo</string>
+    <string name="backup_working">Working…</string>
+    <string name="backup_dismiss">Dismiss</string>
+
+    <string name="backup_preview_title">Restore this backup?</string>
+    <string name="backup_preview_created">Created %1$s with Chikku %2$s</string>
+    <string name="backup_preview_created_unknown">Creation date unknown</string>
+    <string name="backup_preview_intro">Your current layout and settings will be replaced. You can undo the restore afterwards.</string>
+    <plurals name="backup_preview_pages">
+        <item quantity="one">%d home screen page</item>
+        <item quantity="other">%d home screen pages</item>
+    </plurals>
+    <plurals name="backup_preview_items">
+        <item quantity="one">%d item on the home screen and dock</item>
+        <item quantity="other">%d items on the home screen and dock</item>
+    </plurals>
+    <plurals name="backup_preview_folders">
+        <item quantity="one">%d folder</item>
+        <item quantity="other">%d folders</item>
+    </plurals>
+    <plurals name="backup_preview_widgets">
+        <item quantity="one">%d widget (needs to be added again)</item>
+        <item quantity="other">%d widgets (need to be added again)</item>
+    </plurals>
+    <plurals name="backup_preview_shortcuts">
+        <item quantity="one">%d shortcut</item>
+        <item quantity="other">%d shortcuts</item>
+    </plurals>
+    <plurals name="backup_preview_customizations">
+        <item quantity="one">%d app customization</item>
+        <item quantity="other">%d app customizations</item>
+    </plurals>
+    <plurals name="backup_preview_groups">
+        <item quantity="one">%d drawer group</item>
+        <item quantity="other">%d drawer groups</item>
+    </plurals>
+    <plurals name="backup_preview_missing">
+        <item quantity="one">%d app isn\'t installed here. It keeps its place and can be reinstalled or removed later.</item>
+        <item quantity="other">%d apps aren\'t installed here. They keep their places and can be reinstalled or removed later.</item>
+    </plurals>
+    <string name="backup_preview_missing_unknown">Installed apps could not be checked; apps that are missing will keep their places as placeholders.</string>
+    <string name="backup_preview_attention">Some restored settings need something this phone doesn\'t have yet. They are kept and explained after the restore:</string>
+    <string name="backup_preview_confirm">Restore</string>
+    <string name="backup_preview_cancel">Cancel</string>
+
+    <string name="backup_msg_saved">Backup saved.</string>
+    <string name="backup_msg_save_failed">The backup could not be saved. Nothing was changed.</string>
+    <string name="backup_msg_share_failed">The backup could not be prepared for sharing.</string>
+    <string name="backup_msg_read_failed">The file could not be opened.</string>
+    <string name="backup_msg_too_large">This file is too large to be a Chikku backup.</string>
+    <string name="backup_msg_not_json">This file is damaged or isn\'t a backup. Your layout was not changed.</string>
+    <string name="backup_msg_not_a_backup">This file isn\'t a Chikku backup. Your layout was not changed.</string>
+    <string name="backup_msg_newer_version">This backup was made by a newer version of Chikku. Update Chikku to restore it. Your layout was not changed.</string>
+    <string name="backup_msg_damaged">This backup is damaged and can\'t be restored. Your layout was not changed.</string>
+    <string name="backup_msg_restored">Backup restored.</string>
+    <string name="backup_msg_restore_failed">The restore failed and was rolled back. Your layout was not changed.</string>
+    <string name="backup_msg_recovery_required">Recovery could not finish. Your saved recovery copy is kept, and further layout changes are blocked. Free up storage if needed, then retry loading the home screen.</string>
+    <string name="backup_msg_reset_done">Chikku was reset to default.</string>
+    <string name="backup_msg_reset_failed">The reset failed and was rolled back. Nothing was changed.</string>
+    <string name="backup_msg_undone">Restored your previous layout and settings.</string>
+    <string name="backup_msg_undo_failed">Undo failed. Your current layout was kept.</string>
+    <string name="backup_no_file_app">No app is available to pick a file.</string>
+
+    <!-- Restored settings that depend on this device (RestoreAttention) -->
+    <string name="restore_attention_title">Check these restored settings</string>
+    <string name="restore_attention_discover_google">Google Discover is on, but the Google app isn\'t installed or is disabled on this phone. Swiping to the feed won\'t open anything until it is available.</string>
+    <string name="restore_attention_discover_bridge">Google Discover is on. Showing cards here needs the optional Chikku Discover bridge app, which isn\'t installed. Until then, swiping to the feed opens the Google app.</string>
+    <string name="restore_attention_discover_bridge_broken">Google Discover is on, but the Chikku Discover bridge app isn\'t working (disabled, from another build, or restricted). Swiping to the feed opens the Google app until it is fixed.</string>
+    <string name="restore_attention_icon_pack">The icon pack from the backup isn\'t installed. System icons are shown until you install it or pick another pack.</string>
+    <string name="restore_attention_contact_services">A messaging app you kept on contact results isn\'t installed here. Your choice is kept; it appears on contact results once the app is installed and has synced contacts.</string>
+    <string name="restore_attention_dock_image">The dock background image was chosen on another phone and can\'t be opened here. Pick it again to show it.</string>
+    <string name="restore_attention_open">Open setting</string>
+
+    <!-- Onboarding / quick start (G19, G20) -->
+    <string name="onboarding_title">Set up Chikku</string>
+    <string name="onboarding_skip">Skip</string>
+    <string name="onboarding_next">Next</string>
+    <string name="onboarding_back">Back</string>
+    <string name="onboarding_done">Done</string>
+    <string name="onboarding_step">Step %1$d of %2$d</string>
+    <string name="onboarding_welcome_title">Welcome to Chikku</string>
+    <string name="onboarding_welcome_body">A private, offline home screen. A few quick choices get you started; you can change all of them later in Chikku settings.</string>
+    <string name="onboarding_layout_title">Home screen size</string>
+    <string name="onboarding_layout_body">Choose how many apps fit on a page and how big icons are.</string>
+    <string name="onboarding_preset_compact">Compact</string>
+    <string name="onboarding_preset_compact_summary">6 × 6 grid, smaller icons</string>
+    <string name="onboarding_preset_standard">Standard</string>
+    <string name="onboarding_preset_standard_summary">5 × 5 grid, normal icons</string>
+    <string name="onboarding_preset_large">Large</string>
+    <string name="onboarding_preset_large_summary">4 × 5 grid, bigger icons and labels</string>
+    <string name="onboarding_preset_extra_large">Extra large</string>
+    <string name="onboarding_preset_extra_large_summary">3 × 4 grid, biggest icons and labels, easiest to see and tap</string>
+    <string name="onboarding_drawer_title">App drawer</string>
+    <string name="onboarding_drawer_body">How should the list of all apps scroll?</string>
+    <string name="onboarding_drawer_vertical">Vertical list</string>
+    <string name="onboarding_drawer_vertical_summary">Scroll up and down through all apps</string>
+    <string name="onboarding_drawer_paged">Horizontal pages</string>
+    <string name="onboarding_drawer_paged_summary">Swipe sideways, page by page</string>
+    <string name="onboarding_night_title">Night mode</string>
+    <string name="onboarding_night_body">Dark folders, drawer, search and menus.</string>
+    <string name="onboarding_default_title">Make Chikku your home app</string>
+    <string name="onboarding_default_body">Chikku only works as your home screen once Android uses it as the default home app. You can switch back at any time.</string>
+    <string name="onboarding_default_done">Chikku is your default home app.</string>
+    <string name="onboarding_finish_title">You\'re all set</string>
+    <string name="onboarding_restore">Restore from a backup</string>
+    <string name="onboarding_restore_summary">Coming from another phone? Restore your Chikku layout and settings from a backup file.</string>
+    <string name="onboarding_restored_title">Backup restored</string>
+    <string name="onboarding_restored_body">Your layout and settings are back. Widgets need to be added again; tap each placeholder on the home screen.</string>
+    <string name="onboarding_finish_body">Long-press the home screen for widgets and settings. Open Chikku settings from the app list for everything else, including backups.</string>
+
+    <!-- Labs (G11) -->
+    <string name="labs_unlocked_toast">Labs unlocked</string>
+    <string name="labs_locked_toast">Labs hidden</string>
+    <string name="labs_note">Experimental. May change, disappear or not work on every device.</string>
+    <string name="labs_debug_overlay_summary">Grid, page and frame-timing numbers; never app names</string>
+    <string name="labs_faster_icon_cache">Faster icon cache</string>
+    <string name="labs_extended_grid">Extended grid sizes</string>
+    <string name="labs_not_active_summary">Not available in this version</string>
+    <string name="labs_hide">Hide Labs</string>
+    <string name="labs_hide_summary">To show it again, tap the version number in About 7 times</string>
+    <string name="labs_overlay_text">grid %1$d×%2$d · dock %3$d · pages %4$d · items %5$d\n%6$d×%7$d dp · %8$.2fx · frame %9$.1f ms · slow %10$d</string>
+
+    <!-- About / default home (G21) -->
+    <string name="about_default_instructions">You can also change it yourself: Settings &gt; Apps &gt; Default apps &gt; Home app. The exact names can differ by phone maker.</string>
+</resources>

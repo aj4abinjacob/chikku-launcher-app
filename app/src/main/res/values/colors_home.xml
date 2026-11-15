@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="home_label_shadow">#B3000000</color>
+    <color name="home_drop_highlight">#4DFFFFFF</color>
+    <color name="home_page_dot_inactive">#80FFFFFF</color>
+    <color name="home_panel_background">#F2FFFFFF</color>
+    <color name="home_on_panel">#FF1B1B1F</color>
+    <color name="home_on_panel_variant">#FF46464F</color>
+    <color name="home_remove_target">#E6B3261E</color>
+    <color name="home_remove_target_active">#FFD32F2F</color>
+    <color name="home_search_background">#14000000</color>
+    <color name="home_placeholder_icon">#FFBDBDBD</color>
+    <color name="home_placeholder_icon_mark">#FF616161</color>
+    <color name="home_undo_background">#F2303034</color>
+    <color name="home_on_undo">#FFF2F0F4</color>
+    <color name="home_undo_action">#FFB4C5FF</color>
+    <color name="widgets_picker_scrim">#66000000</color>
+</resources>

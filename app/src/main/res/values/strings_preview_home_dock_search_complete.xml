@@ -1,0 +1,35 @@
+<resources>
+    <string name="preview_page_previous">Previous</string>
+    <string name="preview_page_next">Next</string>
+    <string name="preview_home_default">Default page</string>
+    <string name="preview_home_widget_overlap_on">Sample widgets overlap. Original sample content only.</string>
+    <string name="preview_home_widget_overlap_off">Sample widget beside sample icons. Overlap is off.</string>
+    <string name="preview_dock_single_page_caption">Sample dock · one page</string>
+    <string name="preview_dock_page_caption">Sample dock page %1$d of %2$d · swipe to try</string>
+    <string name="preview_dock_select_page">Preview dock page %1$d of %2$d</string>
+    <string name="preview_dock_description">Sample dock page %1$d of %2$d. Original sample icons only.</string>
+    <string name="preview_dock_limited_caption">Sample page %1$d of %2$d · %3$d requested\nReduce apps per page to fit more.</string>
+    <string name="preview_dock_reserved_space">Sample home leaves room for the dock.</string>
+    <string name="preview_dock_over_home">Sample dock overlays the home icons.</string>
+    <string name="preview_dock_launch_closed">Sample app opened · dock closes automatically.</string>
+    <string name="preview_dock_launch_stays">Sample app opened · dock stays visible.</string>
+    <string name="preview_dock_reopen">Reopen sample</string>
+    <string name="preview_dock_show">Show sample dock</string>
+    <string name="preview_dock_hide">Hide sample dock</string>
+    <string name="preview_dock_launch">Open sample app</string>
+    <string name="preview_dock_search_description">Sample home: search bar %1$s, gap above the below-dock bar %2$d dp. Original sample icons only.</string>
+    <string name="preview_search_window_description">Sample search presentation: %1$s. Results: %2$s. Original sample icons only.</string>
+    <string name="preview_search_apps_compact">Sample matching apps in one row, with enabled folder, shortcut and store rows.</string>
+    <string name="preview_search_apps_expanded">Sample matching apps in a list, with enabled folder, shortcut and store rows.</string>
+    <string name="preview_search_answers_description">Sample calculation and conversion results.</string>
+    <string name="preview_search_folder_sample">Sample folder</string>
+    <string name="preview_search_shortcut_sample">Sample shortcut</string>
+    <string name="preview_search_store_sample">Store search</string>
+    <string name="preview_search_source_off">This result source is off.</string>
+    <string name="preview_search_web_engine_sample">Search “sample” with %1$s</string>
+    <string name="preview_search_web_suggestion_sample">Sample autocomplete suggestion</string>
+    <string name="preview_search_calculation_sample">2 + 2 = 4</string>
+    <string name="preview_search_conversion_sample">10 km = 6.21 mi</string>
+    <string name="preview_dock_spacing_description">Sample dock at full width. Side space %1$d dp, space above and below %2$d dp, shaded. Original sample icons only.</string>
+    <string name="preview_dock_spacing_caption">Shaded areas are the dock\'s spacing; dashed lines mark the dock and its apps.</string>
+</resources>

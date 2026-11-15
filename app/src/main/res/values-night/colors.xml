@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="chikku_drawer_background">#FF1B1B1F</color>
+    <color name="chikku_on_drawer">#FFE4E1E6</color>
+    <!-- Lighter indigo: #3D5AFE is under 3:1 on the night panels (#2B2930) and dark drawer. -->
+    <color name="chikku_accent">#FFFFAD89</color>
+</resources>

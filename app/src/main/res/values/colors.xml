@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="chikku_drawer_background">#FFFFFFFF</color>
+    <color name="chikku_on_drawer">#FF1B1B1F</color>
+    <color name="chikku_on_wallpaper">#FFFFFFFF</color>
+    <color name="chikku_accent">#FFB94318</color>
+    <color name="chikku_icon_background">#FF1F1D1C</color>
+</resources>

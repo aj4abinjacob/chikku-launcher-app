@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="preview_cards_show">Show preview</string>
+    <string name="preview_cards_hide">Hide preview</string>
+    <string name="preview_cards_sample_content">Sample content</string>
+    <string name="preview_cards_sample_city">Sample city</string>
+    <string name="preview_cards_weather_celsius">24°C · Sunny</string>
+    <string name="preview_cards_weather_fahrenheit">75°F · Sunny</string>
+    <string name="preview_cards_sample_track">Sample track</string>
+    <string name="preview_cards_sample_artist">Sample artist</string>
+    <string name="preview_cards_media_controls">⏮  ▶  ⏭</string>
+    <string name="preview_cards_widget_height">Widget height: %1$d dp (scaled preview)</string>
+    <string name="preview_badges_off">Sample icon. Badges are off.</string>
+</resources>

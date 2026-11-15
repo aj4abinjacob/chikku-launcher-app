@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Appended to the home grid preview's TalkBack description. -->
+    <string name="preview_fix_home_grid_edges">Side space %1$s, top and bottom space %2$s, dock side space %3$s. Edge shadow %4$s.</string>
+    <!-- Appended to the widget preview's TalkBack description: corners, then inner space. -->
+    <string name="preview_fix_home_widget_shape">Corners: %1$s. Inner space: %2$s.</string>
+</resources>

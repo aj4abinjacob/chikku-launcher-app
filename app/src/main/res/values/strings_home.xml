@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Items -->
+    <string name="home_unavailable_app">Unavailable app</string>
+    <string name="home_unknown_app">App</string>
+    <string name="home_app_work_description">%1$s, work</string>
+    <string name="home_page_indicator_description">Page %1$d of %2$d</string>
+    <string name="home_workspace_description">Home screen</string>
+    <string name="home_dock_description">Dock</string>
+
+    <!-- Actions -->
+    <string name="home_action_add_to_home">Add to home screen</string>
+    <string name="home_action_app_info">App info</string>
+    <string name="home_action_remove_from_home">Remove from home</string>
+    <string name="home_remove_drop_target">Remove</string>
+    <string name="home_undo">Undo</string>
+    <string name="home_item_removed">Removed from home screen</string>
+    <string name="home_page_removed">Page removed</string>
+    <string name="home_menu_remove_page">Remove page</string>
+    <string name="home_menu_add_page">Add page</string>
+    <string name="home_remove_page_last">This is your only page, so it can\u2019t be removed.</string>
+    <string name="home_remove_page_confirm_title">Remove this page?</string>
+    <plurals name="home_remove_page_confirm_message">
+        <item quantity="one">The %d item on this page will be removed from your home screen. The app stays installed. You can undo this right after.</item>
+        <item quantity="other">The %d items on this page will be removed from your home screen. The apps stay installed. You can undo this right after.</item>
+    </plurals>
+    <string name="home_page_added">Page added</string>
+    <string name="home_added_to_home">Added to home screen</string>
+    <string name="home_undo_unavailable">Nothing to undo</string>
+    <string name="home_dismiss">Dismiss</string>
+    <string name="home_ok">OK</string>
+    <string name="home_cancel">Cancel</string>
+
+    <!-- Unavailable item dialog -->
+    <string name="home_unavailable_title">App unavailable</string>
+    <string name="home_unavailable_message">This app is not installed, is disabled, or its profile is turned off. Its place on your home screen is kept until you remove it.</string>
+
+    <!-- Feedback -->
+    <string name="home_launch_unavailable">That app can\'t be opened right now</string>
+    <string name="home_edit_occupied">That spot is already taken</string>
+    <string name="home_edit_no_space">No space left on this screen</string>
+    <string name="home_edit_duplicate">Already on the home screen</string>
+    <string name="home_edit_failed">Couldn\'t change the home screen. Nothing was lost.</string>
+
+    <!-- Drawer -->
+    <string name="home_search_hint">Search apps</string>
+    <string name="home_drawer_loading">Loading apps…</string>
+    <string name="home_drawer_no_apps">No apps found</string>
+    <string name="home_drawer_no_matches">No matches</string>
+    <string name="home_drawer_failed">Couldn\'t load your apps.</string>
+    <string name="home_retry">Retry</string>
+    <string name="home_drawer_title">All apps</string>
+
+    <!-- Recovery and safe mode -->
+    <string name="home_recovery_title">Home screen problem</string>
+    <string name="home_recovery_message">Your home screen layout couldn\'t be loaded. Nothing has been deleted.</string>
+    <string name="home_safe_mode_title">Safe mode</string>
+    <string name="home_safe_mode_message">Chikku stopped several times while starting, so it opened in safe mode. Your layout has not been changed or deleted.</string>
+    <string name="home_leave_safe_mode">Leave safe mode</string>
+    <string name="home_open_all_apps">Open all apps</string>
+    <string name="home_choose_other_home">Choose another home app</string>
+    <string name="home_corrupt_notice">Your previous home screen layout was damaged. A copy was kept and a fresh layout was started.</string>
+
+    <!-- Default HOME banner -->
+    <string name="home_not_default_banner">Chikku isn\'t your default home app</string>
+    <string name="home_set_default">Set as default</string>
+    <string name="home_settings_unavailable">Couldn\'t open system settings</string>
+    <!-- Placeholders for item kinds whose rendering is owned by the folders/widgets/shortcuts features. -->
+    <string name="home_folder_unnamed">Folder</string>
+    <plurals name="home_folder_description">
+        <item quantity="one">Folder %1$s, %2$d item</item>
+        <item quantity="other">Folder %1$s, %2$d items</item>
+    </plurals>
+    <string name="home_widget_placeholder">Widget</string>
+</resources>

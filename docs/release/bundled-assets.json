@@ -1,0 +1,1515 @@
+{
+  "scope": "All app resource files and branding files in this candidate. Project source scope is governed by root GPL; wrapper is independently checksum-verified Apache. This classifies declarations and explicit upstream headers, not independent authorship.",
+  "files": [
+    {
+      "path": "app/src/main/res/anim/chikku_popup_enter.xml",
+      "sha256": "d8c6ee26a44813945a33654908239a244a27e9d4c9b9df29f169ba3cd60537cf",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/anim/chikku_popup_enter_fast.xml",
+      "sha256": "96df1685cb7832c76671282d64e2d65c38c077722934bcb6f41209ccf2dd6136",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/anim/chikku_popup_enter_relaxed.xml",
+      "sha256": "a37c20b40a059b8a92564535a7a75767dd470be4d1f85fb43d8cf9e14d0efe7c",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/anim/chikku_popup_enter_slow.xml",
+      "sha256": "b84f279be26055355484b9ab7ee85e6f2dc339a30ffcb6b167760956430b6340",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/anim/chikku_popup_exit.xml",
+      "sha256": "e15ecf6258630e8f6489a768f89aba2f2e88017dd317d4c1bed1f7d10eb4fab6",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/anim/chikku_popup_exit_fast.xml",
+      "sha256": "cb49df57d490fa0aea1b816904521d033ce8f12c9675c676c255360e045907b2",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/anim/chikku_popup_exit_relaxed.xml",
+      "sha256": "55e8f5fe2d3efd71c7e9c84e6f9c65b6fff46fac2b611c4749ceef113d64a1a0",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/anim/chikku_popup_exit_slow.xml",
+      "sha256": "97123053b38bce5eefe0cb473afbb7feea86572f9c7cbe96864d6acca1c439e5",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/drawable/bg_home_panel.xml",
+      "sha256": "deba4c494fede62a99d88ef545a32b2b6317d663b33cee36be5aecc58da7787e",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/drawable/bg_home_pill.xml",
+      "sha256": "32aa71b11828c5ab773db1a87df4d441dca05ac18b1013ecaa0daa0d85e1fb38",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/drawable/bg_home_remove_target.xml",
+      "sha256": "712eabef88f8e88c16ac3b1cc11792ffd97c8853f242dced7e029adc6b3c19a0",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/drawable/bg_home_search.xml",
+      "sha256": "30c47092137e42945014d2321c5553157d1252e1b60ec9da31a22fff5459278e",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/drawable/bg_home_undo.xml",
+      "sha256": "ec80de56b581d00d672e869cfe8a45292e7d84e2f371af43c43b6408ad87ac8d",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/drawable/bg_search_widget.xml",
+      "sha256": "3fe13c8f9b6ce15971ce50d8b27d5ee0a49656b4237cf750008d1317946fb18c",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/drawable/chikku_button_borderless.xml",
+      "sha256": "f22a3157f8d68a43054e08670f33bd686a74d2b541fc06729350dbf7309f8dd0",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/drawable/chikku_text_cursor.xml",
+      "sha256": "ff4ed7a6393061d1e28d4750df43689b6085ed66b5bf33079e387e7127de3667",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_action_add.xml",
+      "sha256": "d5a2dfcd823d82be21069a0c0b772022dc36e747204f008e2720bcb99071a867",
+      "licence_basis": "Material Apache-2.0 header"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_action_assistant.xml",
+      "sha256": "bf9bfc2426b0d71d78c48181111a95127d6bf4d646d14d47e8f9d2c3e720cf76",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_action_drag.xml",
+      "sha256": "d743ad27d07dd95497515b246d3ab11b1b88b5b3ea8b0f483cf3835566ee4ffc",
+      "licence_basis": "Material Apache-2.0 header"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_action_mic.xml",
+      "sha256": "eb93c1ea3e74064475ed65a4cfadb2dd3c20fe6a673814c4105922d21152e11d",
+      "licence_basis": "Material Apache-2.0 header"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_action_music.xml",
+      "sha256": "3245f670672dbc9a61aaff6779b8c8a90641d8f7c6e957163fbce9d46c0434b4",
+      "licence_basis": "Material Apache-2.0 header"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_action_notifications.xml",
+      "sha256": "1e0644b68df909ea947e3661806583691038ed6f48efe4c79894597967d2567a",
+      "licence_basis": "Material Apache-2.0 header"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_action_quick_settings.xml",
+      "sha256": "5b931afbd0e510d5a0bafd08b866bd851f60c62890bcb7041a9335cd91cd9c96",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_action_recents.xml",
+      "sha256": "47da7b2d8110342fa9753fc08953e00a3d17773d2f40449ffdf3a58ab068c9c8",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_action_schedule.xml",
+      "sha256": "152d4087af05a4251b7e9e806c332b233df9bd7194acd4e19fd4cbd0df79c0c4",
+      "licence_basis": "Material Apache-2.0 header"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_action_weather.xml",
+      "sha256": "8c1d425a88bc85206647ad7bb4cfa8f7e874695140d65facac805de9a0265275",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_all_apps.xml",
+      "sha256": "45e3e7ae010bbe0f860182d6bf61a97351a347a9f1a5e30c4f203087d134ac49",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_app_placeholder.xml",
+      "sha256": "60b964a82ba94749fe25913c29323e79791c374fe4ae57019729b61aa87b24dc",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_app_unavailable.xml",
+      "sha256": "8bc0f301b396380e9a82e09fd0be17d8c2b8368977f4e47edd874104ff7e2cc2",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_chikku_mark.xml",
+      "licence_basis": "project-owned declaration; ownership confirmed by owner17October2026; not independently proved",
+      "sha256": "aeebd33f738ed130963fcb81dc90dfa5314bc9098cd86e97fdaa262f41e14d1f"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_gesture_double_tap_swipe_down.xml",
+      "sha256": "20fb304b46cbd6225a092d64285a4c8be1db5d2fd7d8b869aa9e85daec390bf3",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_gesture_double_tap_swipe_up.xml",
+      "sha256": "908b924dc4c282acd3a479c19b79edc2fa68f22078154e9e4a9f164d77612f17",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_gesture_pinch_in.xml",
+      "sha256": "1e499f5a23197d12582fac2d415312108a4f66260812bf5bcd31e45f991414fc",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_gesture_pinch_out.xml",
+      "sha256": "9c9c08b346c1be30545ab9d8ae8340f1689295fd3ff8dd4e68e081bd75c06f17",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_gesture_rotate_clockwise.xml",
+      "sha256": "b0e1face2e77b0354411c962d1e1086b9f7ab4fabc12388d59e3cd0461f8437a",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_gesture_rotate_counterclockwise.xml",
+      "sha256": "97ac35d2531893cb4f6b8975d3df136ea8f21185845120b421fd97f2cbf78aac",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_gesture_swipe_left.xml",
+      "sha256": "82287acbdb9af12d5496b78a3398dbc69281a9685a9023641c195b7049f7d6b9",
+      "licence_basis": "Material Apache-2.0 header"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_gesture_swipe_right.xml",
+      "sha256": "1901bad4c24afc8ab7d5e3b358c83d3f2ff72b7bc0e9114ca8aac01414baa8a4",
+      "licence_basis": "Material Apache-2.0 header"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_gesture_two_finger_swipe_down.xml",
+      "sha256": "e84067723979f9c899dc0691d7796a1033616ac3a47d472440b08386db998ece",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_gesture_two_finger_swipe_up.xml",
+      "sha256": "eca922effb0aee5d4aee35708942f7d1319331943fd0111530ca9c0851d66db9",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_launcher_foreground.xml",
+      "sha256": "39bbd35f31d4d8707aa31ea51d7103ca826939f531599fa6ccb9a93f915ca7cc",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_launcher_monochrome.xml",
+      "sha256": "840e5c11c0aaf588282ccc3d1efae706b229541e1a5b26e22b80db7c636dcbec",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_lock_open.xml",
+      "sha256": "da3ac402eba48f8541fb51cad8c9d3d3537353077d4196d1f87787d26dd89ae6",
+      "licence_basis": "Material Apache-2.0 header"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_lock_shield.xml",
+      "sha256": "aa4fd44ef48a9bd49a6ec6bc15400f24ed8ed43de482b574590c36d4bae7e636",
+      "licence_basis": "Material Apache-2.0 header"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_menu_add_page.xml",
+      "sha256": "5451a606ce64f0db9256517f3be1ae7cb5a5d19199b53f4fce659ebcef5ac391",
+      "licence_basis": "Material Apache-2.0 header"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_menu_app_info.xml",
+      "sha256": "1dd6237a6cf71096a5553fa42dffd57f704499b0ce80f588284a209ad3047a2c",
+      "licence_basis": "Material Apache-2.0 header"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_menu_edit.xml",
+      "sha256": "29b3fe46630f542be5e10ebd61f0766fc631e8fad1e56c14a4c405924b7f9035",
+      "licence_basis": "Material Apache-2.0 header"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_menu_hide.xml",
+      "sha256": "b3d1b765c0ec86e84fd075660b00616f59ba1f3e10598095fa4db6ac01744588",
+      "licence_basis": "Material Apache-2.0 header"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_menu_more.xml",
+      "sha256": "d667ebdb67164e937a78eea56457161a40a6c835e19dbbce301cbe4fc71a1763",
+      "licence_basis": "Material Apache-2.0 header"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_menu_move.xml",
+      "sha256": "d931734af9f76f91b7cd124a3846e0ff2cbb35539b95104f17988fc4105b492b",
+      "licence_basis": "Material Apache-2.0 header"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_menu_padding.xml",
+      "sha256": "26fd8440ec1e7c624ca4f288586d980309b7e5549f38fccdb92bc456cdf13517",
+      "licence_basis": "Material Apache-2.0 header"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_menu_refresh.xml",
+      "sha256": "4201306fdda5af7e00ab607600b4a94567a1356f0ad895ce208e0084637a431e",
+      "licence_basis": "Material Apache-2.0 header"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_menu_remove.xml",
+      "sha256": "7b0dd8e761ce8c3b351c0db820941d7b6fc224e9b924be538ada147296dadf70",
+      "licence_basis": "Material Apache-2.0 header"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_menu_remove_page.xml",
+      "sha256": "0bcf6f29968c6b745aba9d7d7d5ba79527a74d9abbf97871b311b8ecd0fec15b",
+      "licence_basis": "Material Apache-2.0 header"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_menu_resize.xml",
+      "sha256": "2f2e45f3da86dcfe80ea5e17b2c9f7c8cb890d0a9849282ed7bb137ec51938e4",
+      "licence_basis": "Material Apache-2.0 header"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_menu_store.xml",
+      "sha256": "986f16a9710d7e3d39bf0b8aab2ebe39e44fce63234a96f2356cdebdd0acae0f",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_menu_swipe.xml",
+      "sha256": "70abc251fb9dc12adb4a9fd049d64b5cb4944da2fb516aa7a9d6fd5189601900",
+      "licence_basis": "Material Apache-2.0 header"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_menu_tune.xml",
+      "sha256": "7244e16bc4013440dec4c279fefba7f693181622aa78b7d2d7f2fac10a26b2a1",
+      "licence_basis": "Material Apache-2.0 header"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_menu_uninstall.xml",
+      "sha256": "a05a4dd969178d1051355709716cd393427dd2ed8b9a95e8ea61d90e0d0c8b21",
+      "licence_basis": "Material Apache-2.0 header"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_menu_wallpaper.xml",
+      "sha256": "91fd95c4170aeb0144136a544fd1b0e1811a49b379db09a219fbb70197fc7b9e",
+      "licence_basis": "Material Apache-2.0 header"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_menu_widgets.xml",
+      "sha256": "0896d2f5d1ac33fcd93b9b07134ad1c4ca550c2b97273be12edd1954e950a544",
+      "licence_basis": "Material Apache-2.0 header"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_picker_app.xml",
+      "sha256": "678da214129f16b8713218a333865bd7f24265e749d495a74320a0da89932e54",
+      "licence_basis": "Material Apache-2.0 header"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_picker_default.xml",
+      "sha256": "9a5603edc72adc2b084f26f70c6772f900403d52490970ecd7affd49021d4990",
+      "licence_basis": "Material Apache-2.0 header"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_picker_none.xml",
+      "sha256": "187510746a6e3a757683529d69d2ba26f8d90e908933891511c968afd77bb20c",
+      "licence_basis": "Material Apache-2.0 header"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_picker_shortcut.xml",
+      "sha256": "607eb7f0cf7c187c3181f74045ecd8657e4cbb25e8930b472610cda60a6065bb",
+      "licence_basis": "Material Apache-2.0 header"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_search.xml",
+      "sha256": "5c753f97e0a54abb5f3f729787a473eb3374405517fbc477d183d1b99baa22cc",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_search_bar_ears.xml",
+      "licence_basis": "project-owned declaration; ownership confirmed by owner17October2026; not independently proved",
+      "sha256": "6047ccb5dcdc6eb5ff80e2f214ce5b8498ede62f160a1f16cf969502840e41b7"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_search_bar_face.xml",
+      "licence_basis": "project-owned declaration; ownership confirmed by owner17October2026; not independently proved",
+      "sha256": "9b3f40fae2cf06abc62a63fb522ccf6bde7f68541b424593b53f9f3c78fae178"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_search_bar_mark.xml",
+      "licence_basis": "project-owned declaration; ownership confirmed by owner17October2026; not independently proved",
+      "sha256": "866cc9569f86c82df538212879b6fa9e0d2520f0cfd713118ac0d33c54a9855e"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_search_bar_nose.xml",
+      "licence_basis": "project-owned declaration; ownership confirmed by owner17October2026; not independently proved",
+      "sha256": "abd61ee8be85ddd3e09875e2d57d49c4c664e1050c7e0610e68e7146b3331d91"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_search_bar_notch.xml",
+      "licence_basis": "project-owned declaration; ownership confirmed by owner17October2026; not independently proved",
+      "sha256": "a05069775af7e726053befcb5321ff2a803f857ff5bac21e045da8ef3dca6f5b"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_search_bar_paw.xml",
+      "licence_basis": "project-owned declaration; ownership confirmed by owner17October2026; not independently proved",
+      "sha256": "ded2e9e658565b8e216206a1669e769ddc34b7d3126db6c68dc19defcf32b301"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_search_bar_plain.xml",
+      "licence_basis": "project-owned declaration; ownership confirmed by owner17October2026; not independently proved",
+      "sha256": "c8064e837b4d08de96cd51d888b24ba6ee3a5838f3fddf3e578880f27c551884"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_search_bubbles.xml",
+      "sha256": "02de87ccf83063dea9d6548d07ca97902825fd6708ed5498c62a106960eb4be2",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_search_call.xml",
+      "sha256": "a4db553b6275d1d14f0b86dea7ceca1492aafe46fbf8437010d42e5ae3075209",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_search_chat.xml",
+      "sha256": "4af7461f8b153b64ca5f9d3e9495053e927983e733ad5576b49cb1e37f55e1de",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_search_clear.xml",
+      "sha256": "51aab91824b4d58eb743b6da1da7bbbfdb1764bd905272d1fce326a84131cf66",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_search_history.xml",
+      "sha256": "8398001291ca1bb626a191dc036e43c48207d0d3f03a820aa18258cc93010f16",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_search_message.xml",
+      "sha256": "dfb2a3e95bbf9d22bde4ea2e774f068f28313cfd4961f68f52d9027ec11c55a1",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_search_video.xml",
+      "sha256": "d61714974547ad5163c577ebe0922facd3aa1d65f8132f9b6e8917df7aed4bf8",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_about.xml",
+      "sha256": "0976cc23de01150a94881958410145d202672ed646996f28d3d54a908d3e0fc4",
+      "licence_basis": "Material Apache-2.0 header"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_back.xml",
+      "sha256": "2fb0dd7b11f9210c3452c292c793047fa98bf9e931b0f7639c1a8377bb5316a3",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_backup.xml",
+      "sha256": "77003ac05067c2aa572f7de55c0cec52a4c1537266870e9f919f24bd2179d159",
+      "licence_basis": "Material Apache-2.0 header"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_badges.xml",
+      "sha256": "1e0644b68df909ea947e3661806583691038ed6f48efe4c79894597967d2567a",
+      "licence_basis": "Material Apache-2.0 header"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_cards.xml",
+      "sha256": "c4b3ff006f1e2d3552a8520d8c4015d69c29450a65ba868e41010b171e70063a",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_check.xml",
+      "sha256": "3b07c0830f5d2882864934244214ff28de70dd0cbfef86a46fcc21b32aa410ab",
+      "licence_basis": "Material Apache-2.0 header"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_chevron.xml",
+      "sha256": "f38365c11f1bb3c9e4175225451eef61f8addbe97483de02d6343e9928b18814",
+      "licence_basis": "Material Apache-2.0 header"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_collapse.xml",
+      "sha256": "39afc4843a08f80bdd1ea9364b68cb8f70f771dbcdd00da3174ed8642cf14486",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_dock.xml",
+      "sha256": "747d31a7ceaea1cbdd7ba2753ece8d8fadfb6b3d03fe98c8081e0ec2d18fb137",
+      "licence_basis": "Material Apache-2.0 header"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_drawer.xml",
+      "sha256": "0d57a3eed7949d32844d0881b3c93a68b0d93bf9195730b6f21424787e77830e",
+      "licence_basis": "Material Apache-2.0 header"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_expand.xml",
+      "sha256": "64ad3c247f05fe11e600013d20d22ba628cc82ea957ca089946661c656eaf582",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_folder.xml",
+      "sha256": "94bdbc271e40192da590151e329bf433c9b0267ccae071f287816957b73fa20f",
+      "licence_basis": "Material Apache-2.0 header"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_gestures.xml",
+      "sha256": "8704cb2964d9d35288b2184eecd0187f5f058db17bcb67ce082e05f3ffafda63",
+      "licence_basis": "Material Apache-2.0 header"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_home.xml",
+      "sha256": "dd8e365f276fd2899bd3dfc1ceed3779d1aba57e558d7fec855c20f568e64b41",
+      "licence_basis": "Material Apache-2.0 header"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_info.xml",
+      "sha256": "25eb9b8092487dda28a3b9a7c6b53473679c6c5768f42a8bc98e2de22db71435",
+      "licence_basis": "Material Apache-2.0 header"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_labs.xml",
+      "sha256": "a325151bcae951324d5ba976b26b96393a93a612ce7f1fb1db0d6c1a353b1856",
+      "licence_basis": "Material Apache-2.0 header"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_lock.xml",
+      "sha256": "9d253839818883ef669fe931b5c36c1981448a7adc0d7bb77913721eadc0a338",
+      "licence_basis": "Material Apache-2.0 header"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_night.xml",
+      "sha256": "e40cdd8ab59343a98f6c4eab0a9e96dc2bdfcf82871ec9117e4f4566aecc6008",
+      "licence_basis": "Material Apache-2.0 header"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_palette.xml",
+      "sha256": "811f02b9b16b25ed6cdcb69ae626ef2c1460c7f300d9b9a34c1d2f68ff954309",
+      "licence_basis": "Material Apache-2.0 header"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_accessibility.xml",
+      "licence_basis": "Apache-2.0; explicit Google Material Design source header",
+      "sha256": "ebaec67a850f16df5c7dc7bbd027f5c8f48240dd5f5ad2371d4bbc57804162b1"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_add_to_home_screen.xml",
+      "sha256": "c5af0b84c16b4cf50f3f7e9cb483d1c9441cc5cc731690394400a4373c111900",
+      "licence_basis": "Material Apache-2.0 header"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_all_inclusive.xml",
+      "sha256": "8cf3f4abb6cafd1e39bb7846666b686e5160ea88aa7adb5a44139fa943925553",
+      "licence_basis": "Material Apache-2.0 header"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_apps.xml",
+      "sha256": "30614c4d6abbc8703484c8728f00305195adc3b07e0b949a79d544b1a2ba832f",
+      "licence_basis": "Material Apache-2.0 header"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_aspect_ratio.xml",
+      "licence_basis": "Apache-2.0; explicit Google Material Design source header",
+      "sha256": "effefdd279b89b38f236f29842abc9afb40db7ced47fb5d67870335e2ab9e6f2"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_blur_on.xml",
+      "licence_basis": "Apache-2.0; explicit Google Material Design source header",
+      "sha256": "33552f39abec720e1c833fd21ee5923a81440924467ffa81d88bda094bbc5b50"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_bug_report.xml",
+      "licence_basis": "Apache-2.0; explicit Google Material Design source header",
+      "sha256": "e06d250c2423d0db78f09c8ff618420effb8f354860c75da89c9edcdc0dc2b4d"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_cached.xml",
+      "licence_basis": "Apache-2.0; explicit Google Material Design source header",
+      "sha256": "549c925391247069925a058923ef3aa660c4413b847699c94aa0717a89f8b4dc"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_calculate.xml",
+      "sha256": "4378f2964d6cb85161c181b12e6f827ab1440f015899ae90567161c7bb9a5a51",
+      "licence_basis": "Material Apache-2.0 header"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_category.xml",
+      "sha256": "e1b9312bee940f83736563f159e5159a42a2ffc2dad60fff3b77407111ef0360",
+      "licence_basis": "Material Apache-2.0 header"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_check_circle.xml",
+      "licence_basis": "Apache-2.0; explicit Google Material Design source header",
+      "sha256": "e5feaa6ec05632ee2ff03fab3d69543bf3a2cf2ac218e9d9447d5cecb52f067c"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_close_fullscreen.xml",
+      "licence_basis": "Apache-2.0; explicit Google Material Design source header",
+      "sha256": "b8bc9e57206e02514763856505dbfbacc11491b39c90f8f9ce6d7c12434e8287"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_contacts.xml",
+      "sha256": "f672d90953c6930f73e68946ad07253d47a65953d2d50044471a2317ddb94f40",
+      "licence_basis": "Material Apache-2.0 header"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_contrast.xml",
+      "licence_basis": "Apache-2.0; explicit Google Material Design source header",
+      "sha256": "7893e3d70b59a95eff9cdbecd703e2874bf507e4a8c42799aed310fc6773205d"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_dark_mode.xml",
+      "licence_basis": "Apache-2.0; explicit Google Material Design source header",
+      "sha256": "a008af8f78e3e06d2c788cb153f22aceccf9481067e84ee0096066bf0434fbae"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_dynamic_feed.xml",
+      "sha256": "2eaa94b36bf3908357df64b3a9905baf10f5d718820693b52a8ddfdaa0b2bbe3",
+      "licence_basis": "Material Apache-2.0 header"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_error_outline.xml",
+      "licence_basis": "Apache-2.0; explicit Google Material Design source header",
+      "sha256": "4f9218574a1e6a71e271b99d6616cc989c86d99b5897f9ca9e114ae1ec40b11d"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_first_page.xml",
+      "licence_basis": "Apache-2.0; explicit Google Material Design source header",
+      "sha256": "58bb4a52d8a02ba9c2f6cfab83c0fc006a869f0a7d023a315b2a330df25a1d20"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_folder.xml",
+      "licence_basis": "Apache-2.0; explicit Google Material Design source header",
+      "sha256": "60b566d6ca6423611251009382a24f6d7ace9f2bc82c54a1a4c6f25350b19d1a"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_font_download.xml",
+      "licence_basis": "Apache-2.0; explicit Google Material Design source header",
+      "sha256": "3d0ff3f0e27128b0cc0ab152ff8402f1791401617efe3f95086c9bfcb8c25221"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_format_color_fill.xml",
+      "sha256": "5e9c517c4771370fdb11283357c35df1eface776ba754649d6fe23fc1e94a010",
+      "licence_basis": "Material Apache-2.0 header"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_format_size.xml",
+      "licence_basis": "Apache-2.0; explicit Google Material Design source header",
+      "sha256": "cc14a63f976308b6dffaa7cedb40a73cc725f7454840575838c401cb7a6bfd85"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_fullscreen.xml",
+      "sha256": "655390403fc5c60a105dbba17256de99f02f7ee8aa414da8713d8f9c632a5e78",
+      "licence_basis": "Material Apache-2.0 header"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_gradient.xml",
+      "sha256": "320ac675166f3418b8565a51401da55a36df8fe4a0ed5db8685491299f83a71e",
+      "licence_basis": "Material Apache-2.0 header"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_grid_on.xml",
+      "sha256": "3b019850e7b64d02e72842301f51e6f389378c6821c093a8a64c76f5bfc0de25",
+      "licence_basis": "Material Apache-2.0 header"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_grid_view.xml",
+      "sha256": "9248226ccb0478c3fb3cae93a15b7d6129977a30d2d9ae200d72d88241c85fe7",
+      "licence_basis": "Material Apache-2.0 header"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_home.xml",
+      "licence_basis": "Apache-2.0; explicit Google Material Design source header",
+      "sha256": "ebdf27acdc84a30089a4a60a92df4761bacb5f1d3e1533d8a257c56701bc67aa"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_keyboard.xml",
+      "sha256": "3f75ce41ce9a2ff68babf818f970bdb38375b4aa7beff89ca127cf8ba7e0d795",
+      "licence_basis": "Material Apache-2.0 header"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_keyboard_double_arrow_down.xml",
+      "licence_basis": "Apache-2.0; explicit Google Material Design source header",
+      "sha256": "6f83fef7f25a4831f7a43b55d5581fadb4cdcc809a4f86f5c174742b1e2c1af7"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_keyboard_double_arrow_up.xml",
+      "licence_basis": "Apache-2.0; explicit Google Material Design source header",
+      "sha256": "40ba695feebe739ec87e523d4716c834266e4f8a613391810026271112336614"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_label.xml",
+      "sha256": "a9de954428ca27c6e834eb74b9841745a6cad26c542ea54c45d39ec1d2728127",
+      "licence_basis": "Material Apache-2.0 header"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_lock.xml",
+      "sha256": "55734e1777610597b75ac3b1ab7b7eddedfec383ec859b8479d6e3ec19f3ad20",
+      "licence_basis": "Material Apache-2.0 header"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_lock_open.xml",
+      "licence_basis": "Apache-2.0; explicit Google Material Design source header",
+      "sha256": "4edb9ca9c39425e07ebf8cdb5b90ac2b18e8151d2eb48bde19e170b26143d6e2"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_manage_search.xml",
+      "sha256": "32e459aa55d67ba8e43dc65926b70e548dbdba101c3896c83deecdecd0ad2f5c",
+      "licence_basis": "Material Apache-2.0 header"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_menu.xml",
+      "licence_basis": "Apache-2.0; explicit Google Material Design source header",
+      "sha256": "bd030637a6d6d4e238ff8741ba8f5855f8c4e5b8b556920fc6ac78efe1adba21"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_notifications.xml",
+      "licence_basis": "Apache-2.0; explicit Google Material Design source header",
+      "sha256": "1663c55cb213b4ffae9674fc9cf22ff08760c9a73fd4fb48976f5784217ca010"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_opacity.xml",
+      "licence_basis": "Apache-2.0; explicit Google Material Design source header",
+      "sha256": "228ed69bd7301b8ad54861877fdc38ff365cac30b9cbf40515df3f0db40fafd4"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_open_in_full.xml",
+      "licence_basis": "Apache-2.0; explicit Google Material Design source header",
+      "sha256": "37a9a5c9d9ef35554ba514a027da925dd7c53893cbe1708cd6ac66e6ddb1f4f5"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_open_in_new.xml",
+      "licence_basis": "Apache-2.0; explicit Google Material Design source header",
+      "sha256": "2d9c95322000ecdb0a98e0dccc33c86205a5d2f5144efd0f44c2c89fe72bf965"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_padding.xml",
+      "sha256": "5823f95a6b9c378d90acbc473aaef6ee8a0671b1a6d98e17ded94c860d526b28",
+      "licence_basis": "Material Apache-2.0 header"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_palette.xml",
+      "licence_basis": "Apache-2.0; explicit Google Material Design source header",
+      "sha256": "d58c24819b269abb398ab0a76b9d3414f30c1e5d2d8b7834b57c92a252c0fafa"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_photo_size_select_large.xml",
+      "licence_basis": "Apache-2.0; explicit Google Material Design source header",
+      "sha256": "10e74ea9d52625da847bbb82b43c05385780e8ff89911336c7bb5578e5db9e2a"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_picture_in_picture_alt.xml",
+      "licence_basis": "Apache-2.0; explicit Google Material Design source header",
+      "sha256": "dcf90b0131f7663260a2fe0a713285cb7b70c4b37db061fe976a34059e0603b0"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_pinch.xml",
+      "licence_basis": "Apache-2.0; explicit Google Material Design source header",
+      "sha256": "ab2de4da3878511d4f8e43f4a2541933c2f5a0af7b9e17f9eebdd6064d028a3f"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_privacy_tip.xml",
+      "licence_basis": "Apache-2.0; explicit Google Material Design source header",
+      "sha256": "2176d0eefdb558f46381b4b1d8e3c498fa8c2cac775900d2682e78086fbd067e"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_public.xml",
+      "sha256": "c76576673e258dddd147289d958a9a8c110fcf022474914b7076f3b2c5b23961",
+      "licence_basis": "Material Apache-2.0 header"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_restart_alt.xml",
+      "licence_basis": "Apache-2.0; explicit Google Material Design source header",
+      "sha256": "7cc38ad236324ea02a44c217368e51063b840425cee3151480e818f759b42b00"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_rocket_launch.xml",
+      "licence_basis": "Apache-2.0; explicit Google Material Design source header",
+      "sha256": "aa3dc5c60e557ed469e12482fa5a59d20a325a751c6512e70e19a01b6d3ea4a0"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_rotate_left.xml",
+      "licence_basis": "Apache-2.0; explicit Google Material Design source header",
+      "sha256": "9c438b03cb48fefa855443a369669c00666d3732c20aecc6474c0aba8e4859a3"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_rotate_right.xml",
+      "licence_basis": "Apache-2.0; explicit Google Material Design source header",
+      "sha256": "9b8914fe7be95689f3c8daf49210a6ef6118decd46585a4341ce13cb139cd00d"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_rounded_corner.xml",
+      "sha256": "732bb3fac2bde6e377984ea614ee081de37151ed308f5d8e51e1fb5b143eac3e",
+      "licence_basis": "Material Apache-2.0 header"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_save.xml",
+      "licence_basis": "Apache-2.0; explicit Google Material Design source header",
+      "sha256": "88e21aa79401cc2d1b1d23730da98de91626a4da0bf5060295ebe9c3f1593e1e"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_settings_applications.xml",
+      "licence_basis": "Apache-2.0; explicit Google Material Design source header",
+      "sha256": "cf40b72baa144a8729b34c7e8f96109e3c873cf19454e57cf9147693dc435d26"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_settings_backup_restore.xml",
+      "licence_basis": "Apache-2.0; explicit Google Material Design source header",
+      "sha256": "0827d4171488127a105f339c74101fad1c625f53702a1af9ced7845c900348e5"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_share.xml",
+      "licence_basis": "Apache-2.0; explicit Google Material Design source header",
+      "sha256": "253d91c609554d4302e0bdf78482fe84539249b819a25e974af9879f60c6297f"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_sort_by_alpha.xml",
+      "sha256": "d50a8766a75c26ccbd6b9e167df2780d025fbc890ccc30a304f7ce29832cf390",
+      "licence_basis": "Material Apache-2.0 header"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_swap_horiz.xml",
+      "licence_basis": "Apache-2.0; explicit Google Material Design source header",
+      "sha256": "63f29f91ab3a696d3e11177c354a978e2c50d536df8a1d5a8b210beaac8e4951"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_swap_vert.xml",
+      "sha256": "0d7670f3945ab978c78dfef6a79fbb8b5f4a928b6078ed7addfb9478448b4ba3",
+      "licence_basis": "Material Apache-2.0 header"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_swipe_down.xml",
+      "licence_basis": "Apache-2.0; explicit Google Material Design source header",
+      "sha256": "26eab690ef29dac98072c1123b1d01bd01377c4021765a0e9256dbfc3daa5dbe"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_swipe_down_alt.xml",
+      "licence_basis": "Apache-2.0; explicit Google Material Design source header",
+      "sha256": "6100ef031b8bc7f9643a79b32d466dbd0112c5ff680c318e4dc87e3007670570"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_swipe_left.xml",
+      "licence_basis": "Apache-2.0; explicit Google Material Design source header",
+      "sha256": "5e67bd5e1f9128a7ab852dfd845b4cabab473f4c339ae35b551968f75457b194"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_swipe_right.xml",
+      "licence_basis": "Apache-2.0; explicit Google Material Design source header",
+      "sha256": "9c7f04b15bb86431af575ee77918285cd563c054374f50e55a35c0fcbdcfd2f4"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_swipe_up.xml",
+      "sha256": "98c93c539035120b56f5198babc70b7278428d3eb93a90d39df6ffcaffbc95a0",
+      "licence_basis": "Material Apache-2.0 header"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_swipe_up_alt.xml",
+      "licence_basis": "Apache-2.0; explicit Google Material Design source header",
+      "sha256": "64acf1f3d67592c0e0537d3b8d301bd63cdae31298c2c8d9bdc1be1f230874d3"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_sync.xml",
+      "licence_basis": "Apache-2.0; explicit Google Material Design source header",
+      "sha256": "5fa3635701312c1db097aae9410d54a97ad58f4c5a53e5d00dbb6d4808a0de76"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_tab.xml",
+      "sha256": "4a0e6e0991fe06ff6fd25d10cf1df51079ff5c04d6ce246619fe70b41df9d7fa",
+      "licence_basis": "Material Apache-2.0 header"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_table_rows.xml",
+      "licence_basis": "Apache-2.0; explicit Google Material Design source header",
+      "sha256": "160505979e2947297ce842f7e8092425c7881577e1410ee310a20ddcd0e1f352"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_timer.xml",
+      "licence_basis": "Apache-2.0; explicit Google Material Design source header",
+      "sha256": "6abaf274491eba5b196e223d1b8a68f32858c20fbfaa1a13bf89fc8a1d468066"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_title.xml",
+      "licence_basis": "Apache-2.0; explicit Google Material Design source header",
+      "sha256": "a74f712b9a019a0413e8d2b6262e2caddb789ae367db3f75153abaffa12e6609"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_touch_app.xml",
+      "licence_basis": "Apache-2.0; explicit Google Material Design source header",
+      "sha256": "326657d4027fb15adb137635d4fca011d1640a8a2e42361fca8c56b67012faf3"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_vertical_scroll.xml",
+      "sha256": "dbfb0793c74f10ef2ea60faf8f1b8b56d15851c4e42a9ccf9ab83349c14ad04d",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_view_carousel.xml",
+      "sha256": "02a38b8948207149c6a265755330de6cabec336dc26591302c4e645fdf715727",
+      "licence_basis": "Material Apache-2.0 header"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_view_column.xml",
+      "licence_basis": "Apache-2.0; explicit Google Material Design source header",
+      "sha256": "066b9b3de44ffe9567f094d1ffb55459505fc4870ac5e6796c8d52b8ee4a982d"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_visibility.xml",
+      "sha256": "2d77c87cb478a8ad430bf0c5673162fc7783a453fc5d123ede9ad0213c8e223f",
+      "licence_basis": "Material Apache-2.0 header"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_visibility_off.xml",
+      "sha256": "048c303848504720ced95bbd6cc47fa14989060a93c33f9953cc9f22d44a4776",
+      "licence_basis": "Material Apache-2.0 header"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_web_asset.xml",
+      "licence_basis": "Apache-2.0; explicit Google Material Design source header",
+      "sha256": "1dce46d952a2f78f4beb15838b28144ba2fd05002107331bfa2c1e3c7c5e39b6"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_widgets.xml",
+      "sha256": "f3c24f3680e74658ab729892a988455bf9521a5134178ae62f9e0241b73ebec3",
+      "licence_basis": "Material Apache-2.0 header"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings_row_wrap_text.xml",
+      "licence_basis": "Apache-2.0; explicit Google Material Design source header",
+      "sha256": "d15dd8523b342253deefd3a2ac2d9606a7d135501e444cbd78c4c48acecb35e6"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_swipe_down.xml",
+      "sha256": "81cdd78b6c947a39bb4cdffa0ead5fb2be95103f7b8e10e8ba138c87acf2d7ca",
+      "licence_basis": "Material Apache-2.0 header"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_swipe_up.xml",
+      "sha256": "8c746f8db94b28c7dd78f2d31e4318732e6ede185d83dbc5c0c33b818b9f975b",
+      "licence_basis": "Material Apache-2.0 header"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_work_badge.xml",
+      "sha256": "80b5cee812fa4499f3d389629ebbfad05d5bb187061247d5e511e07ffe93efc6",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/layout/activity_home.xml",
+      "sha256": "5fb918ce704da2ee744c47d84f02ad74dac2aed51a238357fff15521ef30baed",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/layout/view_message_bar.xml",
+      "sha256": "660aebe7e7c5bbcb0c4086156983e053a8f4c4942f70910b2f7451f0e870e5a5",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/layout/view_undo_bar.xml",
+      "sha256": "8a65d9a10075c2c854b97591f63628004cf8d80355341b9fdef690c239f91ca2",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/layout/widget_clock.xml",
+      "sha256": "315d66bc5dbebdd25c3a243eaf970c5d22cb3a79a0402b694d7a5ea3abce7726",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/mipmap-anydpi-v33/ic_launcher.xml",
+      "sha256": "1ddad67f7e9fbbb79ca83ffa3cddde30a8bc3574b31ecc3818680dc323771fd7",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/mipmap-anydpi/ic_launcher.xml",
+      "sha256": "97794f4e80225da88bd3febc0a83d4e6de508cfec4827359abe9a81715f63eed",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/values-night/colors.xml",
+      "sha256": "eb374c475b5b06de750b3284dc9ae9cee296c341340ad032e81d503ee503d524",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/values-night/colors_folders.xml",
+      "sha256": "93d3980d96270d84ab4591b3968d1905ca1a2af82e3d6c591591c63c53305b7a",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/values-night/colors_home.xml",
+      "sha256": "5556cce3fa460507b3265501db8a84d76b51f23fb2c336795cd5edb6deeab60f",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/values-night/themes.xml",
+      "sha256": "33e648c4427fe498001848fc30fa40b26897891d4e9271283930d3da544d56e6",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/values/colors.xml",
+      "sha256": "769360dd93eeff12cbc15188fc8543c6cbf58e16e96f5ec5208e74feaaa66b7c",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/values/colors_folders.xml",
+      "sha256": "be0fd2bd1f2008a62c417a0d6b1730f1c440802e7cca5e72033e4c3eaed9ba12",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/values/colors_home.xml",
+      "sha256": "8ebbd1e3e388eead8dfeec953d60b87645f30d62f582d385f7436570c02a4711",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/values/colors_home_dock.xml",
+      "sha256": "fcc05e2015f15af917372d8bb50a6990b2ba09637934edf2a3eb851db2a67fdf",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/values/dimens_badges.xml",
+      "sha256": "375c7e7e78d87a7dba32b27c2933878bf6916567172b5e2b62018e5420a73f52",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/values/dimens_drawer.xml",
+      "sha256": "aae60ecf51589a8327ef45ee67d5a7464eaf212fb1ef98cefa9b0140226cf8b9",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/values/dimens_drawer_search.xml",
+      "sha256": "4f8c9d9204d7a3b36aceca37707609cadffe133e47d45cadab285e5d746cd013",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/values/dimens_gestures.xml",
+      "sha256": "c7bd9654f1dd02ae2e979b9d89bab6deaf63bbdf867acde3e69fafe1030e8a1b",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/values/dimens_home.xml",
+      "sha256": "41c96256c6788114e2c283e58ac815202b131438d92d75ddf021476da7e14206",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/values/dimens_home_dock.xml",
+      "sha256": "f489e2173a7083de5f85e28bd4779d3941c8f220f852de3fb6738aad37c1d3f8",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/values/ids_folders.xml",
+      "sha256": "0e1330112c3e0f68df7349d79e2173d70129bbd3f969db394c9c48642322020f",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/values/ids_home.xml",
+      "sha256": "155f96e1106719d90391f2d82f7cd371c0518369ff205241686875d4a0f6f8d5",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/values/strings.xml",
+      "sha256": "be65c0aca4e15f02ec7a283ffb730ab115f099d95635d4372a09171964451244",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/values/strings_app_lock.xml",
+      "sha256": "80c59fd7369f2cc268a2a3e7bc8bff5fa372fd0487548cd484a432ea749a40ea",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/values/strings_appearance_pages.xml",
+      "sha256": "ab961beb63f5a254b242aebb91f20334d0ea8b4f7e26dc7a344cf96bc8122f32",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/values/strings_audit_onboarding.xml",
+      "sha256": "1bc82c142c756caca48e9c480c289d7856d7ff411dc3a5b3d05d7035da11cd5d",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/values/strings_backup.xml",
+      "sha256": "662c301ed0769797e01d3769a4108e8c5ac5b7566fb39bc3c00ca97d819cdd88",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/values/strings_badge_customization.xml",
+      "sha256": "6424b1d42c9f3a99c47c2f0593bac49e839fdd30f6c8843bf6a539ef061512c0",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/values/strings_badges.xml",
+      "sha256": "37bcfdcf28fcafc57fae8694c1f84ccd0c8297e1b43d8c90e0855cb5d068dddb",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/values/strings_card_extensions.xml",
+      "sha256": "3406dd34185a3c6cd1f46cfdb7e2152e29cd8fe4155ce9b430a10e865264a577",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/values/strings_card_weather.xml",
+      "sha256": "54d443326d8e217eee20b6172ca553351394e4d1154b9dd81c41ac21741965b8",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/values/strings_card_widgets.xml",
+      "sha256": "806b251fe2fd97865f4e4764b0aa264dbbe071cf460761a4ab52bd43935b98d2",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/values/strings_cards.xml",
+      "sha256": "ceff7637a08a003bcba51c241807d3d818942bebe570306c43d7e814a8ed09e2",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/values/strings_cards_search.xml",
+      "sha256": "c4123582ce42a7fb98606dcff1a9a9f11c96024cb63bc347ba7b63a883fcad8b",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/values/strings_cards_surface.xml",
+      "sha256": "cf12389c5ca3fcb4c96d42ac0b33f9d04ddf094beaeefd310b62777b24520336",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/values/strings_cards_ui.xml",
+      "sha256": "f079dc47447d7063a9eb4218ca7eab0bf2ed0e2c857bb95230d95724f6890197",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/values/strings_discover.xml",
+      "sha256": "8d504c59d7bacdba97579d59ad23f782ee84e53b9af395572ce5c26799e95812",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/values/strings_dock_pages.xml",
+      "sha256": "e51fd53182300d4795c9917411b7648306221edf5e4852ba7ca1b4668885e1e1",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/values/strings_drawer.xml",
+      "sha256": "4cc0fab62d4d40edf9f3349758b3e2ead6c02e9574aaaace0b3d0960ff41449b",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/values/strings_drawer_customization.xml",
+      "sha256": "9c061c45b0df4c9327f10f0bd66bd7a17e4a3a5b997baa9ce62b49e09291750a",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/values/strings_drawer_settings_pages.xml",
+      "sha256": "3eb0906f80bdafb7d3023721608c5641465dfd56b58816212976e22e4f1de3b5",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/values/strings_extended_settings.xml",
+      "sha256": "5ceada89666cddefd04538d4ee4c4dcc945b735f804983731fef820c9ffc0a69",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/values/strings_folder_customization.xml",
+      "sha256": "fdfeb313a6776c9daba77593a8a3509c3106ac0ba68279c990cff7e70befb15e",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/values/strings_folder_edit_refresh.xml",
+      "sha256": "c31fdc3ae01308545a2cf65acf3134d4ba696d53ccf6076e69a6d03eb301d96e",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/values/strings_folder_edit_sheet.xml",
+      "sha256": "390ca63fab200870874a4ef3941cb17234a824681dd279ca42f5148964bc34c7",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/values/strings_folder_paging.xml",
+      "sha256": "c784d3820898ed25fc9d395327db27fc5871a7312fa790f719743ef4bbc55efa",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/values/strings_folder_scene_preview.xml",
+      "sha256": "4538d6d8f70799080196ca3bd05280e00321033dbdc02912329c4ddd5ed7074b",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/values/strings_folders.xml",
+      "sha256": "8b393d2f9fa80411056b43e091f04406b601a4be228bd7444805360b47931eee",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/values/strings_gesture_extras.xml",
+      "sha256": "9a48278d484b5aecb1ab432428089be013825949feeb0b5c1bf9037cfe79a3fa",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/values/strings_gestures.xml",
+      "sha256": "c450aec570fb0b4ee23cd100c9f1e758ba3661715fef3ed58db95e45a86c3835",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/values/strings_home.xml",
+      "sha256": "3bf2d4743caec77f858e857b5817574b8d07b3a7b74cc3e299bb0e9fe06765b2",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/values/strings_home_dock.xml",
+      "sha256": "bdb2c4f82f8934c5ba04042c1e564ee6ac16cfc14ffd4eadf1bc0571e133dbc8",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/values/strings_home_reference.xml",
+      "sha256": "be5971f884822c115812a702f38b21ceeec16301c9032a3c0c4b1cbec8058324",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/values/strings_home_settings_pages.xml",
+      "sha256": "66994b262bc7f678306dc071f59621e3f1e1b9ff0acd0a26309d27a8133a8200",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/values/strings_horizontal_paging.xml",
+      "sha256": "2788ee5a81519eb72ef55688b9a7f5c5473818275b721299850081f40c5b681b",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/values/strings_icon_picker.xml",
+      "sha256": "fa6cc71737d03afeb9403adddb683306a3bf339d77c87ff7ae74bee3ec7bd546",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/values/strings_labels.xml",
+      "sha256": "a66b567d38e4fb8b4364a211bfcada44909fe786f7425afb048d5d5d76988628",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/values/strings_legal.xml",
+      "sha256": "0836891566f6ad2b997b23b699ec455c25de4f19969de0c4c1ba396188508e26",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/values/strings_live_previews_drawer.xml",
+      "sha256": "2fcb700e53b8fad5bd9230f2d112db4eaa47b7c097e5bafcdd4cee652370616e",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/values/strings_live_previews_home.xml",
+      "sha256": "f171789ba97e8fd16d0ca6b7dd955f1b810be51eebd30297c5808af11dcd41a9",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/values/strings_live_previews_search.xml",
+      "sha256": "a8c4b928147d3c694d327bdbf933e127a5917ab813b89d974e99af6862c8067d",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/values/strings_look_feel.xml",
+      "sha256": "2606ffeb87b300ecd6af240874f12aadcb6103f70b0a3086167b864b22812d34",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/values/strings_menu_customization.xml",
+      "sha256": "029c7607943f05706823334efb00ebf83c4458464152272563bbb0a512c6320c",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/values/strings_messages.xml",
+      "sha256": "bd2095311ea7f9c6e60c83e62f1fa5712f6e5669d5137c0cddf90580476bbd53",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/values/strings_micro_results.xml",
+      "sha256": "fe19ac48d224485f4dd35dc4a9e1f3cdf65c8ae9cb77a6205f0aaae40998bc78",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/values/strings_preview_appearance_gestures_complete.xml",
+      "sha256": "e54c32882d3e8f5c771a1f2e956457f0d87b81dd589a7924c834622327bac927",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/values/strings_preview_card_gaps.xml",
+      "sha256": "878065f0b4a8239496c5290eb93da0c4db8438b0a442ada1f54cbf8f84f22649",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/values/strings_preview_cards_badges_complete.xml",
+      "sha256": "2f80dcc4463918b72ff10558e89915e78fc3cd6a8dd5d6bfbfc8bd8e39bdf4c3",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/values/strings_preview_drawer_folder_complete.xml",
+      "sha256": "ac6a8b247c17ac02558661ce5bbaa177e78f60547ab3f312a20682d467705b8b",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/values/strings_preview_drawer_folder_gaps.xml",
+      "sha256": "c93466e6933e240f4be7199a5cca0ca54628e28a98e7107cd84bfd7ee2892378",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/values/strings_preview_extras.xml",
+      "sha256": "aefa2d6ff3b167f19ad45da14e251dcf9872e9d4dc9326f786941a078e594e71",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/values/strings_preview_fixes_dock_search.xml",
+      "sha256": "a8e14f46bd4f372c0937e11079757578fb0daaf21a92fe3d512d251ba7229a69",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/values/strings_preview_fixes_drawer.xml",
+      "sha256": "c3a8f4c4d7015f93c1b6eee422691ace4d0fb87bd7518989dd33f895ac46403b",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/values/strings_preview_fixes_home.xml",
+      "sha256": "0b4a992a931045b5d7dd3d646f7fab75157319f6b2022b70223899e5f46ab0d3",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/values/strings_preview_fixes_lookfeel.xml",
+      "sha256": "0313e092ea0c77e3132927a6ecc8f11200918b54be104efb11fce96c75da9507",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/values/strings_preview_home_dock_search_complete.xml",
+      "sha256": "ca103fa1250ff41e087ebc74fa272e4edc304bb6a03c0eddeb809af456230f0c",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/values/strings_preview_search_apps.xml",
+      "sha256": "fe0c8215fd97b861b6a67be3bb8d543a1e5d567c5b764b0f4e5a45fa0fb1fe12",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/values/strings_preview_search_gaps.xml",
+      "sha256": "d6e39097d985b60f41e8e8d7072c209721a9c6050b7e7f4a1e1b6743d79bb5ae",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/values/strings_prompts.xml",
+      "sha256": "6bd3c3bde3da54b7a5972e91d3bb62231be553fa662c5f8b07a0db02de6c5787",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/values/strings_prompts_cards_gestures.xml",
+      "sha256": "b6aede6cdd7be62b1ac268d129fea8dbb5d2eefa114082b47eaa00078bf19ef7",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/values/strings_prompts_folder_widget.xml",
+      "sha256": "4a40a5d2c154a261f7b4e5d20d8e2cae1f8ef86a40c5d53e7e488f8065fe9d0d",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/values/strings_prompts_lock_pin.xml",
+      "sha256": "1ebe6bbd932549db850687315909d1507765543b1acbfac7b2dcd2567fc18089",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/values/strings_reliability.xml",
+      "sha256": "43afdecec9c3d6bf618e474c84c9370f1c3ab2ad8f2b01a35580d565fcd07ede",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/values/strings_search.xml",
+      "sha256": "89ded49b1fe9fecc0024e6f312397606cee3e7ad81d73a9f0a30eab5e84b52ac",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/values/strings_search_customization.xml",
+      "sha256": "0d1f3183a9d193556195551c007bbfec7212b4062d63ad16d901da93ce77e589",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/values/strings_search_matching.xml",
+      "sha256": "fa1c9bd7a78f74c04dd86feedc5d40875e3ef32fc5e15aba7d771608a162280a",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/values/strings_search_sizing.xml",
+      "sha256": "b6f18526355bc4a050ce9f29ff44c6f7bab92f0f4dfff3388f625b17dcaaae8f",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/values/strings_search_subpages.xml",
+      "sha256": "b58db6d30f004832fb8527f60e1f749f119831ac160a4b6354293c43218d84bf",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/values/strings_setting_hints.xml",
+      "sha256": "05e7e572636c22b2dc2179436280055efa216ed40662d6aa8683aeccf5d9b473",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/values/strings_settings.xml",
+      "sha256": "8ec824f294fa89fb090a320f84f23890806e3a0531ae97dbf4fc4f071da7ffdf",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/values/strings_settings_search.xml",
+      "sha256": "b4ab020b1e8591727275ceb08b2e242baf39b7d644c36562a7f876bb3fc2a16f",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/values/strings_settings_value_clarity.xml",
+      "sha256": "8b2c6709dfd8b8c4efedc0749988bf19907c65695cee6c57ea6abe8b46351bc4",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/values/strings_slider_values.xml",
+      "sha256": "4e84bcdd91134d2bf9b9778bb911be0908a6eef228b315cd2c08d77ff6166ea4",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/values/strings_spacing_clarity.xml",
+      "sha256": "7787c666ebaa507e867b1f17ff70944abfbfe5ce73e0a69bc22595896394d70e",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/values/strings_vertical_scrolling.xml",
+      "sha256": "9471ad81bb4ac8dba49a8db6b49a45928792180fe63ecdaa54e0536163378909",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/values/strings_widgets.xml",
+      "sha256": "5e7ac8de51aa859937f96ca20a4766e02733aa577c49e7775eec5bfa2dcb4b58",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/values/styles_chikku_widgets.xml",
+      "sha256": "fb9afbf70fa97ec407e54891f33c7b4d8535642c4cffcaa8425bf0951ac99699",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/values/themes.xml",
+      "sha256": "8993f9d30685f2b0f42119984aa8f5390b1b28d7004a2d341bb64101d51f1138",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/values/themes_search.xml",
+      "sha256": "7d123e80c861f1e421658d3977a1a13be12a8a10f2ded9a13bd21fa0965ef4e2",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/xml/backup_file_paths.xml",
+      "sha256": "2721c2385f659c3b5d44622a93a1bb6ef624e92cab42fb30d5d6a60d74041f42",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/xml/chikku_accessibility_service.xml",
+      "sha256": "89a3e54c151f2909a7bbabb3e2dcbbec1f9201e82f23bf19fe8da9db86b37bbb",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/xml/clock_widget_info.xml",
+      "sha256": "737b007ce8c181a6f27cdb9ab354dae3acad23395f13069ecc1bbe2fb0d999bc",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "app/src/main/res/xml/data_extraction_rules.xml",
+      "sha256": "3027295849ed97ad9abd49fb12f0e2235f814922aa4134beb27ffb2208ed1ac1",
+      "licence_basis": "project-owned declaration; ownership not independently proved"
+    },
+    {
+      "path": "design/branding/README.md",
+      "sha256": "91b880683ef6a1e8af1ef89901b02e827c880854eb2fe54f93629587228c3b89",
+      "licence_basis": "historical concept/reference rights unresolved; not shipped in app"
+    },
+    {
+      "path": "design/branding/chikku-app-icon-concept-v1.png",
+      "sha256": "31e029413c62f9a1fcc7ad53773a9f149afa9779b122de08e16d90d324ef21e4",
+      "licence_basis": "historical concept/reference rights unresolved; not shipped in app"
+    },
+    {
+      "path": "design/branding/chikku-app-icon-concept-v1.prompt.txt",
+      "sha256": "7e467ed4d3664b0ccb6c927cdc2753100f6c7d510aa6358548b741e73480bb6c",
+      "licence_basis": "historical concept/reference rights unresolved; not shipped in app"
+    },
+    {
+      "path": "design/branding/chikku-app-icon-minimal-v3.png",
+      "sha256": "19b4f445d1386486c148b6211eca4bac7c30ca0c83efbc8c05957b0a9f307d40",
+      "licence_basis": "historical concept/reference rights unresolved; not shipped in app"
+    },
+    {
+      "path": "design/branding/chikku-app-icon-minimal-v3.prompt.txt",
+      "sha256": "11bdad0fb739c8cbd6c584fa514180811041b02b688d363f68ede421e9e2fe30",
+      "licence_basis": "historical concept/reference rights unresolved; not shipped in app"
+    },
+    {
+      "path": "design/branding/chikku-app-icon-portrait-v2.png",
+      "sha256": "453b61507c8a122d8f49ba291cd05a7066ec0a84600fadf853b45898880df758",
+      "licence_basis": "historical concept/reference rights unresolved; not shipped in app"
+    },
+    {
+      "path": "design/branding/chikku-app-icon-portrait-v2.prompt.txt",
+      "sha256": "70dfbe710a58463c17191df29cffdbc721b462aeb87ebe2fcb3dc348de8632c1",
+      "licence_basis": "historical concept/reference rights unresolved; not shipped in app"
+    },
+    {
+      "path": "design/branding/chikku-app-icon-soft-v4.png",
+      "sha256": "2a9b1826519150d13fc2283cb62b9329ab831810b198e52e4108ac2402a10cad",
+      "licence_basis": "historical concept/reference rights unresolved; not shipped in app"
+    },
+    {
+      "path": "design/branding/chikku-app-icon-soft-v4.prompt.txt",
+      "sha256": "129912290c3ba7336d9da98440d5360a0be31a0829e5b59e06cd0c948af3e0c1",
+      "licence_basis": "historical concept/reference rights unresolved; not shipped in app"
+    },
+    {
+      "path": "design/branding/chikku-icon-mask-preview.png",
+      "sha256": "bb9907e2b12e38b8d37f3f6226d6c7728a5c7f1ab7d7562310bf7cd4314e06e6",
+      "licence_basis": "historical concept/reference rights unresolved; not shipped in app"
+    },
+    {
+      "path": "design/branding/chikku-play-icon-512.png",
+      "sha256": "1b28aef88666b915917224a35e011ce9d37f1bc9fd892ea1cb0ec37b79c389ea",
+      "licence_basis": "historical concept/reference rights unresolved; not shipped in app"
+    },
+    {
+      "path": "design/branding/chikku-tail-c-master-v1.png",
+      "sha256": "3e107a6d2fb9241f6ed52618aa555905ae123222ad9bf14c5467a952cc1a13a9",
+      "licence_basis": "historical concept/reference rights unresolved; not shipped in app"
+    },
+    {
+      "path": "design/branding/chikku-tail-c-v1.prompt.txt",
+      "sha256": "3142b8badcdbc2c6d3df66d6b1e69e379ef830339e0abafd18db6ea0ae81f7ea",
+      "licence_basis": "historical concept/reference rights unresolved; not shipped in app"
+    },
+    {
+      "path": "design/branding/nose-notch-ink/README.md",
+      "sha256": "081621c887828e2cc4989d82ebbadb09255ba0f60d5a14355c4a13c86bbd0503",
+      "licence_basis": "current code-native mark, owner dog-nose statement"
+    },
+    {
+      "path": "design/branding/nose-notch-ink/background.svg",
+      "sha256": "5cd2088de8e8d009aec51b2d08915b158e3691c604a62aa97d777d0714045d9a",
+      "licence_basis": "current code-native mark, owner dog-nose statement"
+    },
+    {
+      "path": "design/branding/nose-notch-ink/foreground.svg",
+      "sha256": "ee3cf5ec958c287d95d8773e2dc6b010b93ab46acc71bd59684b9a699bf61038",
+      "licence_basis": "current code-native mark, owner dog-nose statement"
+    },
+    {
+      "path": "design/branding/nose-notch-ink/master.svg",
+      "sha256": "43a780b9e2b90c6184ca972f39db15bf612987d41e53f7613f01d64fde586765",
+      "licence_basis": "current code-native mark, owner dog-nose statement"
+    },
+    {
+      "path": "design/branding/nose-notch-ink/monochrome.svg",
+      "sha256": "7aa07fc84b4d46884a8ec25727d6338e98fd2bf4d5d30e81190358624938bddd",
+      "licence_basis": "current code-native mark, owner dog-nose statement"
+    },
+    {
+      "path": "design/branding/nose-notch-ink/play-512.png",
+      "sha256": "fe0355bc60565cc754419d80ac174e74930d07f4cc5d64e6eaa224090005aa52",
+      "licence_basis": "current code-native mark, owner dog-nose statement"
+    }
+  ]
+}

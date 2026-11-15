@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="card_weather_online">Online weather for this card</string>
+    <string name="card_weather_online_summary">MET Norway receives the chosen city coordinates and network address when this card opens. City search stays offline. No GPS or persistent identifiers are added.</string>
+    <string name="card_weather_city">City</string>
+    <string name="card_weather_choose_city">Choose a city in card settings</string>
+    <string name="card_weather_selected_city">Selected city: %1$s</string>
+    <string name="card_weather_search">Find city</string>
+    <string name="card_weather_query_hint">Search the offline city list by city and country. Smaller places may be missing; saved locations are kept.</string>
+    <string name="card_weather_no_cities">No cities found. Try a city and country.</string>
+    <string name="card_weather_city_unavailable">The offline city list is unavailable. Your saved city is kept.</string>
+    <string name="card_weather_unit">Temperature unit</string>
+    <string name="card_weather_celsius">Celsius</string>
+    <string name="card_weather_fahrenheit">Fahrenheit</string>
+    <string name="card_weather_celsius_short">°C</string>
+    <string name="card_weather_fahrenheit_short">°F</string>
+    <string name="card_weather_refresh">Refresh weather</string>
+    <string name="card_weather_disabled">Online weather is off for this card</string>
+    <string name="card_weather_setup">Set up weather</string>
+    <string name="card_weather_setup_description">Set up weather in card settings</string>
+    <string name="card_weather_needs_city">Choose a city to see its weather.</string>
+    <string name="card_weather_needs_online">Turn on online weather to see the forecast for this city.</string>
+    <string name="card_weather_needs_city_and_online">Choose a city and turn on online weather to see the forecast.</string>
+    <string name="card_weather_loading">Loading weather…</string>
+    <string name="card_weather_unavailable">Weather is unavailable. Check your connection and refresh.</string>
+    <string name="card_weather_estimate">Model estimate. Cached until the provider allows an update. No background polling.</string>
+    <string name="card_weather_provider_warning">MET reports this forecast service is beta or deprecated. Check the provider before relying on it.</string>
+    <string name="card_weather_sleet">Sleet</string>
+    <string name="card_weather_temperature">%1$d%2$s</string>
+    <string name="card_weather_range">Next 24 hours: High %1$d%3$s · Low %2$d%3$s</string>
+    <string name="card_weather_attribution"><![CDATA[Weather by <a href="https://www.met.no/">MET Norway</a> · Cities by <a href="https://www.geonames.org/">GeoNames</a> · <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a><br>Offline GeoNames city list; smaller places may be absent. Coordinates rounded to four decimals; temperatures rounded, conditions summarized and next-24-hour range derived.]]></string>
+    <string name="card_weather_clear">Clear</string>
+    <string name="card_weather_partly_cloudy">Partly cloudy</string>
+    <string name="card_weather_cloudy">Cloudy</string>
+    <string name="card_weather_fog">Foggy</string>
+    <string name="card_weather_drizzle">Drizzle</string>
+    <string name="card_weather_freezing_rain">Freezing rain</string>
+    <string name="card_weather_rain">Rain</string>
+    <string name="card_weather_snow">Snow</string>
+    <string name="card_weather_thunderstorm">Thunderstorms</string>
+    <string name="card_weather_conditions_unknown">Conditions unavailable</string>
+</resources>

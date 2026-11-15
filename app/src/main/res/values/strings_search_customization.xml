@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="search_settings_window_header">Search appearance</string>
+    <string name="search_settings_presentation">Search display</string>
+    <string name="search_settings_window">Window</string>
+    <string name="search_settings_fullscreen">Full screen</string>
+    <string name="search_settings_results_anchor">Results start</string>
+    <string name="search_settings_results_top">Under the search field</string>
+    <string name="search_settings_results_keyboard">Near the keyboard</string>
+    <string name="search_settings_background">Search background color</string>
+    <string name="search_settings_corner_radius">Search corner radius</string>
+    <string name="search_settings_corner_radius_summary">Rounds the input field in opened search and the panel in Window mode. The home screen search bar has its own page.</string>
+    <string name="search_settings_one_row">Show matching apps in one row</string>
+    <string name="search_settings_one_row_summary">Show up to five matching apps in a compact row</string>
+    <string name="search_settings_private_keyboard">Stop the keyboard learning searches</string>
+    <string name="search_settings_private_keyboard_summary">Ask the keyboard not to learn search text. Keyboard support varies.</string>
+    <string name="search_settings_bar_color">Search bar color</string>
+    <string name="search_settings_bar_corners">Search bar corner radius</string>
+    <string name="search_settings_bar_corners_summary">Rounds the home search bar in either position. At half the bar height, the ends are fully round; larger values look the same.</string>
+    <string name="search_settings_bar_shadow">Search bar shadow</string>
+    <string name="search_settings_results_header">What search finds</string>
+    <string name="search_section_folders">Folders</string>
+    <string name="search_folder_item_count">%1$d items</string>
+    <string name="search_settings_folders">Find home screen folders</string>
+    <string name="search_settings_folders_summary">Find personal home folders by name. Folders containing hidden or unavailable apps are excluded.</string>
+    <string name="search_folder_unavailable">This folder is no longer available in search.</string>
+</resources>

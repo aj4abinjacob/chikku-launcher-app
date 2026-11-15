@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Prompt for a folder entry whose app is gone (uninstalled or disabled) -->
+    <string name="prompt_folder_app_unavailable_title">This app isn\'t available</string>
+    <string name="prompt_folder_shortcut_unavailable_title">This shortcut isn\'t available</string>
+    <string name="prompt_folder_app_unavailable_message">It may have been uninstalled or turned off. Its spot in this folder is kept until you remove it, so nothing moves if it comes back.</string>
+    <string name="prompt_folder_shortcut_unavailable_message">The app it belongs to may have been uninstalled or turned off. Its spot in this folder is kept until you remove it, so nothing moves if it comes back.</string>
+    <!-- Short state tag on the subject card -->
+
+    <!-- Prompt for a widget whose provider app is missing -->
+    <string name="prompt_widget_missing_title">This widget can\'t load</string>
+    <string name="prompt_widget_missing_message">The app that provides it isn\'t installed right now, or its profile is paused. Its place on your home screen is kept: reinstall the app and tap the widget to add it back, or remove it.</string>
+</resources>

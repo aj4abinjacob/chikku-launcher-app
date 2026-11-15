@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Live previews pinned above Settings › App drawer › Grid / Background and Settings › Folders (sample Chikku icons, never the user's apps). -->
+    <!-- Name shown on the sample folder in the folder preview. -->
+    <string name="settings_folder_preview_name">Sample folder</string>
+</resources>

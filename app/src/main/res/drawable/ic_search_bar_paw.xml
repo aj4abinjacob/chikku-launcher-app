@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Chikku search glyph: a magnifier whose lens holds a paw print.
+     Drawn for this project (no third-party asset); shares its lens and handle with the other
+     ic_search_bar_* glyphs. Tinted where used. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="28dp"
+    android:height="28dp"
+    android:viewportWidth="28"
+    android:viewportHeight="28">
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFFFF"
+        android:strokeWidth="2.4"
+        android:strokeLineCap="round"
+        android:pathData="M12,4 A8,8 0 1,1 12,20 A8,8 0 1,1 12,4 M17.7,17.7 L24,24" />
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M12,11.8 C13.8,11.8 15,13.6 15,14.8 C15,15.8 14.2,16.2 12,16.2 C9.8,16.2 9,15.8 9,14.8 C9,13.6 10.2,11.8 12,11.8 Z" />
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M7.3,11.2 A1.2,1.2 0 1,1 9.7,11.2 A1.2,1.2 0 1,1 7.3,11.2 Z M9.4,8.8 A1.2,1.2 0 1,1 11.8,8.8 A1.2,1.2 0 1,1 9.4,8.8 Z M12.2,8.8 A1.2,1.2 0 1,1 14.6,8.8 A1.2,1.2 0 1,1 12.2,8.8 Z M14.3,11.2 A1.2,1.2 0 1,1 16.7,11.2 A1.2,1.2 0 1,1 14.3,11.2 Z" />
+</vector>

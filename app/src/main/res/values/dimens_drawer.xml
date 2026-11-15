@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="drawer_fast_scroller_width">28dp</dimen>
+    <dimen name="drawer_fast_scroller_padding">4dp</dimen>
+    <dimen name="drawer_fast_scroller_thumb_width">6dp</dimen>
+    <dimen name="drawer_fast_scroller_text_size">11sp</dimen>
+    <dimen name="drawer_fast_scroller_popup_size">64dp</dimen>
+    <dimen name="drawer_fast_scroller_popup_text_size">30sp</dimen>
+    <dimen name="drawer_fast_scroller_popup_margin">12dp</dimen>
+    <!-- List style: one app per row, read by name (larger label, smaller icon than a grid cell). -->
+    <dimen name="drawer_list_icon_size">40dp</dimen>
+    <dimen name="drawer_list_label_text_size">17sp</dimen>
+    <dimen name="drawer_list_row_padding">8dp</dimen>
+    <!-- Leading column holding the group letter beside the first app of each letter. -->
+    <dimen name="drawer_list_section_gutter">36dp</dimen>
+    <dimen name="drawer_list_section_text_size">15sp</dimen>
+    <!-- How far the alphabet rail's letters bulge toward the list under the finger. -->
+    <dimen name="drawer_fast_scroller_wave_shift">28dp</dimen>
+    <dimen name="drawer_tab_padding">16dp</dimen>
+    <dimen name="drawer_tab_spacing">4dp</dimen>
+    <dimen name="drawer_tab_radius">18dp</dimen>
+</resources>

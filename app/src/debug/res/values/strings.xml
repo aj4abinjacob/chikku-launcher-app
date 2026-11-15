@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Tells the debug install apart from release in the Home app picker and app lists. -->
+    <string name="app_name">Chikku Debug</string>
+</resources>

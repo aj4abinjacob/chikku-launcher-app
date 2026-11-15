@@ -1,0 +1,33 @@
+# Gradle / Android Studio
+.gradle/
+build/
+local.properties
+.idea/
+*.iml
+.kotlin/
+captures/
+.cxx/
+.externalNativeBuild/
+
+# Local reliability runner bytecode
+__pycache__/
+*.py[cod]
+
+# Signing material and secrets must never be committed
+*.jks
+*.keystore
+keystore.properties
+*.p12
+*.pem
+*.key
+.env
+.env.*
+
+# OS
+.DS_Store
+
+# Local agent worktrees
+.claude/worktrees/
+
+# Local Cloudflare Wrangler state (account details)
+.wrangler/

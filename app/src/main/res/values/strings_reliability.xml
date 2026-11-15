@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="settings_grid_change_title">Some items will be hidden</string>
+    <plurals name="settings_grid_change_summary">
+        <item quantity="one">%1$d item will not fit this layout. Its position and contents will be kept. Enlarge the grid to bring it back, or use Move hidden items in Home screen settings. Widgets larger than the grid need a larger grid.</item>
+        <item quantity="other">%1$d items will not fit this layout. Their positions and contents will be kept. Enlarge the grid to bring them back, or use Move hidden items in Home screen settings. Widgets larger than the grid need a larger grid.</item>
+    </plurals>
+    <string name="settings_grid_change_apply">Apply and keep items</string>
+    <string name="settings_home_undo_hidden">Undo moving hidden items</string>
+</resources>

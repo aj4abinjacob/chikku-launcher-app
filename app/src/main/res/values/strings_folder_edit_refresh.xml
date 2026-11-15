@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="folder_edit_refresh_actions">Tap and swipe actions</string>
+    <string name="folder_edit_refresh_cover">Cover icon</string>
+    <string name="folder_cover_preview">Folder preview</string>
+    <string name="folder_cover_work_app">%1$s (Work)</string>
+    <string name="folder_edit_refresh_gestures_off">Custom actions are off in Folder settings. An explicit Open folder action still works.</string>
+    <string name="folders_refresh_icon">Folder icon</string>
+    <string name="folders_refresh_window">Inside the folder</string>
+    <string name="folders_refresh_layout">Layout and scrolling</string>
+    <string name="folders_refresh_labels">App labels</string>
+</resources>

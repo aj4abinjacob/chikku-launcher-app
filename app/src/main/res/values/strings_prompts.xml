@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Shared labels for Chikku prompts (prompt/ChikkuPrompts.kt) -->
+    <string name="prompt_not_now">Not now</string>
+    <!-- Dismiss when the item\'s place is kept unless removed -->
+    <string name="prompt_keep">Keep it</string>
+    <!-- Short state tag on a prompt\'s subject card -->
+    <string name="prompt_status_unavailable">Unavailable</string>
+    <string name="prompt_find_in_play_store">Find in Play Store</string>
+    <string name="prompt_open_store_failed">Couldn\'t open the store</string>
+</resources>

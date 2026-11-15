@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Chikku's own widget styles. Parents are android:Widget.Material.* (stable AOSP), never
+         DeviceDefault, so One UI / MIUI cannot restyle them. -->
+
+    <!-- Text button: sentence case, medium weight, accent text (the Colored parent's state list),
+         rounded Chikku ripple. Layouts that set android:textColor keep their color. -->
+    <style name="Widget.Chikku.Button.Borderless" parent="android:Widget.Material.Button.Borderless.Colored">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:background">@drawable/chikku_button_borderless</item>
+        <item name="android:stateListAnimator">@null</item>
+    </style>
+
+    <!-- Filled button in the accent. -->
+    <style name="Widget.Chikku.Button" parent="android:Widget.Material.Button.Colored">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/chikku_theme_on_accent</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:letterSpacing">0</item>
+    </style>
+
+    <!-- Indeterminate spinner in the accent. -->
+    <style name="Widget.Chikku.ProgressBar" parent="android:Widget.Material.ProgressBar">
+        <item name="android:indeterminateTint">?android:attr/colorAccent</item>
+    </style>
+
+    <!-- Popup menus (HOME, folder and app menus): a short fade and scale from the top. Used only
+         while animations are on (Motion.enabled), with one style per animation speed because a
+         window animation's duration cannot be scaled at runtime; see
+         LauncherMenuStyle.popupAnimationStyle. -->
+    <style name="Animation.Chikku.Popup" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/chikku_popup_enter</item>
+        <item name="android:windowExitAnimation">@anim/chikku_popup_exit</item>
+    </style>
+    <style name="Animation.Chikku.Popup.Fast">
+        <item name="android:windowEnterAnimation">@anim/chikku_popup_enter_fast</item>
+        <item name="android:windowExitAnimation">@anim/chikku_popup_exit_fast</item>
+    </style>
+    <style name="Animation.Chikku.Popup.Slow">
+        <item name="android:windowEnterAnimation">@anim/chikku_popup_enter_slow</item>
+        <item name="android:windowExitAnimation">@anim/chikku_popup_exit_slow</item>
+    </style>
+    <style name="Animation.Chikku.Popup.Relaxed">
+        <item name="android:windowEnterAnimation">@anim/chikku_popup_enter_relaxed</item>
+        <item name="android:windowExitAnimation">@anim/chikku_popup_exit_relaxed</item>
+    </style>
+</resources>

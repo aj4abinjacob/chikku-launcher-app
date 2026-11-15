@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- A released home or icon swipe runs its action after at least this travel (or a fling). -->
+    <dimen name="gestures_min_swipe_distance">48dp</dimen>
+    <!-- After vertical touch slop, hand a deliberate downward drag to the system shade early. -->
+    <dimen name="gestures_shade_drag_distance">24dp</dimen>
+    <!-- An icon with a swipe action follows the finger by at most this much, then springs back. -->
+    <dimen name="gestures_icon_swipe_nudge">10dp</dimen>
+</resources>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="gestures_swipe_left">Swipe left</string>
+    <string name="gestures_swipe_right">Swipe right</string>
+    <string name="gestures_double_tap_swipe_up">Double tap + swipe up</string>
+    <string name="gestures_double_tap_swipe_down">Double tap + swipe down</string>
+    <string name="gestures_rotate_clockwise">Rotate clockwise</string>
+    <string name="gestures_rotate_counterclockwise">Rotate counterclockwise</string>
+    <string name="gestures_home_button_only_default_page">Only on main home page</string>
+    <string name="gestures_home_button_only_default_page_summary">Run the Home gesture action on your default page. From another page, Home returns to the default page first.</string>
+    <string name="gestures_extra_scope">Horizontal swipes and double tap + swipe start on empty home space. Assigned horizontal actions take precedence over page scrolling there. Rotation uses two fingers.</string>
+</resources>

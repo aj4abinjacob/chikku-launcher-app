@@ -1,0 +1,13 @@
+<resources>
+    <string name="onboarding_drawer_list">List</string>
+    <string name="onboarding_drawer_list_summary">One app per row with room for longer names</string>
+    <string name="settings_home_transition">Page transition</string>
+    <string name="settings_transition_slide">Slide</string>
+    <string name="settings_transition_fade">Fade</string>
+    <string name="settings_transition_zoom">Zoom</string>
+    <string name="settings_transition_cube">Cube</string>
+    <string name="settings_home_new_apps">Add new apps to home</string>
+    <string name="settings_home_new_apps_summary">Place newly installed personal apps in an empty cell. Existing apps and locked layouts stay in place.</string>
+    <string name="settings_home_edge_shadow">Shade behind status and navigation bars</string>
+    <string name="settings_home_edge_shadow_summary">Keeps the bar icons readable on bright wallpapers</string>
+</resources>

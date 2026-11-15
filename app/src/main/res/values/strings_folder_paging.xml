@@ -1,0 +1,12 @@
+<resources>
+    <string name="folders_paging_direction">Scroll direction</string>
+    <string name="folders_paging_vertical">Vertical</string>
+    <string name="folders_paging_horizontal">Horizontal pages</string>
+    <string name="folders_paging_rows">Rows per page</string>
+    <string name="folders_paging_fit_summary">Rows and columns fit the available space. Drag icons within a page; use Move earlier or Move later to move them between pages.</string>
+    <string name="folder_page_previous">Previous</string>
+    <string name="folder_page_next">Next</string>
+    <string name="folder_page_previous_description">Previous folder page</string>
+    <string name="folder_page_next_description">Next folder page</string>
+    <string name="folder_page_indicator">Page %1$d of %2$d</string>
+</resources>

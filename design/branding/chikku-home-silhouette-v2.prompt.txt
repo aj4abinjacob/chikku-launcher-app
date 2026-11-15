@@ -1,0 +1,16 @@
+Generated on 2026-10-21 with the built-in imagegen tool.
+Full-body dog and home concept; not installed as the Android launcher icon.
+Edit target: chikku-home-silhouette-v1.png.
+Identity reference: chikku-app-icon-portrait-v2.png, an earlier generated Chikku portrait. Original Chikku photographs were not supplied to this generation; body shape is illustrative.
+Output: chikku-home-silhouette-v2.png
+
+Use case: logo-brand.
+Asset type: one finished square Chikku Launcher app-icon concept.
+Primary request: revise the concept to show the WHOLE BODY silhouette of a DOG in front, with a HOME in the background.
+Input images: image 1 is the previous icon, an edit target and colour/style reference. Keep the charcoal canvas and ivory house idea, but replace its head-and-chest silhouette completely. Image 2 is the earlier generated portrait of Chikku, an identity reference for the head and outward-pointing triangular ears only.
+Subject: one unmistakable medium-sized domestic dog, Chikku, shown in full SIDE PROFILE, standing naturally and facing left. The whole body is visible: distinct canine head with a protruding rounded muzzle and black nose profile, outward/upright triangular ears, neck, horizontal back, chest, abdomen, four natural legs and paws, and a long gently curved tail extending to the right. Ordinary medium-sized short-coated companion-dog proportions, with a substantial head and slightly rounded muzzle, neither a tiny toy dog nor an exaggerated wolf. Four legs should be visually separable through clear narrow negative spaces. The tail must be visible and must not merge with the house edge. Dog is one continuous solid charcoal silhouette, no eyes, no internal lines, no face markings.
+Background: a simple large warm-ivory house silhouette directly behind the dog, with a clear pitched roof and compact chimney. The house is secondary but instantly recognizable; its roof is clearly visible above the dog. The ENTIRE dog from nose to tail and from ears to paws is contained in front of the ivory house body with a generous ivory gap around its outline, including beneath the paws, so the full animal silhouette is readable.
+Composition: house and dog together form one strong centered app-icon mark; dog body spans most of the house width and is located across its lower-middle area. Generous charcoal outer margin around the whole house. Single full-bleed square canvas.
+Style: polished minimalist flat vector-like logo, smooth simple clean contours, bold high contrast and readable at small sizes. Two flat colours: charcoal #252626 background and dog, warm ivory #F2F2F0 house.
+Avoid: head-only portrait, bust, cropped dog, sitting cat silhouette, cat-like short muzzle, hidden legs, missing tail, giant spiky ears, fox or wolf proportions, realistic fur, fine jagged outlines, gradients, texture, shadows, facial details, text, letters, badges, rounded outer tile, borders, mockups or multiple design options. Deliver exactly one icon.
+

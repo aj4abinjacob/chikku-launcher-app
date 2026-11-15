@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- One-line hints under options in settings choice dialogs. -->
+<resources>
+    <string name="hint_folder_window_floating">A card over the home screen</string>
+    <string name="hint_folder_window_immersive">Fills the whole screen</string>
+    <string name="hint_folder_sort_manual">In the order you arrange</string>
+    <string name="hint_folder_sort_alphabetical">A to Z by name</string>
+
+    <string name="hint_drawer_transition_slide">Slides up from the bottom</string>
+    <string name="hint_drawer_transition_fade">Fades in over the home screen</string>
+    <string name="hint_drawer_transition_zoom">Grows into place</string>
+    <string name="hint_drawer_tabs_compact">Tabs sized to their names</string>
+    <string name="hint_drawer_tabs_segmented">Tabs share the full width</string>
+    <string name="hint_scroller_alphabet">Tap or drag a letter</string>
+    <string name="hint_scroller_thumb">Drag a handle; the letter shows beside it</string>
+
+    <string name="hint_search_fullscreen">Covers the whole screen</string>
+    <string name="hint_search_window">A card over the home screen</string>
+    <string name="hint_search_results_top">Best match at the top of the screen</string>
+    <string name="hint_search_results_keyboard">Best match just above the keyboard, in thumb reach</string>
+    <string name="hint_search_bar_provider">Shows your search engine\'s mark</string>
+    <string name="hint_search_bar_minimal">A slimmer, plain bar</string>
+
+    <string name="hint_icon_shape_system">Your phone\'s default</string>
+    <string name="hint_status_bar_transparent">Wallpaper shows behind it</string>
+    <string name="hint_app_menu_popup">Shortcuts, with actions as a row of icons</string>
+    <string name="hint_app_menu_detailed">Every action as a row with a description</string>
+
+    <string name="hint_badge_off">No badges</string>
+    <string name="hint_badge_dot">A dot for any notification</string>
+    <string name="hint_badge_count">How many notifications</string>
+    <string name="hint_badge_dynamic">Sender\'s picture when available, otherwise the count</string>
+
+    <string name="hint_dock_custom">Set each corner yourself</string>
+</resources>

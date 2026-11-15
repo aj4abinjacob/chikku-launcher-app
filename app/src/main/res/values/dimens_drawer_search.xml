@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Drawer search field: same corner as bg_home_search, plus an outline so it stands apart from the grid. -->
+    <dimen name="drawer_search_radius">24dp</dimen>
+    <dimen name="drawer_search_outline">1dp</dimen>
+    <dimen name="drawer_search_icon_padding">12dp</dimen>
+</resources>

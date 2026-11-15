@@ -1,0 +1,18 @@
+// Resolve actual release components and artifact files; run with --no-configuration-cache.
+import groovy.json.JsonOutput
+allprojects {
+    afterEvaluate { p ->
+        if (p.path == ':app') {
+            tasks.register('releaseAuditInputs') {
+                doLast {
+                    def c = configurations.getByName('releaseRuntimeClasspath')
+                    def modules = c.incoming.resolutionResult.allComponents.collect { it.moduleVersion?.toString() }.findAll { it != null }.sort()
+                    def artifacts = c.resolvedConfiguration.resolvedArtifacts.collect { a -> [coordinate: a.moduleVersion.id.toString(), file: a.file.absolutePath] }.sort { it.coordinate }
+                    def out = new File(rootProject.projectDir, 'build/release-audit-inputs.json')
+                    out.parentFile.mkdirs()
+                    out.text = JsonOutput.prettyPrint(JsonOutput.toJson([modules: modules, artifacts: artifacts]))
+                }
+            }
+        }
+    }
+}

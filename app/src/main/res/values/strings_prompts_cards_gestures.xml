@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+        Chikku prompts (bottom sheets) shown from HOME gestures and cards. Claims about the
+        accessibility service must match res/xml/chikku_accessibility_service.xml: no accessibility
+        events, canRetrieveWindowContent=false, performGlobalAction only.
+    -->
+    <string name="prompt_accessibility_title">Turn on Chikku gestures</string>
+    <string name="prompt_accessibility_message">This gesture needs Chikku\'s optional accessibility service. It\'s used only to lock the screen, open recent apps or pull down the notification shade or quick settings when you use a gesture.\n\nIt can\'t see what\'s on your screen, and it stores and sends nothing. You can turn it off again at any time.</string>
+    <string name="prompt_accessibility_open">Agree and open settings</string>
+
+    <string name="prompt_card_widget_recover_title">Reset card widget setup?</string>
+    <string name="prompt_card_widget_recover_message">Chikku couldn\'t read the file that links widgets to your cards. Resetting removes those links so you can add the widgets to your cards again.\n\nThe damaged file is kept, and your home screen widgets and saved cards stay as they are.</string>
+    <string name="prompt_card_widget_recover_action">Reset setup</string>
+</resources>

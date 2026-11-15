@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <application>
+        <!-- Test APK only: a synthetic provider for native host lifecycle/provider-loss checks. -->
+        <receiver android:name="io.github.aj4abinjacob.chikku.platform.widgets.ReliabilityWidgetProvider"
+            android:exported="true" android:label="Reliability test widget">
+            <intent-filter><action android:name="android.appwidget.action.APPWIDGET_UPDATE" /></intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/reliability_widget" />
+        </receiver>
+    </application>
+</manifest>

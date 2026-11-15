@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Settings › Search: sub-page titles (also shown in settings search results) -->
+    <string name="search_page_look">Colors and corners</string>
+    <string name="search_page_home_bar">Home screen search bar</string>
+    <string name="search_page_home_bar_size">Search bar size and spacing</string>
+    <string name="search_page_apps">Apps and shortcuts</string>
+    <string name="search_page_contacts">Contacts</string>
+    <string name="search_page_web">Web search</string>
+    <string name="search_page_answers">Quick answers</string>
+    <string name="search_settings_privacy_header">Privacy</string>
+
+    <!-- Settings › Search: main-page summaries showing the current state -->
+    <string name="search_summary_default_color">Default color</string>
+    <string name="search_summary_custom_color">Custom color</string>
+    <string name="search_summary_corners">%1$d dp corners</string>
+    <string name="search_summary_bar_width">%1$d%% wide</string>
+    <string name="search_summary_bar_height">%1$d dp tall</string>
+    <string name="search_summary_all_apps">All matching apps</string>
+    <plurals name="search_summary_one_row">
+        <item quantity="one">Up to %1$d app in one row</item>
+        <item quantity="other">Up to %1$d apps in one row</item>
+    </plurals>
+    <string name="search_summary_needs_permission">Needs contacts permission</string>
+    <string name="search_summary_online_suggestions">Online suggestions</string>
+    <string name="search_summary_calculations">Calculations</string>
+    <string name="search_summary_conversions">Conversions and actions</string>
+
+    <!-- Settings › Search: main switches and the line shown while a feature is off -->
+    <string name="search_home_bar_off">Turn this on to keep a search bar on your home screen. Tapping it opens search.</string>
+    <string name="search_home_bar_size_off">The home screen search bar is off. Turn it on in Home screen search bar to change its size.</string>
+    <string name="search_home_bar_dock_gap_hidden">Space above the search bar applies only when the bar is below the dock.</string>
+    <string name="search_contacts_off">Turn this on to find people from your contacts. Chikku asks for contacts permission only then, and contacts are searched on this phone only.</string>
+    <string name="search_web_main_switch">Offer a web search result</string>
+    <string name="search_web_off">Turn this on to add a result that searches the web in your browser. Nothing is sent until you tap it.</string>
+</resources>

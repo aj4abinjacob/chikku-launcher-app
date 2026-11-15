@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Settings › Dock › Icons and Background: the real dock drawn at actual size. -->
+    <string name="preview_dock_icons_description">Sample dock at actual size. Icons %1$d%%, app names %2$s. Original sample icons only.</string>
+    <string name="preview_dock_background_description">Sample dock at actual size. Background: %1$s. Original sample icons only.</string>
+    <string name="preview_dock_background_off">none</string>
+    <string name="preview_dock_background_on">%1$d%% opaque</string>
+    <string name="preview_dock_background_behind_navigation">%1$d%% opaque, also behind the navigation bar</string>
+    <!-- A deliberately long sample name, so the single-line choice is visible. Not a real app. -->
+    <string name="preview_dock_long_label">Sample long app name</string>
+    <!-- Settings › Search › Home search bar, and Dock › Search: the real bar drawn at actual size. -->
+    <string name="preview_home_bar_description">Sample home screen at actual size. Search bar %1$s, %2$d%% wide, %3$d dp tall. %4$s</string>
+    <string name="preview_home_bar_gap_description">Sample home screen at actual size. Search bar below the dock, %1$d dp gap, shaded.</string>
+</resources>

@@ -1,0 +1,486 @@
+{
+  "date": "2026-10-14",
+  "repository": "aj4abinjacob/chikku-launcher",
+  "branch": "test/cloud-release-validation-20261014",
+  "base_revision": "1c081bb9fdd7df4d854d2de7e31ba8e8128587d4",
+  "final_code_revision": "8160cd7a715297b8332a31c790a9015685239f24",
+  "historical_revision": "f69121e08e04c64d0c3541304484893877c9788f",
+  "repository_visibility": "private",
+  "release_decision": "NO-GO",
+  "upgrade_kind": "historical development-APK; no published production baseline identified",
+  "room_versions": {
+    "historical": 3,
+    "current": 4,
+    "new_column": "nullable widgetPadding"
+  },
+  "portable_backup_format_version": 1,
+  "provenance": {
+    "kind": "Curated summary of confirmed tool outputs and parsed native results",
+    "limitation": "Final execution environment reset removed checkout/toolchain/raw local artifacts. Full raw reports/logs could not be reattached or re-read. No missing log hashes or unobserved completion is fabricated.",
+    "late_attempt": "UNAVAILABLE: last observed reviewed continuation had Cards fixture update unavailable and widget app update pending; command service disconnected. No newly completed native assertion was observed after that point.",
+    "baseline_history": "2026-10-12 counts are historical and excluded from this fresh run.",
+    "normal_app_behavior": "Application IDs, versionCode1/versionName0.1.0-dev, normal signing, Room4 and backup format1 remain unchanged."
+  },
+  "environment": {
+    "os": "Ubuntu24.04 x86_64",
+    "kernel": "Linux6.18.44",
+    "cpu_quota_cores": 8,
+    "reported_processors": 9,
+    "cgroup_memory_bytes": 8589934592,
+    "disk_initial_total_bytes": 33770192896,
+    "disk_initial_free_bytes": 29654269952,
+    "kvm": false,
+    "vmx_svm": false,
+    "jdk": "Temurin21.0.8+9",
+    "gradle": "9.7.1",
+    "compile_platform": "37.0 revision2",
+    "build_tools": "36.0.0",
+    "platform_tools": "37.0.1",
+    "emulator": "37.3.4.0 build16555280",
+    "gradle_max_workers": 2,
+    "gradle_heap": "2GiB",
+    "kotlin_compiler": "in-process",
+    "max_gradle_builds": 1,
+    "max_emulators": 1,
+    "emulator_stopped_before_builds": true,
+    "last_observed_memory_events": {
+      "max": 793050,
+      "oom": 0,
+      "oom_kill": 0,
+      "note": "Last captured snapshot only, not a post-reset diagnosis"
+    },
+    "reset_observation": {
+      "repo_exists": false,
+      "toolchain_exists": false,
+      "cgroup_memory_events_reset_to_zero": true,
+      "root_free_bytes": 29651177472,
+      "cause": "UNVERIFIED"
+    },
+    "api29": {
+      "image": "Google APIs x86 revision13",
+      "fingerprint": "google/sdk_gphone_x86/generic_x86:10/QSR1.211112.011/13135432:userdebug/dev-keys",
+      "display": "720x1280,320dpi",
+      "requested_memory_mib": 1536,
+      "effective_memory_mib": 2048,
+      "cores": 2,
+      "acceleration": "forced TCG, Swiftshader"
+    },
+    "api36": {
+      "image": "Google APIs x86_64 revision7",
+      "requested_memory_mib": 2048,
+      "effective_memory_mib": 2560,
+      "boot_duration_seconds": 481.46,
+      "boot_completed": false,
+      "installed_apks": 0,
+      "native_tests": 0
+    }
+  },
+  "automated": {
+    "core": {
+      "status": "PASS",
+      "tests": 224,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "fresh": true,
+      "source_revision": "6e739ee14a227121063e01072f678edeb613a31c"
+    },
+    "app": {
+      "status": "PASS",
+      "tests": 949,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "fresh": true,
+      "source_revision": "6e739ee14a227121063e01072f678edeb613a31c",
+      "included_cases": {
+        "cards_sdk29_36": 8,
+        "profile_privacy": 7
+      }
+    },
+    "python": {
+      "status": "PASS",
+      "tests": 71,
+      "failures": 0,
+      "skipped": 0,
+      "fresh": true,
+      "source_revision": "e53f2b1542cebf1d830caba545e08457aaf86eea"
+    },
+    "assembleDebug": "PASS",
+    "assembleDebugAndroidTest": "PASS",
+    "lint": {
+      "status": "PASS_WITH_WARNINGS",
+      "errors": 0,
+      "app_warnings": 167,
+      "app_hints": 1,
+      "bridge_warnings": 3
+    },
+    "privacy": {
+      "status": "PASS",
+      "forbidden_permissions_absent": 4,
+      "sdk_rules": 49,
+      "resolved_modules": 113
+    },
+    "invalid_acceptance_configurations": {
+      "status": "PASS",
+      "rejections": 7
+    },
+    "reviewed_fixture_compilation": {
+      "status": "PASS",
+      "source_revision": "8160cd7a715297b8332a31c790a9015685239f24",
+      "cards_seconds": 31,
+      "widgets_seconds": 189,
+      "upgrade_seconds": 181,
+      "note": "Up-to-date/from-cache compilation is reuse; not fresh native tests"
+    }
+  },
+  "native": [
+    {
+      "area": "cards",
+      "source_revision": "7af8974944fb43138246354a1b08cea83fe827fc",
+      "evidence_path": "native-cards-corrected/report.json",
+      "methods": [
+        [
+          "namedCreateActionsActivateAndDismissWithoutWritingInEmptyAndPopulatedLists",
+          "PASS",
+          285.819
+        ],
+        [
+          "maximumCardsKeepsNamedActionDisabledAndDoesNotActivate",
+          "PASS",
+          139.125
+        ],
+        [
+          "pendingCardMutationDisablesTheNamedAddActionUntilCommit",
+          "PASS",
+          191.583
+        ],
+        [
+          "contentKindsPersistAcrossRecreationAndCancelledChoiceDoesNotWrite",
+          "FAIL",
+          184.087
+        ],
+        [
+          "createScheduleRecreateCancelDeleteUndoAndReorderSyntheticCards",
+          "PASS",
+          225.93
+        ]
+      ],
+      "limit": "Required naming/activation/dismissal/enabled-clickable/48dp/preference-value+XML-byte checks passed; broader content-kind editor failed on scroll fixture."
+    },
+    {
+      "area": "cards",
+      "source_revision": "da8d94425fdd5b304318714e1d19c4cbf9c11f81",
+      "evidence_path": "native-independent-final/report.json",
+      "methods": [
+        [
+          "contentKindsPersistAcrossRecreationAndCancelledChoiceDoesNotWrite",
+          "SKIPPED",
+          173.543
+        ],
+        [
+          "createScheduleRecreateCancelDeleteUndoAndReorderSyntheticCards",
+          "PASS",
+          503.502
+        ]
+      ],
+      "limit": "Content-kind attempt assumption-skipped on unlocked-screen precondition; repeated scheduling pass is not a new unique method."
+    },
+    {
+      "area": "cards",
+      "evidence_path": "native-reconciled-ui-final/report.json",
+      "methods": [
+        [
+          "contentKindsPersistAcrossRecreationAndCancelledChoiceDoesNotWrite",
+          "SKIPPED"
+        ]
+      ],
+      "limit": "Second unlocked-screen assumption skip. Reviewed wait/privacy fixture compiled; updated test APK installation remained unavailable before reset."
+    },
+    {
+      "area": "historical-upgrade",
+      "source_revision": "9bd050e971a1d333c97bdcc49f2a6dd0251b736d",
+      "evidence_path": "native-full-storage/report.json",
+      "status": "PARTIAL",
+      "checks": {
+        "seedHistoricalProductionState": "PASS",
+        "actual_910001_to_910002_same_key_apk_replacement": "PASS",
+        "schema3_to_4_nullable_padding_and_retained_state": "PASS",
+        "explicit_HOME": "PASS",
+        "second_retained_assertion": "PASS",
+        "bounded_adb_reboot_changed_uuid_boot_unlock": "FAIL"
+      },
+      "native_assertions_passed": 3,
+      "limit": "Reboot command returned; changed UUID+complete boot+unlock acceptance timed out at600s."
+    },
+    {
+      "area": "restore-cold-start",
+      "source_revision": "9bd050e971a1d333c97bdcc49f2a6dd0251b736d",
+      "evidence_path": "native-post-reboot-cold-continuation/report.json",
+      "status": "PARTIAL",
+      "checks": {
+        "manual_changed_uuid_retained_cold_start": "PASS",
+        "HOME_and_retained_state": "PASS",
+        "exportProductionBackup": "PASS",
+        "fresh_install_only_own_app_restoreFreshProductionBackup": "PASS",
+        "missing_iconpack_document_attention_and_preserved_values": "PASS",
+        "portable_widget_id_zero": "PASS",
+        "applyReplacementForDurableUndo": "PASS",
+        "verifyDurableUndoAfterRestart": "PASS",
+        "rejectMalformedAndFutureArchivesWithoutWrites": "PASS",
+        "four_new_process_recovery_cuts": "PASS",
+        "four_durable_pause_preparations": "EXPECTED_INTERRUPTION",
+        "safDocumentPickerRoundTrip": "FAIL"
+      },
+      "limit": "Cold start126.32s does not convert failed bounded adb reboot into PASS. Service file transport is separate from SAF."
+    },
+    {
+      "area": "SAF-final-source",
+      "source_revision": "da8d94425fdd5b304318714e1d19c4cbf9c11f81",
+      "evidence_path": "native-reconciled-ui-final/report.json",
+      "checks": {
+        "restoreFreshProductionBackup": "PASS",
+        "safDocumentPickerRoundTrip": "FAIL"
+      },
+      "saf_seconds": 65.161,
+      "saf_native_counts": {
+        "passed": 0,
+        "failed": 1,
+        "assumption_skipped": 0
+      },
+      "diagnostic": {
+        "stage": "create_document_action",
+        "owned_settings_ready": true,
+        "two_frames_drawn": true,
+        "expected_control_count": 1,
+        "producer_available": false,
+        "missing_class": "androidx.lifecycle.ViewModelProvider"
+      },
+      "limit": "Observed class-resolution failure corrected by acceptance-only keep rule; descriptor absent in preceding APK and present in reviewed APK. No passing fixed native SAF outcome before reset."
+    },
+    {
+      "area": "managed-profiles",
+      "checks": {
+        "initial_real_active_same_component_personal_work_identity_fresh_unprivileged": "PASS",
+        "initial_pause_shell_MANAGE_USERS": "FAIL",
+        "updated_final_workflows": "FAIL_TIMEOUT",
+        "optimized_release_reviewed_workflow": "UNAVAILABLE",
+        "private_space_ui": "UNSUPPORTED",
+        "api35_actual_private_profile_boundary": "UNAVAILABLE"
+      },
+      "limit": "Original cleanup PASS for tracked set did not establish full cleanup; a sole-user guard found a committed synthetic profile. Ownership was positively reconciled and sole-user0 verified after removal. Reviewed exact-nonce runner then passed full baseline cleanup on a further timeout; no completed pause/resume/removal native assertions."
+    },
+    {
+      "area": "external-widget",
+      "provider": {
+        "package": "org.fossify.clock",
+        "version_name": "1.6.0",
+        "version_code": 10,
+        "source_revision": "4ecb9e33c51c0b2096af2379e7ac9dc17c3e07e6",
+        "sha256": "43cf9f0ec45f1f1ff2df47286622e5b8f3acedaeb07b7f7641b5243dbedca079",
+        "certificate_sha256": "affdb124d3f4720c2f98dbca9eacba0514fba4306e20a2786c861c3c0d6ff292",
+        "minimum_api": 26,
+        "target_api": 36,
+        "internet_permission": false,
+        "provider_component": "org.fossify.clock.helpers.MyDigitalTimeWidgetProvider",
+        "configure_component": "org.fossify.clock.activities.WidgetDigitalConfigureActivity"
+      },
+      "checks": {
+        "provider_install": "PASS",
+        "initial_seedFreshSyntheticWidgetSession": "PASS",
+        "initial_real_declining_consent": "FAIL",
+        "final_provider_start_wait_status": "FAIL",
+        "fixed_consent_configuration_restart_removal_rebind_full_backup_fresh_restore": "UNAVAILABLE"
+      },
+      "limit": "Initial failure was Android10 AppWidgetServiceImpl null Provider.id during all-window traversal. Active-window fixture workaround compiled. Final startup stopped before widget assertions; reviewed pair update unobserved after reset. No configured external-widget pass is claimed."
+    }
+  ],
+  "failure_history": [
+    "Initial Trace/Kotlin bootstrap failures announced0 tests; factory singleton/SQLite overload failures announced1 failed seed; corrected seed passed.",
+    "Initial Cards five-method batch failed under a foreign platform ANR; guarded foreign-only cloud dismissal enabled later required checks.",
+    "Install/preflight/setup timeout commands remain failures even if later pinned payload verification passed.",
+    "Actions account-budget startup failure is not code failure; no previous CI result substitutes for cloud checks."
+  ],
+  "unavailable": [
+    "API36 native workflows",
+    "Physical OEM/TalkBack/foldable/external-display/scaling/RTL/battery/startup/frame/memory/performance acceptance",
+    "Production-release APK upgrade baseline",
+    "Actual API35+ Private Space non-leakage transition; UI support deliberately outside milestone",
+    "Unobserved final native completion and lost raw local artifacts after reset"
+  ],
+  "commands": [
+    {
+      "scope": "fresh-core",
+      "command": "python <cloud>/cloud-run.py flock -n /tmp/chikku-cloud-gradle.lock <cloud>/cloud-toolchain/gradle-9.7.1/bin/gradle --no-daemon --no-configuration-cache --max-workers=2 -Dorg.gradle.jvmargs=-Xmx2g -Pkotlin.compiler.execution.strategy=in-process --info :core:model:test --rerun-tasks"
+    },
+    {
+      "scope": "debug-unit-lint",
+      "command": "python <cloud>/cloud-run.py flock -n /tmp/chikku-cloud-gradle.lock <cloud>/cloud-toolchain/gradle-9.7.1/bin/gradle --no-daemon --no-configuration-cache --max-workers=2 -Dorg.gradle.jvmargs=-Xmx2g -Pkotlin.compiler.execution.strategy=in-process assembleDebug assembleDebugAndroidTest testDebugUnitTest lintDebug"
+    },
+    {
+      "scope": "privacy",
+      "command": "python <cloud>/cloud-run.py flock -n /tmp/chikku-cloud-gradle.lock scripts/check-privacy.sh --no-daemon --no-configuration-cache --max-workers=2 -Dorg.gradle.jvmargs=-Xmx2g -Pkotlin.compiler.execution.strategy=in-process"
+    },
+    {
+      "scope": "python-final",
+      "command": "python3 -m unittest discover -s scripts/tests -v",
+      "tests": 71
+    },
+    {
+      "scope": "historical checkout, schema3",
+      "command": "python <cloud>/cloud-run.py flock -n /tmp/chikku-cloud-gradle.lock ./gradlew --no-daemon --no-configuration-cache --max-workers=2 -Dorg.gradle.jvmargs=-Xmx2g -Pkotlin.compiler.execution.strategy=in-process -PchikkuTestApplicationId=io.github.aj4abinjacob.chikku.acceptance.upgrade -PchikkuTestVersionCode=910001 -PchikkuTestVersionName=historical-schema3-acceptance -PchikkuAcceptanceRelease=true :app:assembleRelease :app:assembleReleaseAndroidTest"
+    },
+    {
+      "scope": "current checkout, schema4",
+      "command": "python <cloud>/cloud-run.py flock -n /tmp/chikku-cloud-gradle.lock ./gradlew --no-daemon --no-configuration-cache --max-workers=2 -Dorg.gradle.jvmargs=-Xmx2g -Pkotlin.compiler.execution.strategy=in-process -PchikkuTestApplicationId=io.github.aj4abinjacob.chikku.acceptance.upgrade -PchikkuTestVersionCode=910002 -PchikkuTestVersionName=current-schema4-acceptance -PchikkuAcceptanceRelease=true :app:assembleRelease :app:assembleReleaseAndroidTest"
+    },
+    {
+      "scope": "current checkout, schema4",
+      "command": "python <cloud>/cloud-run.py flock -n /tmp/chikku-cloud-gradle.lock ./gradlew --no-daemon --no-configuration-cache --max-workers=2 -Dorg.gradle.jvmargs=-Xmx2g -Pkotlin.compiler.execution.strategy=in-process -PchikkuTestApplicationId=io.github.aj4abinjacob.chikku.acceptance.widgets -PchikkuTestVersionCode=910002 -PchikkuTestVersionName=external-widget-cloud-acceptance -PchikkuAcceptanceRelease=true :app:assembleRelease :app:assembleReleaseAndroidTest"
+    },
+    {
+      "scope": "cards",
+      "command": "python <cloud>/cloud-run.py flock -n /tmp/chikku-cloud-gradle.lock ./gradlew --no-daemon --no-configuration-cache --max-workers=2 -Dorg.gradle.jvmargs=-Xmx2g -Pkotlin.compiler.execution.strategy=in-process -PchikkuTestApplicationId=io.github.aj4abinjacob.chikku.acceptance.cards -PchikkuTestVersionCode=910002 -PchikkuTestVersionName=cards-cloud-acceptance :app:assembleDebug :app:assembleDebugAndroidTest",
+      "note": "Build input name cards-cloud-acceptance plus the existing debug version-name suffix produces cards-cloud-acceptance-debug; acceptance package debug suffix is suppressed only for isolated IDs."
+    },
+    {
+      "scope": "api29-emulator",
+      "command": "ANDROID_I_WANT_MY_TCG=yes emulator -avd chikku_acceptance_widgets -accel off -no-window -no-audio -no-boot-anim -no-snapshot -gpu swiftshader -memory 1536 -cores 2 -partition-size 2048 -port 5580 -no-metrics",
+      "note": "Earlier actual-upgrade scenario used chikku_acceptance_upgrade; same shared image; emulator enforced 6GiB data partition despite smaller requests."
+    },
+    {
+      "scope": "executed-retention-stage",
+      "command": "adb -s emulator-5580 shell am instrument -w -r -e class io.github.aj4abinjacob.chikku.acceptance.UpgradeRestoreAcceptanceDeviceTest#verifyRetainedProductionState -e acceptanceApplicationId io.github.aj4abinjacob.chikku.acceptance.upgrade -e acceptanceDisposableEmulator true -e expectedVersionCode 910002 -e expectedSchema 4 -e expectedWidgetId 0 io.github.aj4abinjacob.chikku.acceptance.upgrade.test/androidx.test.runner.AndroidJUnitRunner",
+      "note": "Actual command form emitted by instrument_args; pre-export retention used7301; post-fresh restore used0. Historical seed used HistoricalUpgradeSeedDeviceTest,910001/schema3. Other actual method selectors are enumerated above and assembled by checked-in runner."
+    }
+  ],
+  "artifact_metadata": [
+    {
+      "label": "historical-storage",
+      "application_id": "io.github.aj4abinjacob.chikku.acceptance.upgrade",
+      "source_revision": "f69121e08e04c64d0c3541304484893877c9788f",
+      "version_code": 910001,
+      "version_name": "historical-schema3-acceptance",
+      "debuggable": false,
+      "app_sha256": "e2523fba505d10f2f02da486d7be00dff8f4fced2725b97bb7f98dd1a0e0a675",
+      "test_sha256": "89b73bd069b6c5984b09a4f1c8c14c4f8384240c19639967f1a459a37e487ede",
+      "test_version_code": null,
+      "test_version_name": null,
+      "certificate_sha256": "8cf6697f3b4bdcce181552501911536893e07082eec519012e34fe3de25f2dbd",
+      "availability": "Binary/raw local artifact unavailable after environment reset",
+      "acceptance_overlay_source_revision": "9bd050e971a1d333c97bdcc49f2a6dd0251b736d"
+    },
+    {
+      "label": "current-storage",
+      "application_id": "io.github.aj4abinjacob.chikku.acceptance.upgrade",
+      "source_revision": "9bd050e971a1d333c97bdcc49f2a6dd0251b736d",
+      "version_code": 910002,
+      "version_name": "current-schema4-acceptance",
+      "debuggable": false,
+      "app_sha256": "8a5b8a1162cab549a429d05711652f76a7076dc2fb7a42c80f2f061112fd344b",
+      "test_sha256": "8b301389a81c4f5f422aafd6b8e3464415f4dcc417981d3317959727c7f67b7d",
+      "test_version_code": null,
+      "test_version_name": null,
+      "certificate_sha256": "8cf6697f3b4bdcce181552501911536893e07082eec519012e34fe3de25f2dbd",
+      "availability": "Binary/raw local artifact unavailable after environment reset"
+    },
+    {
+      "label": "cards-corrected",
+      "application_id": "io.github.aj4abinjacob.chikku.acceptance.cards",
+      "source_revision": "7af8974944fb43138246354a1b08cea83fe827fc",
+      "version_code": 910002,
+      "version_name": "cards-cloud-acceptance-debug",
+      "debuggable": true,
+      "app_sha256": "a7f766e709854911a23f25935b3a82af62690f03db24c7c4456792430831360b",
+      "test_sha256": "ec5b82f6eab46d8a917d36c65c19c9faeb2add161e5c409784fd8caebfd8a455",
+      "test_version_code": null,
+      "test_version_name": null,
+      "certificate_sha256": "8920526b1f29da52201711ce5226fb2dd8db7f508d49515120fb2d12452cc079",
+      "availability": "Binary/raw local artifact unavailable after environment reset"
+    },
+    {
+      "label": "cards-final",
+      "application_id": "io.github.aj4abinjacob.chikku.acceptance.cards",
+      "source_revision": "da8d94425fdd5b304318714e1d19c4cbf9c11f81",
+      "version_code": 910002,
+      "version_name": "cards-cloud-acceptance-debug",
+      "debuggable": true,
+      "app_sha256": "a7f766e709854911a23f25935b3a82af62690f03db24c7c4456792430831360b",
+      "test_sha256": "8bbdef3cfb7e8daa65dde7f56a10c8bf68e85b565829ee091f21706154aa3a69",
+      "test_version_code": null,
+      "test_version_name": null,
+      "certificate_sha256": "8920526b1f29da52201711ce5226fb2dd8db7f508d49515120fb2d12452cc079",
+      "availability": "Binary/raw local artifact unavailable after environment reset"
+    },
+    {
+      "label": "upgrade-final",
+      "application_id": "io.github.aj4abinjacob.chikku.acceptance.upgrade",
+      "source_revision": "da8d94425fdd5b304318714e1d19c4cbf9c11f81",
+      "version_code": 910002,
+      "version_name": "current-schema4-acceptance",
+      "debuggable": false,
+      "app_sha256": "26a95deb379bff2443087e626b589b55f068ff57e21dd79b33a23b8c5c57d306",
+      "test_sha256": "eba356f6aeebf977326ef0ed6b2233fd2728cd74a916760c54a5416dc605d37c",
+      "test_version_code": null,
+      "test_version_name": null,
+      "certificate_sha256": "8cf6697f3b4bdcce181552501911536893e07082eec519012e34fe3de25f2dbd",
+      "availability": "Binary/raw local artifact unavailable after environment reset"
+    },
+    {
+      "label": "widgets-final",
+      "application_id": "io.github.aj4abinjacob.chikku.acceptance.widgets",
+      "source_revision": "da8d94425fdd5b304318714e1d19c4cbf9c11f81",
+      "version_code": 910002,
+      "version_name": "external-widget-cloud-acceptance",
+      "debuggable": false,
+      "app_sha256": "5fcf32721168f9118ee3a56dd28d253feb8d3a2414f2c8b673446674c0c096cb",
+      "test_sha256": "eddc7cfcf65df689514ff0d92a9bc41b3ca8fcd779209f9d09dda5e9e05ade50",
+      "test_version_code": null,
+      "test_version_name": null,
+      "certificate_sha256": "8cf6697f3b4bdcce181552501911536893e07082eec519012e34fe3de25f2dbd",
+      "availability": "Binary/raw local artifact unavailable after environment reset"
+    },
+    {
+      "label": "cards-reviewed",
+      "application_id": "io.github.aj4abinjacob.chikku.acceptance.cards",
+      "source_revision": "8160cd7a715297b8332a31c790a9015685239f24",
+      "version_code": 910002,
+      "version_name": "cards-cloud-acceptance-debug",
+      "debuggable": true,
+      "app_sha256": "a7f766e709854911a23f25935b3a82af62690f03db24c7c4456792430831360b",
+      "test_sha256": "39399a5fa8dadeb5d139454fa56cf3ee5957023848e3203b326dea99af2a61d7",
+      "test_version_code": null,
+      "test_version_name": null,
+      "certificate_sha256": "8920526b1f29da52201711ce5226fb2dd8db7f508d49515120fb2d12452cc079",
+      "availability": "Binary/raw local artifact unavailable after environment reset"
+    },
+    {
+      "label": "upgrade-reviewed",
+      "application_id": "io.github.aj4abinjacob.chikku.acceptance.upgrade",
+      "source_revision": "8160cd7a715297b8332a31c790a9015685239f24",
+      "version_code": 910002,
+      "version_name": "current-schema4-acceptance",
+      "debuggable": false,
+      "app_sha256": "336f9eeb87f05933c6aff2b6f2ae4300b7f3d5657688027f89e77e2cffc717c3",
+      "test_sha256": "a3564c424c438f323151e019bf94b08206d1995b3bd080336de4e7f67e7641fd",
+      "test_version_code": null,
+      "test_version_name": null,
+      "certificate_sha256": "8cf6697f3b4bdcce181552501911536893e07082eec519012e34fe3de25f2dbd",
+      "availability": "Binary/raw local artifact unavailable after environment reset"
+    },
+    {
+      "label": "widgets-reviewed",
+      "application_id": "io.github.aj4abinjacob.chikku.acceptance.widgets",
+      "source_revision": "8160cd7a715297b8332a31c790a9015685239f24",
+      "version_code": 910002,
+      "version_name": "external-widget-cloud-acceptance",
+      "debuggable": false,
+      "app_sha256": "06bd1ecd96041fd8dffbe62405d4103942555ed7a1f223350108a2126a714dc4",
+      "test_sha256": "f0c213877306746b702c20b7c0b34e42803e491c62b7283c63a8eee3ac1ad9c7",
+      "test_version_code": null,
+      "test_version_name": null,
+      "certificate_sha256": "8cf6697f3b4bdcce181552501911536893e07082eec519012e34fe3de25f2dbd",
+      "availability": "Binary/raw local artifact unavailable after environment reset"
+    }
+  ]
+}

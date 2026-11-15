@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App lock: "screen lock needed" prompt. -->
+    <string name="app_lock_needs_screen_lock_settings_message">App lock relies on your phone\'s own PIN, pattern, password or fingerprint, so only you can open locked apps. Set one up in your phone\'s settings, then come back here.</string>
+
+    <!-- Another app asks to pin a shortcut. -->
+    <string name="shortcut_pin_message_unknown_app">An app wants to put this shortcut on your home screen. You can move or remove it later.</string>
+    <string name="shortcut_pin_cancel">Cancel</string>
+    <string name="shortcut_pin_unnamed">Shortcut</string>
+</resources>

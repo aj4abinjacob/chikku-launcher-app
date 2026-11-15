@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Size at which a dynamic-badge avatar is loaded and kept in memory (drawn at ~44% of the icon). -->
+    <dimen name="badge_avatar_load_size">32dp</dimen>
+</resources>

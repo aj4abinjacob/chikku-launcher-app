@@ -1,0 +1,83 @@
+<resources>
+    <!-- When a card shows, one line under its name -->
+    <string name="cards_when_weekdays">Weekdays</string>
+    <string name="cards_when_weekends">Weekends</string>
+    <string name="cards_when_all_day">All day</string>
+    <string name="cards_when_time">%1$s–%2$s</string>
+    <string name="cards_when_charging">Charging</string>
+    <string name="cards_when_wifi">On Wi‑Fi</string>
+    <string name="cards_when_bluetooth">Bluetooth audio</string>
+    <string name="cards_when_always">Always</string>
+
+    <!-- What cards are, at the top of Settings → Cards -->
+    <string name="cards_intro_title">What are cards?</string>
+    <string name="cards_intro_headline">Shortcuts for every part of your day</string>
+    <string name="cards_intro_create">Create your first card</string>
+    <string name="cards_intro_body">A card groups the apps and actions you need for work, the gym or evenings. Cards open over your Home screen, and only the ones that fit right now are shown.</string>
+    <string name="cards_intro_step1">Long-press an empty spot on your Home screen</string>
+    <string name="cards_intro_step2">Tap Cards</string>
+    <string name="cards_intro_step3">Tap an app or icon on a card to open it</string>
+    <string name="cards_intro_illustration">Illustration: the Cards sheet sliding up over the Home screen, showing two cards with app and action icons</string>
+    <string name="cards_intro_replay">Play again</string>
+
+    <!-- Home panel -->
+    <string name="cards_surface_empty_title">No cards match right now</string>
+    <string name="cards_surface_empty_body">Cards show up when their conditions match.</string>
+    <string name="cards_surface_edit">Edit cards</string>
+    <string name="cards_surface_none_title">No cards yet</string>
+    <string name="cards_surface_none_body">A card puts the apps and actions you need in one place, and can show only at the times you choose.</string>
+    <string name="cards_surface_add_first">Add your first card</string>
+    <string name="cards_surface_all_off_title">All your cards are off</string>
+    <string name="cards_surface_all_off_body">Turn a card on in settings to see it here.</string>
+
+    <!-- Card list in settings -->
+    <string name="cards_list_off">Off</string>
+    <plurals name="cards_list_actions">
+        <item quantity="one">%1$d action</item>
+        <item quantity="other">%1$d actions</item>
+    </plurals>
+    <string name="cards_list_enable">Show %1$s</string>
+    <string name="cards_list_more">More options for %1$s</string>
+    <string name="cards_list_reorder">Drag to reorder %1$s</string>
+    <string name="cards_list_swipe_hint">Drag the handle to reorder. Swipe a card away to delete it.</string>
+    <string name="cards_move_up_short">Move up</string>
+    <string name="cards_move_down_short">Move down</string>
+    <string name="cards_delete_short">Delete</string>
+
+    <!-- Card editor -->
+    <string name="cards_new">New card</string>
+    <string name="cards_preview">How it looks on Home</string>
+    <string name="cards_section_content">Content</string>
+    <string name="cards_section_featured">Featured</string>
+    <string name="cards_section_actions">Actions</string>
+    <string name="cards_section_when">When to show</string>
+    <string name="cards_featured_hint">One large button at the top of the card.</string>
+    <string name="cards_featured_add">Add a featured app or widget</string>
+    <string name="cards_featured_remove">Remove featured item</string>
+    <string name="cards_action_add">Add</string>
+    <string name="cards_action_add_description">Add an action</string>
+    <string name="cards_action_change">Change</string>
+    <string name="cards_action_remove">Remove</string>
+    <string name="cards_action_menu">Action %1$d: %2$s</string>
+    <string name="cards_actions_hint">Up to six shortcuts, shown as icons. They run only when tapped.</string>
+    <string name="cards_day_chip">%1$s, %2$s</string>
+    <string name="cards_day_selected">selected</string>
+    <string name="cards_day_not_selected">not selected</string>
+    <string name="cards_time_from">From</string>
+    <string name="cards_time_to">To</string>
+    <string name="cards_time_pick_start">Start time, %1$s</string>
+    <string name="cards_time_pick_end">End time, %1$s</string>
+    <string name="cards_time_hint">If the end is earlier than the start, the card stays on past midnight.</string>
+    <string name="cards_discard_title">Discard changes?</string>
+    <string name="cards_discard_message">Your changes to this card will be lost.</string>
+    <string name="cards_discard">Discard</string>
+    <string name="cards_keep_editing">Keep editing</string>
+    <string name="cards_ok">OK</string>
+    <string name="cards_picker_change">Change action</string>
+    <string name="cards_picker_search">Search apps and actions</string>
+    <string name="cards_picker_search_apps">Search apps</string>
+    <string name="cards_picker_launcher">Launcher actions</string>
+    <string name="cards_picker_apps">Apps</string>
+    <string name="cards_picker_shortcuts">App shortcuts</string>
+    <string name="cards_picker_shortcuts_hint">Jump straight to a chat, a playlist or a route</string>
+</resources>

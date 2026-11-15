@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Page indicator, LINE style -->
+    <dimen name="home_page_line_height">3dp</dimen>
+    <dimen name="home_page_line_segment">28dp</dimen>
+    <!-- Dock background shapes -->
+    <dimen name="home_dock_rounded_radius">16dp</dimen>
+    <dimen name="home_dock_rounded_inset">4dp</dimen>
+    <dimen name="home_dock_card_radius">28dp</dimen>
+    <dimen name="home_dock_card_inset_horizontal">12dp</dimen>
+    <dimen name="home_dock_card_inset_vertical">4dp</dimen>
+</resources>

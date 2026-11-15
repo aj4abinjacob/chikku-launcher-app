@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="folder_icon_signature" type="id" />
+    <item name="folder_gestures_bound" type="id" />
+    <item name="folder_swipe_action_ids" type="id" />
+</resources>

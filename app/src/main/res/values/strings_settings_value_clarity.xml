@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="settings_grid_saved_size_summary">Your saved size is above the usual limit of %1$d. It stays available until you reduce it; Extended grid sizes in Labs lets you choose larger sizes.</string>
+    <string name="settings_drawer_auto_columns_summary">Fits columns to the available width and icon size. List layout always uses one column.</string>
+    <string name="settings_labs_extended_grid_summary">Enables larger grid ranges in home, drawer and dock settings. Turning this off keeps your saved sizes.</string>
+    <string name="settings_search_compact_count_summary">Show up to %1$d matching apps in a compact row</string>
+</resources>

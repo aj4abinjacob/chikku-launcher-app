@@ -1,0 +1,45 @@
+Chikku modular home: colour concepts
+Generated on 2026-10-21 with built-in imagegen, one edit per colour direction.
+Selected design / edit target: ../launcher-identity-variations/chikku-03-modular-home.png.
+The user selected the modular-home design; a final colour has not yet been selected.
+Concept assets only; Android resources have not been replaced.
+Original Chikku photographs were not inputs; body proportions remain illustrative.
+Hex colours in the prompts are requested targets; generated raster pixels can vary.
+
+1 · Golden
+Output: chikku-modular-01-golden.png
+
+Use case: logo-brand.
+Asset type: a colour version of the selected Chikku Launcher modular-home app icon.
+Input image: EDIT TARGET. The user selected this exact design. Change ONLY its colours.
+Preserve the composition and geometry as closely as possible: the complete standing left-facing dog, its muzzle, ears, neck, back, four legs, paws and tail; the large home silhouette behind him; and the four rounded-square app tiles in the top-right modular roof corner with the existing separation gaps. Keep relative placement, scale, margins, curves and shapes. The whole body must remain visible.
+Colour treatment: confident polished flat solid colours, strong contrast, clean silhouette readable at phone-icon size. Full-bleed square background, no outer rounding.
+Constraints: no new shapes or objects, no facial details, no pattern, no words or lettering, no border, mockup, collage, shadows, 3D, textures, gradients or watermark. Deliver exactly ONE square icon. Keep the dog as a single-colour silhouette.
+Palette: warm golden Chikku. Background AND dog silhouette deep charcoal #252626; the entire house warm golden cream #F4CD87. Colour the four existing app tiles individually: top-left warm tangerine #ED9850, top-right light apricot #F7C183, bottom-left muted turquoise #61B8AC, bottom-right soft ivory #FFF1D9. The background-coloured dog remains a strong negative-space cutout in the golden home. The four tiles must stay vivid and distinct against the charcoal gaps. Warm welcoming modern identity.
+
+---
+
+2 · Indigo
+Output: chikku-modular-02-indigo.png
+
+Use case: logo-brand.
+Asset type: a colour version of the selected Chikku Launcher modular-home app icon.
+Input image: EDIT TARGET. The user selected this exact design. Change ONLY its colours.
+Preserve the composition and geometry as closely as possible: the complete standing left-facing dog, its muzzle, ears, neck, back, four legs, paws and tail; the large home silhouette behind him; and the four rounded-square app tiles in the top-right modular roof corner with the existing separation gaps. Keep relative placement, scale, margins, curves and shapes. The whole body must remain visible.
+Colour treatment: confident polished flat solid colours, strong contrast, clean silhouette readable at phone-icon size. Full-bleed square background, no outer rounding.
+Constraints: no new shapes or objects, no facial details, no pattern, no words or lettering, no border, mockup, collage, shadows, 3D, textures, gradients or watermark. Deliver exactly ONE square icon. Keep the dog as a single-colour silhouette.
+Palette: vivid indigo launcher. Full-bleed background rich indigo #414BDD. House soft warm ivory #FFF3DF. Dog silhouette deep midnight navy #1C2347, clear contrast with the ivory house. Colour the four existing app tiles individually: top-left golden yellow #FFC65C, top-right coral #FF8E7D, bottom-left aqua #65D5CA, bottom-right soft lavender #C4B6FF. Retain crisp flat colours and deep indigo separation gaps between tiles. Bright memorable software-app identity.
+
+---
+
+3 · Forest
+Output: chikku-modular-03-forest.png
+
+Use case: logo-brand.
+Asset type: a colour version of the selected Chikku Launcher modular-home app icon.
+Input image: EDIT TARGET. The user selected this exact design. Change ONLY its colours.
+Preserve the composition and geometry as closely as possible: the complete standing left-facing dog, its muzzle, ears, neck, back, four legs, paws and tail; the large home silhouette behind him; and the four rounded-square app tiles in the top-right modular roof corner with the existing separation gaps. Keep relative placement, scale, margins, curves and shapes. The whole body must remain visible.
+Colour treatment: confident polished flat solid colours, strong contrast, clean silhouette readable at phone-icon size. Full-bleed square background, no outer rounding.
+Constraints: no new shapes or objects, no facial details, no pattern, no words or lettering, no border, mockup, collage, shadows, 3D, textures, gradients or watermark. Deliver exactly ONE square icon. Keep the dog as a single-colour silhouette.
+Palette: forest and terracotta. Background AND dog silhouette deep forest green #163D38; house warm light cream #F5E9D0. Colour the four existing app tiles individually: top-left terracotta #E69A75, top-right muted honey #EFC677, bottom-left soft sage #91C8A6, bottom-right pale mint #CAE4D4. The background-coloured full-body dog stays a powerful clear negative-space cutout against the light cream house. Calm distinctive premium identity. All colours flat.
+

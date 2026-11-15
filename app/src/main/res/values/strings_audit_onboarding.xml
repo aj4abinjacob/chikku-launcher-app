@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="onboarding_layout_preview_details">%1$d dock icons, icon size %2$d percent, label size %3$d percent</string>
+</resources>

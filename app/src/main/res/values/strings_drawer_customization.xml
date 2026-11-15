@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="drawer_settings_style_list">List</string>
+    <string name="drawer_settings_match_desktop">Match desktop icon size</string>
+    <string name="drawer_settings_fast_scroller_color">Fast scroller accent</string>
+    <string name="drawer_settings_infinite_scroll">Infinite scroll</string>
+    <string name="drawer_settings_infinite_scroll_summary">Wrap between the first and last drawer pages</string>
+    <string name="drawer_settings_remember_position">Remember scroll position</string>
+    <string name="drawer_settings_remember_position_summary">Return to your place when reopening the drawer</string>
+    <string name="drawer_settings_automatically_close">Close drawer after launching an app</string>
+    <string name="drawer_settings_transition">Transition animation</string>
+    <string name="drawer_settings_transition_slide">Slide</string>
+    <string name="drawer_settings_transition_fade">Fade</string>
+    <string name="drawer_settings_transition_scale">Zoom</string>
+    <string name="drawer_settings_pull_to_search">Pull to search</string>
+    <string name="drawer_settings_pull_to_search_summary">Pull down at the top of the drawer to focus search</string>
+    <string name="drawer_settings_tab_position">Tab bar position</string>
+    <string name="drawer_settings_scroller_side">Fast scroller side</string>
+    <string name="drawer_scroller_side_right">Right</string>
+    <string name="drawer_scroller_side_left">Left</string>
+    <string name="drawer_settings_scroller_gap">Space from apps</string>
+    <string name="drawer_settings_scroller_gap_value">%1$d dp</string>
+    <string name="drawer_settings_scroller_popup">Letter bubble</string>
+    <string name="drawer_settings_scroller_popup_summary">Show the current letter in a bubble while dragging the fast scroller</string>
+</resources>

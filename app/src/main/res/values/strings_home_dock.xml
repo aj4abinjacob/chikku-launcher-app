@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- HOME: layout lock, dock pages -->
+    <string name="home_layout_locked">Home screen layout is locked. Unlock it in Chikku Settings › Home screen.</string>
+    <string name="home_dock_page_description">Dock page %1$d of %2$d</string>
+    <string name="home_dock_next_page">Next dock page</string>
+    <string name="home_dock_previous_page">Previous dock page</string>
+
+    <!-- Settings › Home screen -->
+    <string name="settings_home_columns">Columns</string>
+    <string name="settings_home_rows">Rows</string>
+    <string name="settings_home_grid_extended_hint">Turn on “Extended grid” in Labs for larger grids (maximum: %1$d).</string>
+    <string name="settings_home_icon_size">Icon size</string>
+    <string name="settings_home_show_labels">Show labels</string>
+    <string name="settings_home_label_size">Label size</string>
+    <string name="settings_home_horizontal_padding">Grid side space</string>
+    <string name="settings_home_vertical_padding">Grid top and bottom space</string>
+    <string name="settings_home_widget_padding">Space inside widgets</string>
+    <string name="settings_padding_none">None</string>
+    <string name="settings_padding_small">Small</string>
+    <string name="settings_padding_medium">Medium</string>
+    <string name="settings_padding_large">Large</string>
+    <string name="settings_home_header_pages">Pages and scrolling</string>
+    <string name="settings_home_page_indicator">Page indicator</string>
+    <string name="settings_page_indicator_dots">Dots</string>
+    <string name="settings_page_indicator_line">Line</string>
+    <string name="settings_page_indicator_none">Hidden</string>
+    <string name="settings_home_page_indicator_auto_hide">Show only while swiping</string>
+    <string name="settings_home_page_indicator_auto_hide_summary">The page indicator appears when you swipe between pages and fades out after</string>
+    <string name="settings_home_wallpaper_scrolling">Move wallpaper with pages</string>
+    <string name="settings_home_wallpaper_scrolling_summary">Wallpaper follows page swipes</string>
+    <string name="settings_home_infinite_scroll">Infinite scroll</string>
+    <string name="settings_home_infinite_scroll_summary">Loop between the last and first pages in both directions</string>
+    <string name="settings_home_infinite_scroll_summary_discover">Loops from the last page to the first. Turn off Google Discover to also loop back from the first page.</string>
+    <string name="settings_home_default_page">Default page</string>
+    <string name="settings_home_default_page_value">Page %1$d</string>
+    <string name="settings_home_page_count">Pages: %1$d</string>
+    <string name="settings_home_add_page">Add a page</string>
+    <plurals name="settings_home_hidden_items">
+        <item quantity="one">%1$d item does not fit the current grid. It is kept and hidden, and reappears if you make the grid larger again.</item>
+        <item quantity="other">%1$d items do not fit the current grid. They are kept and hidden, and reappear if you make the grid larger again.</item>
+    </plurals>
+    <string name="settings_home_move_hidden">Move hidden items onto free cells</string>
+    <string name="settings_home_move_hidden_summary">Put them on free cells, adding a page if needed</string>
+    <string name="settings_home_move_hidden_result">Moved %1$d, still hidden %2$d</string>
+    <string name="settings_home_locked_disabled">Unlock the layout to change these.</string>
+
+    <!-- Settings › Dock -->
+    <string name="settings_dock_enabled">Show dock</string>
+    <string name="settings_dock_icon_count">Apps per dock page</string>
+    <string name="settings_dock_pages">Dock pages</string>
+    <string name="settings_dock_pages_limited">Dock pages are limited to %2$d at this icon count (%1$d).</string>
+    <string name="settings_dock_icon_size">Icon size</string>
+    <string name="settings_dock_show_labels">App names</string>
+    <string name="settings_dock_background">Dock background</string>
+    <string name="settings_dock_background_none">None</string>
+    <string name="settings_dock_background_rectangle">Rectangle</string>
+    <string name="settings_dock_background_rounded">Rounded</string>
+    <string name="settings_dock_background_card">Card</string>
+    <string name="settings_dock_background_color">Background color</string>
+    <string name="settings_dock_background_alpha">Background opacity</string>
+    <string name="settings_dock_match_desktop">Same icon size as home screen</string>
+    <string name="settings_dock_label_font">Font</string>
+    <string name="settings_dock_label_shadow">Shadow</string>
+    <string name="settings_dock_single_line">Single line</string>
+    <string name="settings_dock_font_normal">Normal</string>
+    <string name="settings_dock_font_medium">Medium</string>
+    <string name="settings_dock_font_condensed">Condensed</string>
+    <string name="settings_dock_font_light">Light</string>
+    <string name="settings_dock_padding_value">Sides: %1$s; above and below: %2$s</string>
+    <string name="settings_dock_background_shape">Shape</string>
+    <string name="settings_dock_overlay">Float over home screen</string>
+    <string name="settings_dock_overlay_summary">The dock sits on top of the home screen instead of taking its own space</string>
+    <string name="settings_dock_auto_close">Hide after opening an app</string>
+    <string name="settings_dock_auto_close_summary">Hide the dock after launching an app. Use the Toggle dock gesture to show it again.</string>
+    <string name="settings_dock_remember_position">Reopen on the last dock page</string>
+    <string name="settings_icon_preview">Preview of icon and label size using sample Chikku icons</string>
+    <string name="settings_done">Done</string>
+    <string name="gesture_action_toggle_dock">Toggle dock</string>
+    <string name="settings_dock_background_custom">Custom corners</string>
+    <string name="settings_dock_behind_navigation">Extend behind navigation bar</string>
+    <string name="settings_dock_background_padding">Shrink dock background</string>
+    <string name="settings_dock_top_left">Top left</string>
+    <string name="settings_dock_top_right">Top right</string>
+    <string name="settings_dock_bottom_left">Bottom left</string>
+    <string name="settings_dock_bottom_right">Bottom right</string>
+    <string name="settings_dock_corner_shape">%1$s corner</string>
+    <string name="settings_dock_corner_round">Round</string>
+    <string name="settings_dock_corner_cut">Cut</string>
+</resources>

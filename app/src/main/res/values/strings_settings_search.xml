@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="settings_search_title">Search settings</string>
+    <string name="settings_search_cancel">Cancel</string>
+    <string name="settings_search_query_label">Setting name or keyword</string>
+    <string name="settings_search_hint">Find controls by name or keyword. Each result opens its settings page.</string>
+    <string name="settings_search_empty">No matching settings</string>
+    <string name="settings_search_open_section">Open %1$s</string>
+    <!-- Section, then the sub-page inside it, e.g. "App drawer › Fast scroller" -->
+    <string name="settings_search_section_path">%1$s › %2$s</string>
+    <string name="settings_search_synonyms_keyboard">keyboard typing input IME</string>
+    <string name="settings_search_synonyms_results_anchor">one-handed one hand reach reachability thumb bottom keyboard results</string>
+    <string name="settings_search_synonyms_badges">notification unread counter dots badges</string>
+    <string name="settings_search_synonyms_opacity">opacity transparency transparent alpha</string>
+    <string name="settings_search_synonyms_scroller">alphabet alphabetical A Z scrollbar index fast scroll left handed right handed side spacing gap</string>
+    <string name="settings_search_synonyms_labels">text typography typeface font captions labels</string>
+    <string name="settings_search_synonyms_hidden">hide hidden conceal recover offscreen</string>
+    <string name="settings_search_synonyms_grid">grid rows columns layout cells</string>
+    <string name="settings_search_synonyms_backup">backup export import restore recovery save file</string>
+    <string name="settings_search_synonyms_corners">corner radius rounded shape rounding</string>
+    <string name="settings_search_synonyms_section_home">desktop workspace homescreen home screen</string>
+    <string name="settings_search_synonyms_section_drawer">all apps applications app drawer</string>
+    <string name="settings_search_synonyms_section_dock">dock bottom favorites favourites</string>
+    <string name="settings_search_synonyms_section_folders">folder group collection</string>
+    <string name="settings_search_synonyms_section_other"></string>
+
+    <!-- Contact card buttons (Search › Contacts) -->
+    <string name="settings_contact_card_header">Contact card buttons</string>
+    <string name="settings_contact_card_add_header">Add a button</string>
+    <string name="settings_contact_card_add">Add %1$s</string>
+    <string name="settings_contact_card_sms">Text message (SMS)</string>
+    <string name="settings_contact_card_app_message">%1$s message</string>
+    <string name="settings_contact_card_app_voice">%1$s voice call</string>
+    <string name="settings_contact_card_app_video">%1$s video call</string>
+    <string name="settings_contact_card_not_installed">Not installed. Shown once the app is installed.</string>
+    <string name="settings_contact_card_unsupported">This app doesn\'t let Chikku open this right now</string>
+    <string name="settings_contact_card_move_up">Move %1$s earlier</string>
+    <string name="settings_contact_card_move_down">Move %1$s later</string>
+    <string name="settings_contact_card_remove">Remove %1$s</string>
+    <string name="settings_contact_card_reset">Reset to Call, Message, WhatsApp</string>
+    <string name="settings_contact_card_info">Buttons appear in this order on the contact card. A button shows only when the contact can use it, for example a WhatsApp button only for contacts on WhatsApp. Apps that keep calls for apps with phone-call permission, which Chikku doesn\'t request, can be added for messages only.</string>
+    <!-- Contact card live preview (synthetic sample, never a real contact) -->
+    <string name="preview_contact_card_label">Preview with a sample contact</string>
+    <string name="preview_contact_card_name">Sample Contact</string>
+    <string name="preview_contact_card_number" translatable="false">+1 555 0100</string>
+    <string name="preview_contact_card_description">Contact card preview with buttons: %1$s</string>
+</resources>

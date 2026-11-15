@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Chikku's own accent for theme-level widgets (cursor, selection, ripples, progress) when no
+         Style accent applies. Mirrors ChikkuSettingsTheme: CHIKKU_DEFAULT_ACCENT in light,
+         the lighter primary in night (values-night/themes.xml). -->
+    <color name="chikku_theme_accent">#FFB94318</color>
+    <color name="chikku_theme_highlight">#33B94318</color>
+    <color name="chikku_theme_text_highlight">#66B94318</color>
+    <color name="chikku_theme_on_accent">#FFFFFFFF</color>
+    <!-- ChikkuSettingsTheme surface, so settings/onboarding never flash white in dark mode. -->
+    <color name="chikku_settings_window">#FFFAFAFA</color>
+
+    <!-- Settings, onboarding, icon picker (Compose). Theme.Material, never DeviceDefault: the
+         device skin (One UI, MIUI) must not restyle Chikku. -->
+    <style name="Theme.Chikku" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@color/chikku_settings_window</item>
+        <item name="android:colorAccent">@color/chikku_theme_accent</item>
+        <item name="android:colorControlActivated">@color/chikku_theme_accent</item>
+        <item name="android:colorControlHighlight">@color/chikku_theme_highlight</item>
+        <item name="android:textColorHighlight">@color/chikku_theme_text_highlight</item>
+        <!-- Overscroll glow (API 29/30): Material's colorPrimary is teal. -->
+        <item name="android:colorEdgeEffect">@color/chikku_theme_accent</item>
+        <item name="android:textCursorDrawable">@drawable/chikku_text_cursor</item>
+        <item name="android:buttonStyle">@style/Widget.Chikku.Button</item>
+        <item name="android:borderlessButtonStyle">@style/Widget.Chikku.Button.Borderless</item>
+        <!-- Android 12+ starting window: the settings surface and Chikku's own mark. -->
+        <item name="android:windowSplashScreenBackground" tools:targetApi="31">@color/chikku_settings_window</item>
+        <item name="android:windowSplashScreenAnimatedIcon" tools:targetApi="31">@drawable/ic_launcher_foreground</item>
+        <item name="android:windowSplashScreenIconBackgroundColor" tools:targetApi="31">@color/chikku_icon_background</item>
+    </style>
+
+    <!-- HOME shows the system wallpaper behind a transparent, edge-to-edge window. Parent is
+         Theme.Material (not DeviceDefault) so the device skin's buttons, ripples, fonts, cursor,
+         progress and popup styling never leak into the launcher; every widget style is Chikku's. -->
+    <style name="Theme.Chikku.Home" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowShowWallpaper">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLayoutInDisplayCutoutMode">shortEdges</item>
+        <item name="android:enforceNavigationBarContrast">false</item>
+        <item name="android:enforceStatusBarContrast">false</item>
+
+        <item name="android:colorAccent">@color/chikku_theme_accent</item>
+        <item name="android:colorControlActivated">@color/chikku_theme_accent</item>
+        <item name="android:colorControlHighlight">@color/chikku_theme_highlight</item>
+        <item name="android:textColorHighlight">@color/chikku_theme_text_highlight</item>
+        <!-- Overscroll glow (API 29/30): Material's colorPrimary is teal. -->
+        <item name="android:colorEdgeEffect">@color/chikku_theme_accent</item>
+        <!-- Cursor in the accent; Material's select handles already tint with colorControlActivated. -->
+        <item name="android:textCursorDrawable">@drawable/chikku_text_cursor</item>
+        <item name="android:buttonStyle">@style/Widget.Chikku.Button</item>
+        <item name="android:borderlessButtonStyle">@style/Widget.Chikku.Button.Borderless</item>
+        <item name="android:progressBarStyle">@style/Widget.Chikku.ProgressBar</item>
+    </style>
+
+    <!-- Confirm-only activities (shortcut pin requests): no window of their own, so only Chikku's
+         prompt sheet appears over the app that asked. The sheet draws its own scrim and animation. -->
+    <style name="Theme.Chikku.Translucent" parent="Theme.Chikku">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+</resources>

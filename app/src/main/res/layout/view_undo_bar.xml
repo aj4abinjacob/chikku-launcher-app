@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:parentTag="android.widget.LinearLayout">
+
+    <TextView
+        android:id="@+id/undo_message"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:paddingStart="16dp"
+        android:paddingEnd="8dp"
+        android:textColor="@color/home_on_undo"
+        android:textSize="@dimen/home_body_text_size"
+        tools:text="@string/home_item_removed" />
+
+    <Button
+        android:id="@+id/undo_button"
+        style="@style/Widget.Chikku.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="@dimen/home_min_touch_target"
+        android:minHeight="@dimen/home_min_touch_target"
+        android:text="@string/home_undo"
+        android:textColor="@color/home_undo_action" />
+</merge>

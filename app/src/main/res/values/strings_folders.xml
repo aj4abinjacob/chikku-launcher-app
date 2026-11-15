@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Open folder -->
+    <string name="folder_name_hint">Folder name</string>
+    <string name="folder_close">Close folder</string>
+    <string name="folder_edit_button">Edit folder</string>
+    <string name="folder_menu_open">Open</string>
+    <string name="folder_empty">This folder is empty. Drag apps onto it to add them.</string>
+
+    <!-- Accessibility actions -->
+    <string name="folder_action_open">Open folder</string>
+    <string name="folder_action_edit">Edit folder</string>
+    <string name="folder_action_swipe_up">Swipe up action</string>
+    <string name="folder_action_swipe_down">Swipe down action</string>
+    <string name="folder_action_move_earlier">Move earlier in folder</string>
+    <string name="folder_action_move_later">Move later in folder</string>
+    <string name="folder_action_move_to_home">Move to home screen</string>
+    <string name="folder_action_remove_entry">Remove from folder</string>
+
+    <!-- Feedback -->
+    <string name="folder_no_space">No free space on the home screen</string>
+    <string name="folder_entry_unavailable_message">This app is not installed, is disabled, or its profile is turned off. It stays in the folder until you remove it.</string>
+
+    <!-- Edit dialog -->
+    <string name="folder_edit_tap">Tap</string>
+    <string name="folder_edit_swipe_up">Swipe up</string>
+    <string name="folder_edit_swipe_down">Swipe down</string>
+    <string name="folder_edit_swipe_hint">When the tap is changed, swipe up opens the folder unless it has its own action.</string>
+
+    <!-- Gesture action picker (minimal; to be unified with the gestures feature picker) -->
+    <string name="folder_gesture_default_tap">Open folder (default)</string>
+    <string name="folder_gesture_default_swipe">Default</string>
+    <string name="folder_gesture_launch_app">Launch %1$s</string>
+
+    <!-- Settings > Folders -->
+    <string name="folders_settings_preview">Preview style</string>
+    <string name="folders_settings_preview_grid">Grid</string>
+    <string name="folders_settings_preview_stack">Stack</string>
+    <string name="folders_settings_preview_fan">Fan</string>
+    <string name="folders_settings_preview_line">Line</string>
+    <string name="folders_settings_icon_background">Icon background</string>
+    <string name="folders_settings_icon_background_none">None</string>
+    <string name="folders_settings_icon_background_circle">Circle</string>
+    <string name="folders_settings_icon_background_rounded">Rounded square</string>
+    <string name="folders_settings_background_color">Folder window background color</string>
+    <string name="folders_settings_background_alpha">Folder window opacity</string>
+    <string name="folders_settings_behaviour">Behaviour</string>
+    <string name="folders_settings_gestures">Folder tap and swipe actions</string>
+    <string name="folders_settings_gestures_summary">Open an app or run an action on tap or swipe</string>
+    <string name="folders_settings_info">Drop an app on another app to make a folder.</string>
+    <string name="folders_settings_info_details">Drop an app on a folder to add it. To change a folder\'s name, cover icon or tap and swipe actions, long press it and choose Edit folder, or open it and use its edit button.</string>
+</resources>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Drawer surface -->
+    <string name="drawer_tab_all">All</string>
+    <string name="drawer_tab_personal">Personal</string>
+    <string name="drawer_tab_work">Work</string>
+    <string name="drawer_tab_role">Tab</string>
+    <string name="drawer_tab_description">%1$s, tab %2$d of %3$d</string>
+    <string name="drawer_group_empty">No apps in this group yet. Add apps in Chikku Settings, App drawer, Drawer groups.</string>
+    <string name="drawer_tab_empty">No apps in this tab</string>
+    <string name="drawer_fast_scroller_jump">Jump to %1$s</string>
+    <string name="drawer_fast_scroller_other">numbers and symbols</string>
+    <string name="drawer_fast_scroller_overflow">other scripts</string>
+    <string name="drawer_page_description">Page %1$d of %2$d</string>
+
+    <!-- App drawer settings -->
+    <string name="drawer_settings_layout">Layout</string>
+    <string name="drawer_settings_style">Scrolling style</string>
+    <string name="drawer_settings_style_vertical">Vertical list</string>
+    <string name="drawer_settings_style_paged">Horizontal pages</string>
+    <string name="drawer_settings_auto_columns">Fit columns to screen width</string>
+    <string name="drawer_settings_columns">Columns</string>
+    <string name="drawer_settings_rows">Rows per page</string>
+    <string name="drawer_settings_visible_rows">Number of rows</string>
+    <string name="drawer_settings_rows_summary">More rows bring apps closer together. Large icons or text may reduce the number of visible rows.</string>
+    <string name="drawer_settings_icon_size">Icon size</string>
+    <string name="drawer_settings_labels">Show labels</string>
+    <string name="drawer_settings_fast_scroller">Fast scroller</string>
+    <string name="drawer_settings_fast_scroller_summary">Jump through your apps by letter</string>
+    <string name="drawer_settings_show_arrow">Show up arrow</string>
+    <string name="drawer_settings_show_arrow_summary">Swipe up to open apps when the arrow is hidden</string>
+    <string name="drawer_settings_open_method">Open the drawer with</string>
+    <string name="drawer_settings_open_swipe">Swipe up</string>
+    <string name="drawer_settings_open_button">Up arrow</string>
+    <string name="drawer_settings_open_both">Swipe up or arrow</string>
+    <string name="drawer_settings_open_swipe_note">To hide the arrow, set Swipe up to Open app drawer in Gestures.</string>
+    <string name="drawer_settings_open_swipe_note_details">TalkBack users can always open the drawer from the home screen\'s actions menu.</string>
+    <string name="drawer_settings_search_position">Search bar position</string>
+    <string name="drawer_settings_search_top">Top</string>
+    <string name="drawer_settings_search_bottom">Bottom</string>
+    <string name="drawer_settings_search_hidden">None</string>
+    <string name="drawer_settings_search_style">Search bar style</string>
+    <string name="drawer_settings_search_style_subtle">Subtle</string>
+    <string name="drawer_settings_search_style_subtle_summary">Soft fill and a search icon, like Android\'s own search bars</string>
+    <string name="drawer_settings_search_style_outlined">Outlined</string>
+    <string name="drawer_settings_search_style_outlined_summary">Adds a light outline around the field</string>
+    <string name="drawer_settings_search_style_high_contrast">High contrast</string>
+    <string name="drawer_settings_search_style_high_contrast_summary">A strong outline that is easy to see against any background</string>
+    <string name="drawer_settings_appearance">Background</string>
+    <string name="drawer_settings_background_color">Background color</string>
+    <string name="drawer_settings_background_alpha">Background opacity</string>
+    <string name="drawer_settings_organize">Organize</string>
+    <string name="drawer_settings_hidden_apps">Hidden apps</string>
+    <string name="drawer_settings_hidden_apps_summary">Tidy the drawer and search (not a security feature)</string>
+    <string name="drawer_settings_groups">Drawer groups</string>
+    <string name="drawer_settings_groups_summary">Create, order and fill groups</string>
+    <string name="drawer_settings_groups_enabled">Show groups as tabs</string>
+    <string name="drawer_settings_work_tab">Separate work tab</string>
+    <string name="drawer_settings_work_tab_summary">Work profile apps in their own tab</string>
+
+    <!-- Hidden apps screen -->
+    <string name="drawer_hidden_explanation_details">Hidden apps are left out of the app drawer and search. They stay installed, keep running, can still be opened from here or from your home screen, and anyone with your phone can see them in Android settings.</string>
+    <string name="drawer_hidden_open">Open</string>
+    <string name="drawer_hidden_selection_hint">Tap apps to hide or show them. Touch and hold to open an app. Hiding is not a security feature.</string>
+    <plurals name="drawer_hidden_selected_count">
+        <item quantity="one">%1$d app hidden</item>
+        <item quantity="other">%1$d apps hidden</item>
+    </plurals>
+    <string name="drawer_hidden_open_description">Open %1$s</string>
+    <string name="drawer_app_work">%1$s (work)</string>
+    <string name="drawer_apps_unavailable">Couldn\'t load your apps.</string>
+    <string name="drawer_open_failed">Couldn\'t open this app.</string>
+    <string name="drawer_save_failed">Couldn\'t save the change.</string>
+
+    <!-- Drawer groups screens -->
+    <string name="drawer_groups_explanation">Groups show as tabs next to All. An app can be in several groups.</string>
+    <string name="drawer_groups_none">No groups yet.</string>
+    <string name="drawer_groups_add">New group</string>
+    <string name="drawer_groups_name">Group name</string>
+    <string name="drawer_groups_create">Create</string>
+    <string name="drawer_groups_rename">Rename</string>
+    <string name="drawer_groups_save">Save</string>
+    <string name="drawer_groups_delete">Delete</string>
+    <string name="drawer_groups_delete_title">Delete group?</string>
+    <string name="drawer_groups_delete_message">The group \"%1$s\" is removed. Its apps stay installed and in All.</string>
+    <string name="drawer_groups_move_up">Move %1$s up</string>
+    <string name="drawer_groups_move_down">Move %1$s down</string>
+    <string name="drawer_groups_edit_apps">Choose apps</string>
+    <plurals name="drawer_hidden_filter">
+        <item quantity="one">%1$d hidden</item>
+        <item quantity="other">%1$d hidden</item>
+    </plurals>
+    <string name="drawer_hidden_only">Hidden only</string>
+    <string name="drawer_hidden_only_description">Show only hidden apps. %1$s</string>
+    <string name="drawer_hidden_none">No apps are hidden.</string>
+    <string name="drawer_groups_in_group">In this group</string>
+    <string name="drawer_groups_all_apps">All apps</string>
+    <plurals name="drawer_groups_members">
+        <item quantity="one">%1$d app</item>
+        <item quantity="other">%1$d apps</item>
+    </plurals>
+    <string name="drawer_groups_sort">Order</string>
+    <string name="drawer_groups_sort_alphabetical">Alphabetical</string>
+    <string name="drawer_groups_sort_manual">Manual (order picked)</string>
+    <string name="drawer_groups_members_hint">With Manual order, apps appear in the order you check them.</string>
+</resources>

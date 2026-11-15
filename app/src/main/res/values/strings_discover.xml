@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="discover_health_app_only">Ready to open the Google app. This release does not use a Discover bridge.</string>
+    <string name="settings_home_google_discover">Google Discover feed</string>
+    <string name="settings_home_google_discover_summary">Swipe outwards from the first page. Uses the Google app already on your phone. Opens it if cards cannot appear here.</string>
+    <string name="settings_home_google_discover_disclosure_short">Experimental and unofficial; may stop working after updates.</string>
+    <string name="settings_home_google_discover_disclosure">Google provides the feed, its network access and personalization. Chikku tries to show cards here using an unofficial interface. Google only lets debuggable or system apps show cards on a home screen, so normal Chikku builds need the optional Chikku Discover bridge app for that. Without it, the swipe opens the installed Google app. If the bridge stops working, Chikku tells you why, such as battery settings blocking it. Google or Android updates may change whether cards can appear here.</string>
+    <string name="home_open_google_discover">Open Google Discover</string>
+    <string name="home_google_discover_missing_google">Google Discover needs the Google app to be present and enabled.</string>
+    <string name="home_google_discover_connecting">Google Discover is not ready. Try again shortly; check that Discover is enabled in the Google app.</string>
+    <string name="home_google_discover_unavailable">Google Discover is unavailable on this device. Your home screen is still available.</string>
+    <string name="home_google_discover_problem_title">Discover cards can\'t appear here</string>
+    <string name="home_google_discover_bridge_settings">Bridge app settings</string>
+    <string name="home_google_discover_open_google">Open Google app</string>
+    <string name="home_google_discover_retry">Try again</string>
+    <string name="settings_home_google_discover_status">Discover bridge</string>
+    <string name="settings_home_google_discover_status_checking">Checking…</string>
+    <string name="discover_health_direct">Ready. This build connects to the Google app directly.</string>
+    <string name="discover_health_ready">Ready. The Chikku Discover bridge is connected to the Google app.</string>
+    <string name="discover_health_bridge_missing">Cards open in the Google app. Install the Chikku Discover bridge app to show them on the home screen.</string>
+    <string name="discover_health_wrong_key">The installed Discover bridge is signed with a different key from Chikku, so Chikku won\'t use it. Install the bridge from the same source as Chikku.</string>
+    <string name="discover_health_disabled">The Chikku Discover bridge app is disabled. Enable it in its app info.</string>
+    <string name="discover_health_unresponsive">The Chikku Discover bridge isn\'t starting. Your phone\'s battery or app-sleep settings are probably blocking it. In the bridge\'s app info, set battery use to Unrestricted, and remove it from any sleeping, deep sleeping or auto-launch restriction list.</string>
+    <string name="discover_health_restricted">Battery settings restrict the Chikku Discover bridge. In its app info, set battery use to Unrestricted, and remove it from any sleeping or deep sleeping apps list.</string>
+    <string name="discover_health_rejected">The Google app refused the Discover bridge. A Google app update may have changed this.</string>
+    <string name="discover_health_google_unreachable">The Discover bridge couldn\'t reach the Google app. Check that the Google app is enabled and up to date.</string>
+    <string name="discover_health_pending">The Discover bridge is still connecting to the Google app. Try again in a moment.</string>
+    <string name="discover_health_not_shown">The bridge is working, but Google isn\'t showing the feed in Chikku. If another launcher\'s Google feed companion app is installed, Google may be serving it instead. Try again, or open that launcher once and come back.</string>
+</resources>

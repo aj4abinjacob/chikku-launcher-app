@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="settings_slider_percentage_value">%1$d%%</string>
+    <string name="settings_slider_dp_value">%1$.1f dp</string>
+    <string name="settings_badge_scale_preset">%1$s (%2$d%%)</string>
+    <string name="settings_badge_scale_custom">Custom (%1$d%%)</string>
+    <string name="settings_dock_corners_summary" formatted="false">Corner size is a percentage of half the dock background’s shorter edge. Zero makes a square corner; 100% uses the largest corner.</string>
+</resources>

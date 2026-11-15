@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="preview_df_drawer_description">Drawer preview: %1$d columns, %2$d visible rows. Sample apps only.</string>
+    <string name="preview_df_closed_folder_description">Folder icon preview with %1$d sample items.</string>
+    <string name="preview_df_fast_description">Fast scroller preview. Drag to try the selected color, side and letter bubble.</string>
+    <string name="preview_df_previous">Previous</string>
+    <string name="preview_df_next">Next</string>
+    <string name="preview_df_page">%1$d / %2$d</string>
+    <string name="preview_df_open">Open sample</string>
+    <string name="preview_df_close">Close sample</string>
+    <string name="preview_df_replay_opening">Replay</string>
+    <string name="preview_df_try_scroller">Try letter bubble</string>
+    <string name="preview_df_sample_name">Sample</string>
+    <string name="preview_df_group_name">Favorites</string>
+    <string name="preview_df_sample_query">Sample search</string>
+</resources>

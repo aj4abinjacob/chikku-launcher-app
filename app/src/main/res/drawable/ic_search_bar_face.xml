@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Chikku search glyph: a magnifier whose lens holds a minimal dog face (eyes and nose).
+     Drawn for this project (no third-party asset); shares its lens and handle with the other
+     ic_search_bar_* glyphs. Tinted where used. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="28dp"
+    android:height="28dp"
+    android:viewportWidth="28"
+    android:viewportHeight="28">
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFFFF"
+        android:strokeWidth="2.4"
+        android:strokeLineCap="round"
+        android:pathData="M12,4 A8,8 0 1,1 12,20 A8,8 0 1,1 12,4 M17.7,17.7 L24,24" />
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M8.25,9.8 A1.05,1.05 0 1,1 10.35,9.8 A1.05,1.05 0 1,1 8.25,9.8 Z M13.65,9.8 A1.05,1.05 0 1,1 15.75,9.8 A1.05,1.05 0 1,1 13.65,9.8 Z" />
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M10.2,12.8 C10.2,12.2 10.8,12 12,12 C13.2,12 13.8,12.2 13.8,12.8 C13.8,13.8 12.8,15 12,15 C11.2,15 10.2,13.8 10.2,12.8 Z" />
+</vector>

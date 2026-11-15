@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Shown by Android in the notification-access list. -->
+    <string name="badge_listener_label">Chikku badges and media</string>
+
+    <!-- Appended to an app icon's spoken description, e.g. "Maps, 3 notifications". -->
+    <string name="badge_description_format">%1$s, %2$s</string>
+    <plurals name="badge_notifications_description">
+        <item quantity="one">%d notification</item>
+        <item quantity="other">%d notifications</item>
+    </plurals>
+
+    <string name="settings_badges_style">Badge style</string>
+    <string name="settings_badges_style_off">Off</string>
+    <string name="settings_badges_style_dot">Dot</string>
+    <string name="settings_badges_style_count">Count</string>
+    <string name="settings_badges_style_dynamic">Dynamic</string>
+    <string name="settings_badges_color">Badge color</string>
+    <string name="settings_badges_explanation">Badges read notifications on this device only. Notification contents are never saved or uploaded.</string>
+    <string name="settings_badges_explanation_details">Counts come from active notifications, not every unread message. Dynamic pictures are kept only in memory. Media cards can use the same access to show and control playback.</string>
+    <string name="settings_badges_access_title">Notification access</string>
+    <string name="settings_badges_access_granted">Access granted.</string>
+    <string name="settings_badges_access_missing">Not granted yet. Badges stay hidden until you allow access.</string>
+    <string name="settings_badges_grant">Allow notification access</string>
+    <string name="settings_badges_manage">Manage notification access</string>
+    <string name="settings_badges_off_hint">Badges are off. Enabled media cards may still use shared notification access.</string>
+    <string name="settings_badges_service_waiting">Access granted, but the notification service is disconnected. Badges stay empty until it reconnects.</string>
+    <string name="settings_badges_reconnect">Reconnect notification service</string>
+    <string name="settings_badges_off_hint_details">To remove the access completely, switch it off in Android\'s notification access settings.</string>
+    <string name="settings_badges_settings_unavailable">This device has no notification access settings screen.</string>
+    <string name="settings_badges_profiles_note">Badges from a paused work profile or a locked private space are never shown.</string>
+</resources>

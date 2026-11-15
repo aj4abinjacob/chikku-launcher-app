@@ -1,0 +1,27 @@
+<resources>
+    <string name="vertical_scroll_settings_title">Vertical scrolling</string>
+    <string name="vertical_scroll_settings_summary">Scroll speed, end-of-list effect and navigation</string>
+    <string name="vertical_scroll_section_motion">Scrolling</string>
+    <string name="vertical_scroll_section_navigation">Getting around</string>
+    <string name="vertical_scroll_speed">Scroll speed</string>
+    <string name="vertical_scroll_speed_slow">Slow</string>
+    <string name="vertical_scroll_speed_slow_summary">Short flicks</string>
+    <string name="vertical_scroll_speed_normal">Normal</string>
+    <string name="vertical_scroll_speed_normal_summary">Android default</string>
+    <string name="vertical_scroll_speed_fast">Fast</string>
+    <string name="vertical_scroll_speed_fast_summary">Long flicks</string>
+    <string name="vertical_scroll_speed_hint">Speed changes how far a flick carries the list. Dragging always follows your finger.</string>
+    <string name="vertical_scroll_edge">End-of-list effect</string>
+    <string name="vertical_scroll_edge_system">Stretch</string>
+    <string name="vertical_scroll_edge_glow">Glow</string>
+    <string name="vertical_scroll_edge_system_summary">Android\'s own effect</string>
+    <string name="vertical_scroll_edge_none">Off</string>
+    <string name="vertical_scroll_edge_none_summary">Stops at the edge</string>
+    <string name="vertical_scroll_paged_hint">These controls apply to the Vertical list and List drawer styles.</string>
+    <string name="vertical_scroll_preview_caption">Flick the sample to try</string>
+    <string name="vertical_scroll_preview_app">Sample %1$d</string>
+    <string name="vertical_scroll_preview_flick_up">Flick up</string>
+    <string name="vertical_scroll_preview_flick_down">Flick down</string>
+    <string name="vertical_scroll_preview_description">Vertical scrolling preview with sample apps. %1$s scroll speed, end-of-list effect %2$s.</string>
+    <string name="vertical_scroll_reset">Reset scrolling controls</string>
+</resources>

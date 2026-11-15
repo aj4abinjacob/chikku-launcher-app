@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Settings section -->
+    <string name="settings_section_app_lock">App lock</string>
+    <string name="settings_section_app_lock_summary">Locked apps need your screen lock to open</string>
+    <string name="settings_search_synonyms_app_lock">lock locker privacy protect secure password pin pattern fingerprint biometric face unlock vault</string>
+
+    <!-- Hero -->
+    <plurals name="app_lock_hero_count">
+        <item quantity="one">%1$d app locked</item>
+        <item quantity="other">%1$d apps locked</item>
+    </plurals>
+
+    <!-- Owner confirmation gate -->
+    <string name="app_lock_gate_title">App lock is protected</string>
+    <string name="app_lock_gate_body">Confirm it\'s you to see or change which apps are locked.</string>
+    <string name="app_lock_gate_unlock">Unlock</string>
+    <string name="app_lock_relock_page">Lock this page</string>
+    <string name="app_lock_read_failed">Chikku couldn\'t read your app lock settings, so every app is treated as locked. Restart Chikku to try again.</string>
+
+    <!-- Screen lock requirement -->
+    <string name="app_lock_no_screen_lock_title">Set up a screen lock first</string>
+    <string name="app_lock_no_screen_lock_body">App lock uses your device\'s PIN, pattern, password or fingerprint. Without one, locked apps can\'t be opened.</string>
+    <string name="app_lock_set_screen_lock">Set screen lock</string>
+
+    <!-- Relock -->
+    <string name="app_lock_relock_title">Ask again</string>
+    <string name="app_lock_relock_every_launch">Every time</string>
+    <string name="app_lock_relock_one_minute">1 min</string>
+    <string name="app_lock_relock_five_minutes">5 min</string>
+    <string name="app_lock_relock_screen_off">Screen off</string>
+    <string name="app_lock_relock_summary_every_launch">asks every time</string>
+    <string name="app_lock_relock_summary_one_minute">relocks after 1 minute</string>
+    <string name="app_lock_relock_summary_five_minutes">relocks after 5 minutes</string>
+    <string name="app_lock_relock_summary_screen_off">relocks when the screen turns off</string>
+
+    <!-- App list -->
+    <string name="app_lock_none_locked">No apps locked</string>
+    <string name="app_lock_pick_apps">Pick apps below</string>
+    <string name="app_lock_scope_short">Uses your fingerprint, face or screen lock.</string>
+    <string name="app_lock_locked_header">Locked</string>
+    <string name="app_lock_other_header">Other apps</string>
+    <string name="app_lock_apps_header">Apps</string>
+    <string name="app_lock_search_label">Search apps</string>
+    <string name="app_lock_no_matches">No apps match</string>
+    <string name="app_lock_state_locked">Locked</string>
+    <string name="app_lock_state_unlocked">Not locked</string>
+    <string name="app_lock_save_failed">Couldn\'t save app lock. Nothing was changed.</string>
+
+    <!-- Scope (honest limits of a launcher-level lock) -->
+    <string name="app_lock_scope">Locked apps ask for your fingerprint, face or screen lock wherever Chikku opens them: home, dock, folders, drawer, search, gestures, cards, shortcuts and App info. Their shortcuts are hidden.</string>
+    <string name="app_lock_scope_details">There is no separate Chikku PIN to guess or reset: Android checks your screen lock and limits attempts. Turning a lock off, or changing these settings, needs the same check. Restoring a Chikku backup never removes locks.\n\nA launcher can only guard what it opens. A locked app can still be reached from its notifications, Recents, its widgets, another launcher or Android\'s Settings, and clearing Chikku\'s storage removes the locks. For apps that must stay sealed, use Android\'s Private space or a work profile.</string>
+
+    <!-- System prompt -->
+    <string name="app_lock_prompt_title">Unlock %1$s</string>
+    <string name="app_lock_prompt_unknown_app">app</string>
+    <string name="app_lock_prompt_subtitle">Locked with Chikku app lock</string>
+    <string name="app_lock_confirm_title">Confirm it\'s you</string>
+    <string name="app_lock_confirm_subtitle">To manage Chikku app lock</string>
+    <string name="app_lock_prompt_lockout">Too many attempts. Try again later.</string>
+    <string name="app_lock_prompt_unavailable">Couldn\'t verify it\'s you on this device</string>
+    <string name="app_lock_needs_screen_lock_title">App lock needs a screen lock</string>
+    <string name="app_lock_needs_screen_lock_message">This app is locked. Chikku unlocks it with your phone\'s own PIN, pattern, password or fingerprint, and this phone doesn\'t have one set up yet.</string>
+</resources>

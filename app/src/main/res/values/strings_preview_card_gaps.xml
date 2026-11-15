@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="preview_card_visible">Visible in this sample</string>
+    <string name="preview_card_hidden_disabled">Hidden: card is off</string>
+    <string name="preview_card_hidden_charging">Hidden: sample is not charging</string>
+    <string name="preview_card_hidden_wifi">Hidden: sample has no Wi-Fi</string>
+    <string name="preview_card_hidden_bluetooth">Hidden: sample has no Bluetooth audio</string>
+    <string name="preview_card_hidden_time">Hidden: sample time is outside the range</string>
+    <string name="preview_card_hidden_day">Hidden: sample weekday does not match</string>
+    <string name="preview_card_hidden_space">The card will not appear in the Cards panel.</string>
+    <string name="preview_card_simulation_title">Try sample conditions</string>
+    <string name="preview_card_simulation_summary">Only the preview changes. These sample values are temporary and do not read or change your phone.</string>
+    <string name="preview_card_sample_day">Sample weekday</string>
+    <string name="preview_card_sample_time">Sample time</string>
+    <string name="preview_card_sample_charging">Sample charging</string>
+    <string name="preview_card_sample_wifi">Sample Wi-Fi connected</string>
+    <string name="preview_card_sample_bluetooth">Sample Bluetooth audio connected</string>
+    <string name="preview_card_sample_title">Sample card</string>
+    <string name="preview_card_sample_app">Sample app</string>
+    <string name="preview_card_sample_shortcut">Sample shortcut</string>
+    <string name="preview_card_sample_widget">Sample widget</string>
+    <string name="preview_card_description">Card preview. %1$s. %2$s. %3$s. %4$d sample actions. Featured item: %5$s.</string>
+    <string name="preview_card_no_conditions">Every day, all day</string>
+    <string name="preview_card_weather_ready">Sample city and weather; no request is sent</string>
+    <string name="preview_card_widget_empty">Choose a widget to display here</string>
+    <string name="preview_card_featured_empty">None</string>
+    <string name="preview_card_widget_description">%1$s · %2$s</string>
+</resources>

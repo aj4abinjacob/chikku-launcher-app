@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="badges_custom_position">Badge position</string>
+    <string name="badges_custom_top_end">Top end</string>
+    <string name="badges_custom_top_start">Top start</string>
+    <string name="badges_custom_bottom_end">Bottom end</string>
+    <string name="badges_custom_bottom_start">Bottom start</string>
+    <string name="badges_custom_size">Badge size</string>
+    <string name="badges_custom_small">Small</string>
+    <string name="badges_custom_medium">Medium</string>
+    <string name="badges_custom_large">Large</string>
+    <string name="badges_custom_preview_title">Preview</string>
+    <string name="badges_custom_test">Test badge</string>
+    <string name="badges_custom_test_summary">Change the sample count. This preview uses no real notifications and needs no notification access.</string>
+    <string name="badges_custom_sample_app">Chikku</string>
+    <string name="badges_custom_sample_description">Sample badge with %1$d notifications</string>
+</resources>

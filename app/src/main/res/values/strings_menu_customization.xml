@@ -1,0 +1,26 @@
+<resources>
+    <string name="menu_settings_background_color">Popup background color</string>
+    <string name="menu_settings_text_color">Popup text color</string>
+    <string name="menu_settings_corner_radius">Popup corner radius</string>
+    <string name="menu_settings_home_actions">Home screen popup actions</string>
+    <string name="menu_settings_drawer_actions">App drawer popup actions</string>
+    <string name="menu_settings_edit">Show Edit</string>
+    <string name="menu_settings_info">Show App info</string>
+    <string name="menu_settings_swipe">Show Swipe actions</string>
+    <string name="menu_settings_remove">Show Remove</string>
+    <string name="menu_settings_edit_summary">Rename the icon, change its icon and more.</string>
+    <string name="menu_settings_info_summary">Opens the app’s page in Android settings.</string>
+    <string name="menu_settings_swipe_summary">Choose what swiping up or down on this icon does.</string>
+    <string name="menu_settings_remove_summary">Takes the icon off the home screen; the app stays installed.</string>
+    <string name="menu_settings_limit_reached">You can show up to 4 actions. Turn one off to add another.</string>
+    <string name="menu_settings_uninstall">Show Uninstall</string>
+    <string name="menu_settings_store">Show Play Store</string>
+    <string name="menu_settings_hide">Show Hide</string>
+    <string name="menu_settings_uninstall_summary">Opens Android’s confirmation for apps that can be removed.</string>
+    <string name="menu_settings_store_summary">Opens the app’s public listing in Play Store or a browser.</string>
+    <string name="menu_settings_hide_summary">Hides the app from the drawer. Existing home icons remain available.</string>
+    <string name="menu_settings_action_scope">Choose this action independently for Home screen and app drawer popups.</string>
+    <string name="menu_settings_actions_info">A popup shows up to 4 actions; choose which ones for Home and for the drawer. Hide removes the app from the drawer; it does not secure the app. Play Store opens a public listing in the store or browser.</string>
+    <string name="app_menu_store">Play Store</string>
+    <string name="app_menu_store_description">Open this app’s public store listing</string>
+</resources>

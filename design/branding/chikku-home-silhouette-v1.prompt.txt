@@ -1,0 +1,14 @@
+Generated on 2026-10-21 with the built-in imagegen tool.
+Concept asset; not installed as the Android launcher icon.
+Identity reference: chikku-app-icon-portrait-v2.png, an earlier generated Chikku portrait. The original Chikku photos were not inputs to this generation.
+Output: chikku-home-silhouette-v1.png
+
+Use case: logo-brand.
+Asset type: one finished square app-icon concept for Chikku Launcher.
+Primary request: a home in the background with the silhouette of Chikku the dog in front.
+Input image: the supplied existing portrait is an identity reference only. Use Chikku's recognizable head outline, short-furred broad face, relatively broad muzzle and triangular ears angled outward, with slight natural asymmetry. Ignore its detailed face, blue background and rendering style.
+Composition: a simple solid ivory house symbol with a pitched roof occupies the centered background. Inside and in front of the house is a bold charcoal silhouette of Chikku's head and a little neck/chest, creating strong dog-shaped negative space against the ivory house. The house roof remains clearly readable above and around the ears. The dog silhouette must immediately read as a friendly dog with outward-pointing ears and rounded cheeks, never a cat, fox or wolf. Make the dog and home one integrated, balanced mark. Keep generous clear margin around the complete mark.
+Style: exceptionally clean minimal flat vector-like graphic, smooth confident contours, visually refined at a tiny phone-icon size, no textures or shading.
+Colour palette: full-bleed charcoal #252626 canvas, warm ivory #F2F2F0 house, charcoal dog silhouette. Two colours only.
+Constraints: deliver exactly one square icon filling the image, no mockup, no collage, no caption, no lettering, no border, no pre-rounded outer tile, no shadow, no gradient, no accessory or unrelated object. The silhouette has no eyes, nose or mouth details. Preserve a clearly recognizable home shape and a clearly recognizable Chikku-like dog silhouette.
+

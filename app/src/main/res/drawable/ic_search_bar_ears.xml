@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Chikku search glyph: a magnifier with two floppy dog ears on its lens.
+     Drawn for this project (no third-party asset); shares its lens and handle with the other
+     ic_search_bar_* glyphs. Tinted where used. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="28dp"
+    android:height="28dp"
+    android:viewportWidth="28"
+    android:viewportHeight="28">
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFFFF"
+        android:strokeWidth="2.4"
+        android:strokeLineCap="round"
+        android:pathData="M12,4 A8,8 0 1,1 12,20 A8,8 0 1,1 12,4 M17.7,17.7 L24,24" />
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M9,4.4 C6.4,3.4 3.6,3.8 2.4,6 C1.4,8 1.4,11.6 2.4,13.6 C3.4,14.2 4.2,12.8 4.3,11.2 C4.6,8.4 6.2,5.8 9,4.4 Z M15,4.4 C17.6,3.4 20.4,3.8 21.6,6 C22.6,8 22.6,11.6 21.6,13.6 C20.6,14.2 19.8,12.8 19.7,11.2 C19.4,8.4 17.8,5.8 15,4.4 Z" />
+</vector>

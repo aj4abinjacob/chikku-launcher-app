@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Home search bar buttons (TalkBack names) -->
+    <string name="search_home_bar_chikku_button">Chikku search</string>
+    <string name="search_home_bar_web_button">Search the web with %1$s</string>
+    <string name="search_home_bar_web_description">Search the web with %1$s</string>
+
+    <!-- Settings › Search › Home screen search bar -->
+    <string name="search_bar_actions_header">When you tap</string>
+    <string name="search_bar_look_header">Look</string>
+    <string name="search_bar_tap_action">Tapping the bar opens</string>
+    <string name="search_bar_tap_chikku">Chikku search</string>
+    <string name="search_bar_tap_chikku_hint">Your apps, contacts, shortcuts and quick answers, searched on this phone.</string>
+    <string name="search_bar_tap_google_hint">The Google app’s search, or google.com in your browser when the app isn’t installed.</string>
+    <string name="search_bar_tap_web_hint">%1$s in your browser. Nothing is sent until you search there.</string>
+    <string name="search_bar_chikku_button">Chikku button</string>
+    <string name="search_bar_web_button">%1$s button</string>
+    <string name="search_bar_button_left">Left</string>
+    <string name="search_bar_button_right">Right</string>
+    <string name="search_bar_button_off">Off</string>
+    <string name="search_bar_buttons_hint">Buttons keep their own action whatever the bar opens: the Chikku button always opens Chikku search, and the %1$s button opens %1$s.</string>
+    <string name="search_bar_no_chikku_hint">The bar no longer opens Chikku search. Turn on the Chikku button to keep it one tap away.</string>
+    <string name="search_bar_chikku_icon">Chikku button icon</string>
+    <string name="search_bar_actions_keywords">google, web, button, icon, left, right, tap, chikku</string>
+
+    <!-- Live preview (TalkBack) -->
+    <string name="preview_home_bar_tap">Tapping it opens %1$s.</string>
+    <string name="preview_home_bar_chikku_button">%1$s Chikku button on the %2$s.</string>
+    <string name="preview_home_bar_web_button">%1$s button on the %2$s.</string>
+    <string name="preview_home_bar_no_buttons">No buttons.</string>
+    <string name="preview_home_bar_side_left">left</string>
+    <string name="preview_home_bar_side_right">right</string>
+</resources>

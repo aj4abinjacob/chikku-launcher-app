@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Long-press home menu (G21) -->
+    <string name="widgets_home_menu_widgets">Widgets</string>
+    <string name="widgets_home_menu_wallpapers">Wallpapers</string>
+    <string name="widgets_home_menu_settings">Settings</string>
+    <string name="widgets_home_menu_action">Home screen options</string>
+
+    <!-- Picker -->
+    <string name="widgets_picker_title">Widgets</string>
+    <string name="widgets_picker_empty">No widgets are available.</string>
+    <string name="widgets_picker_work_group">%1$s (work)</string>
+    <string name="widgets_picker_size">%1$d × %2$d</string>
+    <string name="widgets_picker_entry_description">%1$s, size %2$d × %3$d</string>
+    <string name="widgets_picker_hint">Tap to add, or touch and hold to drag onto the home screen</string>
+    <string name="widgets_picker_close">Close widgets</string>
+    <string name="widgets_add_failed">Couldn\'t add the widget</string>
+    <string name="widgets_layout_locked">The home screen layout is locked</string>
+
+    <!-- Placeholder for a widget whose provider is missing or whose id needs rebinding -->
+    <string name="widgets_unavailable">Widget unavailable – tap to re-add</string>
+    <string name="widgets_unavailable_description">Widget unavailable. Double-tap to add it again.</string>
+
+    <!-- Widget options -->
+    <string name="widgets_options">Widget options</string>
+    <string name="widgets_move">Move</string>
+    <string name="widgets_move_hint">Touch and hold the widget, then drag it to move</string>
+    <string name="widgets_resize">Resize</string>
+    <string name="widgets_reconfigure">Widget settings</string>
+    <string name="widgets_padding">Padding</string>
+    <!-- %1$s is the global widget inner space, e.g. "Medium (8 dp)". -->
+    <string name="widgets_padding_default">Default · %1$s</string>
+    <!-- Chip that makes a widget follow the global padding setting. -->
+    <string name="widgets_padding_auto">Auto</string>
+    <!-- Effective widget padding shown next to the "Padding" title. -->
+    <string name="widgets_padding_value">%1$d dp</string>
+    <string name="widgets_padding_failed">Couldn\'t change widget padding</string>
+    <string name="widgets_rebind">Add widget again</string>
+
+    <!-- Resize frame -->
+    <string name="widgets_resize_frame_description">Resizing widget. Drag the handles, or tap outside to finish.</string>
+    <string name="widgets_resize_wider">Wider</string>
+    <string name="widgets_resize_narrower">Narrower</string>
+    <string name="widgets_resize_taller">Taller</string>
+    <string name="widgets_resize_shorter">Shorter</string>
+    <string name="widgets_resize_done">Done resizing</string>
+</resources>

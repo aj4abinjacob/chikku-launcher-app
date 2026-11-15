@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Chikku's own transient message (replaces platform toasts); same look as the undo bar. -->
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:parentTag="android.widget.LinearLayout">
+
+    <TextView
+        android:id="@+id/message_bar_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:paddingStart="16dp"
+        android:paddingTop="12dp"
+        android:paddingEnd="8dp"
+        android:paddingBottom="12dp"
+        android:textColor="@color/home_on_undo"
+        android:textSize="@dimen/home_body_text_size"
+        tools:text="@string/home_layout_locked" />
+
+    <Button
+        android:id="@+id/message_bar_action"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:minWidth="@dimen/home_min_touch_target"
+        android:minHeight="@dimen/home_min_touch_target"
+        android:textColor="@color/home_undo_action"
+        android:visibility="gone" />
+</merge>

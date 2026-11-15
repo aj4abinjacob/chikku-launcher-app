@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Per-app icon picker. The older icon_picker_* titles live in strings_look_feel.xml. -->
+<resources>
+    <string name="icon_picker_unknown_app">This app</string>
+    <string name="icon_picker_header_subtitle">Choose an icon from an installed icon pack, or keep the app\'s own.</string>
+    <string name="icon_picker_header_subtitle_shortcut">Choose an icon from an installed icon pack, or keep the shortcut\'s own.</string>
+    <string name="icon_picker_state_custom">Custom icon</string>
+    <string name="icon_picker_state_default">Default icon</string>
+
+    <string name="icon_picker_section_default">Default</string>
+    <string name="icon_picker_default_summary">The app\'s own icon, in your current icon style</string>
+    <string name="icon_picker_default_summary_shortcut">The icon the shortcut came with</string>
+    <string name="icon_picker_selected">Selected</string>
+
+    <string name="icon_picker_section_packs">Icon packs</string>
+    <string name="icon_picker_pack_has_match">Has an icon for %1$s</string>
+    <string name="icon_picker_pack_browse">Browse all of its icons</string>
+    <string name="icon_picker_pack_in_use">In use</string>
+
+    <string name="icon_picker_empty_title">No icon packs yet</string>
+    <string name="icon_picker_empty_body">Icon packs are separate apps that bring their own icon artwork. Install one from your app store and it appears here, ready to use for any app. Icons stay inside the pack; Chikku never copies them.</string>
+
+    <string name="icon_picker_suggested">Suggested</string>
+    <string name="icon_picker_suggested_summary">This pack\'s icon for %1$s</string>
+    <string name="icon_picker_all_icons">All icons</string>
+    <plurals name="icon_picker_icon_count">
+        <item quantity="one">%d icon</item>
+        <item quantity="other">%d icons</item>
+    </plurals>
+    <string name="icon_picker_no_matches">No icons match your search.</string>
+
+    <string name="icon_picker_search_apps">Search apps</string>
+    <string name="icon_picker_no_apps">No apps match your search.</string>
+    <string name="icon_picker_clear_search">Clear search</string>
+    <string name="icon_picker_loading">Loading</string>
+
+    <!-- Launcher-wide icon pack chooser (Settings > Look & feel > Icons > Icon pack). -->
+    <string name="icon_pack_chooser_search">Search icon packs</string>
+    <string name="icon_pack_chooser_no_matches">No icon packs match your search.</string>
+    <string name="icon_pack_chooser_system_summary">Each app\'s own icon, in your chosen shape</string>
+    <string name="icon_pack_chooser_no_preview">No preview icons</string>
+    <string name="icon_pack_chooser_missing_summary">%1$s is no longer installed. Reinstall it, or choose another pack.</string>
+</resources>

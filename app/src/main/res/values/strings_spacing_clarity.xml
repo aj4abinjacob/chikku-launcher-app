@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="settings_spacing_named_value">%1$s (%2$d dp)</string>
+    <string name="settings_dock_side_space">Side space around dock apps</string>
+    <string name="settings_dock_vertical_space">Space above and below dock apps</string>
+    <string name="settings_dock_follow_home_spacing">Follow home grid (%1$d dp)</string>
+    <string name="settings_dock_spacing_summary">These controls add space inside the dock around apps and labels. Follow home grid uses the home grid’s side space. Use Space above search bar to set the gap between the dock and search.</string>
+    <string name="settings_dock_inset_summary">Adds an 8 dp inset to the painted background. Dock apps keep their positions.</string>
+    <string name="settings_spacing_keywords">padding spacing margin gap inset horizontal vertical</string>
+    <string name="folders_icon_background_color">Folder icon background color</string>
+    <string name="folders_icon_color_summary">Colors the normal folder preview behind its small app icons. App icon covers keep the app’s own artwork.</string>
+</resources>

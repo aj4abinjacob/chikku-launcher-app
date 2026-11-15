@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Lightweight shell: everything here inflates without I/O. The workspace, dock and drawer are
+    populated once HomeViewModel emits state. System bar insets are applied in code.
+-->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/home_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="MergeRootFrame">
+
+    <io.github.aj4abinjacob.chikku.home.VerticalSwipeLayout
+        android:id="@+id/home_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!-- Non-default HOME banner -->
+        <LinearLayout
+            android:id="@+id/default_banner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/home_panel_margin"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="@dimen/home_panel_margin"
+            android:background="@drawable/bg_home_panel"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingStart="@dimen/home_panel_padding"
+            android:paddingEnd="4dp"
+            android:visibility="gone"
+            tools:visibility="visible">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:text="@string/home_not_default_banner"
+                android:textColor="@color/home_on_panel"
+                android:textSize="@dimen/home_body_text_size" />
+
+            <Button
+                android:id="@+id/default_banner_set"
+                style="@style/Widget.Chikku.Button.Borderless"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minHeight="@dimen/home_min_touch_target"
+                android:text="@string/home_set_default"
+                android:textColor="@color/chikku_accent" />
+
+            <Button
+                android:id="@+id/default_banner_dismiss"
+                style="@style/Widget.Chikku.Button.Borderless"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="@dimen/home_min_touch_target"
+                android:minHeight="@dimen/home_min_touch_target"
+                android:text="@string/home_dismiss"
+                android:textColor="@color/home_on_panel_variant" />
+        </LinearLayout>
+
+        <!-- One-time notice: a damaged layout was preserved and a fresh one started -->
+        <LinearLayout
+            android:id="@+id/corrupt_notice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/home_panel_margin"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="@dimen/home_panel_margin"
+            android:background="@drawable/bg_home_panel"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingStart="@dimen/home_panel_padding"
+            android:paddingEnd="4dp"
+            android:visibility="gone"
+            tools:visibility="visible">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:text="@string/home_corrupt_notice"
+                android:textColor="@color/home_on_panel"
+                android:textSize="@dimen/home_body_text_size" />
+
+            <Button
+                android:id="@+id/corrupt_notice_ok"
+                style="@style/Widget.Chikku.Button.Borderless"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="@dimen/home_min_touch_target"
+                android:minHeight="@dimen/home_min_touch_target"
+                android:text="@string/home_ok"
+                android:textColor="@color/chikku_accent" />
+        </LinearLayout>
+
+
+        <!-- Home search bar (G04), shown per Settings > Search; opens SearchActivity -->
+        <io.github.aj4abinjacob.chikku.search.SearchWidgetView
+            android:id="@+id/home_search_bar_top"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/home_panel_margin"
+            android:layout_marginEnd="@dimen/home_panel_margin"
+            android:layout_marginTop="8dp"
+            android:contentDescription="@string/search_home_bar_description"
+            android:visibility="gone" />
+
+        <FrameLayout
+            android:id="@+id/workspace_area"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <io.github.aj4abinjacob.chikku.home.WorkspacePager
+                android:id="@+id/workspace_pager"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/home_workspace_description" />
+
+            <!-- Shown when the layout failed to load or in safe mode -->
+            <ScrollView
+                android:id="@+id/recovery_panel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/home_panel_margin"
+                android:background="@drawable/bg_home_panel"
+                android:visibility="gone"
+                tools:visibility="visible">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="@dimen/home_panel_padding">
+
+                    <TextView
+                        android:id="@+id/recovery_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:accessibilityHeading="true"
+                        android:textColor="@color/home_on_panel"
+                        android:textSize="@dimen/home_title_text_size"
+                        android:textStyle="bold"
+                        tools:text="@string/home_recovery_title" />
+
+                    <TextView
+                        android:id="@+id/recovery_message"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginBottom="8dp"
+                        android:textColor="@color/home_on_panel_variant"
+                        android:textSize="@dimen/home_body_text_size"
+                        tools:text="@string/home_recovery_message" />
+
+                    <Button
+                        android:id="@+id/recovery_retry"
+                        style="@style/Widget.Chikku.Button.Borderless"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:minHeight="@dimen/home_min_touch_target"
+                        android:text="@string/home_retry"
+                        android:textColor="@color/chikku_accent" />
+
+                    <Button
+                        android:id="@+id/recovery_leave_safe_mode"
+                        style="@style/Widget.Chikku.Button.Borderless"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:minHeight="@dimen/home_min_touch_target"
+                        android:text="@string/home_leave_safe_mode"
+                        android:textColor="@color/chikku_accent" />
+
+                    <Button
+                        android:id="@+id/recovery_open_drawer"
+                        style="@style/Widget.Chikku.Button.Borderless"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:minHeight="@dimen/home_min_touch_target"
+                        android:text="@string/home_open_all_apps"
+                        android:textColor="@color/chikku_accent" />
+
+                    <Button
+                        android:id="@+id/recovery_choose_home"
+                        style="@style/Widget.Chikku.Button.Borderless"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:minHeight="@dimen/home_min_touch_target"
+                        android:text="@string/home_choose_other_home"
+                        android:textColor="@color/chikku_accent" />
+                </LinearLayout>
+            </ScrollView>
+
+            <!-- Drop target, visible only while dragging an existing item -->
+            <TextView
+                android:id="@+id/remove_target"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top|center_horizontal"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/bg_home_remove_target"
+                android:gravity="center"
+                android:minWidth="160dp"
+                android:minHeight="@dimen/home_min_touch_target"
+                android:paddingStart="24dp"
+                android:paddingEnd="24dp"
+                android:text="@string/home_remove_drop_target"
+                android:textColor="#FFFFFFFF"
+                android:textSize="@dimen/home_body_text_size"
+                android:visibility="gone" />
+        </FrameLayout>
+
+        <io.github.aj4abinjacob.chikku.home.PageIndicatorView
+            android:id="@+id/page_indicator"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp" />
+
+        <ImageButton
+            android:id="@+id/all_apps_button"
+            android:layout_width="@dimen/home_min_touch_target"
+            android:layout_height="@dimen/home_min_touch_target"
+            android:layout_gravity="center_horizontal"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@string/home_open_all_apps"
+            android:focusable="true"
+            android:padding="14dp"
+            android:src="@drawable/ic_all_apps"
+            android:tint="@color/chikku_on_wallpaper" />
+
+        <FrameLayout
+            android:id="@+id/dock_slot"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <io.github.aj4abinjacob.chikku.home.CellLayout
+                android:id="@+id/dock"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/home_dock_description"
+                android:paddingStart="@dimen/home_page_padding"
+                android:paddingEnd="@dimen/home_page_padding" />
+        </FrameLayout>
+
+        <!-- Home search bar (G04), shown per Settings > Search; opens SearchActivity -->
+        <io.github.aj4abinjacob.chikku.search.SearchWidgetView
+            android:id="@+id/home_search_bar_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/home_panel_margin"
+            android:layout_marginEnd="@dimen/home_panel_margin"
+            android:layout_marginBottom="8dp"
+            android:contentDescription="@string/search_home_bar_description"
+            android:visibility="gone" />
+    </io.github.aj4abinjacob.chikku.home.VerticalSwipeLayout>
+
+    <!-- App drawer overlay: swipe down at the top of the list closes it -->
+    <io.github.aj4abinjacob.chikku.home.VerticalSwipeLayout
+        android:id="@+id/drawer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/chikku_drawer_background"
+        android:orientation="vertical"
+        android:visibility="invisible">
+
+        <EditText
+            android:id="@+id/drawer_search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/home_panel_margin"
+            android:autofillHints=""
+            android:background="@drawable/bg_home_search"
+            android:drawableStart="@drawable/ic_search"
+            android:drawablePadding="@dimen/drawer_search_icon_padding"
+            android:hint="@string/home_search_hint"
+            android:imeOptions="actionGo|flagNoExtractUi"
+            android:importantForAutofill="no"
+            android:inputType="text|textNoSuggestions"
+            android:minHeight="@dimen/home_min_touch_target"
+            android:paddingStart="16dp"
+            android:paddingEnd="20dp"
+            android:singleLine="true"
+            android:textColor="@color/chikku_on_drawer"
+            android:textColorHighlight="@color/chikku_theme_text_highlight"
+            android:textColorHint="@color/home_on_panel_variant"
+            android:textCursorDrawable="@drawable/chikku_text_cursor"
+            android:textSize="@dimen/home_body_text_size" />
+
+        <!-- Hands the drawer query to universal search (contacts, shortcuts, web); shown while typing -->
+        <Button
+            android:id="@+id/drawer_search_more"
+            style="@style/Widget.Chikku.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:minHeight="@dimen/home_min_touch_target"
+            android:text="@string/search_drawer_more"
+            android:textColor="@color/chikku_accent"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/drawer_status_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="@dimen/home_panel_padding"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/drawer_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:accessibilityLiveRegion="polite"
+                android:gravity="center"
+                android:textColor="@color/chikku_on_drawer"
+                android:textSize="@dimen/home_body_text_size"
+                tools:text="@string/home_drawer_loading" />
+
+            <Button
+                android:id="@+id/drawer_retry"
+                style="@style/Widget.Chikku.Button.Borderless"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minHeight="@dimen/home_min_touch_target"
+                android:text="@string/home_retry"
+                android:textColor="@color/chikku_accent"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <!-- Drawer tabs (All / Work / groups); shown only when there is more than one tab -->
+        <HorizontalScrollView
+            android:id="@+id/drawer_tabs_scroll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="none"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:id="@+id/drawer_tabs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingStart="@dimen/home_panel_margin"
+                android:paddingEnd="@dimen/home_panel_margin" />
+        </HorizontalScrollView>
+
+        <FrameLayout
+            android:id="@+id/drawer_body"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <io.github.aj4abinjacob.chikku.home.drawer.VerticalDrawerRecyclerView
+                android:id="@+id/drawer_list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clipToPadding="false"
+                android:contentDescription="@string/home_drawer_title"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp"
+                android:scrollbars="vertical" />
+
+            <!-- Paged (horizontal) drawer style -->
+            <io.github.aj4abinjacob.chikku.home.drawer.HorizontalDrawerRecyclerView
+                android:id="@+id/drawer_pages"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/home_drawer_title"
+                android:visibility="gone" />
+
+            <io.github.aj4abinjacob.chikku.home.drawer.DrawerFastScroller
+                android:id="@+id/drawer_fast_scroller"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="end"
+                android:visibility="gone" />
+        </FrameLayout>
+
+        <io.github.aj4abinjacob.chikku.home.drawer.DrawerPageDots
+            android:id="@+id/drawer_page_dots"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="6dp"
+            android:paddingBottom="6dp"
+            android:visibility="gone" />
+    </io.github.aj4abinjacob.chikku.home.VerticalSwipeLayout>
+
+    <io.github.aj4abinjacob.chikku.home.UndoBarView
+        android:id="@+id/undo_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_margin="@dimen/home_panel_margin"
+        android:background="@drawable/bg_home_undo"
+        android:gravity="center_vertical" />
+</FrameLayout>

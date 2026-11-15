@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Chikku's optional accessibility service: performGlobalAction only (lock screen, recents, shade).
+    No accessibilityEventTypes are declared, so it receives no events; it cannot read window content
+    and does not request touch exploration, key events or gestures.
+-->
+<accessibility-service xmlns:android="http://schemas.android.com/apk/res/android"
+    android:accessibilityFeedbackType="feedbackGeneric"
+    android:accessibilityFlags="flagDefault"
+    android:canRetrieveWindowContent="false"
+    android:description="@string/gestures_accessibility_service_description"
+    android:isAccessibilityTool="false"
+    android:notificationTimeout="0"
+    android:summary="@string/gestures_accessibility_service_summary" />

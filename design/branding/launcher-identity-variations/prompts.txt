@@ -1,0 +1,46 @@
+Chikku: stronger home-launcher identity concepts
+Generated on 2026-10-21 with built-in imagegen, one generation per direction.
+Reference: ../home-silhouette-variations/chikku-04-outline.png, earlier generated concept artwork.
+The original Chikku photographs were not inputs; the dog body is illustrative.
+Concept assets only; Android app resources have not been replaced.
+
+1 · App window
+Output: chikku-01-app-window.png
+
+Use case: logo-brand.
+Asset type: one finished distinctive Chikku Android home-launcher app-icon concept.
+Input image: reference for the approved full-body dog and home idea, charcoal/ivory palette, and dog identity. Redesign the geometry thoughtfully to strengthen its identity as phone HOME LAUNCHER software.
+Keep the complete full-body dog silhouette in front of a home: a clear canine muzzle, outward/upright ears, neck, horizontal torso, four distinct legs and paws, long gently raised tail. The entire dog must be visible, friendly and proportionate, with no face details. Simplify the fur to smooth curves. Chikku stays the main personal signature.
+Visual language: custom geometric symbol, app-launcher app tiles as an intentional part of the house architecture, bold rounded corners, flat two-colour charcoal #252626 and warm ivory #F2F2F0. Full-bleed square charcoal canvas. No exterior rounded tile. Strong compact mark with generous outer margin, harmonious spacing, optically balanced and readable at 48px. Use very few shapes.
+The home remains clearly readable behind the dog, with its roof above him. Avoid a doghouse illustration, pet-shelter badge, stock pet-service logo or realistic building scene. Make it feel like a polished personal Android launcher with a memorable dog signature.
+No words, lettering, fine details, eyes, accessories, device mockup, screenshots, gradients, shadows, texture, watermark or collage. Deliver ONE icon only.
+Direction: APP WINDOW. A bold ivory outline of a custom rounded home surrounds a compact solid ivory standing dog in left-facing side profile across its lower half. In the clear space above the dog's back and below the pitched roof, place a compact 2-by-2 grid of four ivory rounded-square app tiles, shaped like a modern home window. These tiles are clearly separate from roof and dog, with generous charcoal gaps. Scale the dog and house so all four paws, muzzle and raised tail remain clear. The small four-tile window should be a deliberate integrated launcher cue, not scattered decoration. Remove the chimney. Draw a confident simple roof with moderate pitch. Keep the mark airy, simple and distinctive.
+
+---
+
+2 · Launcher dock
+Output: chikku-02-launcher-dock.png
+
+Use case: logo-brand.
+Asset type: one finished distinctive Chikku Android home-launcher app-icon concept.
+Input image: reference for the approved full-body dog and home idea, charcoal/ivory palette, and dog identity. Redesign the geometry thoughtfully to strengthen its identity as phone HOME LAUNCHER software.
+Keep the complete full-body dog silhouette in front of a home: a clear canine muzzle, outward/upright ears, neck, horizontal torso, four distinct legs and paws, long gently raised tail. The entire dog must be visible, friendly and proportionate, with no face details. Simplify the fur to smooth curves. Chikku stays the main personal signature.
+Visual language: custom geometric symbol, app-launcher app tiles as an intentional part of the house architecture, bold rounded corners, flat two-colour charcoal #252626 and warm ivory #F2F2F0. Full-bleed square charcoal canvas. No exterior rounded tile. Strong compact mark with generous outer margin, harmonious spacing, optically balanced and readable at 48px. Use very few shapes.
+The home remains clearly readable behind the dog, with its roof above him. Avoid a doghouse illustration, pet-shelter badge, stock pet-service logo or realistic building scene. Make it feel like a polished personal Android launcher with a memorable dog signature.
+No words, lettering, fine details, eyes, accessories, device mockup, screenshots, gradients, shadows, texture, watermark or collage. Deliver ONE icon only.
+Direction: LAUNCHER DOCK. A bold warm-ivory outlined home with a low pitched roof and rounded lower corners. A refined solid ivory full-body dog stands left-facing within it. Beneath the dog's paws, with a generous charcoal separation gap, the house's lower edge becomes a phone-launcher dock: four large evenly spaced ivory rounded-square app tiles in one short horizontal row. Integrate this row into the lower architecture instead of adding a separate UI frame; keep the side walls ending just above the row so the outline and four tiles together imply a home-shaped home screen. Dog, roof, side walls and four dock tiles form one compact balanced custom mark. No other grid or symbols. No chimney. Whole dog, legs and long tail visible.
+
+---
+
+3 · Modular home
+Output: chikku-03-modular-home.png
+
+Use case: logo-brand.
+Asset type: one finished distinctive Chikku Android home-launcher app-icon concept.
+Input image: reference for the approved full-body dog and home idea, charcoal/ivory palette, and dog identity. Redesign the geometry thoughtfully to strengthen its identity as phone HOME LAUNCHER software.
+Keep the complete full-body dog silhouette in front of a home: a clear canine muzzle, outward/upright ears, neck, horizontal torso, four distinct legs and paws, long gently raised tail. The entire dog must be visible, friendly and proportionate, with no face details. Simplify the fur to smooth curves. Chikku stays the main personal signature.
+Visual language: custom geometric symbol, app-launcher app tiles as an intentional part of the house architecture, bold rounded corners, flat two-colour charcoal #252626 and warm ivory #F2F2F0. Full-bleed square charcoal canvas. No exterior rounded tile. Strong compact mark with generous outer margin, harmonious spacing, optically balanced and readable at 48px. Use very few shapes.
+The home remains clearly readable behind the dog, with its roof above him. Avoid a doghouse illustration, pet-shelter badge, stock pet-service logo or realistic building scene. Make it feel like a polished personal Android launcher with a memorable dog signature.
+No words, lettering, fine details, eyes, accessories, device mockup, screenshots, gradients, shadows, texture, watermark or collage. Deliver ONE icon only.
+Direction: MODULAR HOME. Redesign the reference as a bold SOLID ivory house with a clear softly rounded pitched roof on charcoal. A full-body charcoal dog in left-facing side profile is cut out of the lower part of the solid house, entirely surrounded by ivory with generous gaps around the paws, tail and muzzle. Give the house a distinctive software-launcher signature: its upper-right shoulder resolves into a tightly aligned 2-by-2 group of four substantial ivory rounded-square app tiles separated by charcoal channels. The four tiles replace a portion of the upper-right house architecture, and are aligned with the solid roof and wall, so the home seems to resolve into an app grid. Keep the left roof slope and main home body unbroken and instantly recognizable. No chimney or window. The app tiles must be large and few; the whole full-body dog silhouette remains the primary cutout and is clear. Crisp custom geometric negative-space logo.
+

@@ -1,0 +1,140 @@
+Chikku Launcher - third-party asset notices
+
+Project-owned source is GPL-3.0-or-later. Third-party components keep their own licences.
+
+Google Material Design icons
+Copyright Google LLC and the Material Design icon contributors.
+Licensed under Apache License 2.0 (full text included in this app).
+Origin: https://github.com/google/material-design-icons
+All 124 bundled vector XML assets with explicit upstream headers are listed below.
+They are adapted for Android vectors and tinted by Chikku; original copy revisions are unrecorded.
+The upstream licence was checked at 49d4db35df873165d6bd6ba09b063c7dafbac2f4 on 15 October 2026.
+This is not trademark clearance or evidence of independent authorship.
+app/src/main/res/drawable/ic_action_add.xml - add
+app/src/main/res/drawable/ic_action_drag.xml - drag indicator
+app/src/main/res/drawable/ic_action_mic.xml - mic
+app/src/main/res/drawable/ic_action_music.xml - music_note
+app/src/main/res/drawable/ic_action_notifications.xml - notifications
+app/src/main/res/drawable/ic_action_schedule.xml - schedule
+app/src/main/res/drawable/ic_gesture_swipe_left.xml - arrow_back
+app/src/main/res/drawable/ic_gesture_swipe_right.xml - arrow_forward
+app/src/main/res/drawable/ic_lock_open.xml - lock_open
+app/src/main/res/drawable/ic_lock_shield.xml - verified_user
+app/src/main/res/drawable/ic_menu_add_page.xml - add_box (outlined)
+app/src/main/res/drawable/ic_menu_app_info.xml - info (outlined)
+app/src/main/res/drawable/ic_menu_edit.xml - edit
+app/src/main/res/drawable/ic_menu_hide.xml - visibility_off (outlined)
+app/src/main/res/drawable/ic_menu_more.xml - more_vert
+app/src/main/res/drawable/ic_menu_move.xml - open_with
+app/src/main/res/drawable/ic_menu_padding.xml - padding
+app/src/main/res/drawable/ic_menu_refresh.xml - refresh
+app/src/main/res/drawable/ic_menu_remove.xml - remove_circle_outline
+app/src/main/res/drawable/ic_menu_remove_page.xml - indeterminate_check_box (outlined)
+app/src/main/res/drawable/ic_menu_resize.xml - aspect_ratio
+app/src/main/res/drawable/ic_menu_swipe.xml - swap_vert
+app/src/main/res/drawable/ic_menu_tune.xml - tune
+app/src/main/res/drawable/ic_menu_uninstall.xml - delete (outlined)
+app/src/main/res/drawable/ic_menu_wallpaper.xml - wallpaper
+app/src/main/res/drawable/ic_menu_widgets.xml - widgets (outlined)
+app/src/main/res/drawable/ic_picker_app.xml - launch
+app/src/main/res/drawable/ic_picker_default.xml - settings_backup_restore
+app/src/main/res/drawable/ic_picker_none.xml - block
+app/src/main/res/drawable/ic_picker_shortcut.xml - shortcut
+app/src/main/res/drawable/ic_settings_about.xml - info
+app/src/main/res/drawable/ic_settings_backup.xml - settings_backup_restore
+app/src/main/res/drawable/ic_settings_badges.xml - notifications
+app/src/main/res/drawable/ic_settings_check.xml - check
+app/src/main/res/drawable/ic_settings_chevron.xml - chevron_right
+app/src/main/res/drawable/ic_settings_dock.xml - call_to_action
+app/src/main/res/drawable/ic_settings_drawer.xml - apps
+app/src/main/res/drawable/ic_settings_folder.xml - folder
+app/src/main/res/drawable/ic_settings_gestures.xml - touch_app
+app/src/main/res/drawable/ic_settings_home.xml - home
+app/src/main/res/drawable/ic_settings_info.xml - info_outline
+app/src/main/res/drawable/ic_settings_labs.xml - science
+app/src/main/res/drawable/ic_settings_lock.xml - lock
+app/src/main/res/drawable/ic_settings_night.xml - dark_mode
+app/src/main/res/drawable/ic_settings_palette.xml - palette
+app/src/main/res/drawable/ic_settings_row_accessibility.xml - accessibility
+app/src/main/res/drawable/ic_settings_row_add_to_home_screen.xml - add_to_home_screen
+app/src/main/res/drawable/ic_settings_row_all_inclusive.xml - all_inclusive
+app/src/main/res/drawable/ic_settings_row_apps.xml - apps
+app/src/main/res/drawable/ic_settings_row_aspect_ratio.xml - aspect_ratio
+app/src/main/res/drawable/ic_settings_row_blur_on.xml - blur_on
+app/src/main/res/drawable/ic_settings_row_bug_report.xml - bug_report
+app/src/main/res/drawable/ic_settings_row_cached.xml - cached
+app/src/main/res/drawable/ic_settings_row_calculate.xml - calculate
+app/src/main/res/drawable/ic_settings_row_category.xml - category
+app/src/main/res/drawable/ic_settings_row_check_circle.xml - check_circle
+app/src/main/res/drawable/ic_settings_row_close_fullscreen.xml - close_fullscreen
+app/src/main/res/drawable/ic_settings_row_contacts.xml - contacts
+app/src/main/res/drawable/ic_settings_row_contrast.xml - contrast
+app/src/main/res/drawable/ic_settings_row_dark_mode.xml - dark_mode
+app/src/main/res/drawable/ic_settings_row_dynamic_feed.xml - dynamic_feed
+app/src/main/res/drawable/ic_settings_row_error_outline.xml - error_outline
+app/src/main/res/drawable/ic_settings_row_first_page.xml - first_page
+app/src/main/res/drawable/ic_settings_row_folder.xml - folder
+app/src/main/res/drawable/ic_settings_row_font_download.xml - font_download
+app/src/main/res/drawable/ic_settings_row_format_color_fill.xml - format_color_fill
+app/src/main/res/drawable/ic_settings_row_format_size.xml - format_size
+app/src/main/res/drawable/ic_settings_row_fullscreen.xml - fullscreen
+app/src/main/res/drawable/ic_settings_row_gradient.xml - gradient
+app/src/main/res/drawable/ic_settings_row_grid_on.xml - grid_on
+app/src/main/res/drawable/ic_settings_row_grid_view.xml - grid_view
+app/src/main/res/drawable/ic_settings_row_home.xml - home
+app/src/main/res/drawable/ic_settings_row_keyboard.xml - keyboard
+app/src/main/res/drawable/ic_settings_row_keyboard_double_arrow_down.xml - keyboard_double_arrow_down
+app/src/main/res/drawable/ic_settings_row_keyboard_double_arrow_up.xml - keyboard_double_arrow_up
+app/src/main/res/drawable/ic_settings_row_label.xml - label
+app/src/main/res/drawable/ic_settings_row_lock.xml - lock
+app/src/main/res/drawable/ic_settings_row_lock_open.xml - lock_open
+app/src/main/res/drawable/ic_settings_row_manage_search.xml - manage_search
+app/src/main/res/drawable/ic_settings_row_menu.xml - menu
+app/src/main/res/drawable/ic_settings_row_notifications.xml - notifications
+app/src/main/res/drawable/ic_settings_row_opacity.xml - opacity
+app/src/main/res/drawable/ic_settings_row_open_in_full.xml - open_in_full
+app/src/main/res/drawable/ic_settings_row_open_in_new.xml - open_in_new
+app/src/main/res/drawable/ic_settings_row_padding.xml - padding
+app/src/main/res/drawable/ic_settings_row_palette.xml - palette
+app/src/main/res/drawable/ic_settings_row_photo_size_select_large.xml - photo_size_select_large
+app/src/main/res/drawable/ic_settings_row_picture_in_picture_alt.xml - picture_in_picture_alt
+app/src/main/res/drawable/ic_settings_row_pinch.xml - pinch
+app/src/main/res/drawable/ic_settings_row_privacy_tip.xml - privacy_tip
+app/src/main/res/drawable/ic_settings_row_public.xml - public
+app/src/main/res/drawable/ic_settings_row_restart_alt.xml - restart_alt
+app/src/main/res/drawable/ic_settings_row_rocket_launch.xml - rocket_launch
+app/src/main/res/drawable/ic_settings_row_rotate_left.xml - rotate_left
+app/src/main/res/drawable/ic_settings_row_rotate_right.xml - rotate_right
+app/src/main/res/drawable/ic_settings_row_rounded_corner.xml - rounded_corner
+app/src/main/res/drawable/ic_settings_row_save.xml - save
+app/src/main/res/drawable/ic_settings_row_settings_applications.xml - settings_applications
+app/src/main/res/drawable/ic_settings_row_settings_backup_restore.xml - settings_backup_restore
+app/src/main/res/drawable/ic_settings_row_share.xml - share
+app/src/main/res/drawable/ic_settings_row_sort_by_alpha.xml - sort_by_alpha
+app/src/main/res/drawable/ic_settings_row_swap_horiz.xml - swap_horiz
+app/src/main/res/drawable/ic_settings_row_swap_vert.xml - swap_vert
+app/src/main/res/drawable/ic_settings_row_swipe_down.xml - swipe_down
+app/src/main/res/drawable/ic_settings_row_swipe_down_alt.xml - swipe_down_alt
+app/src/main/res/drawable/ic_settings_row_swipe_left.xml - swipe_left
+app/src/main/res/drawable/ic_settings_row_swipe_right.xml - swipe_right
+app/src/main/res/drawable/ic_settings_row_swipe_up.xml - swipe_up
+app/src/main/res/drawable/ic_settings_row_swipe_up_alt.xml - swipe_up_alt
+app/src/main/res/drawable/ic_settings_row_sync.xml - sync
+app/src/main/res/drawable/ic_settings_row_tab.xml - tab
+app/src/main/res/drawable/ic_settings_row_table_rows.xml - table_rows
+app/src/main/res/drawable/ic_settings_row_timer.xml - timer
+app/src/main/res/drawable/ic_settings_row_title.xml - title
+app/src/main/res/drawable/ic_settings_row_touch_app.xml - touch_app
+app/src/main/res/drawable/ic_settings_row_view_carousel.xml - view_carousel
+app/src/main/res/drawable/ic_settings_row_view_column.xml - view_column
+app/src/main/res/drawable/ic_settings_row_visibility.xml - visibility
+app/src/main/res/drawable/ic_settings_row_visibility_off.xml - visibility_off
+app/src/main/res/drawable/ic_settings_row_web_asset.xml - web_asset
+app/src/main/res/drawable/ic_settings_row_widgets.xml - widgets
+app/src/main/res/drawable/ic_settings_row_wrap_text.xml - wrap_text
+app/src/main/res/drawable/ic_swipe_down.xml - arrow_downward
+app/src/main/res/drawable/ic_swipe_up.xml - arrow_upward
+
+Weather estimates: Norwegian Meteorological Institute (MET Norway), https://www.met.no/ and https://api.met.no/weatherapi/locationforecast/2.0/, under CC BY4.0 (https://creativecommons.org/licenses/by/4.0/). Chikku rounds requested coordinates to four decimals, rounds displayed temperatures, summarizes conditions and derives a next-24-hour temperature range. No MET/NRK logos or weather icon artwork is copied. Forecast data is fetched only after opt-in and is cached locally according to provider expiry; it is not bundled with the APK.
+
+Offline city data: GeoNames, https://www.geonames.org/, CC BY4.0. Extract downloaded15October2026 from https://download.geonames.org/export/dump/cities500.zip plus countryInfo.txt and admin1CodesASCII.txt. The bundled derived index has236,192 places: normalized names/aliases, country/admin labels and coordinates; sorted by population with stable GeoNames ID tie-break. This is a modified selection, not all geographic features; smaller/new/renamed places may be absent. No warranty of accuracy, timeliness or completeness. Original inputs/readme/licence, hashes and deterministic regeneration recipe are included in corresponding project source under data/weather/ and scripts/build-weather-cities.py. Full CC BY4.0 terms are available offline in About.

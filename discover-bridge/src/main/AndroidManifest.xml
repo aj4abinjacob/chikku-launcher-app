@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- No permissions. Only the current user's Google app is visible to this helper. -->
+    <queries>
+        <package android:name="com.google.android.googlequicksearchbox" />
+    </queries>
+
+    <application
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name">
+
+        <!-- Exported so Chikku can bind; every call is checked against this app's signing key. -->
+        <service
+            android:name=".DiscoverBridgeService"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="io.github.aj4abinjacob.chikku.action.DISCOVER_BRIDGE" />
+            </intent-filter>
+        </service>
+    </application>
+</manifest>

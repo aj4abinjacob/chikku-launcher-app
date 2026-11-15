@@ -1,0 +1,11 @@
+Matching source code
+
+Project-owned Chikku Launcher code is licensed under GNU GPL version 3 or, at your option, any later version. Full licence terms are included in About. It is provided without warranty to the extent permitted by that licence. Third-party assets and libraries keep their separate licences and notices.
+
+Every distributed APK or Play build must be accompanied by an equally accessible download of its exact matching source and build instructions, including applicable dependency sources and notices. Keeping the development GitHub repository private does not remove a recipient's source or redistribution rights. A private-repository link or an email-only promise is not a substitute for the release's corresponding-source download.
+
+Source download index: https://www.abinjacob.in/chikku/source/ . Each distributed build must have its exact version, source revision, artifact checksum, source-archive checksum and build instructions listed there. No sign-in, payment or private-repository access is required for the published source download. Use the version and artifact checksum from the build's release notes to choose the matching entry.
+
+This is a release-preparation candidate. Before external testing, the publisher must verify the live source entry matches the final binary and remains equally accessible to its recipients. Preparing this address does not authorize distributing an unpublished candidate or imply that an earlier source entry matches a later rebuild.
+
+Contact: hello@abinjacob.in

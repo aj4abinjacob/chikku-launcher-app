@@ -1,0 +1,9 @@
+TOP GUESS: Pet or animal-care app (fox/dog/cat)
+
+OTHER GUESSES: Kids' game or a mascot-driven utility app; a coding/dev tool with a fox-style mascot
+
+WHAT I SEE: A flat-style orange fox or dog head with pointed ears and a cream muzzle, cropped to show only the top and snout with no eyes, on a dark charcoal background.
+
+CONFIDENCE: 2
+
+WHY: The mascot is clear but has no eyes or text, so nothing points to a specific function, and at small size it reads as a simple orange animal silhouette.

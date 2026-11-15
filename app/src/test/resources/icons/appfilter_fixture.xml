@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Synthetic fixture in the de-facto appfilter.xml format; not taken from any icon pack. -->
+<resources>
+    <iconback img1="iconback_one" img2="iconback_two" />
+    <iconmask img1="iconmask" />
+    <iconupon img1="iconupon" />
+    <scale factor="0.8" />
+    <item component="ComponentInfo{com.example.mail/com.example.mail.MainActivity}" drawable="mail" />
+    <item component="ComponentInfo{com.example.maps/.ui.Launcher}" drawable="maps" />
+    <!-- Duplicate mapping: the first one wins. -->
+    <item component="ComponentInfo{com.example.mail/com.example.mail.MainActivity}" drawable="mail_alt" />
+    <!-- Malformed entries are skipped. -->
+    <item component="ComponentInfo{com.example.broken}" drawable="broken" />
+    <item component="ComponentInfo{com.example.space/com.example.space.Main}" drawable="bad name" />
+    <item component=":LAUNCHER_ACTION_APP_DRAWER" drawable="drawer" />
+    <item drawable="no_component" />
+    <calendar prefix="calendar_" />
+</resources>

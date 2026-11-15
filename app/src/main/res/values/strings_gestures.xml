@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Gesture action names (G07, G10). -->
+    <string name="gesture_action_none">Do nothing</string>
+    <string name="gesture_action_open_drawer">Open app drawer</string>
+    <string name="gesture_action_open_search">Open search</string>
+    <string name="gesture_action_open_cards">Open cards</string>
+    <string name="gesture_action_expand_notifications">Show notifications</string>
+    <string name="gesture_action_expand_quick_settings">Show quick settings</string>
+    <string name="gesture_action_lock_screen">Lock screen</string>
+    <string name="gesture_action_recents">Recent apps</string>
+    <string name="gesture_action_open_launcher_settings">Chikku settings</string>
+    <string name="gesture_action_assistant">Assistant</string>
+    <string name="gesture_action_voice_search">Voice search</string>
+    <string name="gesture_action_default_page">Go to default page</string>
+    <string name="gesture_action_launch_app">Open %1$s</string>
+    <string name="gesture_action_launch_shortcut">Shortcut of %1$s</string>
+    <string name="gesture_action_unknown_app">an app that is not available</string>
+    <string name="gesture_action_use_default">Use default</string>
+
+    <!-- Action picker. -->
+    <string name="gesture_picker_choose_app">App…</string>
+    <string name="gesture_picker_choose_shortcut">App shortcut…</string>
+    <string name="gesture_picker_back">Back</string>
+    <string name="gesture_picker_work_app">%1$s (work)</string>
+    <string name="gesture_picker_loading">Loading…</string>
+    <string name="gesture_picker_no_apps">No apps available.</string>
+    <string name="gesture_picker_no_shortcuts">This app has no shortcuts.</string>
+    <string name="gesture_picker_shortcuts_need_default">App shortcuts can only be read while Chikku is the default home app.</string>
+    <string name="gesture_picker_shortcuts_failed">Shortcuts could not be loaded.</string>
+    <string name="gesture_picker_choose_app_title">Choose an app</string>
+    <string name="gesture_picker_choose_shortcut_title">Choose a shortcut</string>
+    <string name="gesture_picker_current">Current</string>
+    <string name="gesture_picker_all_apps">All apps</string>
+    <string name="gesture_picker_section_launcher">Chikku</string>
+    <string name="gesture_picker_section_apps">Apps</string>
+    <string name="gesture_picker_section_system">System</string>
+    <string name="gesture_picker_section_voice">Voice</string>
+    <string name="gesture_picker_needs_accessibility">Needs the accessibility service</string>
+    <string name="gesture_picker_shortcut_apps_hint">Only apps with shortcuts are listed.</string>
+
+    <!-- Shared searchable app list (gesture targets, swipe actions, drawer groups, folders). -->
+    <string name="app_picker_search">Search apps</string>
+    <string name="app_picker_no_matches">No apps match your search.</string>
+
+    <!-- Results on HOME. -->
+    <string name="gesture_unavailable">That action is not available on this device.</string>
+    <string name="shortcut_needs_recreation">This app shortcut is no longer available. Create it again in its app, then replace this shortcut.</string>
+    <string name="gesture_accessibility_settings_unavailable">Accessibility settings could not be opened.</string>
+
+    <!-- Accessibility service (shown in system settings). -->
+    <string name="gestures_accessibility_service_label">Chikku gestures</string>
+    <string name="gestures_accessibility_service_summary">Lets Chikku home gestures lock the screen and open recent apps</string>
+    <string name="gestures_accessibility_service_description">Used only when you bind a Chikku home or icon gesture to “Lock screen”, “Recent apps”, or (if the device blocks the normal way) the notification shade or quick settings. The service receives no accessibility events, cannot read screen content, and stores or sends nothing. Recent apps opened this way do not use the system gesture-navigation animation.</string>
+
+    <!-- Settings: Gestures. -->
+    <string name="gestures_settings_home_header">Everyday gestures</string>
+    <string name="gestures_swipe_up">Swipe up</string>
+    <string name="gestures_swipe_down">Swipe down</string>
+    <string name="gestures_double_tap">Double tap</string>
+    <string name="gestures_pinch_in">Pinch in</string>
+    <string name="gestures_pinch_out">Pinch out</string>
+    <string name="gestures_two_finger_swipe_up">Two-finger swipe up</string>
+    <string name="gestures_two_finger_swipe_down">Two-finger swipe down</string>
+    <string name="gestures_home_button">Home gesture</string>
+    <string name="gestures_home_button_summary">Swipe home or press Home on the home screen</string>
+    <string name="gestures_swipe_up_drawer_off">Swipe up does not open the drawer while the app drawer is set to open with the button only.</string>
+    <string name="gestures_settings_icons_header">Icon swipes</string>
+    <string name="gestures_icon_swipes_info">Swipe up or down on an icon to run an action.</string>
+    <string name="gestures_icon_swipes_info_details">A tap still opens the app and a long press still moves it. An action set on one icon wins over the app\'s default.</string>
+    <string name="gestures_home_icons">Per-icon actions</string>
+    <string name="gestures_home_icons_summary">Actions for one icon</string>
+    <plurals name="gestures_icons_with_actions">
+        <item quantity="one">%d icon has actions</item>
+        <item quantity="other">%d icons have actions</item>
+    </plurals>
+    <plurals name="gestures_apps_with_defaults">
+        <item quantity="one">%d app has defaults</item>
+        <item quantity="other">%d apps have defaults</item>
+    </plurals>
+    <string name="gestures_app_defaults">App defaults</string>
+    <string name="gestures_app_defaults_summary">Used wherever the app\'s icon is</string>
+    <string name="gestures_app_default_summary">Up: %1$s · Down: %2$s</string>
+    <string name="gestures_sheet_subtitle">Swipe actions</string>
+    <string name="gestures_sheet_swipe_up">Swipe up</string>
+    <string name="gestures_sheet_swipe_down">Swipe down</string>
+    <string name="gestures_sheet_change">Change</string>
+    <string name="gestures_icon_location_dock">Dock</string>
+    <string name="gestures_icon_location_page">Page %1$d</string>
+    <string name="gestures_with_actions">With swipe actions</string>
+    <string name="gestures_all_icons">All icons</string>
+    <string name="gestures_no_icons">There are no app icons on the home screen yet.</string>
+    <string name="gestures_icons_unavailable">The home screen layout could not be read.</string>
+    <string name="gestures_clear_actions">Clear</string>
+    <string name="gestures_done">Done</string>
+    <string name="gestures_save_failed">The change could not be saved.</string>
+    <string name="gestures_settings_access_header">Accessibility service</string>
+    <string name="gestures_accessibility_status_on">Accessibility service is on</string>
+    <string name="gestures_access_info">Lock screen and Recent apps need Chikku\'s optional accessibility service. It can\'t read screen content.</string>
+    <string name="gestures_access_info_details">You turn the service on in system settings, and it only performs those actions. Recent apps opened this way show the system overview without the stock gesture-navigation animation; a normal launcher cannot provide that. Showing notifications and quick settings uses a status bar request available to launchers; where a device blocks it, Chikku falls back to the accessibility service.</string>
+    <!-- Section headings in the "Practice a gesture" chooser. -->
+    <string name="gestures_more_state_expanded">Expanded</string>
+    <string name="gestures_more_state_collapsed">Collapsed</string>
+    <string name="gestures_not_set">Not set</string>
+    <string name="gestures_more_header">More gestures · %1$d of %2$d set</string>
+    <string name="gestures_more_collapsed_hint">Expand to see the less common gestures</string>
+    <string name="gestures_more_expanded_hint">Collapse the less common gestures</string>
+    <string name="gestures_group_double_tap_swipe">Double tap and swipe</string>
+    <string name="gestures_group_two_fingers">Two fingers</string>
+    <string name="gestures_group_rotate">Rotate</string>
+    <string name="gestures_needs_accessibility_off">Needs accessibility · Off</string>
+    <string name="gestures_needs_accessibility_on">Needs accessibility · On</string>
+    <string name="gestures_accessibility_card_title">Lock screen and Recent apps need the Chikku gestures service.</string>
+    <string name="gestures_accessibility_card_off">The service is off. It can\'t read screen content.</string>
+    <string name="gestures_accessibility_turn_on">Turn on</string>
+    <string name="gestures_accessibility_unused">Not in use</string>
+    <string name="gestures_accessibility_unused_summary">Needed only for Lock screen and Recent apps</string>
+    <string name="gestures_accessibility_on_summary">Opens system settings to turn it off</string>
+</resources>

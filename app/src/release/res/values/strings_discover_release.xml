@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="settings_home_google_discover">Open Google Discover</string>
+    <string name="settings_home_google_discover_summary">Swipe outwards from the first page to open the Google app.</string>
+    <string name="settings_home_google_discover_disclosure_short">Opens the Google app; the feed depends on Google and your device.</string>
+    <string name="settings_home_google_discover_disclosure">When you enable this option, swiping outwards from the first page opens the Google app already on your phone. Google provides the feed, network access and personalization under its own policy. This release does not embed Google cards or use a Discover companion. Chikku is independent of Google; Discover availability is not guaranteed.</string>
+    <string name="settings_home_google_discover_status">Google app availability</string>
+    <string name="preview_discover_fallback_hint">This release opens the Google app after your swipe. This is an offline sample only.</string>
+    <string name="preview_discover_synthetic">Offline illustration. This release opens Google separately.</string>
+</resources>

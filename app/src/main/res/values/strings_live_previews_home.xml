@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Live previews pinned above Settings › Home › Grid and › Widgets (sample shapes, never the user's apps). -->
+    <string name="settings_home_grid_preview">Home screen preview with sample icons and the edge space highlighted. Grid size: %1$d × %2$d</string>
+</resources>

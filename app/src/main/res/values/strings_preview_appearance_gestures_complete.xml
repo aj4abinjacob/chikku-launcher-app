@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="preview_appearance_choose">Live preview</string>
+    <string name="preview_appearance_icons_description">Sample icons using the selected pack, shape and legacy reshaping. These samples contain no personal apps.</string>
+    <string name="preview_appearance_legacy">Legacy</string>
+    <string name="preview_appearance_adaptive">Adaptive</string>
+    <string name="preview_appearance_sample">Sample</string>
+    <string name="preview_appearance_loading">Loading icon sample…</string>
+    <string name="preview_appearance_missing_pack">Pack unavailable. Showing Chikku samples; your selected pack is kept.</string>
+    <string name="preview_appearance_empty_pack">No mapped artwork in this pack. Showing Chikku samples.</string>
+    <string name="preview_appearance_pack_sample">Available pack artwork appears alongside Chikku samples. Adaptive and legacy icons demonstrate shape changes.</string>
+    <string name="preview_appearance_sample_info">Chikku samples show adaptive and legacy icon treatment.</string>
+    <string name="preview_appearance_screen_description">Scaled home screen showing orientation and status-bar appearance.</string>
+    <string name="preview_appearance_time">9:41</string>
+    <string name="preview_appearance_auto_orientation">Auto follows device rotation. This sample shows portrait.</string>
+    <string name="preview_appearance_motion_description">Sample drawer opening. Use Replay to compare animation speed.</string>
+    <string name="preview_appearance_replay">Replay animation</string>
+    <string name="preview_appearance_night_surface_description">%1$s preview: %2$s.</string>
+    <string name="preview_appearance_custom_color">custom color</string>
+    <string name="preview_appearance_dark">dark</string>
+    <string name="preview_appearance_light">light</string>
+    <string name="preview_appearance_night_info">Samples follow the current night mode. Custom surface colors keep their chosen color.</string>
+    <string name="preview_gesture_practising">Practising: %1$s</string>
+    <string name="preview_gesture_not_set">%1$s is not set. Tap its row to assign an action</string>
+    <string name="preview_gesture_touch_description">Practice pad. Swipe, double tap, pinch or rotate here. %1$s. Simulate selection provides the same preview with keyboard or TalkBack.</string>
+    <string name="preview_gesture_icon_touch_description">Safe icon or folder swipe practice pad. Swipe up or down, or use the Try buttons.</string>
+    <string name="preview_gesture_would_run">%1$s: would run %2$s</string>
+    <string name="preview_gesture_launch_app">Open configured app</string>
+    <string name="preview_gesture_launch_shortcut">Open configured shortcut</string>
+    <string name="preview_gesture_simulate">Simulate selection</string>
+    <string name="preview_gesture_on_default_page">On default page</string>
+    <string name="preview_gesture_other_page">On another page</string>
+    <string name="preview_gesture_try_up">Try swipe up</string>
+    <string name="preview_gesture_try_down">Try swipe down</string>
+    <string name="preview_gesture_home_fallback">Continue with home gesture</string>
+    <string name="preview_gesture_defaults_loading">Loading swipe defaults…</string>
+    <string name="preview_gesture_defaults_unavailable">Swipe defaults unavailable</string>
+    <string name="preview_gesture_safe_info">Practice only shows the intended action. It never opens apps, locks the screen or performs system actions.</string>
+</resources>

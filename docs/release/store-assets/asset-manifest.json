@@ -1,0 +1,41 @@
+{
+  "captured": "2026-10-15",
+  "application_id": "io.github.aj4abinjacob.chikku",
+  "version": "0.1.0-beta.1 (2)",
+  "build": "Optimized, nondebuggable; local emulator check APK signed with standard Android debug key, not a Play upload",
+  "device": "Owned disposable chikku_play_preparation_20261015; API36/ARM64,1080x1920 display override",
+  "screenshots": "Unedited adb screencap output. Emulator apps/no personal contacts, notifications or account. Settings previews are genuine app UI with built-in synthetic samples. Backup page is not proof of a completed restore.",
+  "feature_graphic": "Original SVG layout reuses selected Nose notch/Ink vector; PNG rendered via installed sharp0.35.5; system Arial font rendered, no font files copied; no provider/competitor artwork used.",
+  "files": [
+    {
+      "path": "store-local-search.png",
+      "bytes": 127858,
+      "sha256": "40118b7bb0e4b601ab2934366f3a550bcf8cc1dad4cff5c1d078a90a5af4c887"
+    },
+    {
+      "path": "store-drawer.png",
+      "bytes": 222518,
+      "sha256": "b1b10a8c259403226f7828e0e9c8afbe78a5da109105b13f01f37d02aa0d072a"
+    },
+    {
+      "path": "feature-graphic.svg",
+      "bytes": 1065,
+      "sha256": "03858605047732bacd7f3f5ed22d9b6714717d430126127e09346d427a8a66ed"
+    },
+    {
+      "path": "store-home-preview.png",
+      "bytes": 171455,
+      "sha256": "c51934d26b415767ea01947392960fda5d3580d8f4efe43572aef0600dbc1c9c"
+    },
+    {
+      "path": "store-backup-settings.png",
+      "bytes": 128830,
+      "sha256": "46816b1a34d32a29a4f0ba6665a954f5ffbd564708591c326c597fb5c4ba44e0"
+    },
+    {
+      "path": "feature-graphic.png",
+      "bytes": 33381,
+      "sha256": "34237a2f14008f8bcd1998138b7d26a6c72fdbeac1dca83e5e4c4a1c5eda7fcb"
+    }
+  ]
+}

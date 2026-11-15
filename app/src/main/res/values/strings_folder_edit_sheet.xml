@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Folder edit bottom sheet (folders feature). -->
+    <string name="folder_edit_sheet_subtitle">Name, cover and gestures</string>
+    <string name="folder_cover_first_short">First item</string>
+    <string name="folder_cover_last_short">Last item</string>
+    <string name="folder_cover_pick_app">Or use the icon of an app or shortcut inside</string>
+    <string name="folder_cover_app_description">Use %1$s as cover</string>
+    <string name="folder_tap_opens_cover">Tap opens %1$s</string>
+    <string name="folder_tap_opens_cover_summary">Swipe up still opens the folder unless it has its own action.</string>
+    <string name="folder_picker_in_folder">Apps in this folder</string>
+    <string name="folder_picker_more">Other actions</string>
+    <string name="folder_edit_done">Done</string>
+    <string name="folder_edit_discard">Discard</string>
+    <string name="folder_edit_saves_on_close">Changes save when you close</string>
+    <string name="folder_edit_no_changes">No changes yet</string>
+</resources>

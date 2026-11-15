@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="search_settings_bar_width">Search bar width</string>
+    <string name="search_settings_bar_height">Search bar height</string>
+    <string name="search_settings_bar_horizontal_padding">Search bar horizontal padding (inside)</string>
+    <string name="search_settings_bar_vertical_padding">Search bar vertical padding (inside)</string>
+    <string name="search_settings_bar_dock_gap">Space above search bar</string>
+    <string name="search_settings_bar_sizing_summary">Padding adds space inside the bar. Space above search bar separates the below-dock bar from dock apps and labels. Width, height and padding apply to both home positions.</string>
+    <string name="search_settings_bar_reset_size">Reset search bar size and spacing</string>
+    <string name="search_settings_bar_percent_value">%1$d%%</string>
+    <string name="search_settings_bar_dp_value">%1$d dp</string>
+    <string name="search_settings_bar_sizing_keywords">size dimensions resize spacing inset searchbar dock gap margin search horizontal vertical padding</string>
+</resources>

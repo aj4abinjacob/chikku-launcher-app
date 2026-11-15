@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="search_top_result">Top result</string>
+    <string name="search_top_result_description">Top result. Opens with the keyboard Go key.</string>
+    <string name="search_top_result_preview_description">Top result: %1$s.</string>
+</resources>

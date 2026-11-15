@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Captions of the folder settings preview: the folder icon on the home screen, and the same folder opened. -->
+    <string name="folder_scene_closed">On home screen</string>
+    <string name="folder_scene_open">Opened</string>
+    <string name="folder_scene_description">Preview of a sample folder, shown closed on the home screen and opened with %1$d columns.</string>
+    <!-- Generic sample app names in the preview; never real app labels. -->
+    <string name="folder_scene_sample_echo">Echo</string>
+    <string name="folder_scene_sample_kilo">Kilo</string>
+</resources>

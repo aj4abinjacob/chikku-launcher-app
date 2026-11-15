@@ -1,0 +1,15 @@
+{
+  "source_date": "2026-10-15",
+  "entries": 236192,
+  "format": "UTF-8 TSV: label,latitude,longitude,normalized aliases joined by |,normalized country/code/admin; population descending, GeoNames ID tie-break",
+  "inputs": {
+    "CC-BY-4.0.txt": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411",
+    "README.txt": "edc899713f87ccf47dee8f92ddb70d3bb010d80dda656183848661e1300ecfe5",
+    "admin1CodesASCII.txt": "1da92a6323a5fec3176f3f743bf4cf4040fd56a876da55e46fbca23c863aa60a",
+    "cities500.zip": "46fd044a7e0d2d097daa96d9075c8c818e8b0e337bf58724a4f94637dd351ad2",
+    "countryInfo.txt": "c55f638cfaafb4fe45a9aa15120a0f1f78e8a34a8e1847d7b9320cf740fbc9ab",
+    "geonames-readme.txt": "b1957379b6c1242c700c98ac9a8aa0a09f56c3c0a50ee72175527005f48ef2c5"
+  },
+  "output": "app/src/main/assets/weather/cities.index",
+  "sha256": "e9feb30e59b9fa5b7e2e60428761a3bb37d60d58aaced65c0f5b43c08d800605"
+}

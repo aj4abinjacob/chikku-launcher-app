@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="home_panel_background">#F22B2930</color>
+    <color name="home_on_panel">#FFE4E1E6</color>
+    <color name="home_on_panel_variant">#FFC7C5D0</color>
+    <color name="home_search_background">#1FFFFFFF</color>
+    <color name="home_undo_background">#F2E4E1E6</color>
+    <color name="home_on_undo">#FF1B1B1F</color>
+    <color name="home_undo_action">#FF2F47C8</color>
+</resources>

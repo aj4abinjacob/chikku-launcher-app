@@ -1,0 +1,5 @@
+TOP GUESS: Puzzle or word game (grid-based, fox/dog theme)
+OTHER GUESSES: Pet or dog-care app; minimalist widget or icon-pack style launcher
+WHAT I SEE: A grid of rounded tiles, tan and cream, that together form a fox or dog face with pointy ears and a dark nose, on a dark charcoal background.
+CONFIDENCE: 2
+WHY: The 3x3 tile grid looks like a Wordle-style game, but the animal face makes it hard to tell whether it's a game or a pet app.

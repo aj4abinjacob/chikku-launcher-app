@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Plain back arrow drawn for this project (no third-party asset). Tinted by the Compose Icon. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:autoMirrored="true"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <path
+        android:fillColor="#FF000000"
+        android:pathData="M20,11 L8.4,11 L13.7,5.7 L12.3,4.3 L4.6,12 L12.3,19.7 L13.7,18.3 L8.4,13 L20,13 Z" />
+</vector>

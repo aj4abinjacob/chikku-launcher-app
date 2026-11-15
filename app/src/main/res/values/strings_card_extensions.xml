@@ -1,0 +1,24 @@
+<resources>
+    <string name="card_content_type">Card content</string>
+    <string name="card_content_actions">None</string>
+    <string name="card_content_weather">Weather</string>
+    <string name="card_content_media">Media controls</string>
+    <string name="card_content_widget">Embedded widget</string>
+    <string name="card_bluetooth_audio">Bluetooth audio connected</string>
+    <string name="card_bluetooth_summary">Show this card while a headset or A2DP audio connection is active. No scanning or device details.</string>
+    <string name="card_bluetooth_permission">Allow Bluetooth connection access</string>
+    <string name="card_bluetooth_denied">Bluetooth connection access is required for this condition. The condition stays off when access is denied.</string>
+    <string name="card_bluetooth_missing">This condition needs Bluetooth connection access. Until access is granted, this card stays hidden.</string>
+    <string name="card_media_summary">Control an active player from your personal profile. Only supported playback controls appear. Uses Chikku’s optional notification access; media stays on this device.</string>
+    <string name="card_media_access">Enable notification access</string>
+    <string name="card_media_save_first">Save and enable this media card before enabling notification access.</string>
+    <string name="card_media_access_granted">Notification access is enabled.</string>
+    <string name="card_media_access_failed">Could not open notification access settings.</string>
+    <string name="card_media_empty">No available personal media player.</string>
+    <string name="card_media_unavailable">Media controls are unavailable.</string>
+    <string name="card_media_play">Play</string>
+    <string name="card_media_pause">Pause</string>
+    <string name="card_media_previous">Previous</string>
+    <string name="card_media_next">Next</string>
+    <string name="card_media_command_failed">The player is no longer available or does not support this control.</string>
+</resources>

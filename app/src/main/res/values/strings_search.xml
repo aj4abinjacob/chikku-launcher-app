@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Search screen -->
+    <string name="search_title">Search</string>
+    <string name="search_hint">Search apps, contacts, web</string>
+    <string name="search_back">Close search</string>
+    <string name="search_clear">Clear search</string>
+    <string name="search_empty_prompt">Type to search apps, shortcuts, contacts, calculations and unit conversions. Online suggestions send typed text to your selected engine when enabled. Web and Play Store searches open when you tap them.</string>
+    <string name="search_no_results">No matches on this phone</string>
+
+    <string name="search_section_calculator">Calculator</string>
+    <string name="search_section_apps">Apps</string>
+    <string name="search_section_shortcuts">App shortcuts</string>
+    <string name="search_section_contacts">Contacts</string>
+    <string name="search_section_did_you_mean">Did you mean</string>
+    <string name="search_section_suggested">Suggested</string>
+    <string name="search_section_recent">Recent</string>
+    <string name="search_recent_query">Recent search</string>
+    <string name="search_recent_query_fill">Edit search %1$s</string>
+    <string name="search_history_empty">Apps, contacts and searches you open will be suggested here.</string>
+    <string name="search_history_options">Suggestion options</string>
+    <string name="search_history_remove">Remove from history</string>
+    <string name="search_history_removed">Removed from history</string>
+    <string name="search_history_clear">Clear search history</string>
+    <string name="search_history_clear_title">Clear search history?</string>
+    <string name="search_history_clear_message">Removes remembered apps, contacts, shortcuts, folders and searches from suggestions on this phone. This can\'t be undone.</string>
+    <string name="search_history_clear_confirm">Clear history</string>
+    <string name="search_history_cancel">Cancel</string>
+    <string name="search_history_stop_learning">Stop learning</string>
+    <string name="search_history_resume_learning">Resume learning</string>
+    <string name="search_history_settings">Suggestion settings</string>
+    <string name="settings_search_history_header">Suggestions</string>
+    <string name="settings_search_history_show">Show suggestions</string>
+    <string name="settings_search_history_show_summary">When search opens empty, suggest apps, contacts and searches you used before</string>
+    <string name="settings_search_history_learn">Learn from my searches</string>
+    <string name="settings_search_history_learn_summary">Remember apps you open, and contacts, shortcuts, folders and web searches you open from search. What you pick most for the first letters you type comes first. Stays on this phone.</string>
+    <string name="settings_search_history_learn_paused">Paused. What was learned is kept.</string>
+    <string name="settings_search_history_not_backed_up">Search history is not included in backups.</string>
+    <string name="settings_search_history_pause_title">Stop learning?</string>
+    <string name="settings_search_history_pause_message">Chikku will stop remembering what you open. Keep what it has learned for suggestions, or clear it?</string>
+    <string name="settings_search_history_pause_keep">Keep history</string>
+    <string name="search_suggested_app">App</string>
+    <string name="search_suggested_contact">Contact</string>
+    <string name="search_section_web">Elsewhere</string>
+
+    <string name="search_calc_copy">Copy %1$s to clipboard</string>
+    <string name="search_calc_copied">Copied</string>
+    <string name="search_calc_division_by_zero">Can\'t divide by zero</string>
+    <string name="search_calc_overflow">Number too large</string>
+    <string name="search_calc_undefined">Undefined</string>
+    <string name="search_shortcut_of">Shortcut</string>
+    <string name="search_contacts_permission_needed">Allow contacts access to search contacts</string>
+    <string name="search_person_open">Open %1$s in contacts</string>
+    <string name="search_person_call">Call</string>
+    <string name="search_person_text">Message</string>
+    <!-- TalkBack: the dialer opens with the number; the user still places the call there. -->
+    <string name="search_person_call_description">Call %1$s in your phone app</string>
+    <!-- TalkBack: the SMS composer opens; nothing is sent. -->
+    <string name="search_person_text_description">Write a text message to %1$s</string>
+    <!-- Card button labels for app calls, %1$s app name, e.g. "WhatsApp call". -->
+    <string name="search_service_voice_short">%1$s call</string>
+    <string name="search_service_video_short">%1$s video</string>
+    <!-- TalkBack, %1$s contact name, %2$s app name, e.g. "Open WhatsApp chat with Abin". -->
+    <string name="search_service_message_description">Open %2$s chat with %1$s</string>
+    <string name="search_service_voice_call_description">%2$s voice call with %1$s</string>
+    <string name="search_service_video_call_description">%2$s video call with %1$s</string>
+    <string name="search_contact_action_permission">Contacts access was turned off. Allow it in Search settings to use contact actions.</string>
+    <string name="search_contact_action_changed">This contact changed. Search again to see its current options.</string>
+    <string name="search_contact_action_unavailable">That app can\'t open this right now</string>
+    <string name="search_web_row">Search %1$s for “%2$s”</string>
+    <string name="search_web_row_summary">Opens your browser</string>
+    <string name="search_play_store_row">Search Play Store for “%1$s”</string>
+    <string name="search_play_store_summary">Opens the store app or website</string>
+    <string name="search_open_failed">No app can open this</string>
+
+    <!-- Home search bar and drawer entry -->
+    <string name="search_home_bar_description">Open search</string>
+    <string name="search_drawer_more">Search contacts, shortcuts and the web</string>
+
+    <!-- Settings: Search section -->
+    <string name="settings_search_home_bar">Show a search bar on the home screen</string>
+    <string name="settings_search_home_bar_position">Search bar position</string>
+    <string name="settings_search_position_top">Top of the screen</string>
+    <string name="settings_search_position_below_dock">Below the dock</string>
+    <string name="settings_search_position_none">Hidden</string>
+    <string name="settings_search_engine">Web search engine</string>
+    <string name="settings_search_web_row">Web search row</string>
+    <string name="settings_search_web_row_summary">Sent only when you tap it</string>
+    <string name="settings_search_play_store">Offer to search the Play Store</string>
+    <string name="settings_search_calculator_summary">Answers sums like 12*3+4</string>
+    <string name="settings_search_shortcuts">App shortcuts</string>
+    <string name="settings_search_shortcuts_summary">App actions; needs Chikku as home app</string>
+    <string name="settings_search_contacts">Find contacts in search</string>
+    <string name="settings_search_contacts_summary">Asks for contacts permission</string>
+    <string name="settings_search_contacts_denied">Contacts permission was not granted. You can allow it in the app\'s system settings.</string>
+    <string name="settings_search_contacts_open_app_settings">Open app permissions</string>
+    <string name="settings_search_privacy_note">Apps, contacts and shortcuts are searched on this phone. Search history is kept only while Learn from my searches is on, and never leaves this phone. Online suggestions send typed text to your selected engine only when enabled.</string>
+    <string name="settings_dock_header_search">Search</string>
+    <string name="settings_dock_search_bar">Search bar below dock</string>
+    <string name="settings_dock_search_bar_summary">Search apps and the web from the bottom of your home screen</string>
+    <string name="settings_search_online_suggestions">Online search suggestions</string>
+    <string name="settings_search_online_suggestions_summary">Send what you type to %1$s for suggestions. Requires internet; off by default.</string>
+    <string name="settings_search_suggestions_supported">Online suggestions are available for Google and DuckDuckGo. You can still search the selected engine in your browser.</string>
+    <string name="search_suggestions_header">%1$s suggestions</string>
+    <string name="search_suggestions_unavailable">Suggestions unavailable. You can still search in your browser.</string>
+    <string name="search_home_bar_engine_description">Search apps and the web with %1$s</string>
+</resources>

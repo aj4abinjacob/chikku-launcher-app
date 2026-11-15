@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App drawer › Grid: full-grid overview and actual-size inspection. Keep the "Drawer preview: " prefix. -->
+    <string name="preview_drawer_grid_overview_description">Drawer preview: %1$d columns, %2$d rows per screen, icons at %3$d%%. The full grid is scaled to fit. Shaded bands mark the space each row takes. Sample apps only.</string>
+    <string name="preview_drawer_grid_overview_caption">Full grid · %1$d columns · %2$d rows per screen · scaled to fit</string>
+    <string name="preview_drawer_grid_actual_size">Actual size</string>
+    <string name="preview_drawer_grid_full_grid">Full grid</string>
+    <string name="preview_drawer_grid_description">Drawer preview: %1$d columns, %2$d rows per screen, icons at %3$d%%, shown at actual size. This detail shows only the upper part of the grid. Use Full grid to see all rows. Shaded bands mark row spacing. Sample apps only.</string>
+    <string name="preview_drawer_grid_caption">Actual-size detail · %1$d columns · %2$d rows per screen</string>
+    <!-- App drawer › Search: true-size search bar under the drawer scene -->
+    <string name="preview_drawer_search_description">Drawer preview. The search bar is shown at actual size. Position: %1$s. Style: %2$s. Sample apps only.</string>
+    <string name="preview_drawer_search_hidden_description">Drawer preview without a search bar. Sample apps only.</string>
+    <string name="preview_drawer_search_hidden">No search bar</string>
+    <!-- App drawer › Tabs: true-size tab bar under the drawer scene -->
+    <string name="preview_drawer_tabs_description">Drawer preview. The tab bar is shown at actual size. Tabs: %1$s. Style: %2$s. Position: %3$s. Sample apps only.</string>
+    <string name="preview_drawer_tabs_off_description">Drawer preview without a tab bar. Sample apps only.</string>
+    <string name="preview_drawer_tabs_off">No tab bar</string>
+</resources>
+

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="search_settings_bar_style">Home search bar style</string>
+    <string name="search_settings_bar_style_minimal">Minimal</string>
+    <string name="search_settings_bar_style_provider">Provider badge</string>
+    <string name="search_settings_bar_icon">Search icon</string>
+    <string name="search_settings_bar_icon_nose">Dog nose</string>
+    <string name="search_settings_bar_icon_paw">Paw</string>
+    <string name="search_settings_bar_icon_ears">Floppy ears</string>
+    <string name="search_settings_bar_icon_face">Dog face</string>
+    <string name="search_settings_bar_icon_notch">Nose notch</string>
+    <string name="search_settings_bar_icon_mark">Chikku mark</string>
+    <string name="search_settings_bar_icon_plain">Plain</string>
+    <string name="clock_widget_name">Chikku clock</string>
+    <string name="clock_widget_description">Date and a digital clock with seconds</string>
+    <string name="shortcut_pin_title">Add shortcut to home screen?</string>
+    <string name="shortcut_pin_message">%1$s wants to put this shortcut on your home screen. You can move or remove it later.</string>
+    <string name="shortcut_pin_add">Add to home screen</string>
+    <string name="shortcut_pin_unavailable">Could not add shortcut. Check that Chikku is your home app and the layout is unlocked.</string>
+    <string name="drawer_tab_apps">Apps</string>
+    <string name="drawer_settings_tab_style">Tab style</string>
+    <string name="drawer_tab_style_compact">Compact</string>
+    <string name="drawer_tab_style_segmented">Wide pills</string>
+    <string name="drawer_settings_tab_accent">Selected tab color</string>
+    <string name="drawer_settings_scroller_style">Fast scroller style</string>
+    <string name="drawer_scroller_alphabet">Alphabet</string>
+    <string name="drawer_scroller_thumb">Scroll thumb</string>
+    <string name="home_icon_label_gap">Space between icon and label</string>
+    <string name="home_icon_vertical_offset">Lower icons in their cells</string>
+</resources>

@@ -1,0 +1,128 @@
+{
+  "apk": "app-release-unsigned.apk",
+  "sha256": "38d27fbce9e4d5a5410adb91fcd3e0c69a96587f6988f68da80e7e359cae202e",
+  "application_id": "io.github.aj4abinjacob.chikku",
+  "version_code": 2,
+  "version_name": "0.1.0-beta.1",
+  "debuggable": false,
+  "min_sdk": 29,
+  "target_sdk": 36,
+  "permissions": [
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.BLUETOOTH",
+    "android.permission.BLUETOOTH_CONNECT",
+    "android.permission.EXPAND_STATUS_BAR",
+    "android.permission.INTERNET",
+    "android.permission.READ_CONTACTS",
+    "android.permission.REQUEST_DELETE_PACKAGES",
+    "android.permission.USE_BIOMETRIC",
+    "io.github.aj4abinjacob.chikku.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+  ],
+  "legal_documents": [
+    {
+      "path": "assets/legal/apache-2.0.txt",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "assets/legal/assets.txt",
+      "sha256": "1f33f06deea1ef55c1c77c5bef0e3b44a67bcdd3888d418e3e7a2f74d29a1a7d"
+    },
+    {
+      "path": "assets/legal/dependencies.txt",
+      "sha256": "d6889e78558d8e42782b2d1ec97d53698343d045f72d3e244f1e9b1060cb4101"
+    },
+    {
+      "path": "assets/legal/gpl-3.0.txt",
+      "sha256": "fb981668c18a279e285fc4d83fba1e836cc84dd4daa73c9697d3cfd2d8aca6e0"
+    },
+    {
+      "path": "assets/legal/native.txt",
+      "sha256": "e6a289c5080dca950e9f0cc1051b0d853fc363646fb81ef9a938f4005bd0c4a4"
+    },
+    {
+      "path": "assets/legal/privacy-policy.txt",
+      "sha256": "547399cb19f8b676c18555ac02cbe1e03057d9c06fed819d762fdf28b960c7ce"
+    },
+    {
+      "path": "assets/legal/source-access.txt",
+      "sha256": "3ec4274c84ba91b5fa7a46a373d94dea51b6402fe089974bc806404c8a06c214"
+    }
+  ],
+  "native_libraries": [
+    {
+      "path": "lib/arm64-v8a/libandroidx.graphics.path.so",
+      "sha256": "41e9a793c43a0f4fddb19e33f346bace464f30f888ba7b9eaf96294ea115bfb6",
+      "load_alignments": [
+        16384,
+        16384,
+        16384
+      ],
+      "load_alignment_at_least_16k": true,
+      "relro": [
+        {
+          "virtual_address": 23616,
+          "memory_size": 960,
+          "end_mod_16384": 8192
+        }
+      ],
+      "scope": "Header inspection only; 16KB runtime and RELRO behavior need separate acceptance."
+    },
+    {
+      "path": "lib/armeabi-v7a/libandroidx.graphics.path.so",
+      "sha256": "41399eba6fc2a60f6f14642375c1824f3cf25eb8fec7397d753730a3ceda3e2b",
+      "load_alignments": [
+        16384,
+        16384,
+        16384
+      ],
+      "load_alignment_at_least_16k": true,
+      "relro": [
+        {
+          "virtual_address": 21696,
+          "memory_size": 2880,
+          "end_mod_16384": 8192
+        }
+      ],
+      "scope": "Header inspection only; 16KB runtime and RELRO behavior need separate acceptance."
+    },
+    {
+      "path": "lib/x86/libandroidx.graphics.path.so",
+      "sha256": "eb0570b41fd3bff25d8204a967c03bd7550719e768b791f680cc40cbe35f29af",
+      "load_alignments": [
+        16384,
+        16384,
+        16384
+      ],
+      "load_alignment_at_least_16k": true,
+      "relro": [
+        {
+          "virtual_address": 23840,
+          "memory_size": 736,
+          "end_mod_16384": 8192
+        }
+      ],
+      "scope": "Header inspection only; 16KB runtime and RELRO behavior need separate acceptance."
+    },
+    {
+      "path": "lib/x86_64/libandroidx.graphics.path.so",
+      "sha256": "4e56c996f13670e70082658de7880c4020eabf4f25e43387f88ed78a713fc9f0",
+      "load_alignments": [
+        16384,
+        16384,
+        16384
+      ],
+      "load_alignment_at_least_16k": true,
+      "relro": [
+        {
+          "virtual_address": 24256,
+          "memory_size": 4416,
+          "end_mod_16384": 12288
+        }
+      ],
+      "scope": "Header inspection only; 16KB runtime and RELRO behavior need separate acceptance."
+    }
+  ],
+  "zipalign_16k": "PASS",
+  "signature": "Unsigned inspection artifact; not a signed AAB or distributable release.",
+  "runtime_acceptance": "Not established by this static report"
+}

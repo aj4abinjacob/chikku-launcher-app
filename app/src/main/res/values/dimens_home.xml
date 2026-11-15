@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="home_icon_size">52dp</dimen>
+    <dimen name="home_icon_min_size">24dp</dimen>
+    <dimen name="home_icon_padding">4dp</dimen>
+    <dimen name="home_icon_label_gap">6dp</dimen>
+    <dimen name="home_icon_label_text_size">12sp</dimen>
+    <dimen name="home_work_badge_size">18dp</dimen>
+    <dimen name="home_label_shadow_radius">3dp</dimen>
+    <dimen name="home_min_touch_target">48dp</dimen>
+    <dimen name="home_page_padding">8dp</dimen>
+    <dimen name="home_page_dot_size">7dp</dimen>
+    <dimen name="home_page_dot_gap">8dp</dimen>
+    <dimen name="home_drop_highlight_radius">16dp</dimen>
+    <dimen name="home_footprint_radius">16dp</dimen>
+    <dimen name="home_footprint_inset">3dp</dimen>
+    <dimen name="home_footprint_stroke">2dp</dimen>
+    <!-- Margin between an icon and its footprint ring. -->
+    <dimen name="home_footprint_icon_padding">6dp</dimen>
+    <dimen name="home_drag_edge_zone">32dp</dimen>
+    <dimen name="home_panel_padding">16dp</dimen>
+    <dimen name="home_panel_margin">16dp</dimen>
+    <dimen name="home_panel_radius">20dp</dimen>
+    <dimen name="home_drawer_column_width">88dp</dimen>
+    <dimen name="home_body_text_size">15sp</dimen>
+    <dimen name="home_title_text_size">18sp</dimen>
+    <dimen name="folder_title_text_size">14sp</dimen>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Folder icon background on the wallpaper and the open-folder panel (folders feature). -->
+    <color name="folder_icon_background">#BFFFFFFF</color>
+    <color name="folder_panel_background">#FFF4F2F8</color>
+    <color name="folder_scrim">#33000000</color>
+</resources>

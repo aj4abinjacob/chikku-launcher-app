@@ -1,0 +1,8 @@
+<resources>
+    <!-- Fictional sample apps in search previews; never the user's apps. -->
+    <string name="preview_search_app_notes">Notes</string>
+    <string name="preview_search_app_music">Music</string>
+    <string name="preview_search_app_clock">Clock</string>
+    <string name="preview_search_app_weather">Weather</string>
+    <string name="preview_search_app_chat">Chat</string>
+</resources>

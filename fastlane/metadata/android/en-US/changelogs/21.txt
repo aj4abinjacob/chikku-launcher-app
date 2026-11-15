@@ -1,0 +1,4 @@
+First F-Droid release (0.1.0-beta.20).
+
+- Long-press menus: action buttons in short rows sit closer together, and the folder menu has more room under its button labels.
+- No permission, database, settings or backup-format change.

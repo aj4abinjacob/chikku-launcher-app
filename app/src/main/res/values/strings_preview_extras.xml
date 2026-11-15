@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="preview_home_actual_description">Home layout: %1$d saved pages. Sample page %2$d of %3$d. %4$s.</string>
+    <string name="preview_home_actual_caption">Saved layout: %1$d pages · sample %2$d of %3$d · default %4$d</string>
+    <string name="preview_home_demo_mode">Try 3 sample pages</string>
+    <string name="preview_home_actual_mode">Use saved page count</string>
+    <string name="preview_discover_description">Offline Discover sample: %1$s · %2$s. No Google connection or action.</string>
+    <string name="preview_discover_home">First home page</string>
+    <string name="preview_discover_feed">Sample feed beside home</string>
+    <string name="preview_discover_fallback">Sample app-opening fallback</string>
+    <string name="preview_discover_card_one">Sample story: a walk outdoors</string>
+    <string name="preview_discover_card_two">Sample story: a new recipe</string>
+    <string name="preview_discover_swipe_hint">Swipe from the first page toward the feed.</string>
+    <string name="preview_discover_disabled">Feed is off · swiping stays on home.</string>
+    <string name="preview_discover_fallback_hint">If the embedded feed cannot open, Chikku opens the Google app or explains the bridge problem. This is a sample only.</string>
+    <string name="preview_discover_try">Try swipe</string>
+    <string name="preview_discover_try_fallback">Try fallback</string>
+    <string name="preview_discover_synthetic">Offline illustration · Google owns the real feed. Use its live status below for availability.</string>
+    <string name="preview_debug_description">Debug overlay sample: %1$s. Fixed example grid, pages and frame numbers.</string>
+    <string name="preview_debug_synthetic">Example measurements · not live performance</string>
+    <string name="preview_accent_description">Theme sample for %1$s. Example button and switch.</string>
+    <string name="preview_accent_label">Theme sample</string>
+    <string name="preview_accent_button">Example button</string>
+    <string name="preview_menu_surface_description">%1$s menu sample: %2$s</string>
+    <string name="preview_menu_scoped_control">%1$s: %2$s</string>
+</resources>

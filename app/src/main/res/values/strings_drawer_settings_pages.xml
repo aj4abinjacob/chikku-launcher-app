@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App drawer settings: main page and its sub-pages -->
+    <string name="drawer_settings_customize">Customize</string>
+    <string name="drawer_page_grid">Grid &amp; icons</string>
+    <string name="drawer_page_tabs">Tabs</string>
+    <string name="drawer_page_search">Search bar</string>
+    <string name="drawer_page_opening">Opening &amp; closing</string>
+
+    <!-- Main page summaries -->
+    <string name="drawer_summary_auto_columns">Auto columns</string>
+    <plurals name="drawer_summary_columns">
+        <item quantity="one">%1$d column</item>
+        <item quantity="other">%1$d columns</item>
+    </plurals>
+    <string name="drawer_summary_icon_size">Icons %1$d%%</string>
+    <string name="drawer_summary_fast_scroller_paged">Not available with horizontal pages</string>
+    <string name="drawer_summary_tabs_groups">Groups</string>
+    <string name="drawer_summary_tabs_work">Work apps</string>
+    <string name="drawer_summary_background">%1$d%% opacity</string>
+
+    <!-- Grid & icons -->
+    <string name="drawer_grid_header_grid">Grid</string>
+    <string name="drawer_grid_header_icons">Icons</string>
+    <string name="drawer_grid_header_labels">Labels</string>
+    <string name="drawer_grid_list_note">List shows one app per row, so there are no columns to choose.</string>
+    <string name="drawer_settings_fit_rows">Fit rows to screen</string>
+    <string name="drawer_settings_fit_rows_summary">Spread a set number of rows over the drawer\'s height</string>
+    <string name="drawer_settings_match_desktop_summary">Uses the icon size from Home screen settings</string>
+
+    <!-- Fast scroller -->
+    <string name="drawer_settings_fast_scroller_use">Use fast scroller</string>
+    <string name="drawer_settings_fast_scroller_off_hint">Turn on to jump through your apps by letter with a rail or a scroll thumb along the edge of the drawer.</string>
+    <string name="drawer_settings_fast_scroller_paged_hint">The fast scroller isn\'t available with Horizontal pages. Choose Vertical list or List as the scrolling style to use it.</string>
+
+    <!-- Tabs -->
+    <string name="drawer_tabs_off_hint">Tabs appear above your apps when you show groups as tabs or give work apps their own tab.</string>
+
+    <!-- Search bar -->
+    <string name="drawer_search_hidden_hint">With no search bar, keyboard and pull-to-search options don\'t apply.</string>
+
+</resources>

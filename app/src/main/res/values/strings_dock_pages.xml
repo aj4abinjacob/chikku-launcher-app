@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Settings › Dock: main page and its sub-pages -->
+    <string name="settings_dock_off_info">Turn on the dock to keep favorite apps at the bottom of every home screen page. Apps you placed in it come back when you turn it on.</string>
+
+    <string name="settings_dock_page_apps">Apps and pages</string>
+    <plurals name="settings_dock_apps_count">
+        <item quantity="one">%d app</item>
+        <item quantity="other">%d apps</item>
+    </plurals>
+    <plurals name="settings_dock_pages_count">
+        <item quantity="one">%d page</item>
+        <item quantity="other">%d pages</item>
+    </plurals>
+    <string name="settings_dock_single_page_info">With more than one page you can swipe the dock sideways. Looping and reopening the last page are then available here.</string>
+
+    <string name="settings_dock_page_icons">Icons and app names</string>
+    <string name="settings_dock_icons_summary_match">Same size as home</string>
+    <string name="settings_dock_icons_summary_size">Icons %1$s</string>
+    <string name="settings_dock_names_on">Names shown</string>
+    <string name="settings_dock_names_off">Names hidden</string>
+    <string name="settings_dock_match_info">Dock icons follow the home screen icon size. Turn this off to choose a separate size.</string>
+    <string name="settings_dock_names_off_info">Turn on app names to change their size, font and shadow.</string>
+
+    <string name="settings_dock_page_background">Background</string>
+    <string name="settings_dock_background_off_info">Turn on to paint a color or image behind the dock apps.</string>
+    <string name="settings_dock_background_summary_image">%1$s · image</string>
+    <string name="settings_dock_background_summary_opacity">%1$s · %2$s opacity</string>
+    <string name="settings_dock_header_corners">Corners</string>
+
+    <string name="settings_dock_page_spacing">Spacing</string>
+
+    <string name="settings_dock_page_behavior">Showing and hiding</string>
+    <string name="settings_dock_behavior_always">Always shown in its own space</string>
+    <string name="settings_dock_behavior_overlay">Floats over home screen</string>
+    <string name="settings_dock_behavior_overlay_close">Floats, hides after opening an app</string>
+    <string name="settings_dock_overlay_off_info">Turn on Float over home screen to hide the dock after opening an app.</string>
+
+    <string name="settings_dock_page_search">Search bar</string>
+    <string name="settings_dock_search_summary_on">Below the dock</string>
+    <string name="settings_dock_search_summary_elsewhere">Shown elsewhere on home</string>
+</resources>

@@ -1,0 +1,117 @@
+# Resolved release dependency audit
+
+Generated from `:app:releaseRuntimeClasspath`; regenerate after any dependency change.
+
+| Exact component | Licence | Runtime artifacts | Matching sources |
+|---|---|---|---|
+| androidx.activity:activity-compose:1.13.0 | Apache-2.0 | 1 | retrieved |
+| androidx.activity:activity-ktx:1.13.0 | Apache-2.0 | 1 | retrieved |
+| androidx.activity:activity:1.13.0 | Apache-2.0 | 1 | retrieved |
+| androidx.annotation:annotation-experimental:1.5.0 | Apache-2.0 | 1 | retrieved |
+| androidx.annotation:annotation-jvm:1.10.0 | Apache-2.0 | 1 | retrieved |
+| androidx.annotation:annotation:1.10.0 | Apache-2.0 | 0 | no-runtime-artifact |
+| androidx.arch.core:core-common:2.2.0 | Apache-2.0 | 1 | retrieved |
+| androidx.arch.core:core-runtime:2.2.0 | Apache-2.0 | 1 | retrieved |
+| androidx.autofill:autofill:1.0.0 | Apache-2.0 | 1 | retrieved |
+| androidx.collection:collection-jvm:1.5.0 | Apache-2.0 | 1 | retrieved |
+| androidx.collection:collection-ktx:1.5.0 | Apache-2.0 | 1 | retrieved |
+| androidx.collection:collection:1.5.0 | Apache-2.0 | 0 | no-runtime-artifact |
+| androidx.compose.animation:animation-android:1.12.1 | Apache-2.0 | 1 | retrieved |
+| androidx.compose.animation:animation-core-android:1.12.1 | Apache-2.0 | 1 | retrieved |
+| androidx.compose.animation:animation-core:1.12.1 | Apache-2.0 | 0 | no-runtime-artifact |
+| androidx.compose.animation:animation:1.12.1 | Apache-2.0 | 0 | no-runtime-artifact |
+| androidx.compose.foundation:foundation-android:1.12.1 | Apache-2.0 | 1 | retrieved |
+| androidx.compose.foundation:foundation-layout-android:1.12.1 | Apache-2.0 | 1 | retrieved |
+| androidx.compose.foundation:foundation-layout:1.12.1 | Apache-2.0 | 0 | no-runtime-artifact |
+| androidx.compose.foundation:foundation:1.12.1 | Apache-2.0 | 0 | no-runtime-artifact |
+| androidx.compose.material3:material3-android:1.4.0 | Apache-2.0 | 1 | retrieved |
+| androidx.compose.material3:material3:1.4.0 | Apache-2.0 | 0 | no-runtime-artifact |
+| androidx.compose.material:material-ripple-android:1.12.1 | Apache-2.0 | 1 | retrieved |
+| androidx.compose.material:material-ripple:1.12.1 | Apache-2.0 | 0 | no-runtime-artifact |
+| androidx.compose.runtime:runtime-android:1.12.1 | Apache-2.0 | 1 | retrieved |
+| androidx.compose.runtime:runtime-annotation-android:1.12.1 | Apache-2.0 | 1 | retrieved |
+| androidx.compose.runtime:runtime-annotation:1.12.1 | Apache-2.0 | 0 | no-runtime-artifact |
+| androidx.compose.runtime:runtime-retain-android:1.12.1 | Apache-2.0 | 1 | retrieved |
+| androidx.compose.runtime:runtime-retain:1.12.1 | Apache-2.0 | 0 | no-runtime-artifact |
+| androidx.compose.runtime:runtime-saveable-android:1.12.1 | Apache-2.0 | 1 | retrieved |
+| androidx.compose.runtime:runtime-saveable:1.12.1 | Apache-2.0 | 0 | no-runtime-artifact |
+| androidx.compose.runtime:runtime:1.12.1 | Apache-2.0 | 0 | no-runtime-artifact |
+| androidx.compose.ui:ui-android:1.12.1 | Apache-2.0 | 1 | retrieved |
+| androidx.compose.ui:ui-geometry-android:1.12.1 | Apache-2.0 | 1 | retrieved |
+| androidx.compose.ui:ui-geometry:1.12.1 | Apache-2.0 | 0 | no-runtime-artifact |
+| androidx.compose.ui:ui-graphics-android:1.12.1 | Apache-2.0 | 1 | retrieved |
+| androidx.compose.ui:ui-graphics:1.12.1 | Apache-2.0 | 0 | no-runtime-artifact |
+| androidx.compose.ui:ui-text-android:1.12.1 | Apache-2.0 | 1 | retrieved |
+| androidx.compose.ui:ui-text:1.12.1 | Apache-2.0 | 0 | no-runtime-artifact |
+| androidx.compose.ui:ui-unit-android:1.12.1 | Apache-2.0 | 1 | retrieved |
+| androidx.compose.ui:ui-unit:1.12.1 | Apache-2.0 | 0 | no-runtime-artifact |
+| androidx.compose.ui:ui-util-android:1.12.1 | Apache-2.0 | 1 | retrieved |
+| androidx.compose.ui:ui-util:1.12.1 | Apache-2.0 | 0 | no-runtime-artifact |
+| androidx.compose.ui:ui:1.12.1 | Apache-2.0 | 0 | no-runtime-artifact |
+| androidx.compose:compose-bom:2026.09.00 | Apache-2.0 | 0 | no-runtime-artifact |
+| androidx.concurrent:concurrent-futures:1.1.0 | Apache-2.0 | 1 | retrieved |
+| androidx.core:core-ktx:1.19.1 | Apache-2.0 | 1 | retrieved |
+| androidx.core:core-viewtree:1.0.0 | Apache-2.0 | 1 | retrieved |
+| androidx.core:core:1.19.1 | Apache-2.0 | 1 | retrieved |
+| androidx.customview:customview-poolingcontainer:1.0.0 | Apache-2.0 | 1 | retrieved |
+| androidx.customview:customview:1.0.0 | Apache-2.0 | 1 | retrieved |
+| androidx.emoji2:emoji2:1.4.0 | Apache-2.0 | 1 | retrieved |
+| androidx.graphics:graphics-path:1.0.1 | Apache-2.0 | 1 | retrieved |
+| androidx.interpolator:interpolator:1.0.0 | Apache-2.0 | 1 | retrieved |
+| androidx.lifecycle:lifecycle-common-java8:2.11.0 | Apache-2.0 | 1 | retrieved |
+| androidx.lifecycle:lifecycle-common-jvm:2.11.0 | Apache-2.0 | 1 | retrieved |
+| androidx.lifecycle:lifecycle-common:2.11.0 | Apache-2.0 | 0 | no-runtime-artifact |
+| androidx.lifecycle:lifecycle-livedata-core:2.11.0 | Apache-2.0 | 1 | retrieved |
+| androidx.lifecycle:lifecycle-process:2.11.0 | Apache-2.0 | 1 | retrieved |
+| androidx.lifecycle:lifecycle-runtime-android:2.11.0 | Apache-2.0 | 1 | retrieved |
+| androidx.lifecycle:lifecycle-runtime-compose-android:2.11.0 | Apache-2.0 | 1 | retrieved |
+| androidx.lifecycle:lifecycle-runtime-compose:2.11.0 | Apache-2.0 | 0 | no-runtime-artifact |
+| androidx.lifecycle:lifecycle-runtime-ktx-android:2.11.0 | Apache-2.0 | 1 | retrieved |
+| androidx.lifecycle:lifecycle-runtime-ktx:2.11.0 | Apache-2.0 | 0 | no-runtime-artifact |
+| androidx.lifecycle:lifecycle-runtime:2.11.0 | Apache-2.0 | 0 | no-runtime-artifact |
+| androidx.lifecycle:lifecycle-viewmodel-android:2.11.0 | Apache-2.0 | 1 | retrieved |
+| androidx.lifecycle:lifecycle-viewmodel-ktx:2.11.0 | Apache-2.0 | 1 | retrieved |
+| androidx.lifecycle:lifecycle-viewmodel-savedstate-android:2.11.0 | Apache-2.0 | 1 | retrieved |
+| androidx.lifecycle:lifecycle-viewmodel-savedstate:2.11.0 | Apache-2.0 | 0 | no-runtime-artifact |
+| androidx.lifecycle:lifecycle-viewmodel:2.11.0 | Apache-2.0 | 0 | no-runtime-artifact |
+| androidx.navigationevent:navigationevent-android:1.0.0 | Apache-2.0 | 1 | retrieved |
+| androidx.navigationevent:navigationevent-compose-android:1.0.0 | Apache-2.0 | 1 | retrieved |
+| androidx.navigationevent:navigationevent-compose:1.0.0 | Apache-2.0 | 0 | no-runtime-artifact |
+| androidx.navigationevent:navigationevent:1.0.0 | Apache-2.0 | 0 | no-runtime-artifact |
+| androidx.profileinstaller:profileinstaller:1.4.0 | Apache-2.0 | 1 | retrieved |
+| androidx.recyclerview:recyclerview:1.4.0 | Apache-2.0 | 1 | retrieved |
+| androidx.room:room-common-jvm:2.8.5 | Apache-2.0 | 1 | retrieved |
+| androidx.room:room-common:2.8.5 | Apache-2.0 | 0 | no-runtime-artifact |
+| androidx.room:room-ktx:2.8.5 | Apache-2.0 | 1 | retrieved |
+| androidx.room:room-runtime-android:2.8.5 | Apache-2.0 | 1 | retrieved |
+| androidx.room:room-runtime:2.8.5 | Apache-2.0 | 0 | no-runtime-artifact |
+| androidx.savedstate:savedstate-android:1.4.0 | Apache-2.0 | 1 | retrieved |
+| androidx.savedstate:savedstate-compose-android:1.4.0 | Apache-2.0 | 1 | retrieved |
+| androidx.savedstate:savedstate-compose:1.4.0 | Apache-2.0 | 0 | no-runtime-artifact |
+| androidx.savedstate:savedstate-ktx:1.4.0 | Apache-2.0 | 1 | retrieved |
+| androidx.savedstate:savedstate:1.4.0 | Apache-2.0 | 0 | no-runtime-artifact |
+| androidx.sqlite:sqlite-android:2.6.2 | Apache-2.0 | 1 | retrieved |
+| androidx.sqlite:sqlite-framework-android:2.6.2 | Apache-2.0 | 1 | retrieved |
+| androidx.sqlite:sqlite-framework:2.6.2 | Apache-2.0 | 0 | no-runtime-artifact |
+| androidx.sqlite:sqlite:2.6.2 | Apache-2.0 | 0 | no-runtime-artifact |
+| androidx.startup:startup-runtime:1.1.1 | Apache-2.0 | 1 | retrieved |
+| androidx.tracing:tracing:1.2.0 | Apache-2.0 | 1 | retrieved |
+| androidx.versionedparcelable:versionedparcelable:1.1.1 | Apache-2.0 | 1 | retrieved |
+| androidx.window:window-core-android:1.5.0 | Apache-2.0 | 1 | retrieved |
+| androidx.window:window-core:1.5.0 | Apache-2.0 | 0 | no-runtime-artifact |
+| androidx.window:window:1.5.0 | Apache-2.0 | 1 | retrieved |
+| com.google.guava:listenablefuture:1.0 | Apache-2.0 | 1 | retrieved |
+| org.jetbrains.kotlin:kotlin-stdlib:2.4.21 | Apache-2.0 | 1 | retrieved |
+| org.jetbrains.kotlinx:kotlinx-coroutines-android:1.11.0 | Apache-2.0 | 1 | retrieved |
+| org.jetbrains.kotlinx:kotlinx-coroutines-bom:1.11.0 | Apache-2.0 | 0 | no-runtime-artifact |
+| org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.11.0 | Apache-2.0 | 1 | retrieved |
+| org.jetbrains.kotlinx:kotlinx-coroutines-core:1.11.0 | Apache-2.0 | 0 | no-runtime-artifact |
+| org.jetbrains.kotlinx:kotlinx-serialization-bom:1.7.3 | Apache-2.0 | 0 | no-runtime-artifact |
+| org.jetbrains.kotlinx:kotlinx-serialization-core-jvm:1.7.3 | Apache-2.0 | 1 | retrieved |
+| org.jetbrains.kotlinx:kotlinx-serialization-core:1.7.3 | Apache-2.0 | 0 | no-runtime-artifact |
+| org.jetbrains:annotations:23.0.0 | Apache-2.0 | 1 | retrieved |
+| org.jspecify:jspecify:1.0.0 | Apache-2.0 | 1 | retrieved |
+
+## Exceptions
+
+None in this metadata/source-availability pass. See the separate provenance and native-library review.

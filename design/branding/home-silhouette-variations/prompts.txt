@@ -1,0 +1,55 @@
+Chikku home + full-body dog icon variations
+Generated on 2026-10-21 using built-in imagegen, one generation per variation.
+Reference image: ../chikku-home-silhouette-v2.png (earlier generated artwork).
+Concept assets; no Android resources replaced. Body proportions are illustrative, not derived from original dog photographs.
+
+1 · Clean standing
+Output: chikku-01-standing.png
+
+Use case: logo-brand.
+Asset type: a finished square app-icon variation for Chikku Launcher.
+Input image: the existing full-body dog-and-house icon is the design reference. Keep its core idea: the WHOLE BODY silhouette of Chikku the dog in the foreground, a clearly recognizable HOME behind him.
+Preserve: medium companion dog with a protruding canine muzzle, triangular outward/upright ears, a long visible tail, full body and paws completely visible; warm ivory #F2F2F0 and charcoal #252626 only. No eyes or internal facial markings.
+Style: refined minimalist flat vector-like logo, smooth rounded confident curves, less jagged fur than the reference, clear readable silhouette at small size. Full-bleed square charcoal canvas and generous margin around the mark. Complete design centered and balanced. The house is a background architectural symbol, with its pitched roof clearly visible above the dog.
+Avoid: cropped dog, head-only portrait, cat or fox proportions, fine lines, photorealism, texture, shading, gradients, text, labels, watermark, border, pre-rounded outer tile, mockup or a collage. Deliver ONE icon only.
+Variation: CLEAN STANDING. Simplify the reference into an especially polished, friendly, compact standing dog in left-facing side profile, four legs separated and gently curved raised tail. Use a solid ivory house behind the solid charcoal dog. House has a lower, softly rounded pitched roof and no chimney, dog fully contained within the ivory body with a clear ivory gap around muzzle, tail and paws. Clear dog anatomy, soft muzzle, no jagged hair.
+
+---
+
+2 · Sitting
+Output: chikku-02-sitting.png
+
+Use case: logo-brand.
+Asset type: a finished square app-icon variation for Chikku Launcher.
+Input image: the existing full-body dog-and-house icon is the design reference. Keep its core idea: the WHOLE BODY silhouette of Chikku the dog in the foreground, a clearly recognizable HOME behind him.
+Preserve: medium companion dog with a protruding canine muzzle, triangular outward/upright ears, a long visible tail, full body and paws completely visible; warm ivory #F2F2F0 and charcoal #252626 only. No eyes or internal facial markings.
+Style: refined minimalist flat vector-like logo, smooth rounded confident curves, less jagged fur than the reference, clear readable silhouette at small size. Full-bleed square charcoal canvas and generous margin around the mark. Complete design centered and balanced. The house is a background architectural symbol, with its pitched roof clearly visible above the dog.
+Avoid: cropped dog, head-only portrait, cat or fox proportions, fine lines, photorealism, texture, shading, gradients, text, labels, watermark, border, pre-rounded outer tile, mockup or a collage. Deliver ONE icon only.
+Variation: FRIENDLY SITTING. Change the dog to a relaxed sitting pose in side profile facing left, full body including the seated haunches, upright front legs, front paws and curled long tail visible. The tail curves around beside the hind paws. A large solid ivory house with a pitched roof and a small chimney is behind the charcoal dog. Entire seated dog is enclosed within the ivory house with a clear gap around all body parts, roof visible above ears. Rounded friendly short-coat silhouette, clean clear separation between legs and tail. No facial details.
+
+---
+
+3 · Walking
+Output: chikku-03-walking.png
+
+Use case: logo-brand.
+Asset type: a finished square app-icon variation for Chikku Launcher.
+Input image: the existing full-body dog-and-house icon is the design reference. Keep its core idea: the WHOLE BODY silhouette of Chikku the dog in the foreground, a clearly recognizable HOME behind him.
+Preserve: medium companion dog with a protruding canine muzzle, triangular outward/upright ears, a long visible tail, full body and paws completely visible; warm ivory #F2F2F0 and charcoal #252626 only. No eyes or internal facial markings.
+Style: refined minimalist flat vector-like logo, smooth rounded confident curves, less jagged fur than the reference, clear readable silhouette at small size. Full-bleed square charcoal canvas and generous margin around the mark. Complete design centered and balanced. The house is a background architectural symbol, with its pitched roof clearly visible above the dog.
+Avoid: cropped dog, head-only portrait, cat or fox proportions, fine lines, photorealism, texture, shading, gradients, text, labels, watermark, border, pre-rounded outer tile, mockup or a collage. Deliver ONE icon only.
+Variation: HAPPY WALKING. Show the whole dog in an easy right-facing walking step, head held naturally, one front paw gently lifted, all four legs anatomically natural and distinguishable, tail held in a loose upward curve. A large solid ivory home with a pitched roof and a compact chimney sits behind the solid charcoal dog. The body, muzzle, feet and tail all remain fully visible inside the ivory house area with a clear light gap around them. Smooth minimal silhouette, calm friendly energy, no exaggerated leaping or running.
+
+---
+
+4 · Outlined home
+Output: chikku-04-outline.png
+
+Use case: logo-brand.
+Asset type: a finished square app-icon variation for Chikku Launcher.
+Input image: the existing full-body dog-and-house icon is the design reference. Keep its core idea: the WHOLE BODY silhouette of Chikku the dog in the foreground, a clearly recognizable HOME behind him.
+Preserve: medium companion dog with a protruding canine muzzle, triangular outward/upright ears, a long visible tail, full body and paws completely visible; warm ivory #F2F2F0 and charcoal #252626 only. No eyes or internal facial markings.
+Style: refined minimalist flat vector-like logo, smooth rounded confident curves, less jagged fur than the reference, clear readable silhouette at small size. Full-bleed square charcoal canvas and generous margin around the mark. Complete design centered and balanced. The house is a background architectural symbol, with its pitched roof clearly visible above the dog.
+Avoid: cropped dog, head-only portrait, cat or fox proportions, fine lines, photorealism, texture, shading, gradients, text, labels, watermark, border, pre-rounded outer tile, mockup or a collage. Deliver ONE icon only.
+Variation: OUTLINED HOME. Change the solid filled house to a bold thick warm-ivory outline of a simple home with a pitched roof and no chimney, on the charcoal canvas. Inside and in front of that outlined home, put a solid ivory full-body dog in left-facing standing profile, paws, long gently raised tail, neck and protruding muzzle clearly visible. The dog and home outline must be separated by generous charcoal negative space on every side, so no tangencies or merging. The home outline extends behind and above the dog, complete and recognizable. Clean elegant two-colour mark with equal visual emphasis on dog and home.
+

@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Normal permission: observe default Wi-Fi transport only while optional cards are open.
+         No SSID, location, network request or background automation. -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <!-- Optional online autocomplete and city-based weather; each has a separate default-off opt-in.
+         Normal install-time permission, not a runtime prompt. See ADR-0005/0006. -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- Optional Bluetooth audio connection condition. No scanning, location, names or addresses.
+         Nearby devices is requested only on explicit condition enable on API 31+. -->
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+    <uses-permission android:name="android.permission.BLUETOOTH" android:maxSdkVersion="30" />
+
+    <!--
+        Opt-in contact results in search (G06). Requested at runtime only when the user turns on
+        Settings > Search > Contacts; contacts are read on-device per query, never stored or sent.
+    -->
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <!--
+        Normal (install-time) permission for the optional "Show notifications/quick settings" gesture
+        actions; nothing uses it unless the user binds a gesture to one of them.
+    -->
+    <uses-permission android:name="android.permission.EXPAND_STATUS_BAR" />
+
+    <!--
+        Normal (install-time) permission required since API 28 to open the system uninstall
+        confirmation from the app long-press menu ("Uninstall"). The user confirms every removal.
+    -->
+    <uses-permission android:name="android.permission.REQUEST_DELETE_PACKAGES" />
+    <!--
+        Normal (install-time) permission for the system BiometricPrompt used by App lock. Chikku never
+        sees biometric data; Android only reports whether the device owner was confirmed.
+    -->
+    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+
+    <!--
+        Package visibility (API 30+) without QUERY_ALL_PACKAGES: launcher activities for the app list,
+        and the default dialer/SMS/browser/camera handlers used once to seed the dock.
+    -->
+    <queries>
+        <!-- Gesture handlers are resolved before authenticating their exact receiving package. -->
+        <intent><action android:name="android.intent.action.ASSIST" /></intent>
+        <intent><action android:name="android.intent.action.VOICE_COMMAND" /></intent>
+        <intent><action android:name="android.speech.action.WEB_SEARCH" /></intent>
+        <intent><action android:name="android.speech.action.VOICE_SEARCH_HANDS_FREE" /></intent>
+        <!-- Optional Discover: inspect only the current user’s Google app. -->
+        <package android:name="com.google.android.googlequicksearchbox" />
+        <!-- Optional Discover bridge (same signing key, checked before use). -->
+        <intent>
+            <action android:name="io.github.aj4abinjacob.chikku.action.DISCOVER_BRIDGE" />
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.DIAL" />
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.SENDTO" />
+            <data android:scheme="smsto" />
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <category android:name="android.intent.category.BROWSABLE" />
+            <data android:scheme="https" />
+        </intent>
+        <intent>
+            <action android:name="android.media.action.IMAGE_CAPTURE" />
+        </intent>
+        <!-- Search handoffs must resolve the receiving app before checking App lock.
+             Visibility only; these declarations grant no contact, call or package permissions. -->
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <data android:scheme="content" android:mimeType="vnd.android.cursor.item/contact" />
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <data android:scheme="content" android:mimeType="vnd.android.cursor.item/vnd.com.whatsapp.profile" />
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <data android:scheme="geo" />
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <data android:scheme="market" />
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <category android:name="android.intent.category.BROWSABLE" />
+            <data android:scheme="http" />
+        </intent>
+        <!-- Widget providers (receivers handling APPWIDGET_UPDATE), so the widget picker can list them. -->
+        <intent>
+            <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+        </intent>
+        <!--
+            Icon packs (Style): third-party packs announce themselves with these de-facto
+            actions; visibility is needed to list them and read their appfilter.xml/drawables.
+            Mirrors IconPackRepository.ICON_PACK_ACTIONS.
+        -->
+        <intent>
+            <action android:name="org.adw.launcher.THEMES" />
+        </intent>
+        <intent>
+            <action android:name="org.adw.launcher.icons.ACTION_PICK_ICON" />
+        </intent>
+        <intent>
+            <action android:name="com.gau.go.launcherex.theme" />
+        </intent>
+        <intent>
+            <action android:name="com.novalauncher.THEME" />
+        </intent>
+        <intent>
+            <action android:name="com.teslacoilsw.launcher.THEME" />
+        </intent>
+        <intent>
+            <action android:name="com.anddoes.launcher.THEME" />
+        </intent>
+        <intent>
+            <action android:name="com.actionlauncher.playstore.ICON_PACK" />
+        </intent>
+        <intent>
+            <action android:name="com.fede.launcher.THEME_ICONPACK" />
+        </intent>
+        <intent>
+            <action android:name="com.dlto.atom.launcher.THEME" />
+        </intent>
+    </queries>
+
+    <application
+        android:name=".ChikkuApplication"
+        android:allowBackup="false"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Chikku"
+        tools:targetApi="36">
+
+        <activity
+            android:name=".home.HomeActivity"
+            android:clearTaskOnLaunch="true"
+            android:configChanges="keyboard|keyboardHidden|navigation"
+            android:enableOnBackInvokedCallback="true"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:resizeableActivity="true"
+            android:resumeWhilePausing="true"
+            android:stateNotNeeded="true"
+            android:taskAffinity=""
+            android:theme="@style/Theme.Chikku.Home"
+            android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.HOME" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- Required for browser/app Add to home screen. Validates a system PinItemRequest token,
+             confirms with the user and currently accepts personal-profile shortcuts only. -->
+        <activity android:name=".home.ShortcutPinActivity" android:exported="true" android:excludeFromRecents="true"
+            android:theme="@style/Theme.Chikku.Translucent">
+            <intent-filter>
+                <action android:name="android.content.pm.action.CONFIRM_PIN_SHORTCUT" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- Visible entry point for onboarding/settings, so the app can be opened before it is HOME. -->
+        <activity
+            android:name=".settings.SettingsActivity"
+            android:exported="true"
+            android:label="@string/settings_title"
+            android:taskAffinity="io.github.aj4abinjacob.chikku.settings">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!--
+            Notification badges and media cards (optional). Disabled until either feature is enabled; bound by the
+            system only after the user grants notification access. Protected by the system-only
+            BIND_NOTIFICATION_LISTENER_SERVICE permission; counts and avatars stay in memory.
+        -->
+        <service
+            android:name=".badges.ChikkuNotificationListener"
+            android:enabled="false"
+            android:exported="true"
+            android:label="@string/badge_listener_label"
+            android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE">
+            <intent-filter>
+                <action android:name="android.service.notification.NotificationListenerService" />
+            </intent-filter>
+        </service>
+        <!-- First-run setup and "Quick start" (G19/G20). Started only by Chikku itself. -->
+        <activity
+            android:name=".onboarding.OnboardingActivity"
+            android:exported="false"
+            android:label="@string/onboarding_title"
+            android:taskAffinity="io.github.aj4abinjacob.chikku.settings" />
+
+        <!--
+            Shares a backup file the user chose to send (share sheet). Not exported: access is granted
+            per URI with FLAG_GRANT_READ_URI_PERMISSION, and only the cache "backups/" folder is exposed.
+        -->
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.backupfiles"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/backup_file_paths" />
+        </provider>
+        <!-- Universal search (G04-G06), opened over HOME by the search bar, drawer or a gesture. -->
+        <activity
+            android:name=".search.SearchActivity"
+            android:exported="false"
+            android:label="@string/search_title"
+            android:theme="@style/Theme.Chikku.Search"
+            android:windowSoftInputMode="adjustResize|stateVisible" />
+
+        <!--
+            Optional, user-enabled accessibility service for the Lock screen / Recent apps gesture
+            actions only (see ChikkuAccessibilityService). Exported so the system can bind it; the
+            BIND_ACCESSIBILITY_SERVICE permission means only the system can.
+        -->
+        <service
+            android:name=".platform.ChikkuAccessibilityService"
+            android:exported="true"
+            android:label="@string/gestures_accessibility_service_label"
+            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE">
+            <intent-filter>
+                <action android:name="android.accessibilityservice.AccessibilityService" />
+            </intent-filter>
+            <meta-data
+                android:name="android.accessibilityservice"
+                android:resource="@xml/chikku_accessibility_service" />
+        </service>
+
+        <!-- Original offline clock for a user-added home placement. No periodic service or permission.
+             AppWidgetManager sends system broadcasts to this non-exported receiver. -->
+        <receiver android:name=".home.widget.ClockWidgetProvider"
+            android:exported="false" android:label="@string/clock_widget_name">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/clock_widget_info" />
+        </receiver>
+
+        <!-- Per-app icon picker (Style); opened from settings and the app menu only. -->
+        <activity
+            android:name=".settings.iconpicker.IconPickerActivity"
+            android:exported="false"
+            android:label="@string/icon_picker_title"
+            android:taskAffinity="io.github.aj4abinjacob.chikku.settings" />
+    </application>
+</manifest>

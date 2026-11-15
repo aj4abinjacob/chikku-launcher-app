@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Accessibility action that closes Chikku's transient message bar (replaces platform toasts). -->
+    <string name="message_dismiss">Dismiss message</string>
+</resources>

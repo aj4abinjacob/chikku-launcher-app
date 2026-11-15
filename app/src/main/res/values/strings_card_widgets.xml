@@ -1,0 +1,18 @@
+<resources>
+    <string name="card_widget_choose">Choose widget</string>
+    <string name="card_widget_choose_summary">Choose a personal widget in card settings, then complete its setup here.</string>
+    <string name="card_widget_height">Widget height</string>
+    <string name="card_widget_height_value">%1$d dp</string>
+    <string name="card_widget_catalog_empty">No personal widgets are available. Hidden app providers are excluded.</string>
+    <string name="card_widget_catalog_loading">Loading widgets…</string>
+    <string name="card_widget_provider_missing">Selected provider unavailable</string>
+    <string name="card_widget_setup">Set up or resume widget</string>
+    <string name="card_widget_setup_summary">This widget needs setup or its provider is unavailable. Its card stays saved.</string>
+    <string name="card_widget_unavailable">Widget setup is unavailable. Choose the provider again in card settings.</string>
+    <string name="card_widget_storage_error">Local widget setup could not be read or saved.</string>
+    <string name="card_widget_recover">Reset card widget setup</string>
+    <string name="card_widget_separate_summary">Creates a separate widget inside this card. Home widgets stay in place. Restored cards require fresh setup.</string>
+    <string name="card_widget_retry">Try again</string>
+    <string name="card_widget_search">Search widgets or apps</string>
+    <string name="card_widget_no_matches">No widgets match your search.</string>
+</resources>
