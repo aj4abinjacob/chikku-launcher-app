@@ -1,6 +1,6 @@
 # Versions verified against Google Maven / Maven Central on 2026-10-10 (latest stable).
 [versions]
-agp = "9.4.1"
+agp = "9.5.2"
 kotlin = "2.4.21"
 ksp = "2.3.12"
 coroutines = "1.11.0"
